@@ -22,6 +22,10 @@ header {
     justify-content: space-between;
     width: 100vw;
 }
+.logo a{
+    text-decoration: none;
+    color: #24252a;
+}
 .menu {
     display: flex;
     list-style: none;

@@ -104,7 +104,7 @@
         display: block;
     }
     .fundo01 {
-        height: 45vh;
+        height: 35vh;
         width: 100vw;
         margin-top: 80px;
         background-image: url('imagens/mulher_sorrindo_sem\ fundo.png');
@@ -120,21 +120,24 @@
         text-align: right;
         margin-right: 25px;
     }
-    .titulo01 h1 {
-        font-size: 50px;
+    .titulo01 h1,
+    .titulo02 h1 {
+        font-size: 35px;
     }
-    .titulo01 h2 {
-        font-size: 40px;
+    .titulo01 h2, 
+    .titulo02 h2 {
+        font-size: 25px;
     }
-    .titulo01 p {
-        font-size: 17px;
+    .titulo01 p, 
+    .titulo02 p {
+        font-size: 13px;
     }
     .fundo02 {
-        height: 45vh;
+        height: 35vh;
         width: 100vw;
         margin-top: 80px;
         background-color: rgb(132, 188, 192);
-        background-image: url('imagens/mulher_sorrindo_sem\ fundo.png');
+        background-image: url('imagens/cartaz06-removebg-preview.png');
         background-size: contain;
         background-repeat: no-repeat;
 
@@ -147,15 +150,8 @@
         text-align: right;
         margin-right: 25px;
     }
-    .titulo02 h1 {
-        font-size: 50px;
-    }
-    .titulo02 h2 {
-        font-size: 40px;
-    }
-    .titulo02 p {
-        font-size: 17px;
-    }
+    
+
     .fundo03 {
         height: 45vh;
         width: 100vw;
@@ -228,7 +224,7 @@
 
     .roda_pe {
         margin-top: 80px;
-        height: 55vh;
+        height: 65vh;
         width: 100vw;
         background-color: #ECECEE;
         display: block;
@@ -259,7 +255,7 @@
     }
     .redes_sociais a li {
         position: relative;
-        left: 225px;
+        left: 195px;
         list-style: none;
         margin-top: 10px;
         
