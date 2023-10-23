@@ -1,0 +1,264 @@
+/* RESPONSIVE DESIGN */
+@media(max-width: 730px) {
+
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap:  .5rem;
+    }
+    #hamburguer {
+        display: block;
+        border-top: 3px solid;
+        width: 20px;
+    }
+    #hamburguer::after, #hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    .nav.active #hamburguer {
+        border-top-color: transparent;
+    }
+    .nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+    .nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    .menu {
+       display: block;
+       position: absolute;
+       background-color: #ECECEE;
+       box-shadow: 0px 3px 10px #464646;
+       width: 100%;
+       top: 100px;
+       right: 0px;
+       height: 0px;
+       transition: .2s;
+       visibility: hidden;
+       overflow-y: hidden;
+    }
+    .nav.active .menu {
+        height: 330px;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    .menu li {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        text-align: center;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 1.15rem;
+        color: #303030;
+        font-weight: 400;
+    
+        position: relative;
+        transition: all 0.4s;
+    }
+    .nav-link:hover {
+        color: #fff;
+    }
+    .nav-link::after {
+        bottom: 0px;
+    }
+    .nav-item:hover {
+        background-color: rgb(7, 139, 139);
+    }
+
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open {
+        display: block;
+    }
+    .fundo01 {
+        height: 45vh;
+        width: 100vw;
+        margin-top: 80px;
+        background-image: url('imagens/mulher_sorrindo_sem\ fundo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        background-color: rgb(132, 188, 192);
+    }
+    .fundo01 .titulo01 {
+        color: #ffff;
+        text-shadow: 1px 1px 2px black;
+        font-size: 2.5em;
+        text-align: right;
+        margin-right: 25px;
+    }
+    .titulo01 h1 {
+        font-size: 50px;
+    }
+    .titulo01 h2 {
+        font-size: 40px;
+    }
+    .titulo01 p {
+        font-size: 17px;
+    }
+    .fundo02 {
+        height: 45vh;
+        width: 100vw;
+        margin-top: 80px;
+        background-color: rgb(132, 188, 192);
+        background-image: url('imagens/mulher_sorrindo_sem\ fundo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        background-color: green;    
+    }
+    .fundo02 .titulo02 {
+        color: #ffff;
+        text-shadow: 1px 1px 2px black;
+        font-size: 2.5em;
+        text-align: right;
+        margin-right: 25px;
+    }
+    .titulo02 h1 {
+        font-size: 50px;
+    }
+    .titulo02 h2 {
+        font-size: 40px;
+    }
+    .titulo02 p {
+        font-size: 17px;
+    }
+    .fundo03 {
+        height: 45vh;
+        width: 100vw;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        
+        background-color: rgb(186, 82, 22); 
+    }
+    
+   
+    /*CAROSEL */
+    .wrapper i {
+        top: 50%;
+        height: 35px;
+        width: 35px;
+        cursor: pointer;
+        font-size: 2rem;
+        position: absolute;
+        text-align: center;
+        line-height: 35px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+        transform: translateY(-50%);
+        transition: transform 0.1s linear;
+      }
+      .carousel .card {
+        scroll-snap-align: start;
+        height: 350px;
+        list-style: none;
+        padding-bottom: 15px;
+        flex-direction: column;
+        border-radius: 8px;
+      }
+      .carousel .card .img {
+
+        height: 185px;
+        width: 185px;
+        border-radius: 50%;
+      }
+      .card .img img {
+      
+        width: 185px;
+        height: 185px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #fff;
+      }
+      .carousel .card h2 {
+        position: relative;
+        top: 0px;
+        font-weight: 500;
+        font-size: 1.56rem;
+        margin: 30px 0 5px;
+        color: #fff;
+      }
+      .wrapper i:first-child{
+        left: 20px;
+      }
+      .wrapper i:last-child{
+        right: 30px;
+      }
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+      }
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+      }
+
+    .roda_pe {
+        margin-top: 80px;
+        height: 55vh;
+        width: 100vw;
+        background-color: #ECECEE;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        color: #303030;
+        text-shadow: #ffff;
+        font-size: 15px;
+    }
+    .roda_pe .contatos  {
+        padding:  10px;
+    }
+    .roda_pe h3 {
+        font-size: 18px;
+        color: goldenrod;
+    }
+    .siga_nos {
+        font-size: 18px;
+        color: goldenrod;
+    }
+    .roda_pe .contatos {
+        margin-left: 0px;
+    }
+    .roda_pe .contatos li {
+        list-style: none;
+        margin-top:10px;
+        margin-left: 10px;
+    }
+    .redes_sociais a li {
+        position: relative;
+        left: 225px;
+        list-style: none;
+        margin-top: 10px;
+        
+    }
+}
