@@ -115,7 +115,7 @@
         text-shadow: 1px 1px 2px black;
         font-size: 2.5em;
         text-align: right;
-        margin-right: 15px;
+        margin-right: 5px;
     }
     .titulo01 h1,
     .titulo02 h1 {
@@ -135,19 +135,18 @@
         height: 35vh;
         width: 100vw;
         margin-top: 80px;
-        background-color: rgb(132, 188, 192);
-        background-image: url('imagens/cartaz03-removebg-preview.png');
+        background-image: url('imagens/cartaz06-removebg-preview.png');
         background-size: contain;
         background-repeat: no-repeat;
 
-        background-color: green;    
+        background-color: #cca4ca;    
     }
     .fundo02 .titulo02 {
         color: #ffff;
         text-shadow: 1px 1px 2px black;
         font-size: 2.5em;
         text-align: right;
-        margin-right: 15px;
+        margin-right: 5px;
     }
   
     .fundo03 {
@@ -253,7 +252,7 @@
     }
     .redes_sociais a li {
         position: relative;
-        left: 195px;
+        left: 0px;
         list-style: none;
         margin-top: 10px;
         
