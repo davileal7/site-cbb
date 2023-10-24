@@ -43,7 +43,7 @@ header {
 }
 .nav-link {
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 20px;
     color: #303030;
     font-weight: 400;
 
@@ -85,10 +85,9 @@ header {
     margin-right: 150px;
 }
 .titulo01 p {
-    margin-top: 10px;
-    font-size: 0.6em;
+    margin-top: 5px;
+    font-size: 20px;
 }
-
 .fundo02 {
     height: 60vh;
     width: 100vw;
@@ -101,24 +100,38 @@ header {
 }
 .fundo02 .titulo02 {
     color: #53555e;
-    
     font-size: 2.5em;
     text-align: right;
     margin-right: 150px;
 }
-
-.fundo02 .cidades {
+.fundo02 .regioes {
     margin-top: 5px;
     color: #53555e;
     list-style: none;
+    text-decoration: none;
+    
     display: block;
     justify-content: end;
-    font-size: 0.8em;
+    font-size: 30px;
 }
-
-
-
+.regioes li{
+    margin-top: 15px;
+}
+.regioes a {
+    text-decoration: none;
+    color: #53555e;
+}
 .fundo03 {
+    height: 60vh;
+    width: 100vw;
+    margin-top: 80px;
+
+    background-color: #ECECEE;  
+}
+.fundo03 .mapa {
+    width: 100vw;
+}
+.fundo04 {
     margin-top: 80px;
     height: 60vh;
     width: 100vw;
@@ -153,15 +166,15 @@ header {
     transform: translateY(-50%) scale(0.85);
   }
   .wrapper i:first-child{
-    left: -22px;
+    left: -35px;
   }
   .wrapper i:last-child{
-    right: -22px;
+    right: -45px;
   }
   .wrapper .carousel{
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 3) - 12px);
+    grid-auto-columns: calc((100% / 6) - 10px);
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 16px;
@@ -199,14 +212,14 @@ header {
   .carousel .card .img {
     cursor: pointer;
     background: #8B53FF;
-    height: 200px;
-    width: 200px;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
   }
   .card .img img {
     cursor: pointer;
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #fff;

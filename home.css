@@ -43,7 +43,7 @@ header {
 }
 .nav-link {
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 20px;
     color: #303030;
     font-weight: 400;
 
@@ -67,7 +67,6 @@ header {
 .nav-link:hover::after {
     opacity: 1;
 }
-
 .fundo01 {
     height: 60vh;
     width: 100vw;
@@ -85,9 +84,9 @@ header {
     margin-right: 150px;
 }
 .titulo01 p {
+    margin-top: 5px;
     font-size: 20px;
 }
-
 .fundo02 {
     height: 60vh;
     width: 100vw;
@@ -96,7 +95,6 @@ header {
     background-image: url('imagens/cartaz06-removebg-preview.png');
     background-size: contain;
     background-repeat: no-repeat;
-
 
     background-color: #cca4ca;  
 }
@@ -110,7 +108,6 @@ header {
 .titulo02 p {
     font-size: 20px;
 }
-
 .fundo03 {
     margin-top: 80px;
     height: 60vh;
