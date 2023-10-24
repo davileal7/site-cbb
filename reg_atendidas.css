@@ -72,44 +72,51 @@ header {
     height: 60vh;
     width: 100vw;
     margin-top: 80px;
-    background-image: url('imagens/mulher_sorrindo_sem\ fundo.png');
+    background-image: url('imagens/reg_atendidas/img_03.png');
     background-size: contain;
     background-repeat: no-repeat;
 
-    background-color: rgb(190, 214, 37);
+    background-color: #ECECEE;
 }
 .fundo01 .titulo01 {
-    color: #ffff;
-    text-shadow: 1px 1px 2px black;
+    color: #53555e;
     font-size: 2.5em;
     text-align: right;
     margin-right: 150px;
 }
 .titulo01 p {
-    font-size: 20px;
+    margin-top: 10px;
+    font-size: 0.6em;
 }
 
 .fundo02 {
     height: 60vh;
     width: 100vw;
     margin-top: 80px;
-    background-color: rgb(132, 188, 192);
-    background-image: url('imagens/cartaz03-removebg-preview.png');
+    background-image: url('imagens/reg_atendidas/img_02.png');
     background-size: contain;
     background-repeat: no-repeat;
 
-    background-color: rgb(191, 61, 128);    
+    background-color: #ECECEE;    
 }
 .fundo02 .titulo02 {
-    color: #ffff;
-    text-shadow: 1px 1px 2px black;
+    color: #53555e;
+    
     font-size: 2.5em;
     text-align: right;
     margin-right: 150px;
 }
-.titulo02 p {
-    font-size: 20px;
+
+.fundo02 .cidades {
+    margin-top: 5px;
+    color: #53555e;
+    list-style: none;
+    display: block;
+    justify-content: end;
+    font-size: 0.8em;
 }
+
+
 
 .fundo03 {
     margin-top: 80px;
@@ -118,7 +125,7 @@ header {
     display: flex;
     justify-content: center;
     
-    background-color: rgb(12, 23, 150); 
+    background-color: rgb(178, 172, 120); 
 }
 
 /*CAROSEL */

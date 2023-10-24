@@ -98,7 +98,7 @@ header {
     background-repeat: no-repeat;
 
 
-    background-color: green;    
+    background-color: #cca4ca;  
 }
 .fundo02 .titulo02 {
     color: #ffff;
@@ -115,7 +115,7 @@ header {
     margin-top: 80px;
     height: 60vh;
     width: 100vw;
-    background-color: rgb(186, 82, 22);  
+    background-color:  rgb(178, 172, 120);  
     display: flex;
     justify-content: center;  
 }
@@ -145,15 +145,15 @@ header {
     transform: translateY(-50%) scale(0.85);
   }
   .wrapper i:first-child{
-    left: -22px;
+    left: -35px;
   }
   .wrapper i:last-child{
-    right: -22px;
+    right: -45px;
   }
   .wrapper .carousel{
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 3) - 12px);
+    grid-auto-columns: calc((100% / 6) - 10px);
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 16px;
@@ -191,14 +191,14 @@ header {
   .carousel .card .img {
     cursor: pointer;
     background: #8B53FF;
-    height: 200px;
-    width: 200px;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
   }
   .card .img img {
     cursor: pointer;
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #fff;
