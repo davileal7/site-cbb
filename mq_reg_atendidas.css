@@ -104,7 +104,7 @@
         display: block;
     }
     .fundo01 {
-        height: 35vh;
+        height: 80vh;
         width: 100vw;
         margin-top: 80px;
         background-image: url('imagens/reg_atendidas/img_03.png');
@@ -115,8 +115,15 @@
     }
     .fundo01 .titulo01 {
         font-size: 2.5em;
-        text-align: right;
+        
+
+        text-align: center;
         margin-right: 5px;
+        
+        display: block;
+        position: relative;
+        top: 400px;
+        
     }
     .titulo01 h1,
     .titulo02 h1 {
@@ -131,7 +138,7 @@
         font-size: 15px;
     }
     .fundo02 {
-        height: 35vh;
+        height: 80vh;
         width: 100vw;
         margin-top: 80px;
         background-color: rgb(132, 188, 192);
@@ -145,16 +152,20 @@
     .fundo02 .titulo02 {
         color: #53555e;
         
-        text-align: right;
+        text-align: center;
         margin-right: 5px;
+        
+        display: block;
+        position: relative;
+        top: 400px;
+        
     }
     
     .fundo02 .cidades {
         margin-top: 10px;
         color: #53555e;
         list-style: none;
-        display: block;
-        justify-content: end;
+        
       
     }
     .cidades li {
@@ -265,7 +276,7 @@
     }
     .redes_sociais a li {
         position: relative;
-        left: 120px;
+        left: 140px;
         list-style: none;
         margin-top: 10px;
         
