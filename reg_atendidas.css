@@ -114,8 +114,15 @@ header {
     justify-content: end;
     font-size: 30px;
 }
+select {
+    width: 100px;
+    border-radius: 5px;
+}
 .regioes li{
     margin-top: 15px;
+}
+.regioes label {
+    font-size: 25px;
 }
 .regioes a {
     text-decoration: none;
