@@ -1,4 +1,178 @@
 /* RESPONSIVE DESIGN */
+
+/* CElULAR DEITADO */
+@media(max-width: 1000px) {
+
+    .menu {
+        display: flex;
+        list-style: none;
+        gap: .2rem;
+    }
+    .menu li {
+        display: block;
+        padding: .1rem;
+    }
+    .menu li a {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .fundo01 {
+        height: 50vh;
+        width: 100vw;
+        margin-top: 80px;
+        background-image: url('../imagens/reg_atendidas/img_03.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        background-color: #ECECEE;
+    }
+
+    .fundo01 .titulo01 {
+        
+        font-size: 2.5em;
+        text-align: right;
+        margin-right: 5px;
+    }
+    .titulo01 h1,
+    .titulo02 h1 {
+        font-size: 35px;
+    }
+    .titulo01 h2, 
+    .titulo02 h2 {
+        font-size: 25px;
+    }
+    .titulo01 p, 
+    .titulo02 p {
+        font-size: 16px;
+    }
+    .fundo02 {
+        height: 50vh;
+        width: 100vw;
+        margin-top: 80px;
+        background-image: url('../imagens/reg_atendidas/img_02.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        background-color: #ECECEE;   
+    }
+    .fundo02 .titulo02 {
+        
+        font-size: 2.5em;
+        text-align: right;
+        margin-right: 5px;
+    }
+
+    .fundo04 {
+        margin-top: 80px;
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        
+        background-color: rgb(178, 172, 120); 
+    }
+    
+   
+    /*CAROSEL */
+    .wrapper {
+        max-width: 800px;
+        width: 100%;
+        position: relative;
+      }
+      .wrapper i {
+        top: 50%;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        font-size: 2.25rem;
+        position: absolute;
+        text-align: center;
+        line-height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+        transform: translateY(-50%);
+        transition: transform 0.1s linear;
+      }
+      .wrapper i:active{
+        transform: translateY(-50%) scale(0.85);
+      }
+      .wrapper i:first-child{
+        left: -55px;
+      }
+      .wrapper i:last-child{
+        right: -55px;
+      }
+      .wrapper .carousel{
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 4) - 10px);
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 16px;
+        border-radius: 8px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+      }
+      .carousel::-webkit-scrollbar {
+        display: none;
+      }
+      .carousel.no-transition {
+        scroll-behavior: auto;
+      }
+      .carousel.dragging {
+        scroll-snap-type: none;
+        scroll-behavior: auto;
+      }
+      .carousel.dragging .card {
+        cursor: grab;
+        user-select: none;
+      }
+      .carousel :where(.card, .img) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .carousel .card {
+        scroll-snap-align: start;
+        height: 400px;
+        list-style: none;
+        padding-bottom: 15px;
+        flex-direction: column;
+        border-radius: 8px;
+      }
+      .carousel .card .img {
+        cursor: pointer;
+        background: #8B53FF;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+      }
+      .card .img img {
+        cursor: pointer;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #fff;
+      }
+      .carousel .card h2 {
+        font-weight: 500;
+        font-size: 1.56rem;
+        margin: 30px 0 5px;
+        color: #fff;
+      }
+      .carousel .card span {
+        color: #6A6D78;
+        font-size: 1.31rem;
+      }
+
+}
+
+
+
+
 @media(max-width: 730px) {
 
     #btn-mobile {
@@ -107,7 +281,7 @@
         height: 80vh;
         width: 100vw;
         margin-top: 80px;
-        background-image: url('imagens/reg_atendidas/img_03.png');
+        background-image: url('../imagens/reg_atendidas/img_03.png');
         background-size: contain;
         background-repeat: no-repeat;
 
@@ -139,7 +313,7 @@
         width: 100vw;
         margin-top: 80px;
         background-color: rgb(132, 188, 192);
-        background-image: url('imagens/reg_atendidas/img_02.png');
+        background-image: url('../imagens/reg_atendidas/img_02.png');
         background-size: contain;
         background-repeat: no-repeat;
 
