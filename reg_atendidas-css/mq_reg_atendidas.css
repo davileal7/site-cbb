@@ -171,7 +171,7 @@
         border-radius: 5px;
     }
     .fundo04 {
-        height: 45vh;
+        height: 40vh;
         width: 100vw;
         margin-top: 80px;
         display: flex;
@@ -199,7 +199,7 @@
       }
       .carousel .card {
         scroll-snap-align: start;
-        height: 350px;
+        height: 400px;
         list-style: none;
         padding-bottom: 15px;
         flex-direction: column;
@@ -207,14 +207,14 @@
       }
       .carousel .card .img {
 
-        height: 185px;
-        width: 185px;
+        height: 170px;
+        width: 170px;
         border-radius: 50%;
       }
       .card .img img {
       
-        width: 185px;
-        height: 185px;
+        width: 170px;
+        height: 170px;
         border-radius: 50%;
         object-fit: cover;
         border: 4px solid #fff;
