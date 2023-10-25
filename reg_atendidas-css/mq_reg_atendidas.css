@@ -199,6 +199,25 @@
         color: #6A6D78;
         font-size: 1.31rem;
       }
+      .roda_pe {
+        margin-top: 80px;
+        height: 65vh;
+        width: 100vw;
+        background-color: #ECECEE;
+        
+        text-align: center;
+        color: #303030;
+        text-shadow: #ffff;
+        font-size: 15px;
+      }
+      .roda_pe .contatos li {
+        list-style: none;
+        margin-top: 15px;
+        margin-left: 0px;
+      }
+      .roda_pe .redes_sociais li {
+        margin-top: 15px;
+      }
 
 
 }  
@@ -458,7 +477,7 @@
         font-size: 15px;
     }
     .roda_pe .contatos  {
-        padding:  10px;
+        padding:  30px;
     }
     .roda_pe h3 {
         font-size: 18px;
