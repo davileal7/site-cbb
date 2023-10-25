@@ -104,7 +104,7 @@
         display: block;
     }
     .fundo01 {
-        height: 80vh;
+        height: 75vh;
         width: 100vw;
         margin-top: 80px;
         background-image: url('../imagens/reg_atendidas/img_03.png');
@@ -135,7 +135,7 @@
         font-size: 16px;
     }
     .fundo02 {
-        height: 80vh;
+        height: 75vh;
         width: 100vw;
         margin-top: 80px;
         background-color: rgb(132, 188, 192);
