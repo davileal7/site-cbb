@@ -347,7 +347,7 @@
         
         display: block;
         position: relative;
-        top: 400px;
+        top: 320px;
     }
     .titulo01 h1,
     .titulo02 h1 {
@@ -380,7 +380,7 @@
         
         display: block;
         position: relative;
-        top: 400px;
+        top: 320px;
     }
     .fundo02 .regioes {
         margin-top: 10px;
@@ -388,7 +388,7 @@
         list-style: none;
     }
     .regioes li {
-        margin-top: 10px;
+        margin-top: 1px;
     }
     .regioes label {
         font-size: 20px;
@@ -469,7 +469,7 @@
 
     .roda_pe {
         margin-top: 80px;
-        height: 65vh;
+        height: 70vh;
         width: 100vw;
         background-color: #ECECEE;
         display: block;

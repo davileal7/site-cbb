@@ -5,33 +5,19 @@
 
 /* MEU - CELULAR DEITADO */
 @media(max-width: 1000px) {
-  #header {
-    box-sizing: border-box;
-    height: 100px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100vw;
-}
-  
 
     .menu {
         display: flex;
         list-style: none;
-        gap: 0;
+        gap: .1rem;
     }
     .menu li {
         display: block;
-        padding: 0;
+        padding: .0rem;
     }
     .menu li a{
-      font-size: 15px;
+      font-size: 18px;
     }
-    .logo img{
-      height: 150px;
-      width: 200px;
-  }
    
 
     .fundo01 {
@@ -155,7 +141,7 @@
       }
       .carousel .card {
         scroll-snap-align: start;
-        height: 200px;
+        height: 20px;
         list-style: none;
         padding-bottom: 15px;
         flex-direction: column;
@@ -276,6 +262,7 @@
         margin: 0 1rem;
         text-align: center;
     }
+    
 
     .nav-link {
         text-decoration: none;
