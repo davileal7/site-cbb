@@ -216,8 +216,7 @@ header {
     background-color: #ECECEE;
     display: flex;
     justify-content: space-between;
-    
-    text-shadow: #ffff;
+    color: #24252a;
     font-size: 18px;
 }
 .roda_pe .contatos,
@@ -258,7 +257,7 @@ header {
     padding: 2px;
 }
 .redes_sociais a {
-    color: #303030;
+    color: #24252a;
     text-decoration: none;    
 }
 .redes_sociais h3,
