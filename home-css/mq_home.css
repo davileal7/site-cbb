@@ -239,7 +239,7 @@
 
 
 
-/* CELULAR RETO */
+/* CELULAR RETO--------------------------------------------------------------------------------------------- */
 @media (max-width: 730px) {
 
     #btn-mobile {
@@ -359,7 +359,7 @@
         font-weight: 100;
         font-size: 2.5em;
         text-align: center;
-        margin-right: 5px;
+        
         display: block;
         position: relative;
         top: 300px;
@@ -374,7 +374,7 @@
     }
     .titulo01 p, 
     .titulo02 p {
-      margin-top: 10px;
+        margin-top: 10px;
         font-size: 16px;
     }
     .fundo02 {
@@ -392,7 +392,6 @@
         font-weight: 100;
         font-size: 2.5em;
         text-align: center;
-        margin-right: 5px;
 
         display: block;
         position: relative;
@@ -477,7 +476,7 @@
         display: block;
         justify-content: center;
         text-align: center;
-        font-weight: 100;
+        
         color: #303030;
         text-shadow: #ffff;
         font-size: 16px;
