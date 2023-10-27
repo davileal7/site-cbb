@@ -216,7 +216,7 @@ header {
     background-color: #ECECEE;
     display: flex;
     justify-content: space-between;
-    color: #303030;
+    
     text-shadow: #ffff;
     font-size: 18px;
 }
