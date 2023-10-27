@@ -26,6 +26,10 @@ header {
     text-decoration: none;
     color: #24252a;
 }
+.logo-cbb {
+    height: 40px;
+    width: 300px;
+}
 
 .menu {
     display: flex;
@@ -97,7 +101,7 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
 
-    background-color: #cca4ca;  
+     
 }
 .fundo02 .titulo02 {
     color: #ffff;
