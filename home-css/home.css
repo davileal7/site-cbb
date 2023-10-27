@@ -217,10 +217,9 @@ header {
     display: flex;
     justify-content: space-between;
     color: #303030;
+    text-shadow: #ffff;
     font-size: 18px;
-
 }
-
 .roda_pe .contatos,
 .roda_pe .redes_sociais,
 .roda_pe .sobre_nos {
@@ -230,7 +229,6 @@ header {
     font-size: 22px;
     color: goldenrod;
 }
-
 .ion_insta {
     font-size: 25px;
     color: #e958c9;
@@ -272,11 +270,9 @@ header {
 }
 .sobre_nos p {
     margin-top: 10px;
-    
 }
 footer h1 {
     text-align: center;
-    background-color: #ECECEE;
 }
 
 

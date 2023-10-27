@@ -366,6 +366,7 @@
     }
     .titulo01 p, 
     .titulo02 p {
+        margin-top: 5px;
         font-size: 15px;
     }
     .fundo02 {
@@ -457,10 +458,7 @@
         display: block;
         justify-content: center;
         text-align: center;
-        
         color: #303030;
-       
-        font-size: 16px;
     }
     .roda_pe .contatos  {
         padding:  30px;
