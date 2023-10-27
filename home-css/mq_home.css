@@ -17,7 +17,7 @@
     }
     
     .menu span {
-      font-size: 0.7rem;
+      font-size: 0.9rem;
     }
     .logo-cbb {
       height: 20px;
@@ -179,28 +179,62 @@
       
       .roda_pe {
         margin-top: 80px;
-        height: 65vh;
+        height: 140vh;
         width: 100vw;
         background-color: #ECECEE;
-        
+        display: block;
+        justify-content: center;
         text-align: center;
+        font-weight: 100;
         color: #303030;
         text-shadow: #ffff;
-        font-size: 15px;
-      }
-      .roda_pe .contatos li {
-        list-style: none;
-        margin-top: 15px;
-        margin-left: 0px;
-      }
-      .roda_pe .redes_sociais li {
-        margin-top: 15px;
-      }
-      .sobre_nos {
-        margin-right: 0px;
+        font-size: 16px;
     }
-    
+    .roda_pe .contatos  {
+        padding:  30px;
+    }
+    .roda_pe h3 {
+        font-size: 18px;
+        color: goldenrod;
+    }
+    .siga_nos {
+        font-size: 18px;
+        color: goldenrod;
+    }
+    .roda_pe .contatos {
+        margin-left: 0px;
+    }
+    .roda_pe .contatos li {
+        list-style: none;
+        margin-top:10px;
+        margin-left: 10px;
+    }
+    .redes_sociais a li {
+        position: relative;
+        left: 320px;
+        list-style: none;
+        margin-top: 10px;
+    }
 
+    .sobre_nos  {
+        display: none;
+    }
+    .roda_pe .sobre_nos-mobile {
+        margin-top: 30px;
+    }
+    .sobre_nos-mobile {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sobre_nos-mobile p {
+      font-weight: 400;
+        margin-top: 10px;
+        margin: 10px;
+        padding: 1px;
+        
+    }
 }
 
 
@@ -265,7 +299,9 @@
         margin: 0 1rem;
         text-align: center;
     }
-    
+    .menu span {
+      font-size: 18px;
+    }
 
     .nav-link {
         text-decoration: none;
@@ -320,13 +356,13 @@
     .fundo01 .titulo01 {
         color: #ffff;
         text-shadow: 1px 1px 2px black;
+        font-weight: 100;
         font-size: 2.5em;
         text-align: center;
         margin-right: 5px;
-        
         display: block;
         position: relative;
-        top: 320px;
+        top: 300px;
     }
     .titulo01 h1,
     .titulo02 h1 {
@@ -338,7 +374,8 @@
     }
     .titulo01 p, 
     .titulo02 p {
-        font-size: 15px;
+      margin-top: 10px;
+        font-size: 16px;
     }
     .fundo02 {
         height: 75vh;
@@ -347,19 +384,19 @@
         background-image: url('../imagens/cartaz06-removebg-preview.png');
         background-size: contain;
         background-repeat: no-repeat;
-
-        background-color: #beabb9;    
+        background-color: rgb(132, 188, 192);   
     }
     .fundo02 .titulo02 {
         color: #ffff;
         text-shadow: 1px 1px 2px black;
+        font-weight: 100;
         font-size: 2.5em;
         text-align: center;
         margin-right: 5px;
 
         display: block;
         position: relative;
-        top: 320px;
+        top: 300px;
     }
   
     .fundo03 {
@@ -434,15 +471,16 @@
       
     .roda_pe {
         margin-top: 80px;
-        height: 70vh;
+        height: 90vh;
         width: 100vw;
         background-color: #ECECEE;
         display: block;
         justify-content: center;
         text-align: center;
+        font-weight: 100;
         color: #303030;
         text-shadow: #ffff;
-        font-size: 15px;
+        font-size: 16px;
     }
     .roda_pe .contatos  {
         padding:  30px;
@@ -469,10 +507,21 @@
         list-style: none;
         margin-top: 10px;
     }
-    .sobre_nos {
+
+
+    .sobre_nos  {
+        display: none;
+    }
+    .roda_pe .sobre_nos-mobile {
+        margin-top: 30px;
+    }
+    .sobre_nos-mobile {
         display: flex;
         justify-content: center;
         flex-direction: column;
         text-align: center;
+    }
+    .sobre_nos-mobile p {
+        margin-top: 10px;
     }
 }
