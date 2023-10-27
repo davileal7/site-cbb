@@ -280,6 +280,17 @@ select {
     margin-top: 30px;
     margin-left: 30px;
 }
+.contatos  a {
+    color: #24252a;
+    text-decoration: none;
+}
+.contatos p {
+    margin-top: 10px;
+}
+.contatos .icon-endereco:hover {
+    scale: 1.1;
+    transition: 2s;
+}
 .redes_sociais li {
     list-style: none;
     margin-top: 20px;
@@ -300,6 +311,9 @@ select {
 }
 .sobre_nos-mobile {
     display: none;
+}
+.sobre_nos {
+    margin-right: 20px;
 }
 .sobre_nos p {
     margin-top: 10px;
