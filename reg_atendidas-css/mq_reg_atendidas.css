@@ -194,7 +194,7 @@
       }
     .roda_pe {
         margin-top: 80px;
-        height: 155vh;
+        height: 160vh;
         width: 100vw;
         background-color: #ECECEE;
         display: block;
@@ -312,11 +312,13 @@
         margin: 0 1rem;
         text-align: center;
     }
+    .logo-cbb {
+        height: 25px;
+        width: 250px;
+      }
     .menu span {
         font-size: 18px;
-      }
-
-
+    }
     .nav-link {
         text-decoration: none;
         font-size: 1.15rem;
