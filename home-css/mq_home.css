@@ -50,7 +50,7 @@
     }
     .titulo01 p, 
     .titulo02 p {
-        font-size: 16px;
+        font-size: 18px;
     }
     .fundo02 {
         height: 50vh;
@@ -169,7 +169,7 @@
       
       .roda_pe {
         margin-top: 80px;
-        height: 150vh;
+        height: 155vh;
         width: 100vw;
         background-color: #ECECEE;
         display: block;
@@ -442,23 +442,23 @@
 
     .roda_pe {
         margin-top: 80px;
-        height: 100vh;
+        height: 115vh;
         width: 100vw;
         background-color: #ECECEE;
         display: block;
         justify-content: center;
         text-align: center;
+       
         
     }
     .roda_pe .contatos  {
         padding:  30px;
     }
     .roda_pe h3 {
-        font-size: 18px;
+        font-size: 20px;
         color: goldenrod;
     }
     .siga_nos {
-        font-size: 18px;
         color: goldenrod;
     }
     .roda_pe .contatos {

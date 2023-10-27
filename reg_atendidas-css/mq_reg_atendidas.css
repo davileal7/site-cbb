@@ -26,7 +26,6 @@
         background-image: url('../imagens/reg_atendidas/img_03.png');
         background-size: contain;
         background-repeat: no-repeat;
-    
         background-color: #ECECEE;
     }
     .fundo01 .titulo01,
@@ -42,7 +41,7 @@
     }
     .titulo01 p {
         margin-top: 5px;
-        font-size: 16px;
+        font-size: 18px;
     }
     .fundo02 {
         height: 50vh;
@@ -51,7 +50,8 @@
         background-image: url('../imagens/reg_atendidas/img_02.png');
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: #ECECEE;   
+        background-color: #ECECEE;
+       
     }
     .fundo02 .regioes {
         margin-top: 5px;
@@ -68,10 +68,10 @@
         border-radius: 5px;
     }
     .regioes li{
-        margin-top: 4px;
+        margin-top: 0px;
     }
     .regioes label {
-        font-size: 16px;
+        font-size: 18px;
     }
     .regioes a {
         text-decoration: none;
@@ -192,16 +192,16 @@
         color: #6A6D78;
         font-size: 1.31rem;
       }
-      .roda_pe {
+    .roda_pe {
         margin-top: 80px;
-        height: 150vh;
+        height: 155vh;
         width: 100vw;
         background-color: #ECECEE;
         display: block;
         justify-content: center;
         text-align: center;
       }
-      .roda_pe .contatos  {
+    .roda_pe .contatos  {
         padding:  30px;
     }
     .roda_pe h3 {
@@ -220,6 +220,7 @@
         margin-top:10px;
         margin-left: 10px;
     }
+
     .redes_sociais a li {
         position: relative;
         left: 320px;
@@ -394,7 +395,6 @@
         height: 75vh;
         width: 100vw;
         margin-top: 80px;
-        background-color: rgb(132, 188, 192);
         background-image: url('../imagens/reg_atendidas/img_02.png');
         background-size: contain;
         background-repeat: no-repeat;
