@@ -35,7 +35,8 @@
         background-color: rgb(154, 16, 105);
     }
 
-    .fundo01 .titulo01 {
+    .fundo01 .titulo01,
+    .fundo02 .titulo02 {
         color: #ffff;
         text-shadow: 1px 1px 2px black;
         font-size: 2.5em;
@@ -63,14 +64,6 @@
         background-repeat: no-repeat;
         background-color: rgb(132, 188, 192);  
     }
-    .fundo02 .titulo02 {
-        color: #ffff;
-        text-shadow: 1px 1px 2px black;
-        font-size: 2.5em;
-        text-align: right;
-        margin-right: 5px;
-    }
-
     .fundo03 {
         height: 50vh;
         width: 100vw;
@@ -350,13 +343,12 @@
         background-image: url('../imagens/mulher_sorrindo_sem\ fundo.png');
         background-size: contain;
         background-repeat: no-repeat;
-
         background-color: rgb(132, 188, 192);
     }
-    .fundo01 .titulo01 {
+    .fundo01 .titulo01,
+    .fundo02 .titulo02 {
         color: #ffff;
-        text-shadow: 1px 1px 2px black;
-        font-weight: 100;
+        text-shadow: 1px 1px 2px #24252a;
         font-size: 2.5em;
         text-align: center;
         
@@ -374,8 +366,7 @@
     }
     .titulo01 p, 
     .titulo02 p {
-        margin-top: 10px;
-        font-size: 16px;
+        font-size: 15px;
     }
     .fundo02 {
         height: 75vh;
@@ -386,17 +377,7 @@
         background-repeat: no-repeat;
         background-color: rgb(132, 188, 192);   
     }
-    .fundo02 .titulo02 {
-        color: #ffff;
-        text-shadow: 1px 1px 2px black;
-        font-weight: 100;
-        font-size: 2.5em;
-        text-align: center;
-
-        display: block;
-        position: relative;
-        top: 300px;
-    }
+  
   
     .fundo03 {
         height: 40vh;
@@ -478,7 +459,7 @@
         text-align: center;
         
         color: #303030;
-        text-shadow: #ffff;
+       
         font-size: 16px;
     }
     .roda_pe .contatos  {
