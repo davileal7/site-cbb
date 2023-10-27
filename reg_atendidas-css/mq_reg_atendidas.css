@@ -12,8 +12,12 @@
         display: block;
         padding: .0rem;
     }
-    .menu li a{
-      font-size: 18px;
+    .menu span {
+      font-size: 15px;
+    }
+    .logo-cbb {
+      height: 20px;
+      width: 150px;
     }
     .fundo01 {
         height: 50vh;
@@ -25,7 +29,8 @@
     
         background-color: #ECECEE;
     }
-    .fundo01 .titulo01 {
+    .fundo01 .titulo01,
+    .fundo02 .titulo02 {
         color: #53555e;
         font-size: 2.5em;
         text-align: right;
@@ -37,9 +42,8 @@
     }
     .titulo01 p {
         margin-top: 5px;
-        font-size: 20px;
+        font-size: 16px;
     }
-
     .fundo02 {
         height: 50vh;
         width: 100vw;
@@ -47,14 +51,7 @@
         background-image: url('../imagens/reg_atendidas/img_02.png');
         background-size: contain;
         background-repeat: no-repeat;
-    
-        background-color: #ECECEE;    
-    }
-    .fundo02 .titulo02 {
-        color: #53555e;
-        font-size: 2.5em;
-        text-align: right;
-        margin-right: 5px;
+        background-color: #ECECEE;   
     }
     .fundo02 .regioes {
         margin-top: 5px;
@@ -71,10 +68,10 @@
         border-radius: 5px;
     }
     .regioes li{
-        margin-top: 10px;
+        margin-top: 4px;
     }
     .regioes label {
-        font-size: 20px;
+        font-size: 16px;
     }
     .regioes a {
         text-decoration: none;
@@ -85,14 +82,12 @@
         height: 50vh;
         width: 100vw;
         margin-top: 80px;
-    
         background-color: #ECECEE;  
     }
     .fundo03 .mapa {
         height: 50vh;
         width: 100vw;
     }
-
     .fundo04 {
         margin-top: 80px;
         height: 50vh;
@@ -102,8 +97,6 @@
         
         background-color: rgb(178, 172, 120); 
     }
-
-
 
 
     /*CAROSEL */
@@ -131,15 +124,15 @@
         transform: translateY(-50%) scale(0.85);
       }
       .wrapper i:first-child{
-        left: -10px;
+        left: -15px;
       }
       .wrapper i:last-child{
-        right: -10px;
+        right: -15px;
       }
       .wrapper .carousel{
         display: grid;
         grid-auto-flow: column;
-        grid-auto-columns: calc((100% / 4) - 10px);
+        grid-auto-columns: calc((100% / 4) - 20px);
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         gap: 26px;
@@ -201,30 +194,63 @@
       }
       .roda_pe {
         margin-top: 80px;
-        height: 65vh;
+        height: 150vh;
         width: 100vw;
         background-color: #ECECEE;
-        
+        display: block;
+        justify-content: center;
         text-align: center;
-        color: #303030;
-        text-shadow: #ffff;
-        font-size: 15px;
       }
-      .roda_pe .contatos li {
-        list-style: none;
-        margin-top: 15px;
+      .roda_pe .contatos  {
+        padding:  30px;
+    }
+    .roda_pe h3 {
+        font-size: 18px;
+        color: goldenrod;
+    }
+    .siga_nos {
+        font-size: 18px;
+        color: goldenrod;
+    }
+    .roda_pe .contatos {
         margin-left: 0px;
-      }
-      .roda_pe .redes_sociais li {
-        margin-top: 15px;
-      }
-      .sobre_nos {
-        margin-right: 0px;
-      }
+    }
+    .roda_pe .contatos li {
+        list-style: none;
+        margin-top:10px;
+        margin-left: 10px;
+    }
+    .redes_sociais a li {
+        position: relative;
+        left: 320px;
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    .sobre_nos  {
+        display: none;
+    }
+    .roda_pe .sobre_nos-mobile {
+        margin-top: 30px;
+    }
+    .sobre_nos-mobile {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sobre_nos-mobile p {
+      font-weight: 400;
+        margin-top: 10px;
+        margin: 10px;
+        padding: 1px;
+        
+    }
+      
 
 
 }  
-
+/* CELULAR RETO--------------------------------------------------------------------------------------------- */
 
 @media(max-width: 730px) {
 
@@ -285,6 +311,9 @@
         margin: 0 1rem;
         text-align: center;
     }
+    .menu span {
+        font-size: 18px;
+      }
 
 
     .nav-link {
@@ -337,21 +366,21 @@
         background-image: url('../imagens/reg_atendidas/img_03.png');
         background-size: contain;
         background-repeat: no-repeat;
-
         background-color: #ECECEE;
     }
-    .fundo01 .titulo01 {
+    .fundo01 .titulo01,
+    .fundo02 .titulo02 {
         font-size: 2.5em;
         text-align: center;
         margin-right: 5px;
         
         display: block;
         position: relative;
-        top: 320px;
+        top: 300px;
     }
     .titulo01 h1,
     .titulo02 h1 {
-        font-size: 25px;
+        font-size: 35px;
     }
     .titulo01 h2, 
     .titulo02 h2 {
@@ -369,19 +398,9 @@
         background-image: url('../imagens/reg_atendidas/img_02.png');
         background-size: contain;
         background-repeat: no-repeat;
-
         background-color: #ECECEE;  
     }
-   
-    .fundo02 .titulo02 {
-        color: #53555e;
-        text-align: center;
-        margin-right: 5px;
-        
-        display: block;
-        position: relative;
-        top: 320px;
-    }
+
     .fundo02 .regioes {
         margin-top: 10px;
         color: #53555e;
@@ -433,13 +452,11 @@
         border-radius: 8px;
       }
       .carousel .card .img {
-
         height: 170px;
         width: 170px;
         border-radius: 50%;
       }
       .card .img img {
-      
         width: 170px;
         height: 170px;
         border-radius: 50%;
@@ -469,15 +486,12 @@
 
     .roda_pe {
         margin-top: 80px;
-        height: 70vh;
+        height: 90vh;
         width: 100vw;
         background-color: #ECECEE;
         display: block;
         justify-content: center;
         text-align: center;
-        color: #303030;
-        text-shadow: #ffff;
-        font-size: 15px;
     }
     .roda_pe .contatos  {
         padding:  30px;
@@ -503,6 +517,21 @@
         left: 140px;
         list-style: none;
         margin-top: 10px;
-        
     }
+    .sobre_nos  {
+        display: none;
+    }
+    .roda_pe .sobre_nos-mobile {
+        margin-top: 30px;
+    }
+    .sobre_nos-mobile {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sobre_nos-mobile p {
+        margin-top: 10px;
+    }
+
 }

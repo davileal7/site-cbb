@@ -2,7 +2,6 @@
 
 /* I-FONE - CELULAR DEITADO */
 
-
 /* MEU - CELULAR DEITADO */
 @media(max-width: 1000px) {
 
@@ -15,15 +14,13 @@
         display: block;
         padding: .0rem;
     }
-    
     .menu span {
-      font-size: 0.9rem;
+      font-size: 15px;
     }
     .logo-cbb {
       height: 20px;
       width: 150px;
-  }
-   
+    }
     .fundo01 {
         height: 50vh;
         width: 100vw;
@@ -222,7 +219,6 @@
         margin-top: 10px;
         margin: 10px;
         padding: 1px;
-        
     }
 }
 
@@ -411,13 +407,11 @@
         border-radius: 8px;
       }
       .carousel .card .img {
-
         height: 170px;
         width: 170px;
         border-radius: 50%;
       }
       .card .img img {
-      
         width: 170px;
         height: 170px;
         border-radius: 50%;
@@ -445,7 +439,7 @@
         grid-auto-columns: 100%;
       }
 
-      
+
     .roda_pe {
         margin-top: 80px;
         height: 90vh;

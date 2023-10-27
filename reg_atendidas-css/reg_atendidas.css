@@ -26,6 +26,10 @@ header {
     text-decoration: none;
     color: #24252a;
 }
+.logo-cbb {
+    height: 40px;
+    width: 300px;
+}
 .menu {
     display: flex;
     list-style: none;
@@ -78,7 +82,8 @@ header {
 
     background-color: #ECECEE;
 }
-.fundo01 .titulo01 {
+.fundo01 .titulo01,
+.fundo02 .titulo02 {
     color: #53555e;
     font-size: 2.5em;
     text-align: right;
@@ -98,12 +103,7 @@ header {
 
     background-color: #ECECEE;    
 }
-.fundo02 .titulo02 {
-    color: #53555e;
-    font-size: 2.5em;
-    text-align: right;
-    margin-right: 150px;
-}
+
 .fundo02 .regioes {
     margin-top: 5px;
     color: #53555e;
@@ -250,11 +250,9 @@ select {
     background-color: #ECECEE;
     display: flex;
     justify-content: space-between;
-    color: #303030;
-    text-shadow: #ffff;
-    font-size: 15px;
+    color: #24252a;
+    font-size: 16px;
 }
-
 .roda_pe .contatos,
 .roda_pe .redes_sociais,
 .roda_pe .sobre_nos {
@@ -282,7 +280,6 @@ select {
     margin-top: 30px;
     margin-left: 30px;
 }
-
 .redes_sociais li {
     list-style: none;
     margin-top: 20px;
@@ -301,8 +298,14 @@ select {
  .sobre_nos h3 {
     margin-top: 20px;
 }
-.sobre_nos {
-    margin-right: 50px;
+.sobre_nos-mobile {
+    display: none;
+}
+.sobre_nos p {
+    margin-top: 10px;
+}
+footer h1 {
+    text-align: center;
 }
 
 
