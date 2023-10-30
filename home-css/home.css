@@ -184,7 +184,7 @@ header {
   }
   .carousel .card .img {
     cursor: pointer;
-    background: #8B53FF;
+    background: #fff;
     height: 125px;
     width: 125px;
     border-radius: 50%;

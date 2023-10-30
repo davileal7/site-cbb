@@ -25,7 +25,7 @@
         height: 50vh;
         width: 100vw;
         margin-top: 80px;
-        background-image: url('../imagens/mulher_sorrindo_sem\ fundo.png');
+        
         background-size: contain;
         background-repeat: no-repeat;
 
@@ -332,60 +332,75 @@
     .open {
         display: block;
     }
-    .fundo01 {
-        height: 75vh;
-        width: 100vw;
-        margin-top: 80px;
-        background-image: url('../imagens/mulher_sorrindo_sem\ fundo.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-color: rgb(132, 188, 192);
-    }
-    .fundo01 .titulo01,
-    .fundo02 .titulo02 {
-        color: #ffff;
-        text-shadow: 1px 1px 2px #24252a;
-        font-size: 2.5em;
-        text-align: center;
+
         
-        display: block;
-        position: relative;
-        top: 300px;
+    .fundo00 {
+      height: 75vh;
+      width: 100vw;
+      margin-top: 80px;
+      background-color: rgb(132, 188, 192);
+      background-image: url('../imagens/cartaz06-removebg-preview.png');
+      background-size: contain;
+      background-repeat: no-repeat;
     }
-    .titulo01 h1,
-    .titulo02 h1 {
-        font-size: 35px;
+    .fundo00 .titulo00 {
+      color: #ffff;
+      text-shadow: 1px 1px 2px #24252a;
+      font-size: 2.5em;
+      text-align: center;
+      margin-right: 5px;
+      display: block;
+      position: relative;
+      top: 300px;
     }
-    .titulo01 h2, 
-    .titulo02 h2 {
-        font-size: 25px;
+    .titulo00 h1 {
+      font-size: 35px;
     }
-    .titulo01 p, 
-    .titulo02 p {
-        margin-top: 5px;
-        font-size: 15px;
+    .titulo00 p {
+      margin-top: 5px;
+      font-size: 15px;
     }
-    .fundo02 {
-        height: 75vh;
-        width: 100vw;
-        margin-top: 80px;
-        background-image: url('../imagens/cartaz06-removebg-preview.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-color: rgb(132, 188, 192);   
+
+    .fundo01 {
+      height: 5350px;
+      width: 100vw;
+      margin-top: 80px;
+      background-color: #ECECEE;
+
+      
+      
     }
-  
-  
+
+    .catalogos {
+      display: block;
+    }
+
+
+    .catalogos .pdf-catalogo {
+      height: 200px;
+      
+     
+      
+      margin-top: 35px;
+    }
+    
+    .catalogos h3 {
+      color: #fff;
+      font-size: 15px;
+      text-shadow: 1px 1px 2px #24252a;
+      background-color: #1a7196;
+      text-align: center;
+    }
+
+
     .fundo03 {
         height: 40vh;
         width: 100vw;
         margin-top: 80px;
         display: flex;
-        justify-content: center;
-        
+        justify-content: center; 
     }
-    
-   
+
     /*CAROSEL */
     .wrapper i {
         top: 50%;
@@ -452,7 +467,7 @@
         display: block;
         justify-content: center;
         text-align: center;
-       
+        
         
     }
     .roda_pe .contatos  {
@@ -494,4 +509,4 @@
     .sobre_nos-mobile p {
         margin-top: 10px;
     }
-}
+    }

@@ -94,7 +94,7 @@ header {
 }
 
 .fundo01 {
-    height: 5200px;
+    height: 5350px;
     width: 100vw;
   
     margin-top: 80px;
@@ -112,8 +112,11 @@ header {
 }
 .catalogos .pdf-catalogo {
     height: 400px;
-    margin: 5px;
+    margin: 10px;
+    margin-top: 15px;
 }
+
+
 .catalogos h3 {
     color: #fff;
     text-shadow: 1px 1px 2px #24252a;
@@ -208,7 +211,7 @@ header {
   }
   .carousel .card .img {
     cursor: pointer;
-    background: #8B53FF;
+    background: #fff;
     height: 125px;
     width: 125px;
     border-radius: 50%;
