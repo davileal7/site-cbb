@@ -1,0 +1,497 @@
+/* RESPONSIVE DESIGN */
+
+/* I-FONE - CELULAR DEITADO */
+
+/* MEU - CELULAR DEITADO */
+@media(max-width: 1000px) {
+
+    .menu {
+        display: flex;
+        list-style: none;
+        gap: .1rem;
+    }
+    .menu li {
+        display: block;
+        padding: .0rem;
+    }
+    .menu span {
+      font-size: 15px;
+    }
+    .logo-cbb {
+      height: 20px;
+      width: 150px;
+    }
+    .fundo01 {
+        height: 50vh;
+        width: 100vw;
+        margin-top: 80px;
+        background-image: url('../imagens/mulher_sorrindo_sem\ fundo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        background-color: rgb(154, 16, 105);
+    }
+
+    .fundo01 .titulo01,
+    .fundo02 .titulo02 {
+        color: #ffff;
+        text-shadow: 1px 1px 2px black;
+        font-size: 2.5em;
+        text-align: right;
+        margin-right: 5px;
+    }
+    .titulo01 h1,
+    .titulo02 h1 {
+        font-size: 35px;
+    }
+    .titulo01 h2, 
+    .titulo02 h2 {
+        font-size: 25px;
+    }
+    .titulo01 p, 
+    .titulo02 p {
+        font-size: 18px;
+    }
+    .fundo02 {
+        height: 50vh;
+        width: 100vw;
+        margin-top: 80px;
+        background-image: url('../imagens/cartaz06-removebg-preview.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: rgb(132, 188, 192);  
+    }
+    .fundo03 {
+        height: 50vh;
+        width: 100vw;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        
+        background-color: rgb(178, 172, 120); 
+    }
+    
+   
+    /*CAROSEL */
+    .wrapper {
+        max-width: 700px;
+        width: 100%;
+        position: relative;
+      }
+      .wrapper i {
+        top: 50%;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        font-size: 2.25rem;
+        position: absolute;
+        text-align: center;
+        line-height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+        transform: translateY(-50%);
+        transition: transform 0.1s linear;
+      }
+      .wrapper i:active{
+        transform: translateY(-50%) scale(0.85);
+      }
+      .wrapper i:first-child{
+        left: -15px;
+      }
+      .wrapper i:last-child{
+        right: -15px;
+      }
+      .wrapper .carousel{
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 4) - 20px);
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 26px;
+        border-radius: 8px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+      }
+      .carousel::-webkit-scrollbar {
+        display: none;
+      }
+      .carousel.no-transition {
+        scroll-behavior: auto;
+      }
+      .carousel.dragging {
+        scroll-snap-type: none;
+        scroll-behavior: auto;
+      }
+      .carousel.dragging .card {
+        cursor: grab;
+        user-select: none;
+      }
+      .carousel :where(.card, .img) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .carousel .card {
+        scroll-snap-align: start;
+        height: 200px;
+        list-style: none;
+        padding-bottom: 15px;
+        flex-direction: column;
+        border-radius: 8px;
+      }
+      .carousel .card .img {
+        cursor: pointer;
+        background: #8B53FF;
+        height: 85px;
+        width: 85px;
+        border-radius: 50%;
+      }
+      .card .img img {
+        cursor: pointer;
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #fff;
+      }
+      .carousel .card h2 {
+        font-weight: 500;
+        font-size: 1.10rem;
+        margin: 10px 0 5px;
+        color: #fff;
+      }
+      .carousel .card span {
+        color: #6A6D78;
+        font-size: 1.31rem;
+      }
+
+      
+      .roda_pe {
+        margin-top: 80px;
+        height: 160vh;
+        width: 100vw;
+        background-color: #ECECEE;
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .roda_pe .contatos  {
+        padding:  30px;
+    }
+    .roda_pe h3 {
+        font-size: 18px;
+        color: goldenrod;
+    }
+    .siga_nos {
+        font-size: 18px;
+        color: goldenrod;
+    }
+    .roda_pe .contatos {
+        margin-left: 0px;
+    }
+    .roda_pe .contatos li {
+        list-style: none;
+        margin-top:10px;
+        margin-left: 10px;
+    }
+    .redes_sociais a li {
+        position: relative;
+        left: 320px;
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    .sobre_nos  {
+        display: none;
+    }
+    .roda_pe .sobre_nos-mobile {
+        margin-top: 30px;
+    }
+    .sobre_nos-mobile {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sobre_nos-mobile p {
+      font-weight: 400;
+        margin-top: 10px;
+        margin: 10px;
+        padding: 1px;
+    }
+}
+
+
+
+/* CELULAR RETO--------------------------------------------------------------------------------------------- */
+@media (max-width: 730px) {
+
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap:  .5rem;
+    }
+    #hamburguer {
+        display: block;
+        border-top: 3px solid;
+        width: 20px;
+    }
+    #hamburguer::after, #hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    .nav.active #hamburguer {
+        border-top-color: transparent;
+    }
+    .nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+    .nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    .menu {
+       display: block;
+       position: absolute;
+       background-color: #ECECEE;
+       box-shadow: 0px 3px 10px #464646;
+       width: 100%;
+       top: 100px;
+       right: 0px;
+       height: 0px;
+       transition: .2s;
+       visibility: hidden;
+       overflow-y: hidden;
+    }
+    .nav.active .menu {
+        height: 330px;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    .menu li {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        text-align: center;
+    }
+    .menu span {
+      font-size: 18px;
+    }
+    .logo-cbb {
+      height: 25px;
+      width: 250px;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 1.15rem;
+        color: #303030;
+        font-weight: 400;
+    
+        position: relative;
+        transition: all 0.4s;
+    }
+    .nav-link:hover {
+        color: #fff;
+    }
+    .nav-link::after {
+        bottom: 0px;
+    }
+    .nav-item:hover {
+        background-color: rgb(7, 139, 139);
+    }
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: black;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open {
+        display: block;
+    }
+    .fundo01 {
+        height: 75vh;
+        width: 100vw;
+        margin-top: 80px;
+        background-image: url('../imagens/mulher_sorrindo_sem\ fundo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: rgb(132, 188, 192);
+    }
+    .fundo01 .titulo01,
+    .fundo02 .titulo02 {
+        color: #ffff;
+        text-shadow: 1px 1px 2px #24252a;
+        font-size: 2.5em;
+        text-align: center;
+        
+        display: block;
+        position: relative;
+        top: 300px;
+    }
+    .titulo01 h1,
+    .titulo02 h1 {
+        font-size: 35px;
+    }
+    .titulo01 h2, 
+    .titulo02 h2 {
+        font-size: 25px;
+    }
+    .titulo01 p, 
+    .titulo02 p {
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .fundo02 {
+        height: 75vh;
+        width: 100vw;
+        margin-top: 80px;
+        background-image: url('../imagens/cartaz06-removebg-preview.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: rgb(132, 188, 192);   
+    }
+  
+  
+    .fundo03 {
+        height: 40vh;
+        width: 100vw;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+   
+    /*CAROSEL */
+    .wrapper i {
+        top: 50%;
+        height: 35px;
+        width: 35px;
+        cursor: pointer;
+        font-size: 2rem;
+        position: absolute;
+        text-align: center;
+        line-height: 35px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+        transform: translateY(-50%);
+        transition: transform 0.1s linear;
+      }
+      .carousel .card {
+        scroll-snap-align: start;
+        height: 315px;
+        list-style: none;
+        padding-bottom: 15px;
+        flex-direction: column;
+        border-radius: 8px;
+      }
+      .carousel .card .img {
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+      }
+      .card .img img {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #fff;
+      }
+      .carousel .card h2 {
+        position: relative;
+        top: 0px;
+        font-weight: 500;
+        font-size: 1.56rem;
+        margin: 30px 0 5px;
+        color: #fff;
+      }
+      .wrapper i:first-child{
+        left: 20px;
+      }
+      .wrapper i:last-child{
+        right: 30px;
+      }
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+      }
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+      }
+
+
+    .roda_pe {
+        margin-top: 80px;
+        height: 115vh;
+        width: 100vw;
+        background-color: #ECECEE;
+        display: block;
+        justify-content: center;
+        text-align: center;
+       
+        
+    }
+    .roda_pe .contatos  {
+        padding:  30px;
+    }
+    .roda_pe h3 {
+        font-size: 20px;
+        color: goldenrod;
+    }
+    .siga_nos {
+        color: goldenrod;
+    }
+    .roda_pe .contatos {
+        margin-left: 0px;
+    }
+    .roda_pe .contatos li {
+        list-style: none;
+        margin-top:10px;
+        margin-left: 10px;
+    }
+    .redes_sociais a li {
+        position: relative;
+        left: 140px;
+        list-style: none;
+        margin-top: 10px;
+    }
+    .sobre_nos  {
+        display: none;
+    }
+    .roda_pe .sobre_nos-mobile {
+        margin-top: 30px;
+    }
+    .sobre_nos-mobile {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sobre_nos-mobile p {
+        margin-top: 10px;
+    }
+}
