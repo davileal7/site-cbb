@@ -67,8 +67,7 @@
         margin-top: 80px;
         display: flex;
         justify-content: center;
-        
-        background-color: rgb(178, 172, 120); 
+      
     }
     
    
@@ -142,7 +141,7 @@
       }
       .carousel .card .img {
         cursor: pointer;
-        background: #8B53FF;
+        background: #fff;
         height: 85px;
         width: 85px;
         border-radius: 50%;
@@ -353,8 +352,14 @@
         justify-content: right;
         align-items: center;
   }
-  
-    
+
+  .container-img01-mobile {
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+
+    margin-top: 80px;
+}
     .fundo01 {
       height: 30vh;
       width: 100vw;
@@ -364,6 +369,7 @@
       align-items: center;
       background-color: #ECECEE;
     }
+    
     .fundo01 .titulo01 {
         color: #ffff;
         text-shadow: 1px 1px 2px #24252a;
@@ -394,8 +400,6 @@
         margin-top: 5px;
         font-size: 13px;
     }
-
-
 
 
     .fundo02 {
