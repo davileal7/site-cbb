@@ -15,7 +15,7 @@
         padding: .0rem;
     }
     .menu span {
-      font-size: 13.8px;
+      font-size: 13.5px;
     }
     .logo-cbb {
       height: 20px;
@@ -24,11 +24,25 @@
 
 
     .container00 {
+      display: none;
+    }
+
+    .container-img01-mobile  {
+      display: flex;
       margin-top: 80px;
+      justify-content: center;
+      align-items: center;
       height: 50vh;
       width: 100vw;
-      
-  }
+      background-color: #ECECEE;
+    }
+    .img-topo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      width: 100vw;
+    }
     .fundo01 {
         height: 50vh;
         width: 100vw;
@@ -349,37 +363,21 @@
     }
 
    
-    .container-mobile {
-        height: 55vh;
-        width: 100vw;
-        margin-top: 40px;
-        background-color: #fff;
+    .container-img01-mobile  {
+      display: flex;
 
-        margin-top: 80px;
-        background-image: url('/imagens/img-cbb02.jpg');
-        
-        background-size: contain;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: right;
-        align-items: center;
-  }
-
-  .container-img01-mobile  {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    height: 25vh;
-    width: 100vw;
-    background-color: #ECECEE;
-}
-.img-topo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 150px;
-}
+      justify-content: center;
+      align-items: center;
+      height: 25vh;
+      width: 100vw;
+      background-color: #0f0fdf;
+    }
+    .img-topo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+    }
     .fundo01 {
       height: 30vh;
       width: 100vw;
