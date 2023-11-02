@@ -333,21 +333,27 @@
         display: block;
     }
 
+    .container00 {
+      display: none;
+    }
 
-    .container00  {
-      margin-top: 80px;
-      height: 30vh;
-      width: 100vw;
-    }
-    
-    .container-imagem {
-        background: rgba(0,0,0,0.35) url('/img-cbb-topo/04-topo.jpg');
-        height: 20vh;
-        width: 100vw;
-        background-size: cover;
-        
-    }
    
+    .container-mobile {
+        height: 25vh;
+        width: 100vw;
+        margin-top: 40px;
+        background-color: #fff;
+
+        margin-top: 80px;
+        background-image: url('/img-cbb-topo/04-topo.jpg');
+        
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+  }
+  
     
     .fundo01 {
       height: 30vh;
@@ -388,12 +394,17 @@
         margin-top: 5px;
         font-size: 13px;
     }
+
+
+
+
     .fundo02 {
         height: 55vh;
         width: 100vw;
         margin-top: 40px;
         background-color: #fff;
       }
+
       .container02 {
         height: 30vh;
         width: 100vw;
