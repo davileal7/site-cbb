@@ -15,12 +15,20 @@
         padding: .0rem;
     }
     .menu span {
-      font-size: 15px;
+      font-size: 13.8px;
     }
     .logo-cbb {
       height: 20px;
       width: 150px;
     }
+
+
+    .container00 {
+      margin-top: 80px;
+      height: 50vh;
+      width: 100vw;
+      
+  }
     .fundo01 {
         height: 50vh;
         width: 100vw;
@@ -29,28 +37,31 @@
         background-size: contain;
         background-repeat: no-repeat;
 
-        background-color: rgb(154, 16, 105);
+        background-color: #ECECEE;
     }
 
-    .fundo01 .titulo01,
-    .fundo02 .titulo02 {
+    .fundo01 .titulo01 {
         color: #ffff;
         text-shadow: 1px 1px 2px black;
         font-size: 2.5em;
-        text-align: right;
-        margin-right: 5px;
+        text-align: center;
+        margin-right: 0px;
     }
-    .titulo01 h1,
-    .titulo02 h1 {
-        font-size: 35px;
-    }
+    .fundo02 .titulo02 {
+      color: #ffff;
+      text-shadow: 1px 1px 2px black;
+      font-size: 2.5em;
+      text-align: right;
+      margin-right: 10px;
+  }
+   
     .titulo01 h2, 
     .titulo02 h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .titulo01 p, 
     .titulo02 p {
-        font-size: 18px;
+        font-size: 15px;
     }
     .fundo02 {
         height: 50vh;
@@ -59,6 +70,7 @@
         
         background-size: contain;
         background-repeat: no-repeat;
+        
       
     }
     .fundo03 {
@@ -353,12 +365,20 @@
         align-items: center;
   }
 
-  .container-img01-mobile {
+  .container-img01-mobile  {
     display: flex;
-    height: 20vh;
-    width: 100vw;
 
-    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 100vw;
+    background-color: #ECECEE;
+}
+.img-topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
 }
     .fundo01 {
       height: 30vh;
