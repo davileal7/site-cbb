@@ -81,20 +81,21 @@ header {
     margin-top: 80px;
     height: 50vh;
     width: 100vw;
+    
 }
 .container-imagem {
-    background: rgba(0,0,0,0.35) url('/img-cbb-topo/04-topo.jpg');
-    height: 50vh;
+    background: url('/img-cbb-topo/04-topo.jpg');
+    height: 100vh;
     width: 100vw;
-    background-size: cover;
-    background-blend-mode: darken;
+    background-size: contain;
+    
 }
 
 
 .fundo01 {
     height: 50vh;
     width: 100vw;
-    margin-top: 80px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
