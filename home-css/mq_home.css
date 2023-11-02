@@ -339,13 +339,13 @@
 
    
     .container-mobile {
-        height: 25vh;
+        height: 55vh;
         width: 100vw;
         margin-top: 40px;
         background-color: #fff;
 
         margin-top: 80px;
-        background-image: url('/img-cbb-topo/04-topo.jpg');
+        background-image: url('/imagens/img-cbb02.jpg');
         
         background-size: contain;
         background-repeat: no-repeat;
