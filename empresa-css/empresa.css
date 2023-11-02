@@ -72,66 +72,36 @@ header {
 .nav-link:hover::after {
     opacity: 1;
 }
-
-.container02 {
-    display: none;
-}
-
 .container00 {
     margin-top: 80px;
     height: 50vh;
     width: 100vw;
 }
 .container-imagem {
-    background: rgba(0,0,0,0.35) url('/img-cbb-topo/04-topo.jpg');
+    background: rgba(0,0,0,0.35) url('/img-cbb-topo/03-topo.jpg');
     height: 50vh;
     width: 100vw;
     background-size: cover;
     background-blend-mode: darken;
 }
+.container00 h2,
+.container00  p {
+    margin-right: 100px;
+}
 
-
-.fundo01 {
-    height: 50vh;
-    width: 100vw;
+.container03 {
     margin-top: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ECECEE;
-}
-.fundo01 .titulo01 {
-    color: #ffff;
-    text-shadow: 1px 1px 2px #24252a;
-    font-size: 2.5em;
-    text-align: center;
-
-    background-color: #5b8999;
-    border-radius: 150px;
-    width: 55vw;
 }
 
-.fundo01 .titulo01 h2,
-.fundo02 .titulo02 h2{
-    color: #FF9700;
-}
-.fundo02 .titulo02 {
-    color: #ffff;
-    text-shadow: 1px 1px 2px #24252a;
-    font-size: 2.5em;
-    text-align: right;
-    margin-right: 150px;
-}
-
-.titulo01 p,
-.titulo02 p {
-    margin-top: 10px;
-    font-size: 24px;
-}
-.fundo02 {
-    height: 50vh;
-    width: 100vw;
+.container04,
+.container05 {
     margin-top: 80px;
+}
+.container03,
+.container04,
+.container05 {
+    height: 55vh;
+    width: 100vw;
     background-color: #5b8999;
     
     background-size: contain;
@@ -140,9 +110,41 @@ header {
     justify-content: right;
     align-items: center;
 }
-.fundo02 {
-    background-image: url('../imagens/img-cbb01.jpg');
+
+
+.container00 .container-imagem h2,
+.container03 .container-text h2,
+.container04 .container-text h2,
+.container05 .container-text h2{
+    color: #FF9700;
 }
+.container00 .container-imagem,
+.container03 .container-text,
+.container04 .container-text,
+.container05 .container-text {
+    color: #ffff;
+    text-shadow: 1px 1px 2px #24252a;
+    font-size: 2.5em;
+    text-align: right;
+    margin-right: 150px;
+
+}
+.container-imagem p,
+.container-text p {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.container03 {
+    background-image: url('../imagens/img-cbb02.jpg');
+}
+.container04 {
+    background-image: url('../imagens/img-cbb03.jpg');
+}
+.container05 {
+    background-image: url('../imagens/img-cbb04.jpg');
+}
+
 
 .fundo03 {
     margin-top: 80px;

@@ -29,7 +29,7 @@
         background-size: contain;
         background-repeat: no-repeat;
 
-        background-color: rgb(154, 16, 105);
+       
     }
 
     .fundo01 .titulo01,
@@ -347,49 +347,42 @@
       color: #ffff;
       text-shadow: 1px 1px 2px #24252a;
       font-size: 2.5em;
-      text-align: center;
+      text-align: right;
       margin-right: 5px;
-      display: block;
-      position: relative;
-      top: 300px;
     }
     .titulo00 h1 {
       font-size: 35px;
     }
     .titulo00 p {
       margin-top: 5px;
-      font-size: 15px;
+      font-size: 16px;
     }
 
-    .fundo01 {
-      height: 5350px;
-      width: 100vw;
-      margin-top: 80px;
-      background-color: #ECECEE;
-
-      
-      
-    }
-
+    .fundo01,
     .catalogos {
-      display: block;
+      display: none;
     }
-
-
-    .catalogos .pdf-catalogo {
-      height: 200px;
-      
-     
-      
-      margin-top: 35px;
-    }
-    
-    .catalogos h3 {
+    .catalogos-mobile h3 {
       color: #fff;
       font-size: 15px;
       text-shadow: 1px 1px 2px #24252a;
       background-color: #1a7196;
       text-align: center;
+      width: 200px;
+    }
+
+    .fundo01-mobile,
+    .catalogos-mobile {
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+   .catalogos-mobile img {
+        height: 400px;
+        width: 300px;
+      
     }
 
 
