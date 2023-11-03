@@ -30,6 +30,7 @@ header {
     height: 40px;
     width: 300px;
 }
+
 .menu {
     display: flex;
     list-style: none;
@@ -72,93 +73,99 @@ header {
     opacity: 1;
 }
 
-.fundo01 {
-    height: 60vh;
+.container02 {
+    display: none;
+}
+
+.container-img01-mobile {
+    display: none;
+}
+.container00 {
+    margin-top: 80px;
+    height: 50vh;
+    width: 100vw;
+}
+
+.container-imagem img {
+    height: 50vh;
+    width: 100vw;
+}
+.container-mobile {
+    display: none;
+}
+.container01-mobile {
+    display: none;
+}
+
+
+.container01 {
+    height: 50vh;
     width: 100vw;
     margin-top: 80px;
-    background-image: url('../imagens/reg_atendidas/img_03.png');
+    background-color: #ECECEE;
+    
     background-size: contain;
     background-repeat: no-repeat;
-
-    background-color: #ECECEE;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
-.fundo01 .titulo01,
-.fundo02 .titulo02 {
-    color: #53555e;
+.container01 {
+    background-image: url('/imagens/reg_atendidas/img_03.png');
+}
+
+.container01 .text01 h2{
+    color: #FF9700;
+}
+.container01 .text01 {
+    color: #24252a;
     font-size: 2.5em;
     text-align: right;
     margin-right: 150px;
 }
-.titulo01 p {
-    margin-top: 5px;
-    font-size: 20px;
+.text01 p {
+    margin-top: 10px;
+    font-size: 24px;
 }
+.container03 {
+    margin-top: 80px;
+    height: 50vh;
 
-.container-mapa {
-    height: 100vh;
-    width: 100vw;
-    background-color: #303030;
-    margin-top: 80px;
-}
-.mapa img {
-    height: 100vh;
-    width: 100vw;
-}
-.fundo02 {
-    height: 40vh;
-    width: 100vw;
-    margin-top: 80px;
+    background-color: #5b8999;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    background-color: #ECECEE;    
 }
-
-.fundo02 .regioes  {
-    margin-top: 5px;
-    color: #53555e;
+ .text03 ul  {
+    display: flex;
+    
+}
+.text03 li {
     list-style: none;
-    text-decoration: none;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
+    margin: 50px;
 }
-select {
-    width: 100px;
-    border-radius: 5px;
+.text03 button {
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
 }
-.regioes li{
-    margin-top: 15px;
+.text03 button:hover {
+    background-color: #FF9700;
+    color: #fff;
+    scale: 1.1;
+    transition: 1s;
 }
-.regioes label {
-    font-size: 25px;
-}
-.regioes a {
-    text-decoration: none;
-    color: #53555e;
-}
-.fundo03 {
-    height: 60vh;
-    width: 100vw;
-    margin-top: 80px;
 
-    background-color: #ECECEE;  
-}
-.fundo03 .mapa {
-    width: 100vw;
-}
-.fundo04 {
+
+.fundo03 {
     margin-top: 80px;
     height: 60vh;
     width: 100vw;
+    background-color:  #ECECEE;  
     display: flex;
-    justify-content: center;
-    
-    background-color: rgb(178, 172, 120); 
+    justify-content: center;  
 }
 
 /*CAROSEL */
@@ -244,7 +251,7 @@ select {
     object-fit: cover;
     border: 4px solid #fff;
   }
-  
+ 
 /* FIM - CAROSEL */
 
 .roda_pe {
@@ -266,7 +273,6 @@ select {
     font-size: 22px;
     color: goldenrod;
 }
-
 .ion_insta {
     font-size: 25px;
     color: #e958c9;
@@ -306,7 +312,7 @@ select {
     padding: 2px;
 }
 .redes_sociais a {
-    color: #303030;
+    color: #24252a;
     text-decoration: none;    
 }
 .redes_sociais h3,

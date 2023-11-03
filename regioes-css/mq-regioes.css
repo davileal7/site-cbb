@@ -362,7 +362,6 @@
       display: none;
     }
 
-   
     .container-img01-mobile  {
       display: flex;
 
@@ -378,72 +377,83 @@
       align-items: center;
       height: 200px;
     }
-    .fundo01 {
+
+    .container01 {
       height: 30vh;
       width: 100vw;
       margin-top: 80px;
+      background-color: #ECECEE;
+      
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container01 {
+        background-image: url('/imagens/reg_atendidas/img_03.png');
+    }
+    
+    .container01-mobile .container-text-01-mobile h2{
+        color: #FF9700;
+    }
+    
+    .container-text-01-mobile h2 {
+        margin-top: 5px;
+    }
+
+    .container01 .text01 {
+        display: none;
+    }
+    .container-text-01-mobile p,
+    .text01 p {
+        margin-top: 5px;
+        font-size: 12.5px;
+    }
+    .container01-mobile {
+      height: 30vh;
+      width: 100vw;
+      margin-top: 40px;
       display: flex;
       justify-content: center;
       align-items: center;
       background-color: #ECECEE;
-    }
-    
-    .fundo01 .titulo01 {
-        color: #ffff;
-        text-shadow: 1px 1px 2px #24252a;
-        text-align: center;
-        background-color: #5b8999;
-        border-radius: 100px;
-        width: 90vw;
-    }
-    .titulo01 h2,
-    .container-text-02 h2 {
-        margin-top: 5px;
+    } 
+    .container01-mobile .container-text-01-mobile {
+      color: #ffff;
+      text-shadow: 1px 1px 2px #24252a;
+      text-align: center;
+      background-color: #5b8999;
+      border-radius: 100px;
+      width: 100vw;
     }
 
-    .fundo01 .titulo01 h2,
-    .fundo02 .titulo02 h2,
-    .container-text-02 h2{
-        color: #FF9700;
-        font-size: 22px;
-    }
-
-
-    .fundo02 .titulo02 {
-        display: none;
-    }
-    .container-text-02 p,
-    .titulo01 p,
-    .titulo02 p {
-        margin-top: 5px;
-        font-size: 13.9px;
-    }
-
-
-    .fundo02 {
-        height: 55vh;
-        width: 100vw;
-        margin-top: 40px;
-        background-color: #fff;
-      }
-
-      .container02 {
-        height: 30vh;
-        width: 100vw;
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #ECECEE;
-      } 
-      .container02 .container-text-02 {
-        color: #ffff;
-        text-shadow: 1px 1px 2px #24252a;
-        text-align: center;
-        background-color: #5b8999;
-        border-radius: 100px;
-        width: 100vw;
-      }
+    .container03 {
+      margin-top: 80px;
+      height: 45vh;
+      width: 100vw;
+  
+      background-color: #5b8999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+   .text03 ul  {
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .text03 li {
+      list-style: none;
+      margin: 10px;
+  }
+  .text03 button {
+      cursor: pointer;
+      font-size: 18px;
+      height: 40px;
+      width: 170px;
+      border-radius: 50px;
+  }
 
 
     .fundo03 {

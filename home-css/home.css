@@ -84,16 +84,12 @@ header {
     margin-top: 80px;
     height: 50vh;
     width: 100vw;
-    
-}
-.container-imagem {
-    background: url('/img-cbb-topo/04-topo.jpg');
-    height: 100vh;
-    width: 100vw;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
+.container-imagem img {
+    height: 50vh;
+    width: 100vw;
+}
 .container-mobile {
     display: none;
 }
