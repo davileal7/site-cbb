@@ -72,61 +72,65 @@ header {
 .nav-link:hover::after {
     opacity: 1;
 }
+
+.container00 {
+    margin-top: 80px;
+    height: 50vh;
+    width: 100vw;
+}
+.container-imagem img {
+    height: 50vh;
+    width: 100vw;
+}
+
 .fundo00-mobile {
     display: none;
 }
-.fundo00 {
+.container01 {
     height: 60vh;
     width: 100vw;
     margin-top: 80px;
-    background-color: rgb(132, 188, 192);
+    background-color:  #ECECEE;
     background-image: url('../imagens/cartaz06-removebg-preview.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
-.fundo00 .titulo00 {
-    color: #ffff;
-    text-shadow: 1px 1px 2px #24252a;
+.container01 .text01 {
+    color: #24252a;
     font-size: 2.5em;
     text-align: right;
     margin-right: 150px;
 }
-.titulo00 p {
+.text01 h2 {
+    color: #FF9700;
+}
+.text01 p {
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
-.fundo01 {
-    height: 5350px;
+.container02 {
+    background-color: #e958c9;
+    height: 1950px;
     width: 100vw;
-  
     margin-top: 80px;
-    background-color: #ECECEE;
-    
+    border: 1px solid black;
 }
-
-.catalogos {
+.container-catalogos {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
+}
+.container-catalogos img {
+    height: 300px;
+    width: 200px;
+    box-shadow: 1px 2px 2px black;
+    margin: 20px;
+}
+.container-catalogos span {
     
-    width: 100vw;
-    margin-top: 20px;
 }
-.catalogos .pdf-catalogo {
-    height: 400px;
-    margin: 10px;
-    margin-top: 15px;
-}
-
-
-.catalogos h3 {
-    color: #fff;
-    text-shadow: 1px 1px 2px #24252a;
-    background-color: #1a7196;
-    text-align: center;
-}
-
 
 
 
