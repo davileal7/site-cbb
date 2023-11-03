@@ -66,16 +66,16 @@
       text-shadow: 1px 1px 2px black;
       font-size: 2.5em;
       text-align: right;
-      margin-right: 10px;
+      margin-right: 25px;
   }
    
     .titulo01 h2, 
     .titulo02 h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
     .titulo01 p, 
     .titulo02 p {
-        font-size: 15px;
+        font-size: 15.5px;
     }
     .fundo02 {
         height: 50vh;

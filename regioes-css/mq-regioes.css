@@ -43,50 +43,62 @@
       height: 200px;
       width: 100vw;
     }
-    .fundo01 {
-        height: 50vh;
-        width: 100vw;
-        margin-top: 80px;
-       
-        background-size: contain;
-        background-repeat: no-repeat;
-
-        background-color: #ECECEE;
+    
+    .container01 {
+      height: 50vh;
+      width: 100vw;
+      margin-top: 80px;
+      background-color: #ECECEE;
+      
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: right;
+      align-items: center;
     }
-
-    .fundo01 .titulo01 {
-        color: #ffff;
-        text-shadow: 1px 1px 2px black;
-        font-size: 2.5em;
-        text-align: center;
-        margin-right: 0px;
-    }
-    .fundo02 .titulo02 {
-      color: #ffff;
-      text-shadow: 1px 1px 2px black;
+    .container01 .text01 {
+      color: #24252a;
       font-size: 2.5em;
       text-align: right;
-      margin-right: 10px;
+      margin-right: 25px;
+    }
+    .text01 h2 {
+      font-size: 25px;
+    }
+    .text01 p {
+        margin-top: 10px;
+        font-size: 15.5px;
+    }
+
+    .container03 {
+      margin-top: 80px;
+      height: 45vh;
+      width: 100vw;
+  
+      background-color: #5b8999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
-   
-    .titulo01 h2, 
-    .titulo02 h2 {
-        font-size: 20px;
-    }
-    .titulo01 p, 
-    .titulo02 p {
-        font-size: 15px;
-    }
-    .fundo02 {
-        height: 50vh;
-        width: 100vw;
-        margin-top: 80px;
-        
-        background-size: contain;
-        background-repeat: no-repeat;
-        
+   .text03 ul  {
+      display: flex;
+      flex-direction: row;
       
-    }
+  }
+  .text03 li {
+      list-style: none;
+      margin: 7px;
+  }
+  .text03 button {
+      cursor: pointer;
+      font-size: 16px;
+      height: 40px;
+      width: 130px;
+      border-radius: 50px;
+  }
+
+
+
     .fundo03 {
         height: 50vh;
         width: 100vw;
@@ -379,19 +391,19 @@
     }
 
     .container01 {
-      height: 30vh;
-      width: 100vw;
-      margin-top: 80px;
-      background-color: #ECECEE;
-      
-      background-size: contain;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      display: none;
     }
     .container01 {
         background-image: url('/imagens/reg_atendidas/img_03.png');
+    }
+    .img-mobile {
+      background-color: #ECECEE;
+      margin-top: 80px;
+      height: 30vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     
     .container01-mobile .container-text-01-mobile h2{

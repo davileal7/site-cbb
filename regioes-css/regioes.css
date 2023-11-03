@@ -97,6 +97,10 @@ header {
     display: none;
 }
 
+.img-mobile {
+    display: none;
+}
+
 
 .container01 {
     height: 50vh;
