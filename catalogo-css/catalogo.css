@@ -72,13 +72,13 @@ header {
 .nav-link:hover::after {
     opacity: 1;
 }
+
 .container-mobile {
     display: none;
 }
 .container-img01-mobile {
     display: none;
 }
-
 .container00 {
     margin-top: 80px;
     height: 45vh;
@@ -88,6 +88,7 @@ header {
     height: 45vh;
     width: 100vw;
 }
+
 
 
 .container01 {
@@ -147,7 +148,7 @@ header {
     margin-top: 80px;
     height: 60vh;
     width: 100vw;
-    background-color:  rgb(178, 172, 120);  
+    
     display: flex;
     justify-content: center;  
 }

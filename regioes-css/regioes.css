@@ -75,7 +75,16 @@ header {
 .container02 {
     display: none;
 }
+.container01-mobile {
+    display: none;
+}
+.img-mobile {
+    display: none;
+}
 .container-img01-mobile {
+    display: none;
+}
+.container-mobile {
     display: none;
 }
 .container00 {
@@ -87,13 +96,8 @@ header {
     height: 45vh;
     width: 100vw;
 }
-.container-mobile {
-    display: none;
-}
-.container01-mobile {
-    display: none;
-}
-.img-mobile {
+
+.img-mapa-deitado {
     display: none;
 }
 .container01 {
@@ -107,10 +111,10 @@ header {
     display: flex;
     justify-content: right;
     align-items: center;
-}
-.container01 {
+
     background-image: url('/imagens/reg_atendidas/img_03.png');
 }
+
 .container01 .text01 h2{
     color: #FF9700;
 }

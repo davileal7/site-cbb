@@ -43,7 +43,10 @@
       height: 150px;
       width: 100vw;
     }
-    
+    .img-mapa-deitado  {
+      display: flex;
+      height: 50vh;    
+    }
     .container01 {
       height: 50vh;
       width: 100vw;
@@ -59,12 +62,11 @@
     .container01 .text01 {
       color: #fff;
       text-shadow: 1px 1px 2px #24252a;
-     
       text-align: right;
       margin-right: 20px;
     }
     .text01 h2 {
-      font-size: 25px;
+      font-size: 35px;
     }
     .text01 p {
         line-height: 20px;
@@ -260,6 +262,10 @@
 
 /* CELULAR RETO--------------------------------------------------------------------------------------------- */
 @media (max-width: 730px) {
+  #header {
+    position: fixed;
+    top: 0px;
+  }
 
     #btn-mobile {
         display: flex;
@@ -370,7 +376,7 @@
       display: none;
     }
     .container-img01-mobile  {
-      margin-top: 40px;
+      margin-top: 140px;
       display: flex;
 
       justify-content: center;
@@ -388,9 +394,10 @@
     .container01 {
       display: none;
     }
-    .container01 {
-        background-image: url('/imagens/reg_atendidas/img_03.png');
+    .img-mapa-deitado  {
+      display: none;    
     }
+    
     .img-mobile {
       background-color: #ECECEE;
       margin-top: 80px;
@@ -457,7 +464,7 @@
 
 
     .fundo03 {
-        height: 30vh;
+        height: 25vh;
         width: 100vw;
         margin-top: 80px;
         display: flex;
@@ -481,7 +488,7 @@
     }
     .carousel .card {
       scroll-snap-align: start;
-      height: 200px;
+      height: 175px;
       list-style: none;
       padding-bottom: 15px;
       flex-direction: column;

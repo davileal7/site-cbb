@@ -15,60 +15,88 @@
         padding: .0rem;
     }
     .menu span {
-      font-size: 15px;
+      font-size: 13.5px;
     }
     .logo-cbb {
       height: 20px;
       width: 150px;
     }
-    .fundo01 {
-        height: 50vh;
-        width: 100vw;
-        margin-top: 80px;
-        
-        background-size: contain;
-        background-repeat: no-repeat;
-
-       
+    .container00 {
+      display: none;
+    }
+    .container-img01-mobile  {
+      display: flex;
+      margin-top: 80px;
+      justify-content: center;
+      align-items: center;
+      height: 30vh;
+      width: 100vw;
+      background-color: #ECECEE;
+    }
+    .img-topo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 150px;
+      width: 100vw;
     }
 
-    .fundo01 .titulo01,
-    .fundo02 .titulo02 {
-        color: #ffff;
-        text-shadow: 1px 1px 2px black;
-        font-size: 2.5em;
+    .container01 {
+      height: 50vh;
+      width: 100vw;
+      margin-top: 80px;
+      background-color: #5b8999;
+      background-image: url('../imagens/cartaz06-removebg-preview.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+  
+      display: flex;
+      justify-content: right;
+      
+    }
+    .container01 .text01 {
+        color: #ECECEE;
+        text-shadow: 1px 1px 2px #24252a;
+      
         text-align: right;
-        margin-right: 5px;
+        margin-right: 20px;
     }
-    .titulo01 h1,
-    .titulo02 h1 {
-        font-size: 35px;
+    .text01 h2 {
+      font-size: 35px;
     }
-    .titulo01 h2, 
-    .titulo02 h2 {
-        font-size: 25px;
+    .text01 p {
+        line-height: 20px;
+        font-size: 15.5px;
     }
-    .titulo01 p, 
-    .titulo02 p {
-        font-size: 18px;
-    }
-    .fundo02 {
-        height: 50vh;
+    .container02 {
+        background-color: #5b8999;
+        height: 1280px;
         width: 100vw;
         margin-top: 80px;
-        background-image: url('../imagens/cartaz06-removebg-preview.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-color: rgb(132, 188, 192);  
+        border: 1px solid black;
     }
+    .container-catalogos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .container-catalogos img {
+        height: 150px;
+        width: 100px;
+        box-shadow: 1px 2px 2px black;
+        margin: 20px;
+    }
+    .container02-mobile {
+        display: none;
+    }
+    
     .fundo03 {
         height: 50vh;
         width: 100vw;
         margin-top: 80px;
         display: flex;
         justify-content: center;
-        
-        background-color: rgb(178, 172, 120); 
     }
     
    
@@ -142,7 +170,7 @@
       }
       .carousel .card .img {
         cursor: pointer;
-        background: #8B53FF;
+        background: #fff;
         height: 85px;
         width: 85px;
         border-radius: 50%;
@@ -227,6 +255,11 @@
 /* CELULAR RETO--------------------------------------------------------------------------------------------- */
 @media (max-width: 730px) {
 
+  #header {
+    position: fixed;
+    top: 0px;
+  }
+
     #btn-mobile {
         display: flex;
         padding: .5rem 1rem;
@@ -261,6 +294,7 @@
         transform: rotate(-135deg);
         top: -7px;
     }
+
     .menu {
        display: block;
        position: absolute;
@@ -336,7 +370,7 @@
       display: none;
     }
     .container-img01-mobile  {
-      margin-top: 40px;
+      margin-top: 140px;
       display: flex;
 
       justify-content: center;
@@ -354,7 +388,7 @@
     .container01 {
       height: 30vh;
       width: 100vw;
-      margin-top: 80px;
+      margin-top: 40px;
       background-color: #5b8999;
       background-image: none;
       background-size: contain;
@@ -380,16 +414,7 @@
     font-size: 13.2px;
   }
    
-    .img-mobile {
-      background-color: #ECECEE;
-      margin-top: 80px;
-      height: 30vh;
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
+    
 
     .container02 {
       display: none;
@@ -414,11 +439,13 @@
         margin: 30px;
     }
     .fundo03 {
-          height: 40vh;
+          height: 25vh;
           width: 100vw;
           margin-top: 80px;
           display: flex;
-          justify-content: center; 
+          justify-content: center;
+          
+          background-color: #5b8999;
       }
 
     /*CAROSEL */
@@ -439,20 +466,20 @@
       }
       .carousel .card {
         scroll-snap-align: start;
-        height: 315px;
+        height: 175px;
         list-style: none;
         padding-bottom: 15px;
         flex-direction: column;
         border-radius: 8px;
       }
       .carousel .card .img {
-        height: 170px;
-        width: 170px;
+        height: 150px;
+        width: 150px;
         border-radius: 50%;
       }
       .card .img img {
-        width: 170px;
-        height: 170px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         object-fit: cover;
         border: 4px solid #fff;
