@@ -148,7 +148,7 @@ header {
     margin-top: 80px;
     height: 60vh;
     width: 100vw;
-    
+    background-color: #ECECEE;
     display: flex;
     justify-content: center;  
 }
