@@ -402,7 +402,7 @@
     .fundo02 .titulo02 h2,
     .container-text-02 h2{
         color: #FF9700;
-        font-size: 22px;
+        font-size: 24px;
     }
     .fundo02 .titulo02 {
         display: none;
@@ -411,7 +411,7 @@
     .titulo01 p,
     .titulo02 p {
         line-height: 20px;
-        font-size: 13.2px;
+        font-size: 14px;
     }
     .fundo02 {
         height: 55vh;

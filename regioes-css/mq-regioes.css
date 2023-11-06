@@ -412,6 +412,7 @@
     }
     .container-text-01-mobile h2 {
         margin-top: 5px;
+        font-size: 24px;
     }
     .container01 .text01 {
         display: none;
@@ -419,7 +420,7 @@
     .container-text-01-mobile p,
     .text01 p {
       line-height: 20px;
-      font-size: 13.2px;
+      font-size: 14px;
     }
     .container01-mobile {
       height: 30vh;
