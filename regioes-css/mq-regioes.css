@@ -32,7 +32,7 @@
       margin-top: 80px;
       justify-content: center;
       align-items: center;
-      height: 50vh;
+      height: 30vh;
       width: 100vw;
       background-color: #ECECEE;
     }
@@ -40,7 +40,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 200px;
+      height: 150px;
       width: 100vw;
     }
     
@@ -48,7 +48,7 @@
       height: 50vh;
       width: 100vw;
       margin-top: 80px;
-      background-color: #ECECEE;
+      background-color: #5b8999;
       
       background-size: contain;
       background-repeat: no-repeat;
@@ -57,16 +57,17 @@
       align-items: center;
     }
     .container01 .text01 {
-      color: #24252a;
-      font-size: 2.5em;
+      color: #fff;
+      text-shadow: 1px 1px 2px #24252a;
+     
       text-align: right;
-      margin-right: 25px;
+      margin-right: 20px;
     }
     .text01 h2 {
       font-size: 25px;
     }
     .text01 p {
-        margin-top: 10px;
+        line-height: 20px;
         font-size: 15.5px;
     }
 
@@ -92,8 +93,8 @@
   .text03 button {
       cursor: pointer;
       font-size: 16px;
-      height: 40px;
-      width: 130px;
+      height: 35px;
+      width: 125px;
       border-radius: 50px;
   }
 
@@ -375,6 +376,7 @@
     }
 
     .container-img01-mobile  {
+      margin-top: 40px;
       display: flex;
 
       justify-content: center;
@@ -387,9 +389,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 200px;
+      height: 150px;
     }
-
     .container01 {
       display: none;
     }
@@ -405,22 +406,19 @@
       justify-content: center;
       align-items: center;
     }
-    
     .container01-mobile .container-text-01-mobile h2{
         color: #FF9700;
     }
-    
     .container-text-01-mobile h2 {
         margin-top: 5px;
     }
-
     .container01 .text01 {
         display: none;
     }
     .container-text-01-mobile p,
     .text01 p {
-        margin-top: 5px;
-        font-size: 12.5px;
+      line-height: 20px;
+      font-size: 13.2px;
     }
     .container01-mobile {
       height: 30vh;
@@ -429,17 +427,13 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #ECECEE;
+      background-color: #5b8999;
     } 
     .container01-mobile .container-text-01-mobile {
       color: #ffff;
       text-shadow: 1px 1px 2px #24252a;
       text-align: center;
-      background-color: #5b8999;
-      border-radius: 100px;
-      width: 100vw;
     }
-
     .container03 {
       margin-top: 80px;
       height: 45vh;
@@ -457,13 +451,13 @@
   }
   .text03 li {
       list-style: none;
-      margin: 10px;
+      margin: 7px;
   }
   .text03 button {
       cursor: pointer;
       font-size: 18px;
       height: 40px;
-      width: 170px;
+      width: 160px;
       border-radius: 50px;
   }
 

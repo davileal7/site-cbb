@@ -32,7 +32,7 @@
       margin-top: 80px;
       justify-content: center;
       align-items: center;
-      height: 50vh;
+      height: 30vh;
       width: 100vw;
       background-color: #ECECEE;
     }
@@ -40,18 +40,15 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 200px;
+      height: 150px;
       width: 100vw;
     }
     .fundo01 {
         height: 50vh;
         width: 100vw;
         margin-top: 80px;
-       
         background-size: contain;
         background-repeat: no-repeat;
-
-        background-color: #ECECEE;
     }
 
     .fundo01 .titulo01 {
@@ -66,7 +63,7 @@
       text-shadow: 1px 1px 2px black;
       font-size: 2.5em;
       text-align: right;
-      margin-right: 25px;
+      margin-right: 20px;
   }
    
     .titulo01 h2, 
@@ -75,6 +72,7 @@
     }
     .titulo01 p, 
     .titulo02 p {
+        line-height: 25px;
         font-size: 15.5px;
     }
     .fundo02 {
@@ -364,6 +362,7 @@
 
    
     .container-img01-mobile  {
+      margin-top: 40px;
       display: flex;
 
       justify-content: center;
@@ -376,57 +375,47 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 200px;
+      height: 150px;
     }
     .fundo01 {
       height: 30vh;
       width: 100vw;
-      margin-top: 80px;
+      margin-top: 40px;
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #ECECEE;
+      background-color: #5b8999;
     }
-    
     .fundo01 .titulo01 {
         color: #ffff;
         text-shadow: 1px 1px 2px #24252a;
         text-align: center;
-        background-color: #5b8999;
-        border-radius: 100px;
-        width: 90vw;
     }
     .titulo01 h2,
     .container-text-02 h2 {
-        margin-top: 5px;
+      line-height: 30px;
     }
-
     .fundo01 .titulo01 h2,
     .fundo02 .titulo02 h2,
     .container-text-02 h2{
         color: #FF9700;
         font-size: 22px;
     }
-
-
     .fundo02 .titulo02 {
         display: none;
     }
     .container-text-02 p,
     .titulo01 p,
     .titulo02 p {
-        margin-top: 5px;
-        font-size: 13.9px;
+        line-height: 20px;
+        font-size: 13.2px;
     }
-
-
     .fundo02 {
         height: 55vh;
         width: 100vw;
         margin-top: 40px;
         background-color: #fff;
       }
-
       .container02 {
         height: 30vh;
         width: 100vw;
@@ -434,18 +423,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #ECECEE;
+        background-color: #5b8999;
       } 
       .container02 .container-text-02 {
         color: #ffff;
         text-shadow: 1px 1px 2px #24252a;
         text-align: center;
-        background-color: #5b8999;
-        border-radius: 100px;
-        width: 100vw;
       }
-
-
     .fundo03 {
         height: 30vh;
         width: 100vw;

@@ -82,12 +82,12 @@ header {
 }
 .container00 {
     margin-top: 80px;
-    height: 50vh;
+    height: 45vh;
     width: 100vw;
 }
 
 .container-imagem img {
-    height: 50vh;
+    height: 45vh;
     width: 100vw;
 }
 .container-mobile {
@@ -108,7 +108,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ECECEE;
+    background-color: #5b8999;
 }
 .fundo01 .titulo01 {
     color: #ffff;
@@ -116,8 +116,8 @@ header {
     font-size: 2.5em;
     text-align: center;
 
-    background-color: #5b8999;
-    border-radius: 150px;
+    
+    border-radius: 100px;
     width: 55vw;
 }
 
@@ -135,7 +135,7 @@ header {
 
 .titulo01 p,
 .titulo02 p {
-    margin-top: 10px;
+    line-height: 35px;
     font-size: 24px;
 }
 .fundo02 {
