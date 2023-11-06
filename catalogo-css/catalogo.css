@@ -72,31 +72,40 @@ header {
 .nav-link:hover::after {
     opacity: 1;
 }
+.container-mobile {
+    display: none;
+}
+.container-img01-mobile {
+    display: none;
+}
 
 .container00 {
     margin-top: 80px;
-    height: 50vh;
+    height: 45vh;
     width: 100vw;
 }
 .container-imagem img {
-    height: 50vh;
+    height: 45vh;
     width: 100vw;
 }
 
-.fundo00-mobile {
-    display: none;
-}
+
 .container01 {
-    height: 60vh;
+    height: 50vh;
     width: 100vw;
     margin-top: 80px;
-    background-color:  #ECECEE;
+    background-color: #5b8999;
     background-image: url('../imagens/cartaz06-removebg-preview.png');
     background-size: contain;
     background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 .container01 .text01 {
-    color: #24252a;
+    color: #ECECEE;
+    text-shadow: 1px 1px 2px #24252a;
     font-size: 2.5em;
     text-align: right;
     margin-right: 150px;
@@ -105,13 +114,13 @@ header {
     color: #FF9700;
 }
 .text01 p {
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 24px;
 }
 
 .container02 {
-    background-color: #e958c9;
-    height: 1950px;
+    background-color: #5b8999;
+    height: 2200px;
     width: 100vw;
     margin-top: 80px;
     border: 1px solid black;
@@ -128,14 +137,9 @@ header {
     box-shadow: 1px 2px 2px black;
     margin: 20px;
 }
-.container-catalogos span {
-    
+.container02-mobile {
+    display: none;
 }
-
-
-
-
-
 
 
 

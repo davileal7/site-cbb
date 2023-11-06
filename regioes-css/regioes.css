@@ -72,11 +72,9 @@ header {
 .nav-link:hover::after {
     opacity: 1;
 }
-
 .container02 {
     display: none;
 }
-
 .container-img01-mobile {
     display: none;
 }
@@ -85,7 +83,6 @@ header {
     height: 45vh;
     width: 100vw;
 }
-
 .container-imagem img {
     height: 45vh;
     width: 100vw;
@@ -96,17 +93,14 @@ header {
 .container01-mobile {
     display: none;
 }
-
 .img-mobile {
     display: none;
 }
-
-
 .container01 {
     height: 50vh;
     width: 100vw;
     margin-top: 80px;
-    background-color: #ECECEE;
+    background-color: #5b8999;
     
     background-size: contain;
     background-repeat: no-repeat;
@@ -117,12 +111,12 @@ header {
 .container01 {
     background-image: url('/imagens/reg_atendidas/img_03.png');
 }
-
 .container01 .text01 h2{
     color: #FF9700;
 }
 .container01 .text01 {
-    color: #24252a;
+    color: #fff;
+    text-shadow: 1px 1px 2px #24252a;
     font-size: 2.5em;
     text-align: right;
     margin-right: 150px;
@@ -142,7 +136,6 @@ header {
 }
  .text03 ul  {
     display: flex;
-    
 }
 .text03 li {
     list-style: none;
@@ -161,11 +154,9 @@ header {
     scale: 1.1;
     transition: 1s;
 }
-
-
 .fundo03 {
     margin-top: 80px;
-    height: 60vh;
+    height: 50vh;
     width: 100vw;
     background-color:  #ECECEE;  
     display: flex;
@@ -234,7 +225,7 @@ header {
   }
   .carousel .card {
     scroll-snap-align: start;
-    height: 450px;
+    height: 400px;
     list-style: none;
     padding-bottom: 15px;
     flex-direction: column;

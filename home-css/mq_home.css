@@ -360,7 +360,6 @@
       display: none;
     }
 
-   
     .container-img01-mobile  {
       margin-top: 40px;
       display: flex;
@@ -431,11 +430,12 @@
         text-align: center;
       }
     .fundo03 {
-        height: 30vh;
+        height: 25vh;
         width: 100vw;
         margin-top: 80px;
         display: flex;
         justify-content: center;
+        background-color: #5b8999;
     }
     /*CAROSEL */
     .wrapper i {
@@ -455,7 +455,7 @@
     }
     .carousel .card {
       scroll-snap-align: start;
-      height: 200px;
+      height: 175px;
       list-style: none;
       padding-bottom: 15px;
       flex-direction: column;

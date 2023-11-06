@@ -80,33 +80,29 @@
       display: flex;
       justify-content: center;
       align-items: center;
-  }
-   .text03 ul  {
-      display: flex;
-      flex-direction: row;
-      
-  }
-  .text03 li {
-      list-style: none;
-      margin: 7px;
-  }
-  .text03 button {
-      cursor: pointer;
-      font-size: 16px;
-      height: 35px;
-      width: 125px;
-      border-radius: 50px;
-  }
-
-
-
+    }
+    .text03 ul  {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .text03 li {
+        list-style: none;
+        margin: 7px;
+    }
+    .text03 button {
+        cursor: pointer;
+        font-size: 16px;
+        height: 35px;
+        width: 125px;
+        border-radius: 50px;
+    }
     .fundo03 {
         height: 50vh;
         width: 100vw;
         margin-top: 80px;
         display: flex;
         justify-content: center;
-      
     }
     
    
@@ -370,11 +366,9 @@
     .open {
         display: block;
     }
-
     .container00 {
       display: none;
     }
-
     .container-img01-mobile  {
       margin-top: 40px;
       display: flex;

@@ -156,7 +156,7 @@ header {
 
 .fundo03 {
     margin-top: 80px;
-    height: 60vh;
+    height: 50vh;
     width: 100vw;
     background-color:  #ECECEE;  
     display: flex;
@@ -225,7 +225,7 @@ header {
   }
   .carousel .card {
     scroll-snap-align: start;
-    height: 450px;
+    height: 400px;
     list-style: none;
     padding-bottom: 15px;
     flex-direction: column;

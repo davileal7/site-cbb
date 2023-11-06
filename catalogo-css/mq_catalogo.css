@@ -332,67 +332,94 @@
     .open {
         display: block;
     }
-
-        
-    .fundo00 {
-      height: 75vh;
-      width: 100vw;
-      margin-top: 80px;
-      background-color: rgb(132, 188, 192);
-      background-image: url('../imagens/cartaz06-removebg-preview.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-    .fundo00 .titulo00 {
-      color: #ffff;
-      text-shadow: 1px 1px 2px #24252a;
-      font-size: 2.5em;
-      text-align: right;
-      margin-right: 5px;
-    }
-    .titulo00 h1 {
-      font-size: 35px;
-    }
-    .titulo00 p {
-      margin-top: 5px;
-      font-size: 16px;
-    }
-
-    .fundo01,
-    .catalogos {
+    .container00 {
       display: none;
     }
-    .catalogos-mobile h3 {
-      color: #fff;
-      font-size: 15px;
-      text-shadow: 1px 1px 2px #24252a;
-      background-color: #1a7196;
-      text-align: center;
-      width: 200px;
-    }
-
-    .fundo01-mobile,
-    .catalogos-mobile {
+    .container-img01-mobile  {
+      margin-top: 40px;
       display: flex;
-        flex-direction: column;
-        align-items: center;
+
+      justify-content: center;
+      align-items: center;
+      height: 25vh;
+      width: 100vw;
+      background-color: #ECECEE;
     }
-    
-
-   .catalogos-mobile img {
-        height: 400px;
-        width: 300px;
-      
+    .img-topo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 150px;
+    }
+    .container01 {
+      height: 30vh;
+      width: 100vw;
+      margin-top: 80px;
+      background-color: #5b8999;
+      background-image: none;
+      background-size: contain;
+      background-repeat: no-repeat;
+  
+      display: flex;
+      justify-content: center;
+     
+  }
+  .container01 .text01 {
+      color: #ECECEE;
+      text-shadow: 1px 1px 2px #24252a;
+      font-size: 2.5em;
+      text-align: center;
+      margin-right: 0px;
+  }
+  .text01 h2 {
+    font-size: 22px;
+    color: #FF9700;
+  }
+  .text01 p {
+    margin-top: 5px;
+    font-size: 13.2px;
+  }
+   
+    .img-mobile {
+      background-color: #ECECEE;
+      margin-top: 80px;
+      height: 30vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
 
+    .container02 {
+      display: none;
+    }
+    .container02-mobile {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #5b8999;
+    }
+    .container-catalogos-mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .container-catalogos-mobile img {
+        height: 300px;
+        width: 230px;
+        border-radius: 5px;
+        box-shadow: 1px 2px 2px black;
+        margin: 30px;
+    }
     .fundo03 {
-        height: 40vh;
-        width: 100vw;
-        margin-top: 80px;
-        display: flex;
-        justify-content: center; 
-    }
+          height: 40vh;
+          width: 100vw;
+          margin-top: 80px;
+          display: flex;
+          justify-content: center; 
+      }
 
     /*CAROSEL */
     .wrapper i {
