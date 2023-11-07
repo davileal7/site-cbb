@@ -79,6 +79,7 @@
         
         background-size: contain;
         background-repeat: no-repeat;
+        background-image: url('../imagens/img-cbb01.jpg');
         
       
     }
@@ -415,6 +416,8 @@
         width: 100vw;
         margin-top: 40px;
         background-color: #fff;
+
+        background-image: url('../imagens/img-cbb01.jpg');
       }
       .container02 {
         height: 30vh;
