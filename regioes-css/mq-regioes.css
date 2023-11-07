@@ -52,12 +52,12 @@
       width: 100vw;
       margin-top: 80px;
       background-color: #5b8999;
-      
+      background-image: url('../imagens/reg_atendidas/img_03.png');
       background-size: contain;
       background-repeat: no-repeat;
       display: flex;
       justify-content: right;
-      align-items: center;
+     
     }
     .container01 .text01 {
       color: #fff;

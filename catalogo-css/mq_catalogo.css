@@ -49,7 +49,6 @@
       background-image: url('../imagens/cartaz06-removebg-preview.png');
       background-size: contain;
       background-repeat: no-repeat;
-  
       display: flex;
       justify-content: right;
       
@@ -57,7 +56,6 @@
     .container01 .text01 {
         color: #ECECEE;
         text-shadow: 1px 1px 2px #24252a;
-      
         text-align: right;
         margin-right: 20px;
     }
@@ -313,7 +311,7 @@
        overflow-y: hidden;
     }
     .nav.active .menu {
-        height: 330px;
+        height: 290px;
         visibility: visible;
         overflow-y: auto;
     }
