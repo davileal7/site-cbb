@@ -96,7 +96,7 @@ header {
     width: 100vw;
     margin-top: 80px;
     background-color: #5b8999;
-    background-image: url('../imagens/cartaz06-removebg-preview.png');
+    background-image: url('/imagens/outras/mulher_sorrindo_sem\ fundo.png');
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -121,7 +121,7 @@ header {
 
 .container02 {
     background-color: #5b8999;
-    height: 2570px;
+    height: 2400px;
     width: 100vw;
     margin-top: 80px;
     border: 1px solid black;
@@ -133,10 +133,12 @@ header {
     margin: 20px;
 }
 .container-catalogos img {
-    height: 300px;
+    height: 200px;
     width: 200px;
     box-shadow: 1px 2px 2px black;
     margin: 20px;
+    border-radius: 100px;
+    background-color: #fff;
 }
 .container-catalogos img:hover {
     scale: 1.1;
