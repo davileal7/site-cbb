@@ -379,7 +379,7 @@
       height: 150px;
     }
     .fundo01 {
-      height: 30vh;
+      height: 50vh;
       width: 100vw;
       margin-top: 40px;
       display: flex;
@@ -491,7 +491,7 @@
     }
     .roda_pe {
       margin-top: 80px;
-      height: 115vh;
+      height: 135vh;
       width: 100vw;
       background-color: #ECECEE;
       display: block;
