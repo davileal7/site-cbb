@@ -88,7 +88,9 @@ header {
     height: 45vh;
     width: 100vw;
 }
-
+.container01-mobile {
+    display: none;
+}
 .container01 {
     height: 50vh;
     width: 100vw;

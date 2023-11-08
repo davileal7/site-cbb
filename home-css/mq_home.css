@@ -363,7 +363,7 @@
     }
 
     .container-img01-mobile  {
-      margin-top: 140px;
+      margin-top: 160px;
       display: flex;
 
       justify-content: center;
@@ -381,7 +381,7 @@
     .fundo01 {
       height: 250px;
       width: 100vw;
-      margin-top: 40px;
+      margin-top: 80px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -394,22 +394,22 @@
     }
     .titulo01 h2,
     .container-text-02 h2 {
-      line-height: 30px;
+      line-height: 40px;
     }
     .fundo01 .titulo01 h2,
     .fundo02 .titulo02 h2,
     .container-text-02 h2{
         color: #FF9700;
-        font-size: 24px;
+        font-size: 25px;
     }
     .fundo02 .titulo02 {
         display: none;
     }
-    .container-text-02 p,
     .titulo01 p,
-    .titulo02 p {
+    .titulo02 p,
+    .container-text-02 p {
         line-height: 20px;
-        font-size: 14px;
+        font-size: 15px;
     }
     .fundo02 {
         height: 400px;
@@ -420,7 +420,7 @@
         background-image: url('../imagens/img-cbb01.jpg');
       }
       .container02 {
-        height: 30vh;
+        height: 250px;
         width: 100vw;
         margin-top: 40px;
         display: flex;
@@ -491,7 +491,7 @@
     }
     .roda_pe {
       margin-top: 80px;
-      height: 750px;
+      height: 800px;
       width: 100vw;
       background-color: #ECECEE;
       display: block;

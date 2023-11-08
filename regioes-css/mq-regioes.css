@@ -266,185 +266,184 @@
     position: fixed;
     top: 0px;
   }
-
-    #btn-mobile {
-        display: flex;
-        padding: .5rem 1rem;
-        font-size: 1rem;
-        border: none;
-        background: none;
-        cursor: pointer;
-        gap:  .5rem;
-    }
-    #hamburguer {
-        display: block;
-        border-top: 3px solid;
-        width: 20px;
-    }
-    #hamburguer::after, #hamburguer::before {
-        content: '';
-        display: block;
-        width: 20px;
-        height: 2px;
-        background-color: currentColor;
-        margin-top: 5px;
-        transition: .3s;
-        position: relative;
-    }
-    .nav.active #hamburguer {
-        border-top-color: transparent;
-    }
-    .nav.active #hamburguer::before {
-        transform: rotate(135deg);
-    }
-    .nav.active #hamburguer::after {
-        transform: rotate(-135deg);
-        top: -7px;
-    }
-    .menu {
-       display: block;
-       position: absolute;
-       background-color: #ECECEE;
-       box-shadow: 0px 3px 10px #464646;
-       width: 100%;
-       top: 100px;
-       right: 0px;
-       height: 0px;
-       transition: .2s;
-       visibility: hidden;
-       overflow-y: hidden;
-    }
-    .nav.active .menu {
-        height: 290px;
-        visibility: visible;
-        overflow-y: auto;
-    }
-    .menu li {
-        padding: 1rem 0;
-        margin: 0 1rem;
-        text-align: center;
-    }
-    .menu span {
-      font-size: 19px;
-    }
-    .logo-cbb {
-      height: 25px;
-      width: 250px;
-    }
-
-    .nav-link {
-        text-decoration: none;
-        font-size: 1.15rem;
-        color: #303030;
-        font-weight: 400;
-    
-        position: relative;
-        transition: all 0.4s;
-    }
-    .nav-link:hover {
-        color: #fff;
-    }
-    .nav-link::after {
-        bottom: 0px;
-    }
-    .nav-item:hover {
-        background-color: rgb(7, 139, 139);
-    }
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        color: black;
-    }
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-    .open {
-        display: block;
-    }
-    .container00 {
-      display: none;
-    }
-    .container-img01-mobile  {
-      margin-top: 140px;
+  #btn-mobile {
       display: flex;
-
-      justify-content: center;
-      align-items: center;
-      height: 25vh;
-      width: 100vw;
+      padding: .5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      background: none;
+      cursor: pointer;
+      gap:  .5rem;
+  }
+  #hamburguer {
+      display: block;
+      border-top: 3px solid;
+      width: 20px;
+  }
+  #hamburguer::after, #hamburguer::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      background-color: currentColor;
+      margin-top: 5px;
+      transition: .3s;
+      position: relative;
+  }
+  .nav.active #hamburguer {
+      border-top-color: transparent;
+  }
+  .nav.active #hamburguer::before {
+      transform: rotate(135deg);
+  }
+  .nav.active #hamburguer::after {
+      transform: rotate(-135deg);
+      top: -7px;
+  }
+  .menu {
+      display: block;
+      position: absolute;
       background-color: #ECECEE;
-    }
-    .img-topo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 150px;
-    }
-    .container01 {
-      display: none;
-    }
-    .img-mapa-deitado  {
-      display: none;    
-    }
-    
-    .img-mobile {
-      background-color: #ECECEE;
-      margin-top: 80px;
-      height: 30vh;
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .container01-mobile .container-text-01-mobile h2{
-        color: #FF9700;
-    }
-    .container-text-01-mobile h2 {
-        margin-top: 5px;
-        font-size: 24px;
-    }
-    .container01 .text01 {
-        display: none;
-    }
-    .container-text-01-mobile p,
-    .text01 p {
-      line-height: 20px;
-      font-size: 14px;
-    }
-    .container01-mobile {
-      height: 30vh;
-      width: 100vw;
-      margin-top: 40px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #5b8999;
-    } 
-    .container01-mobile .container-text-01-mobile {
-      color: #ffff;
-      text-shadow: 1px 1px 2px #24252a;
+      box-shadow: 0px 3px 10px #464646;
+      width: 100%;
+      top: 100px;
+      right: 0px;
+      height: 0px;
+      transition: .2s;
+      visibility: hidden;
+      overflow-y: hidden;
+  }
+  .nav.active .menu {
+      height: 290px;
+      visibility: visible;
+      overflow-y: auto;
+  }
+  .menu li {
+      padding: 1rem 0;
+      margin: 0 1rem;
       text-align: center;
-    }
-    .container03 {
-      margin-top: 80px;
-      height: 45vh;
-      width: 100vw;
+  }
+  .menu span {
+    font-size: 19px;
+  }
+  .logo-cbb {
+    height: 25px;
+    width: 250px;
+  }
+
+  .nav-link {
+      text-decoration: none;
+      font-size: 1.15rem;
+      color: #303030;
+      font-weight: 400;
   
-      background-color: #5b8999;
+      position: relative;
+      transition: all 0.4s;
+  }
+  .nav-link:hover {
+      color: #fff;
+  }
+  .nav-link::after {
+      bottom: 0px;
+  }
+  .nav-item:hover {
+      background-color: rgb(7, 139, 139);
+  }
+  .nav-bar {
+      padding: 1.5rem 4rem;
+  }
+  .mobile-menu-icon button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: black;
+  }
+  .mobile-menu ul {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+  }
+  .mobile-menu .nav-item {
+      display: block;
+      padding-top: 1.2rem;
+  }
+  .open {
+      display: block;
+  }
+  .container00 {
+    display: none;
+  }
+  .container-img01-mobile  {
+    margin-top: 160px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 100vw;
+    background-color: #ECECEE;
+  }
+  .img-topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+  .container01 {
+    display: none;
+  }
+  .img-mapa-deitado  {
+    display: none;    
+  }
+    
+  .img-mobile {
+    background-color: #ECECEE;
+    margin-top: 80px;
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container01-mobile .container-text-01-mobile h2{
+      color: #FF9700;
+  }
+  .container-text-01-mobile h2 {
+      line-height: 40px;
+      font-size: 25px;
+  }
+  .container01 .text01 {
+      display: none;
+  }
+  .text01 p,
+  .container-text-01-mobile p {
+    line-height: 20px;
+    font-size: 15px;
+  }
+  .container01-mobile {
+    height: 250px;
+    width: 100vw;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5b8999;
+  } 
+  .container01-mobile .container-text-01-mobile {
+    color: #ffff;
+    text-shadow: 1px 1px 2px #24252a;
+    text-align: center;
+  }
+  .container03 {
+    margin-top: 80px;
+    height: 350px;
+    width: 100vw;
+
+    background-color: #5b8999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
    .text03 ul  {
       display: flex;
@@ -465,7 +464,7 @@
 
 
     .fundo03 {
-        height: 25vh;
+        height: 200px;
         width: 100vw;
         margin-top: 80px;
         display: flex;
@@ -489,7 +488,7 @@
     }
     .carousel .card {
       scroll-snap-align: start;
-      height: 175px;
+      height: 200px;
       list-style: none;
       padding-bottom: 15px;
       flex-direction: column;
@@ -521,7 +520,7 @@
     }
     .roda_pe {
       margin-top: 80px;
-      height: 115vh;
+      height: 800px;
       width: 100vw;
       background-color: #ECECEE;
       display: block;
