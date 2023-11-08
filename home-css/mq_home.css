@@ -247,10 +247,10 @@
 
 /* CELULAR RETO--------------------------------------------------------------------------------------------- */
 @media (max-width: 730px) {
-  #header {
-    position: fixed;
-    top: 0px;
-  }
+    #header {
+      position: fixed;
+      top: 0px;
+    }
 
     #btn-mobile {
         display: flex;
@@ -379,7 +379,7 @@
       height: 150px;
     }
     .fundo01 {
-      height: 50vh;
+      height: 250px;
       width: 100vw;
       margin-top: 40px;
       display: flex;
@@ -412,7 +412,7 @@
         font-size: 14px;
     }
     .fundo02 {
-        height: 55vh;
+        height: 400px;
         width: 100vw;
         margin-top: 40px;
         background-color: #fff;
@@ -434,7 +434,7 @@
         text-align: center;
       }
     .fundo03 {
-        height: 25vh;
+        height: 200px;
         width: 100vw;
         margin-top: 80px;
         display: flex;
@@ -459,7 +459,7 @@
     }
     .carousel .card {
       scroll-snap-align: start;
-      height: 175px;
+      height: 200px;
       list-style: none;
       padding-bottom: 15px;
       flex-direction: column;
@@ -491,7 +491,7 @@
     }
     .roda_pe {
       margin-top: 80px;
-      height: 135vh;
+      height: 750px;
       width: 100vw;
       background-color: #ECECEE;
       display: block;
