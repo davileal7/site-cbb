@@ -421,7 +421,7 @@
   .text01 p,
   .container-text-01-mobile p {
     line-height: 20px;
-    font-size: 15px;
+    font-size: 14px;
   }
   .container01-mobile {
     height: 250px;
@@ -522,7 +522,7 @@
     }
     .roda_pe {
       margin-top: 80px;
-      height: 800px;
+      height: 780px;
       width: 100vw;
       background-color: #ECECEE;
       display: block;

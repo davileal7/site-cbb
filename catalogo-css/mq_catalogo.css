@@ -415,7 +415,7 @@
     }
     .text01-mobile p {
       line-height: 20px;
-      font-size: 15px;
+      font-size: 14px;
     }
    
     .container02 {
@@ -507,10 +507,9 @@
         grid-auto-columns: 100%;
       }
 
-
     .roda_pe {
         margin-top: 80px;
-        height: 800px;
+        height: 780px;
         width: 100vw;
         background-color: #ECECEE;
         display: block;

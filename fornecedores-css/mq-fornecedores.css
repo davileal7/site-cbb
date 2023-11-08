@@ -509,11 +509,9 @@
     .wrapper .carousel {
         grid-auto-columns: 100%;
       }
-
-
     .roda_pe {
         margin-top: 80px;
-        height: 800px;
+        height: 780px;
         width: 100vw;
         background-color: #ECECEE;
         display: block;

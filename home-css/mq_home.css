@@ -394,13 +394,13 @@
     }
     .titulo01 h2,
     .container-text-02 h2 {
-      line-height: 40px;
+      line-height: 30px;
     }
     .fundo01 .titulo01 h2,
     .fundo02 .titulo02 h2,
     .container-text-02 h2{
         color: #FF9700;
-        font-size: 25px;
+        font-size: 23.6px;
     }
     .fundo02 .titulo02 {
         display: none;
@@ -409,7 +409,7 @@
     .titulo02 p,
     .container-text-02 p {
         line-height: 20px;
-        font-size: 15px;
+        font-size: 14px;
     }
     .fundo02 {
         height: 400px;
@@ -491,7 +491,7 @@
     }
     .roda_pe {
       margin-top: 80px;
-      height: 800px;
+      height: 780px;
       width: 100vw;
       background-color: #ECECEE;
       display: block;
