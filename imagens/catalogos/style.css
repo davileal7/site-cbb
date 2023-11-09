@@ -44,6 +44,34 @@ body {
   transition: 2s;
 }
 
+@media(max-width: 1000px) {
+
+  body {
+    max-height: 320px;
+  }
+  
+.container-catalogos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container-img {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container-img img {
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px black;
+    margin: 20px;
+}
+}
+
 
 
 @media (max-width: 730px) {
