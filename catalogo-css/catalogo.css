@@ -80,12 +80,12 @@ header {
     display: none;
 }
 .container00 {
-    margin-top: 80px;
-    height: 45vh;
+    margin-top: 4px;
+    height: 35vh;
     width: 100vw;
 }
 .container-imagem img {
-    height: 45vh;
+    height: 35vh;
     width: 100vw;
 }
 .container01-mobile {
@@ -133,6 +133,7 @@ header {
     margin: 20px;
 }
 .container-catalogos img {
+    cursor: pointer;
     height: 300px;
     width: 200px;
     box-shadow: 1px 2px 2px black;

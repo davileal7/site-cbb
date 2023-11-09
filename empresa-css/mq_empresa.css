@@ -21,46 +21,33 @@
       height: 20px;
       width: 150px;
     }
-    .fundo01 {
-        height: 50vh;
-        width: 100vw;
-        margin-top: 80px;
-        background-image: url('../imagens/mulher_sorrindo_sem\ fundo.png');
-        background-size: contain;
-        background-repeat: no-repeat;
+    
+    .container00 {
+      display: none;
+    }
+    .container-img01-mobile  {
+      display: flex;
+      margin-top: 80px;
+      justify-content: center;
+      align-items: center;
+      height: 30vh;
+      width: 100vw;
+      background-color: #ECECEE;
+    }
+    .img-topo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 150px;
+      width: 100vw;
+    }
+   
+  
+    
 
-        background-color: rgb(154, 16, 105);
-    }
 
-    .fundo01 .titulo01,
-    .fundo02 .titulo02 {
-        color: #ffff;
-        text-shadow: 1px 1px 2px black;
-        font-size: 2.5em;
-        text-align: right;
-        margin-right: 5px;
-    }
-    .titulo01 h1,
-    .titulo02 h1 {
-        font-size: 35px;
-    }
-    .titulo01 h2, 
-    .titulo02 h2 {
-        font-size: 25px;
-    }
-    .titulo01 p, 
-    .titulo02 p {
-        font-size: 18px;
-    }
-    .fundo02 {
-        height: 50vh;
-        width: 100vw;
-        margin-top: 80px;
-        background-image: url('../imagens/cartaz06-removebg-preview.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-color: rgb(132, 188, 192);  
-    }
+
+
     .fundo03 {
         height: 50vh;
         width: 100vw;
@@ -332,103 +319,122 @@
     .open {
         display: block;
     }
-    .fundo01 {
-        height: 75vh;
+
+    .container00 {
+      display: none;
+    }
+    .container-img01-mobile  {
+      margin-top: 40px;
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      height: 25vh;
+      width: 100vw;
+      background-color: #ECECEE;
+    }
+    .img-topo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 150px;
+    }
+
+    .container01,
+    .container02 {
+        height: 400px;
         width: 100vw;
-        margin-top: 80px;
-        background-image: url('../imagens/mulher_sorrindo_sem\ fundo.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-color: rgb(132, 188, 192);
+        margin-top: 40px;
+        background-color: #fff;
+    } 
+    .container03 {
+      height: 310px;
+      width: 100vw;
+      margin-top: 40px;
+      background-color: #fff;
     }
-    .fundo01 .titulo01,
-    .fundo02 .titulo02 {
-        color: #ffff;
-        text-shadow: 1px 1px 2px #24252a;
-        font-size: 2.5em;
-        text-align: center;
-        
-        display: block;
-        position: relative;
-        top: 300px;
+
+    .container01 .container-text,
+    .container02 .container-text,
+    .container03  .container-text {
+      display: none;
     }
-    .titulo01 h1,
-    .titulo02 h1 {
-        font-size: 35px;
-    }
-    .titulo01 h2, 
-    .titulo02 h2 {
-        font-size: 25px;
-    }
-    .titulo01 p, 
-    .titulo02 p {
-        margin-top: 5px;
-        font-size: 15px;
-    }
-    .fundo02 {
-        height: 75vh;
+      .container01-mobile,
+      .container02-mobile,
+      .container03-mobile {
+        height: 250px;
         width: 100vw;
-        margin-top: 80px;
-        background-image: url('../imagens/cartaz06-removebg-preview.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-color: rgb(132, 188, 192);   
-    }
-  
-  
-    .fundo03 {
-        height: 40vh;
-        width: 100vw;
-        margin-top: 80px;
+        margin-top: 40px;
         display: flex;
         justify-content: center;
-        
-    }
+        align-items: center;
+        background-color: #5b8999;
+      } 
+
+        .container01-mobile .container-text-mobile,
+        .container02-mobile .container-text-mobile,
+        .container03-mobile .container-text-mobile {
+          color: #ffff;
+          text-shadow: 1px 1px 2px #24252a;
+          text-align: center;
+        }
     
-   
-    /*CAROSEL */
-    .wrapper i {
-        top: 50%;
-        height: 35px;
-        width: 35px;
-        cursor: pointer;
-        font-size: 2rem;
-        position: absolute;
-        text-align: center;
-        line-height: 35px;
-        background: #fff;
-        border-radius: 50%;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-        transform: translateY(-50%);
-        transition: transform 0.1s linear;
+      .container-text-mobile h2{
+          color: #FF9700;
+          font-size: 25px;
+      }
+      .container-text-mobile p {
+          line-height: 20px;
+          font-size: 14px;
+      }
+     
+       
+
+
+
+        .fundo03 {
+          height: 200px;
+          width: 100vw;
+          margin-top: 80px;
+          display: flex;
+          justify-content: center;
+          background-color: #5b8999;
+      }
+      /*CAROSEL */
+      .wrapper i {
+          top: 50%;
+          height: 35px;
+          width: 35px;
+          cursor: pointer;
+          font-size: 2rem;
+          position: absolute;
+          text-align: center;
+          line-height: 35px;
+          background: #fff;
+          border-radius: 50%;
+          box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+          transform: translateY(-50%);
+          transition: transform 0.1s linear;
       }
       .carousel .card {
         scroll-snap-align: start;
-        height: 315px;
+        height: 200px;
         list-style: none;
         padding-bottom: 15px;
         flex-direction: column;
         border-radius: 8px;
       }
       .carousel .card .img {
-        height: 170px;
-        width: 170px;
+        height: 150px;
+        width: 150px;
         border-radius: 50%;
       }
       .card .img img {
-        width: 170px;
-        height: 170px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         object-fit: cover;
         border: 4px solid #fff;
-      }
-      .carousel .card h2 {
-        position: relative;
-        top: 0px;
-        font-weight: 500;
-        font-size: 1.56rem;
-        margin: 30px 0 5px;
-        color: #fff;
       }
       .wrapper i:first-child{
         left: 20px;
@@ -436,62 +442,58 @@
       .wrapper i:last-child{
         right: 30px;
       }
-    .wrapper .carousel {
+      .wrapper .carousel {
         grid-auto-columns: calc((100% / 2) - 9px);
       }
-    .wrapper .carousel {
+      .wrapper .carousel {
         grid-auto-columns: 100%;
       }
-
-
-    .roda_pe {
+      .roda_pe {
         margin-top: 80px;
-        height: 115vh;
+        height: 780px;
         width: 100vw;
         background-color: #ECECEE;
         display: block;
         justify-content: center;
         text-align: center;
-       
-        
-    }
-    .roda_pe .contatos  {
-        padding:  30px;
-    }
-    .roda_pe h3 {
-        font-size: 20px;
-        color: goldenrod;
-    }
-    .siga_nos {
-        color: goldenrod;
-    }
-    .roda_pe .contatos {
-        margin-left: 0px;
-    }
-    .roda_pe .contatos li {
-        list-style: none;
-        margin-top:10px;
-        margin-left: 10px;
-    }
-    .redes_sociais a li {
-        position: relative;
-        left: 140px;
-        list-style: none;
-        margin-top: 10px;
-    }
-    .sobre_nos  {
-        display: none;
-    }
-    .roda_pe .sobre_nos-mobile {
-        margin-top: 30px;
-    }
-    .sobre_nos-mobile {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    .sobre_nos-mobile p {
-        margin-top: 10px;
-    }
+      }
+      .roda_pe .contatos  {
+          padding:  30px;
+      }
+      .roda_pe h3 {
+          font-size: 20px;
+          color: goldenrod;
+      }
+      .siga_nos {
+          color: goldenrod;
+      }
+      .roda_pe .contatos {
+          margin-left: 0px;
+      }
+      .roda_pe .contatos li {
+          list-style: none;
+          margin-top:10px;
+          margin-left: 10px;
+      }
+      .redes_sociais a li {
+          position: relative;
+          left: 140px;
+          list-style: none;
+          margin-top: 10px;
+      }
+      .sobre_nos  {
+          display: none;
+      }
+      .roda_pe .sobre_nos-mobile {
+          margin-top: 30px;
+      }
+      .sobre_nos-mobile {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+      }
+      .sobre_nos-mobile p {
+          margin-top: 10px;
+      }
 }

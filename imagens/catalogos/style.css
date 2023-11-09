@@ -39,17 +39,11 @@ body {
     box-shadow: 1px 2px 2px black;
     margin: 20px;
 }
-.container-img img:hover {
-  scale: 1.4;
-  transition: 2s;
-}
+
 
 @media(max-width: 1000px) {
 
-  body {
-    max-height: 320px;
-  }
-  
+ 
 .container-catalogos {
   display: flex;
   flex-direction: row;

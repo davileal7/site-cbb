@@ -72,36 +72,50 @@ header {
 .nav-link:hover::after {
     opacity: 1;
 }
+
+.container-img01-mobile {
+    display: none;
+}
 .container00 {
-    margin-top: 80px;
-    height: 50vh;
+    margin-top: 4px;
+    height: 35vh;
     width: 100vw;
 }
-.container-imagem {
-    background: rgba(0,0,0,0.35) url('/img-cbb-topo/03-topo.jpg');
-    height: 50vh;
+
+.container-imagem img {
+    height: 35vh;
     width: 100vw;
-    background-size: cover;
-    background-blend-mode: darken;
 }
+.container-mobile {
+    display: none;
+}
+.container01 .container-img {
+    color: #ffff;
+    text-shadow: 1px 1px 2px #24252a;
+    font-size: 2.5em;
+    text-align: right;
+    margin-right: 150px;
+}
+
+
+
+
+
 .container00 h2,
 .container00  p {
     margin-right: 100px;
 }
 
+.container02,
 .container03 {
     margin-top: 80px;
 }
-
-.container04,
-.container05 {
-    margin-top: 80px;
-}
-.container03,
-.container04,
-.container05 {
-    height: 55vh;
+.container01,
+.container02,
+.container03 {
+    height: 50vh;
     width: 100vw;
+    margin-top: 80px;
     background-color: #5b8999;
     
     background-size: contain;
@@ -113,51 +127,54 @@ header {
 
 
 .container00 .container-imagem h2,
-.container03 .container-text h2,
-.container04 .container-text h2,
-.container05 .container-text h2{
+.container01 .container-text h2,
+.container02 .container-text h2,
+.container03 .container-text h2{
     color: #FF9700;
 }
 .container00 .container-imagem,
-.container03 .container-text,
-.container04 .container-text,
-.container05 .container-text {
+.container01 .container-text,
+.container02 .container-text,
+.container03 .container-text {
     color: #ffff;
     text-shadow: 1px 1px 2px #24252a;
     font-size: 2.5em;
     text-align: right;
     margin-right: 150px;
-
 }
 .container-imagem p,
 .container-text p {
-    margin-top: 10px;
+    line-height: 35px;
     font-size: 24px;
 }
-
-.container03 {
+.container01-mobile,
+.container02-mobile,
+.container03-mobile {
+    display: none;
+}
+.container01 {
     background-image: url('../imagens/img-cbb02.jpg');
 }
-.container04 {
+.container02 {
     background-image: url('../imagens/img-cbb03.jpg');
 }
-.container05 {
+.container03 {
     background-image: url('../imagens/img-cbb04.jpg');
 }
 
 
 .fundo03 {
     margin-top: 80px;
-    height: 60vh;
+    height: 400px;
     width: 100vw;
-    background-color:  #ECECEE;  
+    background-color: #ECECEE;
     display: flex;
     justify-content: center;  
 }
 
 /*CAROSEL */
 .wrapper {
-    max-width: 1100px;
+    max-width: 1300px;
     width: 100%;
     position: relative;
   }
@@ -180,10 +197,10 @@ header {
     transform: translateY(-50%) scale(0.85);
   }
   .wrapper i:first-child{
-    left: -35px;
+    left: -50px;
   }
   .wrapper i:last-child{
-    right: -45px;
+    right: -60px;
   }
   .wrapper .carousel{
     display: grid;
@@ -217,7 +234,7 @@ header {
   }
   .carousel .card {
     scroll-snap-align: start;
-    height: 450px;
+    height: 430px;
     list-style: none;
     padding-bottom: 15px;
     flex-direction: column;
@@ -226,19 +243,19 @@ header {
   .carousel .card .img {
     cursor: pointer;
     background: #fff;
-    height: 125px;
-    width: 125px;
+    height: 155px;
+    width: 155px;
     border-radius: 50%;
   }
   .card .img img {
     cursor: pointer;
-    width: 125px;
-    height: 125px;
+    width: 155px;
+    height: 155px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #fff;
   }
- 
+  
 /* FIM - CAROSEL */
 
 .roda_pe {
