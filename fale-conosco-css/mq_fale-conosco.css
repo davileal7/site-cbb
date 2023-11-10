@@ -15,12 +15,13 @@
         padding: .0rem;
     }
     .menu span {
-      font-size: 13.5px;
+      font-size: 15px;
     }
     .logo-cbb {
       height: 20px;
       width: 150px;
     }
+    
     .container00 {
       display: none;
     }
@@ -40,72 +41,27 @@
       height: 150px;
       width: 100vw;
     }
-
-    .container01 {
-      height: 50vh;
-      width: 100vw;
-      margin-top: 80px;
-      background-color: #5b8999;
-      background-image: url('../imagens/cartaz06-removebg-preview.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: right;
-      
-    }
-    .container01 .text01 {
-        color: #ECECEE;
-        text-shadow: 1px 1px 2px #24252a;
-        text-align: right;
-        margin-right: 20px;
-    }
-    .text01 h2 {
-      font-size: 35px;
-    }
-    .text01 p {
-        line-height: 20px;
-        font-size: 15.5px;
-    }
-    .container02 {
-        background-color: #5b8999;
-        height: 1480px;
-        width: 100vw;
-        margin-top: 80px;
-        border: 1px solid black;
-    }
-    .container-catalogos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-    }
-    .container-catalogos img {
-        height: 100px;
-        width: 100px;
-        box-shadow: 1px 2px 2px black;
-        margin: 20px;
-    }
-    .container-catalogos-mobile img:hover {
-      scale: 1.1;
-      transition: 1s;
-  }
-    .container02-mobile {
-        display: none;
-    }
+   
+  
     
+
+
+
+
     .fundo03 {
-        height: 250px;
+        height: 50vh;
         width: 100vw;
         margin-top: 80px;
         display: flex;
         justify-content: center;
-
-        background-color: #ECECEE;
+        
+        background-color: rgb(178, 172, 120); 
     }
     
+   
     /*CAROSEL */
     .wrapper {
-        max-width: 615px;
+        max-width: 700px;
         width: 100%;
         position: relative;
       }
@@ -128,15 +84,15 @@
         transform: translateY(-50%) scale(0.85);
       }
       .wrapper i:first-child{
-        left: -50px;
+        left: -15px;
       }
       .wrapper i:last-child{
-        right: -50px;
+        right: -15px;
       }
       .wrapper .carousel{
         display: grid;
         grid-auto-flow: column;
-        grid-auto-columns: calc((100% / 5) - 20px);
+        grid-auto-columns: calc((100% / 4) - 20px);
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         gap: 26px;
@@ -165,7 +121,7 @@
       }
       .carousel .card {
         scroll-snap-align: start;
-        height: 240px;
+        height: 200px;
         list-style: none;
         padding-bottom: 15px;
         flex-direction: column;
@@ -173,15 +129,15 @@
       }
       .carousel .card .img {
         cursor: pointer;
-        background: #fff;
-        height: 80px;
-        width: 80px;
+        background: #8B53FF;
+        height: 85px;
+        width: 85px;
         border-radius: 50%;
       }
       .card .img img {
         cursor: pointer;
-        width: 80px;
-        height: 80px;
+        width: 85px;
+        height: 85px;
         border-radius: 50%;
         object-fit: cover;
         border: 4px solid #fff;
@@ -258,11 +214,6 @@
 /* CELULAR RETO--------------------------------------------------------------------------------------------- */
 @media (max-width: 730px) {
 
-  #header {
-    position: fixed;
-    top: 0px;
-  }
-
     #btn-mobile {
         display: flex;
         padding: .5rem 1rem;
@@ -297,7 +248,6 @@
         transform: rotate(-135deg);
         top: -7px;
     }
-
     .menu {
        display: block;
        position: absolute;
@@ -312,7 +262,7 @@
        overflow-y: hidden;
     }
     .nav.active .menu {
-        height: 290px;
+        height: 330px;
         visibility: visible;
         overflow-y: auto;
     }
@@ -369,11 +319,12 @@
     .open {
         display: block;
     }
+
     .container00 {
       display: none;
     }
     .container-img01-mobile  {
-      margin-top: 160px;
+      margin-top: 40px;
       display: flex;
 
       justify-content: center;
@@ -388,86 +339,82 @@
       align-items: center;
       height: 150px;
     }
-    .container01 {
-      display: none;
-    }
-    .container01-mobile {
-      height: 250px;
-      width: 100vw;
-      margin-top: 80px;
-      background-color: #5b8999;
-      background-image: none;
-      background-size: contain;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .container01-mobile .text01-mobile {
-      color: #ECECEE;
-      text-shadow: 1px 1px 2px #24252a;
-      text-align: center;
-      margin-right: 0px;
-    }
-    .text01-mobile h2 {
-      font-size: 25px;
-      color: #FF9700;
-      line-height: 40px;
-    }
-    .text01-mobile p {
-      line-height: 20px;
-      font-size: 15px;
-    }
-   
+
+    .container01,
     .container02 {
+        height: 400px;
+        width: 100vw;
+        margin-top: 40px;
+        background-color: #fff;
+    } 
+    .container03 {
+      height: 310px;
+      width: 100vw;
+      margin-top: 40px;
+      background-color: #fff;
+    }
+
+    .container01 .container-text,
+    .container02 .container-text,
+    .container03  .container-text {
       display: none;
     }
-    .container02-mobile {
-      margin-top: 80px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #5b8999;
-    }
-    .container-catalogos-mobile {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .container-catalogos-mobile img {
-        height: 135px;
-        width: 135px;
-        border-radius: 5px;
-        box-shadow: 1px 2px 2px black;
-        margin: 30px;
-        border-radius: 100px;
-        background-color: #fff;
-    }
-    .fundo03 {
+      .container01-mobile,
+      .container02-mobile,
+      .container03-mobile {
+        height: 250px;
+        width: 100vw;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #5b8999;
+      } 
+
+        .container01-mobile .container-text-mobile,
+        .container02-mobile .container-text-mobile,
+        .container03-mobile .container-text-mobile {
+          color: #ffff;
+          text-shadow: 1px 1px 2px #24252a;
+          text-align: center;
+        }
+    
+      .container-text-mobile h2{
+          color: #FF9700;
+          font-size: 25px;
+      }
+      .container-text-mobile p {
+          line-height: 20px;
+          font-size: 14px;
+      }
+     
+       
+
+
+
+        .fundo03 {
           height: 200px;
           width: 100vw;
           margin-top: 80px;
           display: flex;
           justify-content: center;
-          
-          
+          background-color: #5b8999;
       }
-
-    /*CAROSEL */
-    .wrapper i {
-        top: 50%;
-        height: 35px;
-        width: 35px;
-        cursor: pointer;
-        font-size: 2rem;
-        position: absolute;
-        text-align: center;
-        line-height: 35px;
-        background: #fff;
-        border-radius: 50%;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-        transform: translateY(-50%);
-        transition: transform 0.1s linear;
+      /*CAROSEL */
+      .wrapper i {
+          top: 50%;
+          height: 35px;
+          width: 35px;
+          cursor: pointer;
+          font-size: 2rem;
+          position: absolute;
+          text-align: center;
+          line-height: 35px;
+          background: #fff;
+          border-radius: 50%;
+          box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+          transform: translateY(-50%);
+          transition: transform 0.1s linear;
       }
       .carousel .card {
         scroll-snap-align: start;
@@ -489,27 +436,19 @@
         object-fit: cover;
         border: 4px solid #fff;
       }
-      .carousel .card h2 {
-        position: relative;
-        top: 0px;
-        font-weight: 500;
-        font-size: 1.56rem;
-        margin: 30px 0 5px;
-        color: #fff;
-      }
       .wrapper i:first-child{
         left: 20px;
       }
       .wrapper i:last-child{
         right: 30px;
       }
-    .wrapper .carousel {
+      .wrapper .carousel {
         grid-auto-columns: calc((100% / 2) - 9px);
       }
-    .wrapper .carousel {
+      .wrapper .carousel {
         grid-auto-columns: 100%;
       }
-    .roda_pe {
+      .roda_pe {
         margin-top: 80px;
         height: 780px;
         width: 100vw;
@@ -517,44 +456,44 @@
         display: block;
         justify-content: center;
         text-align: center;
-    }
-    .roda_pe .contatos  {
-        padding:  30px;
-    }
-    .roda_pe h3 {
-        font-size: 20px;
-        color: goldenrod;
-    }
-    .siga_nos {
-        color: goldenrod;
-    }
-    .roda_pe .contatos {
-        margin-left: 0px;
-    }
-    .roda_pe .contatos li {
-        list-style: none;
-        margin-top:10px;
-        margin-left: 10px;
-    }
-    .redes_sociais a li {
-        position: relative;
-        left: 140px;
-        list-style: none;
-        margin-top: 10px;
-    }
-    .sobre_nos  {
-        display: none;
-    }
-    .roda_pe .sobre_nos-mobile {
-        margin-top: 30px;
-    }
-    .sobre_nos-mobile {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    .sobre_nos-mobile p {
-        margin-top: 10px;
-    }
-    }
+      }
+      .roda_pe .contatos  {
+          padding:  30px;
+      }
+      .roda_pe h3 {
+          font-size: 20px;
+          color: goldenrod;
+      }
+      .siga_nos {
+          color: goldenrod;
+      }
+      .roda_pe .contatos {
+          margin-left: 0px;
+      }
+      .roda_pe .contatos li {
+          list-style: none;
+          margin-top:10px;
+          margin-left: 10px;
+      }
+      .redes_sociais a li {
+          position: relative;
+          left: 140px;
+          list-style: none;
+          margin-top: 10px;
+      }
+      .sobre_nos  {
+          display: none;
+      }
+      .roda_pe .sobre_nos-mobile {
+          margin-top: 30px;
+      }
+      .sobre_nos-mobile {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+      }
+      .sobre_nos-mobile p {
+          margin-top: 10px;
+      }
+}
