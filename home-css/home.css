@@ -290,6 +290,9 @@ header {
 .contatos p {
     margin-top: 10px;
 }
+.contatos span {
+    color: #03085e;
+}
 .contatos .icon-endereco:hover {
     scale: 1.1;
     transition: 2s;
