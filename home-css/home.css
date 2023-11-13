@@ -339,11 +339,27 @@ footer h1 {
     z-index: 9999;
     border-radius: 50px;
 }
-.whats img {
+.ped {
+    background-color: transparent;
+
+    position: fixed;
+    bottom: 130px;
+    right: 15px;
+    z-index: 9999;
+    border-radius: 100px;
+}
+.whats img, 
+.ped img {
     margin: 2px;
     padding: 5px;
 }
-.whats span {
+.ped img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+}
+.whats span,
+.ped span {
     position: relative;
     bottom: 15px;
     right: 5px;
@@ -352,8 +368,9 @@ footer h1 {
     color: #fff;
     text-shadow: 1px 1px 1px #24252a;
 }
-.whats:hover{ 
-    scale: 1.1;
+.whats:hover,
+.ped:hover { 
+    scale: 1.2;
     transition: 1s
 }
 .logo-site-mobile {

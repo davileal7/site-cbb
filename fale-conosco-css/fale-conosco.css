@@ -72,7 +72,6 @@ header {
 .nav-link:hover::after {
     opacity: 1;
 }
-
 .container-img01-mobile {
     display: none;
 }
@@ -81,7 +80,6 @@ header {
     height: 35vh;
     width: 100vw;
 }
-
 .container-imagem img {
     height: 35vh;
     width: 100vw;
@@ -96,10 +94,6 @@ header {
     text-align: right;
     margin-right: 150px;
 }
-
-
-
-
 
 .container00 h2,
 .container00  p {
@@ -124,16 +118,20 @@ header {
 }
 
 .container02 {
-    background-color: #464646;
+    background-color: #6A6D78;
     height: 510px;
     width: 100vw;
     margin-top: 80px;
     border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container-text span {
     color: #fff;
     text-shadow: 1px 1px 2px #24252a;
-    font-size: 24px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,6 +145,7 @@ header {
     margin-top: 80px;
     background-color: #24252a;
 }
+
 .title {
     color: #464646;
     background-color: #ECECEE;
@@ -368,7 +367,6 @@ footer h1 {
 
 
 .whats {
-    
     background-color:rgb(0, 231, 119) ;
     position: fixed;
     bottom: 20px;
@@ -376,11 +374,27 @@ footer h1 {
     z-index: 9999;
     border-radius: 50px;
 }
-.whats img {
+.ped {
+    background-color: transparent;
+
+    position: fixed;
+    bottom: 130px;
+    right: 15px;
+    z-index: 9999;
+    border-radius: 100px;
+}
+.whats img, 
+.ped img {
     margin: 2px;
     padding: 5px;
 }
-.whats span {
+.ped img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+}
+.whats span,
+.ped span {
     position: relative;
     bottom: 15px;
     right: 5px;
@@ -389,8 +403,9 @@ footer h1 {
     color: #fff;
     text-shadow: 1px 1px 1px #24252a;
 }
-.whats:hover{ 
-    scale: 1.1;
+.whats:hover,
+.ped:hover { 
+    scale: 1.2;
     transition: 1s
 }
 .logo-site-mobile {
