@@ -40,20 +40,28 @@
       height: 150px;
       width: 100vw;
     }
+  
+   
     .fundo01 {
-        height: 50vh;
-        width: 100vw;
-        margin-top: 80px;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
+      height: 100vh;
+      width: 100vw;
+      margin-top: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      background-size: cover;
+      background-image: url('/imagens/woman-cut.jpg');
+  }
 
   .fundo01 .titulo01 {
-      color: #ffff;
-      text-shadow: 1px 1px 2px black;
-      font-size: 2.5em;
-      text-align: center;
-      margin-right: 0px;
+    color: #ffff;
+    text-shadow: 1px 2px 2px #24252a;
+    font-size: 3.5em;
+    text-align: center;
+    border-radius: 100px;
+    width: 65vw;
+    backdrop-filter: blur(5px);
   }
   .fundo02 .titulo02 {
     color: #ffff;
@@ -247,10 +255,7 @@
 
 /* CELULAR RETO--------------------------------------------------------------------------------------------- */
 @media (max-width: 730px) {
-    #header {
-      position: fixed;
-      top: 0px;
-    }
+   
 
     #btn-mobile {
         display: flex;
@@ -363,7 +368,7 @@
     }
 
     .container-img01-mobile  {
-      margin-top: 160px;
+      margin-top: 80px;
       display: flex;
 
       justify-content: center;
@@ -379,18 +384,24 @@
       height: 150px;
     }
     .fundo01 {
-      height: 250px;
+      height: 280px;
       width: 100vw;
       margin-top: 80px;
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #5b8999;
+      background-image: url('../imagens/caminhao.jpg');
+      background-color: transparent;
+      
     }
     .fundo01 .titulo01 {
         color: #ffff;
         text-shadow: 1px 1px 2px #24252a;
         text-align: center;
+        backdrop-filter: blur(25px);
+        width: 100vw;
+        border-radius: 0;
+        
     }
     .titulo01 h2,
     .container-text-02 h2 {
@@ -410,6 +421,7 @@
     .container-text-02 p {
         line-height: 20px;
         font-size: 14px;
+        
     }
     .fundo02 {
         height: 400px;

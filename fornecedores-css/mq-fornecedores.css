@@ -46,7 +46,7 @@
       width: 100vw;
       margin-top: 80px;
       background-color: #5b8999;
-      background-image: url('../imagens/cartaz06-removebg-preview.png');
+      background-image: url('../imagens/woman-computer.jpg');
       background-size: contain;
       background-repeat: no-repeat;
       display: flex;
@@ -258,10 +258,7 @@
 /* CELULAR RETO--------------------------------------------------------------------------------------------- */
 @media (max-width: 730px) {
 
-  #header {
-    position: fixed;
-    top: 0px;
-  }
+  
 
     #btn-mobile {
         display: flex;
@@ -373,7 +370,7 @@
       display: none;
     }
     .container-img01-mobile  {
-      margin-top: 160px;
+      margin-top: 80px;
       display: flex;
 
       justify-content: center;
@@ -388,9 +385,34 @@
       align-items: center;
       height: 150px;
     }
+   
     .container01 {
-      display: none;
+        height: 624px;
+        width: 100vw;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        
+        
+        background-image: url('../imagens/containers-img/fornecedores-mobile.jpg');
     }
+    .container01 .text01 {
+      color: #ECECEE;
+      text-shadow: 1px 2px 2px #24252a;
+      font-size: 3.5em;
+      text-align: center;
+      margin-top: 350px;
+      margin-right: 100px;
+      border-radius: 0px;
+      backdrop-filter: blur(25px);
+    }
+    .text01 p {
+      font-size: 18px;
+      width: 100vw;
+  }
+  
     .container01-mobile {
       height: 250px;
       width: 100vw;
@@ -402,6 +424,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      
     }
     .container01-mobile .text01-mobile {
       color: #ECECEE;
@@ -427,7 +450,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-color: #5b8999;
+      background-color: #b8cfe5;
     }
     .container-catalogos-mobile {
       display: flex;
@@ -435,13 +458,13 @@
       justify-content: center;
     }
     .container-catalogos-mobile img {
-        height: 135px;
-        width: 135px;
-        border-radius: 5px;
-        box-shadow: 1px 2px 2px black;
-        margin: 30px;
-        border-radius: 100px;
-        background-color: #fff;
+      height: 135px;
+      width: 135px;
+      border-radius: 5px;
+      box-shadow: 1px 2px 2px black;
+      margin: 30px;
+      border-radius: 100px;
+      background-color: #fff;
     }
     .fundo03 {
           height: 200px;
@@ -449,8 +472,6 @@
           margin-top: 80px;
           display: flex;
           justify-content: center;
-          
-          
       }
 
     /*CAROSEL */

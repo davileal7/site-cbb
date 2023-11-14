@@ -257,10 +257,7 @@
 /* CELULAR RETO--------------------------------------------------------------------------------------------- */
 @media (max-width: 730px) {
 
-  #header {
-    position: fixed;
-    top: 0px;
-  }
+  
 
     #btn-mobile {
         display: flex;
@@ -372,7 +369,7 @@
       display: none;
     }
     .container-img01-mobile  {
-      margin-top: 160px;
+      margin-top: 80px;
       display: flex;
 
       justify-content: center;

@@ -102,54 +102,59 @@ header {
 }
 
 .fundo01 {
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
-    margin-top: 80px;
+    margin-top: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #5b8999;
+
+    background-size: cover;
+    background-image: url('/imagens/woman-cut.jpg');
 }
 .fundo01 .titulo01 {
     color: #ffff;
-    text-shadow: 1px 1px 2px #24252a;
-    font-size: 2.5em;
+    text-shadow: 1px 2px 2px #24252a;
+    font-size: 3.5em;
     text-align: center;
     border-radius: 100px;
-    width: 55vw;
+    width: 65vw;
+    backdrop-filter: blur(5px);
 }
 
 .fundo01 .titulo01 h2,
-.fundo02 .titulo02 h2{
+.fundo02 .titulo02 h2 {
+    text-shadow: 1px 2px 2px #24252a;
     color: #FF9700;
 }
 .fundo02 .titulo02 {
     color: #ffff;
     text-shadow: 1px 1px 2px #24252a;
-    font-size: 2.5em;
+    font-size: 3.5em;
     text-align: right;
     margin-right: 150px;
+    backdrop-filter: blur(10px);
 }
 
 .titulo01 p,
 .titulo02 p {
-    line-height: 35px;
-    font-size: 24px;
+    line-height: 40px;
+    font-size: 30px;
 }
 .fundo02 {
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
-    margin-top: 80px;
+    margin-top: 300px;
     background-color: #5b8999;
     
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    
     display: flex;
     justify-content: right;
     align-items: center;
 }
 .fundo02 {
-    background-image: url('../imagens/img-cbb01.jpg');
+    background-image: url('../imagens/caminhao.jpg');
 }
 
 .fundo03 {
