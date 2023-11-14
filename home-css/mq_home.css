@@ -26,7 +26,7 @@
     }
     .container-img01-mobile  {
       display: flex;
-      margin-top: 80px;
+      margin-top: 0px;
       justify-content: center;
       align-items: center;
       height: 30vh;
@@ -40,12 +40,29 @@
       height: 150px;
       width: 100vw;
     }
+    .frase h3 {
+      background-color: #ECECEE;
+      font-size: 20px;
+      padding: 20px;
+      color: #5b8999;
+  }
+  .logo-big {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      background-color: #ECECEE;
+  }
+  .logo-big img {
+      height: 250px;
+      border-radius: 150px;
+  }
   
    
     .fundo01 {
       height: 100vh;
       width: 100vw;
-      margin-top: 80px;
+      margin-top: 0px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -85,9 +102,10 @@
         width: 100vw;
         margin-top: 80px;
         
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-image: url('../imagens/img-cbb01.jpg');
+        background-color: #5b8999;
+        background-image: url('../imagens/caminhao-fundo.jpg');
         
       
     }
@@ -366,9 +384,8 @@
     .container00 {
       display: none;
     }
-
     .container-img01-mobile  {
-      margin-top: 80px;
+      margin-top: 0px;
       display: flex;
 
       justify-content: center;
@@ -383,10 +400,27 @@
       align-items: center;
       height: 150px;
     }
+    .frase h3 {
+      background-color: #ECECEE;
+      font-size: 20px;
+      padding: 20px;
+      color: #5b8999;
+  }
+  .logo-big {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      background-color: #ECECEE;
+  }
+  .logo-big img {
+      height: 250px;
+      border-radius: 150px;
+  }
     .fundo01 {
       height: 280px;
       width: 100vw;
-      margin-top: 80px;
+      margin-top: 100px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -426,8 +460,8 @@
     .fundo02 {
         height: 400px;
         width: 100vw;
-        margin-top: 40px;
-        background-color: #fff;
+        margin-top: 100px;
+        background-color: transparent;
 
         background-image: url('../imagens/img-cbb01.jpg');
       }
@@ -451,7 +485,7 @@
         margin-top: 80px;
         display: flex;
         justify-content: center;
-        background-color: #5b8999;
+        background-color: #ECECEE;
     }
     /*CAROSEL */
     .wrapper i {

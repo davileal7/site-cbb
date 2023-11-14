@@ -107,7 +107,7 @@ header {
 .container01 {
     height: 50vh;
     width: 100vw;
-    margin-top: 80px;
+    margin-top: 150px;
     background-color: #5b8999;
     
     background-size: contain;
@@ -121,7 +121,7 @@ header {
     background-color: #6A6D78;
     height: 510px;
     width: 100vw;
-    margin-top: 80px;
+    margin-top: 150px;
     border: 1px solid black;
 
     display: flex;
@@ -137,12 +137,10 @@ header {
     align-items: center;
     margin: 20px;
 }
-
-
 .container03 {
     height: 50vh;
     width: 100vw;
-    margin-top: 80px;
+    margin-top: 150px;
     background-color: #24252a;
 }
 
@@ -188,7 +186,7 @@ header {
 
 
 .fundo03 {
-    margin-top: 80px;
+    margin-top: 150px;
     height: 400px;
     width: 100vw;
     background-color: #ECECEE;

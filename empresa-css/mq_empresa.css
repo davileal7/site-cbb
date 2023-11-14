@@ -27,7 +27,7 @@
   }
   .container-img01-mobile  {
     display: flex;
-    margin-top: 80px;
+    margin-top: 0px;
     justify-content: center;
     align-items: center;
     height: 30vh;
@@ -368,7 +368,7 @@
       display: none;
     }
     .container-img01-mobile  {
-      margin-top: 80px;
+      margin-top: 0px;
       display: flex;
 
       justify-content: center;

@@ -94,7 +94,7 @@ header {
 .container01 {
     height: 80vh;
     width: 100vw;
-    margin-top: 300px;
+    margin-top: 150px;
     background-color: #5b8999;
     background-image: url('/imagens/containers-img/woman-computer.jpg');
     background-size: cover;
@@ -110,9 +110,10 @@ header {
     text-shadow: 1px 2px 2px #24252a;
     font-size: 3.5em;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 150px;
     backdrop-filter: blur(10px);
     border-radius: 20px;
+    margin-bottom: 300px;
 
 }
 .text01 h2 {
@@ -128,7 +129,7 @@ header {
     background-color: #b8cfe5;
     height: 2400px;
     width: 100vw;
-    margin-top: 300px;
+    margin-top: 150px;
     border: 1px solid black;
 }
 .container-catalogos {
