@@ -264,10 +264,7 @@
 
 /* CELULAR RETO--------------------------------------------------------------------------------------------- */
 @media (max-width: 730px) {
-  #header {
-    position: fixed;
-    top: 0px;
-  }
+ 
   #btn-mobile {
       display: flex;
       padding: .5rem 1rem;
@@ -377,7 +374,7 @@
     display: none;
   }
   .container-img01-mobile  {
-    margin-top: 160px;
+    margin-top: 0px;
     display: flex;
 
     justify-content: center;
@@ -401,7 +398,7 @@
     
   .img-mobile {
     background-color: #ECECEE;
-    margin-top: 80px;
+    margin-top: 100px;
     height: 30vh;
     width: 100vw;
     display: flex;
@@ -426,7 +423,7 @@
   .container01-mobile {
     height: 250px;
     width: 100vw;
-    margin-top: 80px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -438,7 +435,7 @@
     text-align: center;
   }
   .container03 {
-    margin-top: 80px;
+    margin-top: 100px;
     height: 350px;
     width: 100vw;
 
@@ -468,7 +465,7 @@
     .fundo03 {
         height: 200px;
         width: 100vw;
-        margin-top: 80px;
+        margin-top: 100px;
         display: flex;
         justify-content: center;
     }

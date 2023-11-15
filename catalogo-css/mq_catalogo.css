@@ -385,13 +385,6 @@
       height: 150px;
     }
     
-    .container01 .text01 {
-      text-align: center;
-      margin-left: 0px;
-      backdrop-filter: blur(25px);
-      width: 100vw;
-      margin-bottom: 420px;
-    }
     .container01 {
         display: flex;
         justify-content: center;
@@ -401,34 +394,18 @@
         background-color: #ECECEE;
         background-image: url('../imagens/containers-img/catalogo-mobile.jpg');
     }
-    .container01-mobile {
-      height: 250px;
-      width: 100vw;
-      margin-top: 100px;
-      background-color: #5b8999;
-      background-image: none;
-      background-size: contain;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .container01-mobile .text01-mobile {
-      color: #ECECEE;
-      text-shadow: 1px 1px 2px #24252a;
+    .container01 .text01 {
       text-align: center;
-      margin-right: 0px;
+      margin-left: 0px;
+      backdrop-filter: blur(25px);
+      width: 100vw;
+      margin-bottom: 420px;
     }
-    .text01-mobile h2 {
-      font-size: 25px;
-      color: #FF9700;
-      line-height: 40px;
+    .text01 p {
+      margin-top: 10px;
+      font-size: 15px;
     }
-    .text01-mobile p {
-      line-height: 20px;
-      font-size: 14px;
-    }
-   
+    
     .container02 {
       display: none;
     }
@@ -454,7 +431,7 @@
     .fundo03 {
           height: 200px;
           width: 100vw;
-          margin-top: 80px;
+          margin-top: 100px;
           display: flex;
           justify-content: center;
           

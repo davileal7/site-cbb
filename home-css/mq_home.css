@@ -454,7 +454,7 @@
     .titulo02 p,
     .container-text-02 p {
         line-height: 20px;
-        font-size: 14px;
+        font-size: 15px;
         
     }
     .fundo02 {
@@ -468,7 +468,7 @@
       .container02 {
         height: 250px;
         width: 100vw;
-        margin-top: 40px;
+        margin-top: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -482,7 +482,7 @@
     .fundo03 {
         height: 200px;
         width: 100vw;
-        margin-top: 80px;
+        margin-top: 100px;
         display: flex;
         justify-content: center;
         background-color: #ECECEE;
