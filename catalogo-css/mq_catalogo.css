@@ -197,14 +197,14 @@
       font-size: 1.31rem;
     }
       
-      .roda_pe {
-        margin-top: 80px;
-        height: 160vh;
-        width: 100vw;
-        background-color: #ECECEE;
-        display: block;
-        justify-content: center;
-        text-align: center;
+    .roda_pe {
+      margin-top: 80px;
+      height: 160vh;
+      width: 100vw;
+      background-color: #ECECEE;
+      display: block;
+      justify-content: center;
+      text-align: center;
     }
     .roda_pe .contatos  {
         padding:  30px;
@@ -374,25 +374,25 @@
 
       justify-content: center;
       align-items: center;
-      height: 25vh;
+      height: 100px;
       width: 100vw;
-      background-color: #ECECEE;
+      background-color: #020217;
     }
     .img-topo {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 150px;
+      height: 100px;
     }
     
     .container01 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 600px;
-        width: 100vw;
-        background-color: #ECECEE;
-        background-image: url('../imagens/containers-img/catalogo-mobile.jpg');
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 710px;
+      width: 100vw;
+      background-color: #24252a;
+      background-image: url('../imagens/containers-img/catalogo-mobile.jpg');
     }
     .container01 .text01 {
       text-align: center;
@@ -402,6 +402,8 @@
       margin-bottom: 420px;
     }
     .text01 p {
+      color: #24252a;
+      text-shadow: none;
       margin-top: 10px;
       font-size: 15px;
     }
@@ -429,14 +431,12 @@
         margin: 30px;
     }
     .fundo03 {
-          height: 200px;
-          width: 100vw;
-          margin-top: 100px;
-          display: flex;
-          justify-content: center;
-          
-          
-      }
+        height: 200px;
+        width: 100vw;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
 
     /*CAROSEL */
     .wrapper i {
@@ -496,7 +496,7 @@
       }
 
     .roda_pe {
-        margin-top: 80px;
+        margin-top: 100px;
         height: 780px;
         width: 100vw;
         background-color: #ECECEE;
@@ -543,4 +543,44 @@
     .sobre_nos-mobile p {
         margin-top: 10px;
     }
+
+    .cadastro {
+      position: fixed;
+      bottom: 220px;
+      right: 15px;
+      z-index: 9999;
+      border-radius: 100px;
     }
+    .ped {
+        background-color: #FF9700;
+        position: fixed;
+        bottom: 120px;
+        right: 15px;
+        z-index: 9999;
+        border-radius: 100px;
+    }
+    .whats {
+        background-color:rgb(0, 231, 119) ;
+        position: fixed;
+        bottom: 20px;
+        right: 15px;
+        z-index: 9999;
+        border-radius: 100px;
+    }
+
+    .cadastro img, 
+    .ped img {
+        height: 80px;
+        width: 80px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .cadastro img {
+        border-radius: 100px;
+    }
+    .whats img {
+        padding: 10px;
+        height: 60px;
+        width: 60px;
+    }
+}

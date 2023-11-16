@@ -105,13 +105,11 @@ header {
     width: 100vw;
     margin-top: 150px;
     background-color: #5b8999;
-    
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     justify-content: right;
     align-items: center;
-
     background-image: url('/imagens/reg_atendidas/img_03.png');
 }
 
@@ -132,7 +130,6 @@ header {
 .container03 {
     margin-top: 150px;
     height: 50vh;
-
     background-color: #5b8999;
     display: flex;
     justify-content: center;
@@ -143,7 +140,7 @@ header {
 }
 .text03 li {
     list-style: none;
-    margin: 50px;
+    margin: 15px;
 }
 .text03 button {
     cursor: pointer;
@@ -254,7 +251,7 @@ header {
 /* FIM - CAROSEL */
 
 .roda_pe {
-    margin-top: 80px;
+    margin-top: 150px;
     height: 50vh;
     width: 100vw;
     background-color: #ECECEE;
@@ -335,45 +332,55 @@ footer h1 {
 }
 
 
-
-
+.cadastro {
+    position: fixed;
+    bottom: 280px;
+    right: 30px;
+    z-index: 9999;
+    border-radius: 100px;
+}
+.ped {
+    background-color: #FF9700;
+    position: fixed;
+    bottom: 150px;
+    right: 30px;
+    z-index: 9999;
+    border-radius: 100px;
+}
 .whats {
     background-color:rgb(0, 231, 119) ;
     position: fixed;
     bottom: 20px;
     right: 30px;
     z-index: 9999;
-    border-radius: 50px;
-}
-.ped {
-    background-color: transparent;
-
-    position: fixed;
-    bottom: 130px;
-    right: 15px;
-    z-index: 9999;
     border-radius: 100px;
 }
-.whats img, 
+.cadastro img, 
 .ped img {
-    margin: 2px;
-    padding: 5px;
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
 }
-.ped img {
-    height: 80px;
-    width: 80px;
+.cadastro img {
     border-radius: 100px;
+}
+.whats img {
+    padding: 15px;
+    height: 70px;
+    width: 70px;
 }
 .whats span,
 .ped span {
     position: relative;
     bottom: 15px;
-    right: 5px;
+    right: 0px;
 }
 .whats-contato {
     color: #fff;
     text-shadow: 1px 1px 1px #24252a;
 }
+.cadastro:hover,
 .whats:hover,
 .ped:hover { 
     scale: 1.2;

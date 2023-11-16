@@ -324,13 +324,13 @@
     }
 
     .nav-link {
-        text-decoration: none;
-        font-size: 1.15rem;
-        color: #303030;
-        font-weight: 400;
-    
-        position: relative;
-        transition: all 0.4s;
+      text-decoration: none;
+      font-size: 1.15rem;
+      color: #303030;
+      font-weight: 400;
+  
+      position: relative;
+      transition: all 0.4s;
     }
     .nav-link:hover {
         color: #fff;
@@ -373,7 +373,7 @@
 
       justify-content: center;
       align-items: center;
-      height: 25vh;
+      height:100px;
       width: 100vw;
       background-color: #ECECEE;
     }
@@ -381,7 +381,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 150px;
+      height: 100px;
     }
 
     .container01,
@@ -489,7 +489,7 @@
       grid-auto-columns: 100%;
     }
     .roda_pe {
-      margin-top: 80px;
+      margin-top: 100px;
       height: 780px;
       width: 100vw;
       background-color: #ECECEE;
@@ -535,5 +535,44 @@
     }
     .sobre_nos-mobile p {
         margin-top: 10px;
+    }
+
+    .cadastro {
+      position: fixed;
+      bottom: 220px;
+      right: 15px;
+      z-index: 9999;
+      border-radius: 100px;
+    }
+    .ped {
+        background-color: #FF9700;
+        position: fixed;
+        bottom: 120px;
+        right: 15px;
+        z-index: 9999;
+        border-radius: 100px;
+    }
+    .whats {
+        background-color:rgb(0, 231, 119) ;
+        position: fixed;
+        bottom: 20px;
+        right: 15px;
+        z-index: 9999;
+        border-radius: 100px;
+    }
+    .cadastro img, 
+    .ped img {
+        height: 80px;
+        width: 80px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .cadastro img {
+        border-radius: 100px;
+    }
+    .whats img {
+        padding: 10px;
+        height: 60px;
+        width: 60px;
     }
 }
