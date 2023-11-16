@@ -379,7 +379,7 @@
 
     justify-content: center;
     align-items: center;
-    height: 25vh;
+    height: 100px;
     width: 100vw;
     background-color: #ECECEE;
   }
@@ -387,7 +387,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 100px;
   }
   .container01 {
     display: none;
@@ -405,37 +405,39 @@
     justify-content: center;
     align-items: center;
   }
+
+  .regioes-mobile {
+    display: block; 
+    margin-top: 100px;
+  }
+  .regioes-mobile img {
+    height: 100vh;
+    width: 100vw;
+    display: block;  
+  }
+  .regioes-mobile .text01 {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    text-align: center; 
+    background-color: #5b8999;
+  }
+  .regioes-mobile .text01 p {
+    line-height: 25px;
+    font-size: 15.5px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #24252a;
+  }
+  .regioes-mobile .text01 h2 {
+    text-shadow: 1px 1px 2px #24252a;
+  }
+
   .container01-mobile .container-text-01-mobile h2{
       color: #FF9700;
   }
-  .container-text-01-mobile h2 {
-      line-height: 40px;
-      font-size: 25px;
-  }
-  .container01 .text01 {
-      display: none;
-  }
-  .text01 p,
-  .container-text-01-mobile p {
-    line-height: 20px;
-    font-size: 14px;
-  }
-  .container01-mobile {
-    height: 250px;
-    width: 100vw;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #5b8999;
-  } 
-  .container01-mobile .container-text-01-mobile {
-    color: #ffff;
-    text-shadow: 1px 1px 2px #24252a;
-    text-align: center;
-  }
+  
   .container03 {
-    margin-top: 100px;
+    margin-top: 250px;
     height: 350px;
     width: 100vw;
 
@@ -447,7 +449,6 @@
    .text03 ul  {
       display: flex;
       flex-direction: column;
-      
   }
   .text03 li {
       list-style: none;
@@ -462,28 +463,28 @@
   }
 
 
-    .fundo03 {
-        height: 200px;
-        width: 100vw;
-        margin-top: 100px;
-        display: flex;
-        justify-content: center;
-    }
-    /*CAROSEL */
-    .wrapper i {
-        top: 50%;
-        height: 35px;
-        width: 35px;
-        cursor: pointer;
-        font-size: 2rem;
-        position: absolute;
-        text-align: center;
-        line-height: 35px;
-        background: #fff;
-        border-radius: 50%;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-        transform: translateY(-50%);
-        transition: transform 0.1s linear;
+  .fundo03 {
+      height: 200px;
+      width: 100vw;
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+  }
+  /*CAROSEL */
+  .wrapper i {
+      top: 50%;
+      height: 35px;
+      width: 35px;
+      cursor: pointer;
+      font-size: 2rem;
+      position: absolute;
+      text-align: center;
+      line-height: 35px;
+      background: #fff;
+      border-radius: 50%;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+      transform: translateY(-50%);
+      transition: transform 0.1s linear;
     }
     .carousel .card {
       scroll-snap-align: start;
@@ -518,7 +519,7 @@
       grid-auto-columns: 100%;
     }
     .roda_pe {
-      margin-top: 80px;
+      margin-top: 100px;
       height: 780px;
       width: 100vw;
       background-color: #ECECEE;

@@ -92,11 +92,11 @@ header {
     display: none;
 }
 .container01 {
-    height: 80vh;
+    height: 1000px;
     width: 100vw;
     margin-top: 150px;
     background-color: #5b8999;
-    background-image: url('/imagens/containers-img/woman-computer.jpg');
+    background-image: url('../imagens/containers-img/womans-fornecedora.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -111,9 +111,9 @@ header {
     font-size: 3.5em;
     text-align: left;
     margin-left: 150px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     border-radius: 20px;
-    margin-bottom: 300px;
+    
 
 }
 .text01 h2 {
@@ -121,8 +121,8 @@ header {
     text-shadow: 1px 2px 2px #24252a;
 }
 .text01 p {
-    margin-top: 10px;
-    font-size: 30px;
+    line-height: 50px;
+    font-size: 35px;
 }
 
 .container02 {
@@ -252,8 +252,8 @@ header {
 /* FIM - CAROSEL */
 
 .roda_pe {
-    margin-top: 80px;
-    height: 50vh;
+    margin-top: 150px;
+    height: 450px;
     width: 100vw;
     background-color: #ECECEE;
     display: flex;
@@ -335,43 +335,55 @@ footer h1 {
 
 
 
+.cadastro {
+    position: fixed;
+    bottom: 280px;
+    right: 30px;
+    z-index: 9999;
+    border-radius: 100px;
+}
+.ped {
+    background-color: #FF9700;
+    position: fixed;
+    bottom: 150px;
+    right: 30px;
+    z-index: 9999;
+    border-radius: 100px;
+}
 .whats {
     background-color:rgb(0, 231, 119) ;
     position: fixed;
     bottom: 20px;
     right: 30px;
     z-index: 9999;
-    border-radius: 50px;
-}
-.ped {
-    background-color: transparent;
-
-    position: fixed;
-    bottom: 130px;
-    right: 15px;
-    z-index: 9999;
     border-radius: 100px;
 }
-.whats img, 
+.cadastro img, 
 .ped img {
-    margin: 2px;
-    padding: 5px;
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
 }
-.ped img {
-    height: 80px;
-    width: 80px;
+.cadastro img {
     border-radius: 100px;
+}
+.whats img {
+    padding: 15px;
+    height: 70px;
+    width: 70px;
 }
 .whats span,
 .ped span {
     position: relative;
     bottom: 15px;
-    right: 5px;
+    right: 0px;
 }
 .whats-contato {
     color: #fff;
     text-shadow: 1px 1px 1px #24252a;
 }
+.cadastro:hover,
 .whats:hover,
 .ped:hover { 
     scale: 1.2;

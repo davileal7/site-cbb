@@ -96,36 +96,41 @@ header {
     height: 35vh;
     width: 100vw;
 }
-
 .img-mapa-deitado {
     display: none;
 }
+.regioes-mobile {
+    display: none;
+}
 .container01 {
-    height: 50vh;
+    height: 1000px;
     width: 100vw;
     margin-top: 150px;
-    background-color: #5b8999;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
-    background-image: url('/imagens/reg_atendidas/img_03.png');
+
+    background-image: url('../imagens/containers-img/mapa-fundo.jpg');
 }
 
-.container01 .text01 h2{
+.container01 .text01 h2,
+.regioes-mobile h2{
     color: #FF9700;
+    text-shadow: 1px 1px 2px #24252a;
 }
 .container01 .text01 {
     color: #fff;
     text-shadow: 1px 1px 2px #24252a;
-    font-size: 2.5em;
-    text-align: right;
-    margin-right: 150px;
+    font-size: 3.5em;
+    text-align: left;
+    margin-left: 150px;
+    backdrop-filter: blur(15px);
 }
 .text01 p {
-    margin-top: 10px;
-    font-size: 24px;
+    line-height: 50px;
+    font-size: 35px;
 }
 .container03 {
     margin-top: 150px;
@@ -252,7 +257,7 @@ header {
 
 .roda_pe {
     margin-top: 150px;
-    height: 50vh;
+    height: 450px;
     width: 100vw;
     background-color: #ECECEE;
     display: flex;
