@@ -68,7 +68,7 @@
       align-items: center;
   
       background-size: cover;
-      background-image: url('/imagens/woman-cut.jpg');
+      background-image: url('../imagens/containers-img/entrega.jpg');
   }
 
   .fundo01 .titulo01 {
@@ -76,9 +76,9 @@
     text-shadow: 1px 2px 2px #24252a;
     font-size: 3.5em;
     text-align: center;
-    border-radius: 100px;
+    border-radius: 10px;
     width: 65vw;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
   }
   .fundo02 .titulo02 {
     color: #ffff;
@@ -585,17 +585,13 @@
     }
 
     .cadastro {
-      position: fixed;
-      bottom: 220px;
-      right: 15px;
-      z-index: 9999;
+      
+    
       border-radius: 100px;
     }
     .ped {
         background-color: #FF9700;
-        position: fixed;
-        bottom: 120px;
-        right: 15px;
+       
         z-index: 9999;
         border-radius: 100px;
     }
