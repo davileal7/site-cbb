@@ -49,7 +49,7 @@
       width: 100vw;
       margin-top: 80px;
       background-color: #5b8999;
-      background-image: url('../imagens/cartaz06-removebg-preview.png');
+      background-image: url('../imagens/containers-img/catalogo-fundo.jpg');
       background-size: contain;
       background-repeat: no-repeat;
       display: flex;
@@ -393,12 +393,12 @@
       margin-top: 100px;  
     }
     .catalogo-mobile img {
-      height: 100vh;
+      height: 450px;
       width: 100vw;
       display: block;  
     }
     .catalogo-mobile .text01 {
-      height: 100vh;
+      height: 450px;
       width: 100vw;
       display: block;
       text-align: center; 
@@ -411,6 +411,7 @@
       text-shadow: 1px 1px 2px #24252a;
     }
     .catalogo-mobile .text01 h2 {
+      font-size: 30px;
       text-shadow: 1px 1px 2px #24252a;
     }
     .container01 {
@@ -420,7 +421,7 @@
       display: none;
     }
     .container02-mobile {
-      margin-top: 250px;
+      margin-top: 200px;
       display: flex;
       flex-direction: column;
       align-items: center;

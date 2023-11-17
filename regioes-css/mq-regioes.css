@@ -21,15 +21,12 @@
       height: 20px;
       width: 150px;
     }
-
-
     .container00 {
       display: none;
     }
-
     .container-img01-mobile  {
       display: flex;
-      margin-top: 80px;
+      margin-top: 0px;
       justify-content: center;
       align-items: center;
       height: 30vh;
@@ -411,12 +408,12 @@
     margin-top: 100px;
   }
   .regioes-mobile img {
-    height: 100vh;
+    height: 450px;
     width: 100vw;
     display: block;  
   }
   .regioes-mobile .text01 {
-    height: 100vh;
+    height: 450px;
     width: 100vw;
     display: block;
     text-align: center; 
@@ -429,6 +426,7 @@
     text-shadow: 1px 1px 2px #24252a;
   }
   .regioes-mobile .text01 h2 {
+    font-size: 30px;
     text-shadow: 1px 1px 2px #24252a;
   }
 

@@ -26,7 +26,7 @@
     }
     .container-img01-mobile  {
       display: flex;
-      margin-top: 80px;
+      margin-top: 0px;
       justify-content: center;
       align-items: center;
       height: 30vh;
@@ -46,7 +46,7 @@
       width: 100vw;
       margin-top: 80px;
       background-color: #5b8999;
-      background-image: url('../imagens/woman-computer.jpg');
+      background-image: url('../imagens/containers-img/fale-conosco02.jpg');
       background-size: contain;
       background-repeat: no-repeat;
       display: flex;
@@ -385,67 +385,40 @@
       align-items: center;
       height: 100px;
     }
-   
-    .container01 {
-        height: 520px;
-        width: 100vw;
-        margin-top: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: transparent;
-        
-        background-image: url('../imagens/containers-img/fornecedores-mobile.jpg');
+    .fornecedor-mobile {
+      display: block;
+      margin-top: 100px;  
     }
-    .container01 .text01 {
-      color: #ECECEE;
-      text-shadow: 1px 2px 2px #24252a;
-      font-size: 3.5em;
-      text-align: center;
-      margin-bottom: 420px;
-      margin-left: 0px;
-      border-radius: 0px;
-      backdrop-filter: blur(25px);
+    .fornecedor-mobile img {
+      height: 450px;
+      width: 100vw;
+      display: block;  
     }
-    .text01 p {
-      font-size: 15px;
+    .fornecedor-mobile .text01 {
+      height: 450px;
       width: 100vw;
-  }
-  
-    .container01-mobile {
-      height: 250px;
-      width: 100vw;
-      margin-top: 100px;
+      display: block;
+      text-align: center; 
       background-color: #5b8999;
-      background-image: none;
-      background-size: contain;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      
     }
-    .container01-mobile .text01-mobile {
-      color: #ECECEE;
+    .fornecedor-mobile .text01 p {
+      line-height: 25px;
+      font-size: 15.5px;
+      color: #fff;
       text-shadow: 1px 1px 2px #24252a;
-      text-align: center;
-      margin-right: 0px;
     }
-    .text01-mobile h2 {
-      font-size: 25px;
-      color: #FF9700;
-      line-height: 40px;
+    .fornecedor-mobile .text01 h2 {
+      font-size: 30px;
+      text-shadow: 1px 1px 2px #24252a;
     }
-    .text01-mobile p {
-      line-height: 20px;
-      font-size: 15px;
-    }
-   
+    .container01,
     .container02 {
       display: none;
     }
+  
+    
     .container02-mobile {
-      margin-top: 100px;
+      margin-top: 200px;
       display: flex;
       flex-direction: column;
       align-items: center;

@@ -113,8 +113,6 @@ header {
     margin-left: 150px;
     backdrop-filter: blur(15px);
     border-radius: 20px;
-    
-
 }
 .text01 h2 {
     color: #FF9700;
@@ -123,6 +121,9 @@ header {
 .text01 p {
     line-height: 50px;
     font-size: 35px;
+}
+.fornecedor-mobile {
+    display: none;
 }
 
 .container02 {
@@ -157,7 +158,7 @@ header {
 
 
 .fundo03 {
-    margin-top: 80px;
+    margin-top: 150px;
     height: 400px;
     width: 100vw;
     background-color: #ECECEE;
