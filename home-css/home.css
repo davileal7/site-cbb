@@ -168,7 +168,7 @@ header {
     display: flex;
     justify-content: right;
     align-items: center;
-    background-image: url('../imagens/caminhao.jpg');
+    background-image: url('../imagens/containers-img/caminhao.jpg');
 }
 .fundo01 .titulo01:hover,
 .fundo02 .titulo02:hover {

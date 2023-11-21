@@ -96,7 +96,7 @@ header {
     width: 100vw;
     margin-top: 150px;
     background-color: #5b8999;
-    background-image: url('../imagens/containers-img/womans-fornecedora.jpg');
+    background-image: url('../imagens/containers-img/01fornecedor.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -154,8 +154,6 @@ header {
 .container02-mobile {
     display: none;
 }
-
-
 
 .fundo03 {
     margin-top: 150px;
