@@ -98,7 +98,7 @@ header {
     height: 1000px;
     width: 100vw;
     margin-top: 150px;
-    background-image: url('../imagens/containers-img/catalogo-fundo.jpg');
+    background-image: url('../imagens/containers-img/02catalogo-fundo.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -106,12 +106,12 @@ header {
     align-items: center;
 }
 .container01 .text01 {
-    color: #ECECEE;
+    color: #fff;
     text-shadow: 1px 1px 2px #24252a;
     font-size: 3.5em;
     text-align: left;
     margin-left: 150px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(20px);
 }
 .text01 h2 {
     color: #FF9700;
