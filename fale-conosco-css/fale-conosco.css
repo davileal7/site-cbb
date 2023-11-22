@@ -94,8 +94,6 @@ header {
     text-align: right;
     margin-right: 150px;
 }
-
-
 .fale_conosco-mobile {
     display: none;
 }
@@ -148,7 +146,6 @@ header {
     align-items: center;
     height: 320px;
     border-radius: 10px;
-
 }
 .container-atendimento h2 {
     color: #24252a;
@@ -173,7 +170,7 @@ header {
 
 .container02 {
     background-color: #6A6D78;
-    height: 510px;
+    height: 550px;
     width: 100vw;
     margin-top: 150px;
     border: 1px solid black;

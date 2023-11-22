@@ -5,65 +5,65 @@
 /* MEU - CELULAR DEITADO */
 @media(max-width: 1000px) {
 
-    .menu {
-        display: flex;
-        list-style: none;
-        gap: .1rem;
-    }
-    .menu li {
-        display: block;
-        padding: .0rem;
-    }
-    .menu span {
-      font-size: 13.5px;
-    }
-    .logo-cbb {
-      height: 20px;
-      width: 150px;
-    }
-    
-    .container00 {
-      display: none;
-    }
-    .container-img01-mobile  {
-      display: flex;
-      margin-top: 0px;
-      justify-content: center;
-      align-items: center;
-      height: 30vh;
-      width: 100vw;
-      background-color: #ECECEE;
-    }
-    .img-topo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 150px;
-      width: 100vw;
-    }
-    .container01 {
-      height: 50vh;
-      width: 100vw;
-      margin-top: 80px;
-      background-color: #5b8999;
-      background-image: url('../imagens/containers-img/01fale-conosco.jpg');
-      background-size: contain;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: right;
-      align-items: center;
-  }
-  .container01 .container-text {
-    color: #ECECEE;
-    text-shadow: 1px 1px 2px #24252a;
-    font-size: 3.5em;
-    text-align: left;
-    margin-left: 150px;
-    backdrop-filter: blur(0px);
+.menu {
+    display: flex;
+    list-style: none;
+    gap: .1rem;
 }
-.container-text p {
-    line-height: 50px;
-    font-size: 35px;
+.menu li {
+    display: block;
+    padding: .0rem;
+}
+.menu span {
+  font-size: 13.5px;
+}
+.logo-cbb {
+  height: 20px;
+  width: 150px;
+}
+
+.container00 {
+  display: none;
+}
+.container-img01-mobile  {
+  display: flex;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100vw;
+  background-color: #ECECEE;
+}
+.img-topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100vw;
+}
+.container01 {
+  height: 50vh;
+  width: 100vw;
+  margin-top: 80px;
+  background-color: #5b8999;
+  background-image: url('../imagens/containers-img/01fale-conosco.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.container01 .container-text {
+  color: #ECECEE;
+  text-shadow: 1px 1px 2px #24252a;
+  font-size: 3.5em;
+  text-align: right;
+  margin-right: 150px;
+  backdrop-filter: blur(0px);
+}
+.container01  .container-text p {
+    line-height: 25px;
+    font-size: 15.5px;
 }
 .container-title {
     margin-top: 80px;
@@ -91,7 +91,6 @@
     align-items: center;
     height: 320px;
     border-radius: 10px;
-
 }
 .container-atendimento h2 {
     color: #24252a;
@@ -113,14 +112,8 @@
     padding: 0px;
     border-radius: 150px;
 }
-
-
-
-
-
-
   
-  .container00 .container-imagem h2,
+.container00 .container-imagem h2,
 .container01 .container-text h2,
 .container02 .container-text h2 {
     color: #FF9700;
@@ -142,7 +135,7 @@
   
   .container02 {
       background-color: #6A6D78;
-      height: 510px;
+      height: 500px;
       width: 100vw;
       margin-top: 80px;
       border: 1px solid black;
@@ -154,7 +147,7 @@
   .container-text span {
       color: #fff;
       text-shadow: 1px 1px 2px #24252a;
-      font-size: 15.5px;
+      font-size: 12.5px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -336,6 +329,12 @@
       margin: 10px;
       padding: 1px;
   }
+.whats img {
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+
 }
   
     
@@ -512,7 +511,7 @@
 }
 .container-title h2 {
   color: #FF9700;
-  font-size: 30px;
+  font-size: 25px;
   text-shadow: 1px 2px 2px #24252a;
 }
 .container-canal {
@@ -531,7 +530,7 @@
 .container-atendimento h2 {
   color: #24252a;
   margin: 15px;
-  font-size: 24px;
+  font-size: 21px;
 } 
 .ped {
   background-color: #FF9700;
@@ -547,187 +546,152 @@
   padding: 0px;
   border-radius: 150px;
 }
-  .container02 {
-    background-color: #6A6D78;
-    height: 510px;
-    width: 100vw;
-    margin-top: 150px;
-    border: 1px solid black;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .container-text span {
-    color: #fff;
-    text-shadow: 1px 1px 2px #24252a;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-  }
-  .container01 .container-text,
-  .container02 .container-text {
-    display: none;
-  }
-  .container01-mobile,
-  .container02-mobile,
-  .container03-mobile {
-    height: 250px;
-    width: 100vw;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #5b8999;
-  } 
-  .container02 {
-    display: none;
-  }
-  .container03 {
-      height: 50vh;
-      width: 100vw;
-      margin-top: 100px;
-  }
-  .title {
-      color: #464646;
-      background-color: #ECECEE;
-      text-align: center;
-  }
-  .mapa {
-      height: 50vh;
-      width: 100vw;
-  }
-  .container02-mobile {
-    height: 550px;
-    font-size: 14px;
-    line-height: 40px;
-    background-color: #6A6D78;
-  }
-
-  .container01-mobile .container-text-mobile,
-  .container02-mobile .container-text-mobile,
-  .container03-mobile .container-text-mobile {
-    color: #ffff;
-    text-shadow: 1px 1px 2px #24252a;
-    text-align: center;
-  }
-  
-  .container-text-mobile h2{
-      color: #FF9700;
-      font-size: 25px;
-  }
-  .container-text-mobile p {
-      line-height: 20px;
-      font-size: 15px;
-  }
-    
-
-  .fundo03 {
-    height: 200px;
-    width: 100vw;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    background-color: #ECECEE;
-  }
+.container02-mobile {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  line-height: 35px;
+  background-color: #6A6D78;
+} 
+.container02 {
+  display: none;
+}
+.container03 {
+  height: 50vh;
+  width: 100vw;
+  margin-top: 100px;
+}
+.title {
+  color: #464646;
+  background-color: #ECECEE;
+  text-align: center;
+}
+.mapa {
+  height: 50vh;
+  width: 100vw;
+}
+.container-text-mobile span {
+  font-size: 14.5px;
+}
+.container02-mobile .container-text-mobile {
+  color: #ffff;
+  text-shadow: 1px 1px 2px #24252a;
+  text-align: center;
+}
+.container-text-mobile h2{
+  color: #FF9700;
+  font-size: 25px;
+}
+.container-text-mobile p {
+  line-height: 20px;
+  font-size: 15px;
+}
+.fundo03 {
+  height: 200px;
+  width: 100vw;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #ECECEE;
+}
   /*CAROSEL */
-  .wrapper i {
-      top: 50%;
-      height: 35px;
-      width: 35px;
-      cursor: pointer;
-      font-size: 2rem;
-      position: absolute;
-      text-align: center;
-      line-height: 35px;
-      background: #fff;
-      border-radius: 50%;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-      transform: translateY(-50%);
-      transition: transform 0.1s linear;
-  }
-  .carousel .card {
-    scroll-snap-align: start;
-    height: 200px;
+.wrapper i {
+  top: 50%;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  text-align: center;
+  line-height: 35px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 200px;
+  list-style: none;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.carousel .card .img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.card .img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+.wrapper i:first-child{
+  left: 20px;
+}
+.wrapper i:last-child{
+  right: 30px;
+}
+.wrapper .carousel {
+  grid-auto-columns: calc((100% / 2) - 9px);
+}
+.wrapper .carousel {
+  grid-auto-columns: 100%;
+}
+.roda_pe {
+  margin-top: 80px;
+  height: 780px;
+  width: 100vw;
+  background-color: #ECECEE;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.roda_pe .contatos  {
+    padding:  30px;
+}
+.roda_pe h3 {
+    font-size: 20px;
+    color: goldenrod;
+}
+.siga_nos {
+    color: goldenrod;
+}
+.roda_pe .contatos {
+    margin-left: 0px;
+}
+.roda_pe .contatos li {
     list-style: none;
-    padding-bottom: 15px;
-    flex-direction: column;
-    border-radius: 8px;
-  }
-  .carousel .card .img {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-  }
-  .card .img img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #fff;
-  }
-  .wrapper i:first-child{
-    left: 20px;
-  }
-  .wrapper i:last-child{
-    right: 30px;
-  }
-  .wrapper .carousel {
-    grid-auto-columns: calc((100% / 2) - 9px);
-  }
-  .wrapper .carousel {
-    grid-auto-columns: 100%;
-  }
-  .roda_pe {
-    margin-top: 80px;
-    height: 780px;
-    width: 100vw;
-    background-color: #ECECEE;
-    display: block;
+    margin-top:10px;
+    margin-left: 10px;
+}
+.redes_sociais a li {
+    position: relative;
+    left: 140px;
+    list-style: none;
+    margin-top: 10px;
+}
+.sobre_nos  {
+    display: none;
+}
+.roda_pe .sobre_nos-mobile {
+    margin-top: 30px;
+}
+.sobre_nos-mobile {
+    display: flex;
     justify-content: center;
+    flex-direction: column;
     text-align: center;
-  }
-  .roda_pe .contatos  {
-      padding:  30px;
-  }
-  .roda_pe h3 {
-      font-size: 20px;
-      color: goldenrod;
-  }
-  .siga_nos {
-      color: goldenrod;
-  }
-  .roda_pe .contatos {
-      margin-left: 0px;
-  }
-  .roda_pe .contatos li {
-      list-style: none;
-      margin-top:10px;
-      margin-left: 10px;
-  }
-  .redes_sociais a li {
-      position: relative;
-      left: 140px;
-      list-style: none;
-      margin-top: 10px;
-  }
-  .sobre_nos  {
-      display: none;
-  }
-  .roda_pe .sobre_nos-mobile {
-      margin-top: 30px;
-  }
-  .sobre_nos-mobile {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      text-align: center;
-  }
-  .sobre_nos-mobile p {
-      margin-top: 10px;
-  }
+}
+.sobre_nos-mobile p {
+    margin-top: 10px;
+}
 
   
 .whats {

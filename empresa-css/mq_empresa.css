@@ -246,6 +246,11 @@
       margin: 10px;
       padding: 1px;
   }
+  .whats img {
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+  }
   
 }
 
