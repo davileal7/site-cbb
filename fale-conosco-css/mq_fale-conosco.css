@@ -26,7 +26,7 @@
     text-shadow: 1px 1px 2px #24252a;
     font-size: 2.5em;
     text-align: left;
-    margin-left: 150px;
+    margin-left: 50px;
     backdrop-filter: blur(10px);
 }
 .container-text p {
@@ -335,7 +335,6 @@
   padding: 0px;
   border-radius: 150px;
 }
-  
 .container-text span {
   color: #fff;
   text-shadow: 1px 1px 2px #24252a;
@@ -366,7 +365,6 @@
   margin-top: 80px;
   display: flex;
   justify-content: center;
-
   background-color: #ECECEE;
 }
 
@@ -682,7 +680,6 @@
 }
 .container-title {
   margin-top: 200px;
-  background-color: #5b8999;
   height: 150px;
   display: flex;
   justify-content: center;
@@ -690,7 +687,7 @@
   text-align: center;
 }
 .container-title h2 {
-  color: #FF9700;
+  color: #fff;
   font-size: 25px;
   text-shadow: 1px 2px 2px #24252a;
 }
@@ -768,6 +765,25 @@
   line-height: 20px;
   font-size: 15px;
 }
+.container-title {
+  margin-top: 200px;
+  background-color: #f2b04d;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container-title h2 {
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 2px 2px #24252a;
+}
+.container-atendimento h2 {
+  color: #24252a;
+  margin: 15px;
+  font-size: 20px;
+} 
 .fundo03 {
   height: 200px;
   width: 100vw;

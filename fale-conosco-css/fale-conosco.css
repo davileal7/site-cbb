@@ -105,19 +105,19 @@ header {
 .container01 .container-text {
     color: #ECECEE;
     text-shadow: 1px 1px 2px #24252a;
-    font-size: 3.5em;
+    font-size: 3em;
     text-align: left;
-    margin-left: 150px;
+    margin-left: 50px;
     backdrop-filter: blur(10px);
 }
 .container-text p {
-    line-height: 50px;
-    font-size: 35px;
+    line-height: 40px;
+    font-size: 32px;
 }
 .container-title {
     margin-top: 150px;
     background-color: #f2b04d;
-    height: 25vh;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +125,7 @@ header {
 }
 .container-title h2 {
     color: #fff;
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: 1px 3px 3px #24252a;
 }
 .container-canal {
@@ -149,14 +149,14 @@ header {
 .ped {
     background-color: #FF9700;
     border-radius: 150px;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     box-shadow: 1px 1px 1px 1px #24252a;
 }
 .ped img,
 .cadastro img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     margin: 0px;
     padding: 0px;
     border-radius: 150px;
