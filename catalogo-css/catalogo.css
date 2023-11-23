@@ -51,7 +51,6 @@ header {
     font-size: 20px;
     color: #303030;
     font-weight: 400;
-
     position: relative;
     transition: all 0.4s;
 }
@@ -90,7 +89,6 @@ header {
 .container01-mobile {
     display: none;
 }
-
 .catalogo-mobile {
     display: none;
 }

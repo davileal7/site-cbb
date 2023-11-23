@@ -2,17 +2,14 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     font-family: 'Lato', sans-serif;
     background-color: #FFFFFF;
 }
-
 header {
     background-color: #ECECEE;
     box-shadow: 0px 3px 10px #464646;
 }
-
 #header {
     box-sizing: border-box;
     height: 100px;
@@ -21,7 +18,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-}
+    }
 .logo a{
     text-decoration: none;
     color: #24252a;
@@ -30,7 +27,6 @@ header {
     height: 40px;
     width: 300px;
 }
-
 .menu {
     display: flex;
     list-style: none;
@@ -72,7 +68,6 @@ header {
 .nav-link:hover::after {
     opacity: 1;
 }
-
 .container-img01-mobile {
     display: none;
 }
@@ -81,7 +76,6 @@ header {
     height: 35vh;
     width: 100vw;
 }
-
 .container-imagem img {
     height: 35vh;
     width: 100vw;
@@ -96,20 +90,11 @@ header {
     text-align: right;
     margin-right: 150px;
 }
-
-
-
-
-
 .container00 h2,
 .container00  p {
     margin-right: 100px;
 }
 
-.container02,
-.container03 {
-    margin-top: 80px;
-}
 .container01,
 .container02,
 .container03 {
@@ -117,15 +102,12 @@ header {
     width: 100vw;
     margin-top: 150px;
     background-color: #5b8999;
-    
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     justify-content: right;
     align-items: center;
 }
-
-
 .container00 .container-imagem h2,
 .container01 .container-text h2,
 .container02 .container-text h2,
@@ -162,10 +144,9 @@ header {
     background-image: url('../imagens/containers-img/img-cbb04.jpg');
 }
 
-
 .fundo03 {
     margin-top: 150px;
-    height: 450px;
+    height: 400px;
     width: 100vw;
     background-color: #ECECEE;
     display: flex;
@@ -174,7 +155,7 @@ header {
 
 /*CAROSEL */
 .wrapper {
-    max-width: 1300px;
+    max-width: 1200px;
     width: 100%;
     position: relative;
   }
