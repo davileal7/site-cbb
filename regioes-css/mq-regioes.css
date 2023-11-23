@@ -4,12 +4,12 @@
 @media(max-width: 1380px) {
   
   .container00 {
-    height: 30vh;
+    height: 170px;
     width: 100vw;
   }
   .container-imagem img {
-      height: 30vh;
-      width: 100vw;
+    height: 170px;
+    width: 100vw;
   }
   .container01 {
     height: 480px;
@@ -21,7 +21,7 @@
     justify-content: left;
     align-items: center;
 
-    background-image: url('../imagens/containers-img/00woman-computer.jpg');
+    background-image: url('../imagens/containers-img/mapa-fundo.jpg');
 }
 
 .container01 .text01 h2,

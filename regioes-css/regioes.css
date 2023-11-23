@@ -103,7 +103,7 @@ header {
     display: none;
 }
 .container01 {
-    height: 1000px;
+    height: 600px;
     width: 100vw;
     margin-top: 150px;
     background-size: cover;
@@ -111,8 +111,7 @@ header {
     display: flex;
     justify-content: left;
     align-items: center;
-
-    background-image: url('../imagens/containers-img/regioes-fundo.jpg');
+    background-image: url('../imagens/containers-img/mapa-fundo.jpg');
 }
 
 .container01 .text01 h2,
@@ -123,14 +122,14 @@ header {
 .container01 .text01 {
     color: #fff;
     text-shadow: 1px 2px 2px  #24252a;
-    font-size: 3.5em;
+    font-size: 3em;
     text-align: left;
-    margin-left: 150px;
+    margin-left: 50px;
     backdrop-filter: blur(25px);
 }
 .text01 p {
-    line-height: 50px;
-    font-size: 35px;
+    line-height: 40px;
+    font-size: 32px;
 }
 .container03 {
     margin-top: 150px;
@@ -335,7 +334,6 @@ header {
 footer h1 {
     text-align: center;
 }
-
 
 .cadastro {
     position: fixed;

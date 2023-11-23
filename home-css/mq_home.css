@@ -5,11 +5,11 @@
 @media(max-width: 1380px) {
   
 .container00 {
-  height: 30vh;
+  height: 170px;
   width: 100vw;
 }
 .container-imagem img {
-    height: 30vh;
+    height: 170px;
     width: 100vw;
 }
 .frase h3 {
