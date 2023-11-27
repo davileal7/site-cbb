@@ -522,7 +522,7 @@
     }
     .catalogo-mobile {
       display: block;
-      margin-top: 100px;  
+      margin-top: 0px;  
     }
     .catalogo-mobile img {
       height: 450px;

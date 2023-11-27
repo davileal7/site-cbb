@@ -12,29 +12,21 @@
     height: 170px;
     width: 100vw;
 }
-.frase h3 {
-  background-color: #ECECEE;
-  font-size: 20px;
-  padding: 20px;
-  color: #5b8999;
-}
 .logo-big {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1px;
-  background-color: #ECECEE;
 }
 .logo-big img {
   height: 250px;
   border-radius: 150px;
 }
 .frase h3 {
-  background-color: #ECECEE;
   font-size: 20px;
   padding: 20px;
-  color: #5b8999;
 }
+
 .fundo01 {
   height: 480px;
   width: 100vw;
@@ -172,6 +164,9 @@
   color: #6A6D78;
   font-size: 1.31rem;
 }
+.roda_pe{
+  margin-top: 0;
+}
 
 }
 
@@ -201,7 +196,7 @@
 }
 .container-img01-mobile  {
   display: flex;
-  margin-top: 0px;
+  margin-top: 1px;
   justify-content: center;
   align-items: center;
   height: 30vh;
@@ -215,25 +210,22 @@
   height: 150px;
   width: 100vw;
 }
-.frase h3 {
-  background-color: #ECECEE;
-  font-size: 20px;
-  padding: 20px;
-  color: #5b8999;
-}
 .logo-big {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
-  background-color: #ECECEE;
+  margin-top: 20px;
 }
 .logo-big img {
-    height: 250px;
-    border-radius: 150px;
+  height: 250px;
+  border-radius: 150px;
+}
+.frase h3 {
+  font-size: 20px;
+  padding: 20px;
 }
 .fundo01 {
-  min-height: 300px;
+  height: 300px;
   width: 100vw;
   margin-top: 0px;
   display: flex;
@@ -243,15 +235,12 @@
   background-size: cover;
   background-image: url('../imagens/containers-img/01caminhao.jpg');
 }
-
 .fundo01 .titulo01 {
   color: #ffff;
   text-shadow: 1px 2px 2px #24252a;
-
   text-align: center;
   border-radius: 10px;
   width: 65vw;
-  
 }
 .titulo01 h2, 
 .titulo02 h2 {
@@ -263,13 +252,13 @@
   font-size: 20px;
 }
 .fundo02 {
-  min-height: 300px;
+  height: 300px;
   width: 100vw;
   margin-top: 0px;
   display: flex;
   justify-content: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  
 }
 .fundo02 .titulo02 {
   color: #ffff;
@@ -290,16 +279,13 @@
   background-color: #FF9700;
   border-radius: 150px;
   box-shadow: 1px 2px 2px 2px #24252a;
-  
 }
-
 .fundo03 {
   height: 250px;
   width: 100vw;
   margin-top: 0px;
   display: flex;
   justify-content: center;
-
   background-color: #ECECEE;
 }
 
@@ -398,10 +384,10 @@
 }
 
 .roda_pe {
-  margin-top: 80px;
+  margin-top: 0px;
   height: 160vh;
   width: 100vw;
-  background-color: #ECECEE;
+  
   display: block;
   justify-content: center;
   text-align: center;
@@ -460,150 +446,150 @@
 
 /* CELULAR RETO--------------------------------------------------------------------------------------------- */
 @media (max-width: 730px) {
-   
+  
+#btn-mobile {
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap:  .5rem;
+}
+#hamburguer {
+    display: block;
+    border-top: 3px solid;
+    width: 20px;
+}
+#hamburguer::after, #hamburguer::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: currentColor;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+}
+.nav.active #hamburguer {
+    border-top-color: transparent;
+}
+.nav.active #hamburguer::before {
+    transform: rotate(135deg);
+}
+.nav.active #hamburguer::after {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+.menu {
+    display: block;
+    position: absolute;
+    background-color: #ECECEE;
+    box-shadow: 0px 3px 10px #464646;
+    width: 100%;
+    top: 100px;
+    right: 0px;
+    height: 0px;
+    transition: .2s;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+.nav.active .menu {
+    height: 290px;
+    visibility: visible;
+    overflow-y: auto;
+}
+.menu li {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    text-align: center;
+}
+.menu span {
+  font-size: 19px;
+}
+.logo-cbb {
+  height: 25px;
+  width: 250px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #303030;
+    font-weight: 400;
 
-    #btn-mobile {
-        display: flex;
-        padding: .5rem 1rem;
-        font-size: 1rem;
-        border: none;
-        background: none;
-        cursor: pointer;
-        gap:  .5rem;
-    }
-    #hamburguer {
-        display: block;
-        border-top: 3px solid;
-        width: 20px;
-    }
-    #hamburguer::after, #hamburguer::before {
-        content: '';
-        display: block;
-        width: 20px;
-        height: 2px;
-        background-color: currentColor;
-        margin-top: 5px;
-        transition: .3s;
-        position: relative;
-    }
-    .nav.active #hamburguer {
-        border-top-color: transparent;
-    }
-    .nav.active #hamburguer::before {
-        transform: rotate(135deg);
-    }
-    .nav.active #hamburguer::after {
-        transform: rotate(-135deg);
-        top: -7px;
-    }
-    .menu {
-       display: block;
-       position: absolute;
-       background-color: #ECECEE;
-       box-shadow: 0px 3px 10px #464646;
-       width: 100%;
-       top: 100px;
-       right: 0px;
-       height: 0px;
-       transition: .2s;
-       visibility: hidden;
-       overflow-y: hidden;
-    }
-    .nav.active .menu {
-        height: 290px;
-        visibility: visible;
-        overflow-y: auto;
-    }
-    .menu li {
-        padding: 1rem 0;
-        margin: 0 1rem;
-        text-align: center;
-    }
-    .menu span {
-      font-size: 19px;
-    }
-    .logo-cbb {
-      height: 25px;
-      width: 250px;
-    }
+    position: relative;
+    transition: all 0.4s;
+}
+.nav-link:hover {
+    color: #fff;
+}
+.nav-link::after {
+    bottom: 0px;
+}
+.nav-item:hover {
+    background-color: rgb(7, 139, 139);
+}
+.nav-bar {
+    padding: 1.5rem 4rem;
+}
+.mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+}
+.open {
+    display: block;
+}
+.container00 {
+  display: none;
+}
+.container-img01-mobile  {
+  margin-top: 1px;
+  display: flex;
 
-    .nav-link {
-        text-decoration: none;
-        font-size: 1.15rem;
-        color: #303030;
-        font-weight: 400;
-    
-        position: relative;
-        transition: all 0.4s;
-    }
-    .nav-link:hover {
-        color: #fff;
-    }
-    .nav-link::after {
-        bottom: 0px;
-    }
-    .nav-item:hover {
-        background-color: rgb(7, 139, 139);
-    }
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        color: black;
-    }
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-    .open {
-        display: block;
-    }
-
-    .container00 {
-      display: none;
-    }
-    .container-img01-mobile  {
-      margin-top: 1px;
-      display: flex;
-
-      justify-content: center;
-      align-items: center;
-      height: 100px;
-      width: 100vw;
-      background-color: #ECECEE;
-    }
-    .img-topo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height:  100px;
-    }
-    .frase h3 {
-      background-color: #ECECEE;
-      font-size: 20px;
-      padding: 20px;
-      color: #5b8999;
-  }
-  .logo-big {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 1px;
-      background-color: #ECECEE;
-  }
-  .logo-big img {
-      height: 250px;
-      border-radius: 150px;
-  }
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100vw;
+  background-color: #ECECEE;
+}
+.img-topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:  100px;
+}
+.frase h3 {
+  font-size: 20px;
+  padding: 20px;
+  color: #4E9AB4;
+}
+.logo-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+}
+.logo-big img {
+  height: 250px;
+  border-radius: 150px;
+}
+.frase h3 {
+  font-size: 15.5px;
+  padding: 20px;
+  color: #4E9AB4;
+}
 .fundo01 {
   height: 400px;
   width: 100vw;
@@ -613,56 +599,71 @@
   align-items: center;
   background-image: url('../imagens/containers-img/caminhao.jpg');
 }
-.fundo01 .titulo01 {
+.fundo01 .titulo01,
+.container02-mobile {
   color: #ffff;
   text-shadow: 1px 1px 2px #24252a;
   text-align: center;
   width: 100vw;
 }
 .titulo01 h2,
-.container-text-02 h2 {
+.container-text-mobile h2 {
   line-height: 30px;
 }
 .fundo01 .titulo01 h2,
 .fundo02 .titulo02 h2,
-.container-text-02 h2{
+.container-text-mobile h2{
   color: #FF9700;
   font-size: 30px;
+}
+.fundo02 {
+  display: none;
 }
 .fundo02 .titulo02 {
   display: none;
 }
 .titulo01 p,
 .titulo02 p,
-.container-text-02 p {
+.container-text-mobile p {
   line-height: 25px;
   font-size: 15.5px;
 }
-.fundo02 {
+.container03 .container-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15.5px;
+  height: 100px;
+  width: 100px;
+}
+.container02-mobile {
+  display: block;
   height: 400px;
   width: 100vw;
   margin-top: 0px;
   background-color: transparent;
   background-image: url('../imagens/containers-img/img-cbb01.jpg');
 }
-.container02 {
-  height: 250px;
+.container02-mobile img {
+  height: 450px;
   width: 100vw;
+  display: block; 
   margin-top: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+.container02-mobile .container-text-mobile {
+  height: 450px;
+  width: 100vw;
+  display: block;
+  text-align: center; 
   background-color: #4E9AB4;
-} 
-.container02 .container-text-02 {
-  color: #ffff;
-  text-shadow: 1px 2px 2px #24252a;
-  text-align: center;
+  margin-top: 0px;
 }
 .fundo03 {
   height: 200px;
   width: 100vw;
-  margin-top: 0px;
+  margin-top: 200px;
   display: flex;
   justify-content: center;
   background-color: #ECECEE;
@@ -716,10 +717,9 @@
   grid-auto-columns: 100%;
 }
 .roda_pe {
-  margin-top: 0px;
   height: 780px;
   width: 100vw;
-  background-color: #ECECEE;
+  margin-top: 0;
   display: block;
   justify-content: center;
   text-align: center;
