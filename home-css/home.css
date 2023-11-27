@@ -78,7 +78,7 @@ header {
     display: none;
 }
 .container00 {
-    margin-top: 4px;
+    margin-top: 1px;
     height: 35vh;
     width: 100vw;
 }
@@ -109,45 +109,51 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 0px;
     background-color: #ECECEE;
 }
 .logo-big img {
     height: 300px;
     border-radius: 150px;
 }
+
 .fundo01 {
-    height: 600px;
-    width: 100vw;
-    margin-top: 150px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../imagens/containers-img/01caminhao.jpg');
+
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-image: url('../imagens/containers-img/entrega.jpg');
+    text-align: center;
+    min-height: 600px;
+    position: relative;
+    isolation: isolate;
+}
+.fundo01::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: #24252a;
+    opacity: 0.7;
 }
 .fundo01 .titulo01 {
     color: #fff;
     text-shadow: 1px 2px 2px #24252a;
     font-size: 3em;
-    text-align: center;
-    border-radius: 10px;
     width: 65vw;
-    backdrop-filter: blur(10px);
 }
 .fundo01 .titulo01 h2,
 .fundo02 .titulo02 h2 {
     text-shadow: 1px 2px 2px #24252a;
-    color: #FF9700;
+    color: #f09102;
 }
 .fundo02 .titulo02 {
     color: #ffff;
-    text-shadow: 1px 1px 2px #24252a;
+    text-shadow: 1px 2px 2px #24252a;
     font-size: 3em;
-    text-align: right;
-    margin-right: 50px;
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
+    text-align: center;
 }
 .titulo01 p,
 .titulo02 p {
@@ -155,15 +161,15 @@ header {
     font-size: 32px;
 }
 .fundo02 {
-    height: 600px;
+    min-height: 600px;
     width: 100vw;
-    margin-top: 150px;
-    background-color: #5b8999;
+    margin-top: 0px;
+    background-color: #4E9AB4;
     background-size: cover;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
-    background-image: url('../imagens/containers-img/01caminhao.jpg');
+    border: 1px solid #24252a;  
 }
 .fundo01 .titulo01:hover,
 .fundo02 .titulo02:hover {
@@ -171,14 +177,13 @@ header {
     transition: ease-in-out 1.5s;
 }
 .container03 {
-    margin-top: 150px;
+    margin-top: 0px;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     height: 225px;
-    background-color: #ECECEE;
-    
+     
 }
 .container03 .container-text {
     display: flex;
@@ -206,7 +211,7 @@ header {
     transition: 1.5s;
 }
 .fundo03 {
-    margin-top: 150px;
+    margin-top: 0px;
     height: 400px;
     width: 100vw;
     background-color: #ECECEE;
@@ -301,7 +306,7 @@ header {
 /* FIM - CAROSEL */
 
 .roda_pe {
-    margin-top: 150px;
+    margin-top: 0px;
     height: 450px;
     width: 100vw;
     background-color: #ECECEE;
@@ -365,7 +370,7 @@ header {
     text-decoration: none;    
 }
 .redes_sociais h3,
- .sobre_nos h3 {
+.sobre_nos h3 {
     margin-top: 20px;
 }
 .sobre_nos-mobile {
@@ -379,6 +384,7 @@ header {
 }
 footer h1 {
     text-align: center;
+    background-color: #ECECEE;
 }
 .whats {
     background-color:rgb(0, 231, 119) ;
@@ -388,7 +394,6 @@ footer h1 {
     z-index: 9999;
     border-radius: 100px;
 }
-
 .whats img {
     padding: 15px;
     height: 70px;
