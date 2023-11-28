@@ -140,10 +140,7 @@ header {
     text-align: right;
     position: relative;
     isolation: isolate;
-  
-
     background-image: url('../imagens/containers-img/img-cbb01.jpg');
-
     border: 1px solid #24252a;
 }
 .container1-mobile::after,
@@ -185,35 +182,61 @@ header {
     margin-top: 0px;
     display: flex;
     text-align: center;
-    justify-content: center;
     align-items: center;
-    height: 225px;
+    height: 400px;
     background-color: #ECECEE;
 }
 .container03 .container-text {
     display: flex;
     text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    font-size: 20px;
+    width: 100vw;
+    color: #24252a;
+    box-shadow: 1px 2px 2px 2px #24252a;
+    background-color: #ECECEE;
+    font-weight: 600;
+}
+.risca {
+    border: 1px solid #4E9AB4;
+    border-radius: 50px;
+    width: 400px;
+}
+.container-text h3 {
+    font-size: 35px;
+    color: #4E9AB4;
+}
+.container-text ul  {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 0px;
+    list-style: none;
+}
+.container-text li {
+    color: #808080;
+    margin: 5px;
+    font-size: 23px;
+}
+.container-text span {
+    display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
-    font-size: 20px;
-    
-    height: 150px;
-    width: 150px;
-    background-color: #FF9700;
+    text-align: center;
+    background-color: #ECECEE;
+    border: 2px solid #f09102;
+    height: 200px;
+    width: 200px;
     border-radius: 150px;
-    box-shadow: 1px 2px 2px 2px #24252a;
+    margin-right: 0px;
 }
 .container-text a {
-    color: #fff;
-    text-shadow: 1px 2px 2px #24252a;
+    color: #f09102;
     text-decoration: none;
 }
-.container-text:hover {
-    color: #fff;
-    scale: 1.1;
-    transition: 1.5s;
-}
+
 .fundo03 {
     margin-top: 0px;
     height: 400px;

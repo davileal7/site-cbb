@@ -630,15 +630,66 @@
   line-height: 25px;
   font-size: 15.5px;
 }
+.container03 {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 400px;
+  background-color: #ECECEE;
+}
 .container03 .container-text {
   display: flex;
   text-align: center;
+  flex-direction: column;
+
+  align-items: center;
+  height: 400px;
+  font-size: 20px;
+  width: 100vw;
+  color: #24252a;
+  box-shadow: none;
+  background-color: #ECECEE;
+}
+.risca {
+  margin-top: 15px;
+  border: 1px solid #4E9AB4;
+  width: 300px;
+}
+.container-text h3 {
+  font-size: 25px;
+  color: #4E9AB4;
+}
+.container-text ul  {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 0px;
+  list-style: none;
+}
+.container-text li {
+  color: #808080;
+  margin: 5px;
+  font-size: 15.5px;
+}
+.container-text span {
+  font-size: 15.5;
+  display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  text-align: center;
+  background-color: #ECECEE;
+  border: 2px solid #f09102;
+  height: 115px;
+  width: 115px;
+  border-radius: 150px;
+  margin-top: 30px;
+}
+.container-text a {
   font-size: 15.5px;
-  height: 100px;
-  width: 100px;
+  color: #f09102;
+  text-decoration: none;
 }
 .container02-mobile {
   display: block;
