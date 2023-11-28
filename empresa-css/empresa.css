@@ -72,7 +72,7 @@ header {
     display: none;
 }
 .container00 {
-    margin-top: 4px;
+    margin-top: 1px;
     height: 35vh;
     width: 100vw;
 }
@@ -94,57 +94,108 @@ header {
 .container00  p {
     margin-right: 100px;
 }
-.container01,
-.container02,
+.container01 {
+    background-color: #315b76;
+}
+.container02 {
+    background-color: #4f7696;
+}
 .container03 {
-    height: 50vh;
+    background-color: #315b76;
+}
+.container-sobre-nos {
+    height: 400px;
     width: 100vw;
-    margin-top: 150px;
-    background-color: #5b8999;
+    margin-top: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.sobre h3 {
+    font-size: 30px;
+    color: #4E9AB4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sobre {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.risca {
+    border: 1px solid #4E9AB4;
+    border-radius: 50px;
+    height: 0px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.container-sobre-nos .container-text p {
+    color: #808080; 
+    font-size: 25px;
+}
+.container01,
+.container03 {
+    height: 400px;
+    width: 100vw;
+    margin-top: 0px;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
+}
+.container02 {
+    height: 400px;
+    width: 100vw;
+    margin-top: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
     align-items: center;
 }
 .container00 .container-imagem h2,
 .container01 .container-text h2,
 .container02 .container-text h2,
-.container03 .container-text h2{
+.container03 .container-text h2 {
+    margin-bottom: 15px;
     color: #FF9700;
+    text-shadow: 1px 1px 1px #24252a;
 }
 .container00 .container-imagem,
 .container01 .container-text,
-.container02 .container-text,
 .container03 .container-text {
-    color: #ffff;
-    text-shadow: 1px 1px 2px #24252a;
+    color: #fff;
+    text-shadow: 1px 1px 1px #24252a;
     font-size: 2.5em;
-    text-align: right;
-    margin-right: 50px;
+    text-align: center;
+    margin-right: 0px;
 }
+.container02 .container-text {
+    color: #fff;
+    text-shadow: 1px 1px 1px #24252a;
+    font-size: 2.5em;
+    text-align: center;
+    margin-left: 0px;
+} 
 .container-imagem p,
-.container-text p {
+ .container-text p {
     line-height: 35px;
     font-size: 32px;
 }
-.container01-mobile,
-.container02-mobile,
-.container03-mobile {
+.container-text .risca {
     display: none;
 }
-.container01 {
-    background-image: url('../imagens/containers-img/img-cbb02.jpg');
-}
-.container02 {
-    background-image: url('../imagens/containers-img/img-cbb03.jpg');
-}
-.container03 {
-    background-image: url('../imagens/containers-img/img-cbb04.jpg');
-}
+
 
 .fundo03 {
-    margin-top: 150px;
+    margin-top: 0px;
     height: 400px;
     width: 100vw;
     background-color: #ECECEE;
@@ -239,10 +290,9 @@ header {
 /* FIM - CAROSEL */
 
 .roda_pe {
-    margin-top: 150px;
-    height: 70vh;
+    margin-top: 0px;
+    height: 450px;
     width: 100vw;
-    background-color: #ECECEE;
     display: flex;
     justify-content: space-between;
     color: #24252a;

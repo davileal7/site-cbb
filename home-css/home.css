@@ -51,7 +51,6 @@ header {
     font-size: 20px;
     color: #303030;
     font-weight: 400;
-
     position: relative;
     transition: all 0.4s;
 }
@@ -126,8 +125,6 @@ header {
     text-align: center;
     position: relative;
     isolation: isolate;
-
-    border: 1px solid #24252a;
 }
 .container2-mobile {
     height: 600px;
@@ -140,8 +137,7 @@ header {
     text-align: right;
     position: relative;
     isolation: isolate;
-    background-image: url('../imagens/containers-img/img-cbb01.jpg');
-    border: 1px solid #24252a;
+    background-image: url('../imagens/containers-img/img-cbb01.jpg'); 
 }
 .container1-mobile::after,
 .container2-mobile::after {
@@ -150,7 +146,7 @@ header {
     z-index: -1;
     inset: 0;
     background-color: #303030;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 .container1-mobile .text-mobile,
 .container2-mobile .text-mobile {
@@ -161,22 +157,16 @@ header {
 }
 .container1-mobile h2,
 .container2-mobile h2 {
-    text-shadow: 1px 2px 2px #24252a;
+    text-shadow: 1px 1px 1px #24252a;
     color: #f09102;
 }
-
 .container2-mobile .text-mobile p,
 .container2-mobile .text-mobile h2 {
-    margin-right: 15px;
+    margin-right: 100px;
 }
 .text-mobile p {
     line-height: 40px;
     font-size: 32px;
-}
-.fundo01 .titulo01:hover,
-.fundo02 .titulo02:hover {
-    scale: 1.02;
-    transition: ease-in-out 1.5s;
 }
 .container03 {
     margin-top: 0px;
@@ -195,28 +185,28 @@ header {
     font-size: 20px;
     width: 100vw;
     color: #24252a;
-    box-shadow: 1px 2px 2px 2px #24252a;
+ 
     background-color: #ECECEE;
     font-weight: 600;
 }
-.risca {
-    border: 1px solid #4E9AB4;
-    border-radius: 50px;
-    width: 400px;
+.container-text p {
+    line-height: 30px;
+    font-size: 22px;
+    color: #808080;
 }
 .container-text h3 {
     font-size: 35px;
     color: #4E9AB4;
 }
-.container-text ul  {
+.container-text  .box {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-left: 0px;
-    list-style: none;
+    list-style: square;
 }
 .container-text li {
-    color: #808080;
+    color: #f09102;
     margin: 5px;
     font-size: 23px;
 }
@@ -235,6 +225,12 @@ header {
 .container-text a {
     color: #f09102;
     text-decoration: none;
+}
+.risca {
+    border: 1px solid #4E9AB4;
+    border-radius: 50px;
+    height: 0px;
+    width: 400px;
 }
 
 .fundo03 {
@@ -336,13 +332,10 @@ header {
     margin-top: 0px;
     height: 450px;
     width: 100vw;
-
     display: flex;
     justify-content: space-between;
     color: #24252a;
     font-size: 16px;
-
-    
 }
 .roda_pe .contatos,
 .roda_pe .redes_sociais,
