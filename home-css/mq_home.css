@@ -590,7 +590,7 @@
   padding: 20px;
   color: #4E9AB4;
 }
-.fundo01 {
+.container1-mobile  {
   height: 400px;
   width: 100vw;
   margin-top: 0px;
@@ -598,33 +598,35 @@
   justify-content: center;
   align-items: center;
   background-image: url('../imagens/containers-img/caminhao.jpg');
+  
 }
-.fundo01 .titulo01,
-.container02-mobile {
+.container2-mobile {
+  height: 400px;
+  width: 100vw;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../imagens/containers-img/img-cbb01.jpg');
+  
+  background-size: cover;
+}
+.container1-mobile .text-mobile,
+.container2-mobile .text-mobile {
   color: #ffff;
   text-shadow: 1px 1px 2px #24252a;
   text-align: center;
   width: 100vw;
 }
-.titulo01 h2,
-.container-text-mobile h2 {
+.text-mobile h2 {
   line-height: 30px;
 }
-.fundo01 .titulo01 h2,
-.fundo02 .titulo02 h2,
-.container-text-mobile h2{
+.container1-mobile .text-mobile h2,
+.container2-mobile .text-mobile h2{
   color: #FF9700;
   font-size: 30px;
 }
-.fundo02 {
-  display: none;
-}
-.fundo02 .titulo02 {
-  display: none;
-}
-.titulo01 p,
-.titulo02 p,
-.container-text-mobile p {
+.text-mobile p {
   line-height: 25px;
   font-size: 15.5px;
 }
@@ -663,7 +665,7 @@
 .fundo03 {
   height: 200px;
   width: 100vw;
-  margin-top: 200px;
+  margin-top: 0px;
   display: flex;
   justify-content: center;
   background-color: #ECECEE;
