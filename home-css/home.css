@@ -103,15 +103,15 @@ header {
     margin-top: 0px;
 }
 .logo-big img {
-    height: 300px;
+    height: 250px;
     border-radius: 150px;
 }
 .frase {
     text-align: center;
 }
 .frase h3 {
-    font-size: 1.5em;
-    padding: 20px;
+    font-size: 23px;
+    padding: 10px;
     color: #4E9AB4;
 }
 .container1-mobile {
@@ -152,21 +152,21 @@ header {
 .container2-mobile .text-mobile {
     color: #fff;
     text-shadow: 1px 1px 1px #24252a;
-    font-size: 3em;
     width: 65vw;
 }
 .container1-mobile h2,
 .container2-mobile h2 {
+    font-size: 50px;
     text-shadow: 1px 1px 1px #24252a;
     color: #f09102;
 }
 .container2-mobile .text-mobile p,
 .container2-mobile .text-mobile h2 {
-    margin-right: 100px;
+    margin-right: 75px;
 }
 .text-mobile p {
-    line-height: 40px;
-    font-size: 32px;
+    line-height: 35px;
+    font-size: 24.5px;
 }
 .container03 {
     margin-top: 0px;
@@ -176,7 +176,7 @@ header {
     height: 400px;
     background-color: #ECECEE;
 }
-.container03 .container-text {
+.container03 .text-mobile {
     display: flex;
     text-align: center;
     justify-content: space-around;
@@ -189,28 +189,28 @@ header {
     background-color: #ECECEE;
     font-weight: 600;
 }
-.container-text p {
+.container03 .text-mobile p {
     line-height: 30px;
     font-size: 22px;
     color: #808080;
 }
-.container-text h3 {
+.container03 .text-mobile h3 {
     font-size: 35px;
     color: #4E9AB4;
 }
-.container-text  .box {
+.container03 .text-mobile .box {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-left: 0px;
-    list-style: square;
+    
 }
-.container-text li {
+.container03 .text-mobile li {
     color: #f09102;
     margin: 5px;
     font-size: 23px;
 }
-.container-text span {
+.container03 .text-mobile span {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,7 +222,7 @@ header {
     border-radius: 150px;
     margin-right: 0px;
 }
-.container-text a {
+.container03 .text-mobile a {
     color: #f09102;
     text-decoration: none;
 }
@@ -244,7 +244,7 @@ header {
 
 /*CAROSEL */
 .wrapper {
-    max-width: 1200px;
+    max-width: 1150px;
     width: 100%;
     position: relative;
   }

@@ -5,22 +5,22 @@
 /*NOTEBOOK */
 @media(max-width: 1380px) {
   
-  .container00 {
-    margin-top: 1px;
-    height: 200px;
-    width: 100vw;
+.container00 {
+  margin-top: 1px;
+  height: 170px;
+  width: 100vw;
 }
 .container-imagem img {
-    height: 200px;
-    width: 100vw;
+  height: 170px;
+  width: 100vw;
 }
 .container-mobile {
-    display: none;
+  display: none;
 }
 .container01 .container-img {
-    color: #ffff;
-    text-shadow: 1px 1px 2px #24252a;
-    font-size: 2.5em;
+  color: #ffff;
+  text-shadow: 1px 1px 2px #24252a;
+  font-size: 2.5em;
     
 }
 .container00 h2,
@@ -34,109 +34,107 @@
     background-color: #fff;
 }
 .container03 {
-    background-color: #ECECEE;
+  background-color: #ECECEE;
 }
 .container-sobre-nos {
-    height: 400px;
-    width: 100vw;
-    margin-top: 0px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+  height: 400px;
+  width: 100vw;
+  margin-top: 0px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-.container-sobre-nos .container-text {
-    width: 100vw;
-}
+
 .sobre h3 {
-    font-size: 30px;
-    color: #4E9AB4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 10px;
+  font-size: 30px;
+  color: #4E9AB4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .sobre {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .risca {
-    border: 2px solid #4E9AB4;
-    border-radius: 50px;
-    height: 0px;
-    width: 200px;
-    margin-bottom: 20px;
+  border: 2px solid #4E9AB4;
+  border-radius: 50px;
+  height: 0px;
+  width: 200px;
+  margin-bottom: 20px;
 }
 .container-sobre-nos .container-text p {
-    color: #808080; 
-    font-size: 25px;
-    line-height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 900px;
+  color: #808080; 
+  font-size: 25px;
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   
 }
 .container01,
 .container02,
 .container03 {
-    height: 400px;
-    width: 100vw;
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 400px;
+  width: 100vw;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container01 .container-text h2,
 .container02 .container-text h2,
 .container03 .container-text h2 {
-    color: #4E9AB4;
-    
+  color: #4E9AB4;
+  font-size: 32px;
 }
 .container-text span {
-    height: 250px;
-    width: 250px;
-    border-radius: 150px;
-    border: 2px solid #4E9AB4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 20px;
+  height: 250px;
+  width: 250px;
+  border-radius: 150px;
+  border: 2px solid #4E9AB4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .container01 .container-text,
 .container02 .container-text,
 .container03 .container-text {
-    color: #808080;
-    font-size: 2.5em;
-    text-align: center;
-    margin-right: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  color: #808080;
+  font-size: 2.5em;
+  text-align: center;
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .container-text p {
-    line-height: 35px;
-    font-size: 32px;
-    text-align: right;
-    display: flex;
-    width: 700px;
+  line-height: 35px;
+  font-size: 32px;
+  text-align: right;
+  display: flex;
+  width: 700px;
 }
 .container01 .container-text .risca,
 .container02 .container-text .risca,
 .container03 .container-text .risca {
-    display: flex;
-    margin: 50px;
-    border: 2px solid #4E9AB4;
-    border-radius: 50px;
-    height: 0px;
-    width: 150px;
+  display: flex;
+  margin: 50px;
+  border: 2px solid #4E9AB4;
+  border-radius: 50px;
+  height: 0px;
+  width: 150px;
 }
 /*CAROSEL */
 .wrapper {

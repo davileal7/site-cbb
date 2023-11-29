@@ -1,175 +1,6 @@
 /* RESPONSIVE DESIGN */
 
 
-/*NOTEBOOK */
-@media(max-width: 1380px) {
-  
-.container00 {
-  height: 170px;
-  width: 100vw;
-}
-.container-imagem img {
-    height: 170px;
-    width: 100vw;
-}
-.logo-big {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1px;
-}
-.logo-big img {
-  height: 250px;
-  border-radius: 150px;
-}
-.frase h3 {
-  font-size: 20px;
-  padding: 20px;
-}
-
-.fundo01 {
-  height: 480px;
-  width: 100vw;
-  margin-top: 1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-
-}
-.fundo01 .titulo01 {
-  color: #fff;
-  text-shadow: 1px 2px 2px #24252a;
-  font-size: 2.5em;
-  text-align: center;
-  margin-left: 0px;
-  border-radius: 10px;
-}
-.fundo01 .titulo01 h2,
-.fundo02 .titulo02 h2 {
-  text-shadow: 1px 2px 2px #24252a;
-  color: #FF9700;
-}
-.titulo01 p,
-.titulo02 p {
-  line-height: 40px;
-  font-size: 27px;
-}
-.fundo02 {
-  height: 480px;
-  width: 100vw;
-  margin-top: 1px;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.fundo02 .titulo02 {
-  color: #ffff;
-  text-shadow: 1px 2px 2px #24252a;
-  font-size: 2.5em;
-  text-align: center;
-  background-color: #4E9AB4;
-}
-/*CAROSEL */
-.wrapper {
-  max-width: 1000px;
-  width: 100%;
-  position: relative;
-}
-.wrapper i {
-  top: 50%;
-  height: 40px;
-  width: 40px;
-  cursor: pointer;
-  font-size: 2.25rem;
-  position: absolute;
-  text-align: center;
-  line-height: 50px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-  transform: translateY(-50%);
-  transition: transform 0.1s linear;
-}
-.wrapper i:active{
-  transform: translateY(-50%) scale(0.85);
-}
-.wrapper i:first-child{
-  left: -50px;
-}
-.wrapper i:last-child{
-  right: -50px;
-}
-.wrapper .carousel{
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 6) - 20px);
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 26px;
-  border-radius: 8px;
-  scroll-behavior: smooth;
-  scrollbar-width: none;
-}
-.carousel::-webkit-scrollbar {
-  display: none;
-}
-.carousel.no-transition {
-  scroll-behavior: auto;
-}
-.carousel.dragging {
-  scroll-snap-type: none;
-  scroll-behavior: auto;
-}
-.carousel.dragging .card {
-  cursor: grab;
-  user-select: none;
-}
-.carousel :where(.card, .img) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.carousel .card {
-  scroll-snap-align: start;
-  height: 400px;
-  list-style: none;
-  padding-bottom: 15px;
-  flex-direction: column;
-  border-radius: 8px;
-}
-.carousel .card .img {
-  cursor: pointer;
-  background: #fff;
-  height: 125px;
-  width: 125px;
-  border-radius: 50%;
-}
-.card .img img {
-  cursor: pointer;
-  width: 125px;
-  height: 125px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #fff;
-}
-.carousel .card h2 {
-  font-weight: 500;
-  font-size: 1.10rem;
-  margin: 10px 0 5px;
-  color: #fff;
-}
-.carousel .card span {
-  color: #6A6D78;
-  font-size: 1.31rem;
-}
-.roda_pe{
-  margin-top: 0;
-}
-
-}
-
 /* I-FONE - CELULAR DEITADO */
 
 /* MEU - CELULAR DEITADO */
@@ -630,9 +461,10 @@
   color: #FF9700;
   font-size: 30px;
 }
-.text-mobile p {
+.container1-mobile .text-mobile p,
+.container2-mobile .text-mobile p {
   line-height: 25px;
-  font-size: 15.5px;
+  font-size: 18px;
 }
 .container03 {
   margin-top: 0px;
@@ -643,7 +475,7 @@
   height: 400px;
   background-color: #ECECEE;
 }
-.container03 .container-text {
+.container03 .text-mobile {
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -656,28 +488,27 @@
   background-color: #ECECEE;
 }
 .risca {
-  margin-top: 15px;
   border: 1px solid #4E9AB4;
   height: 0px;
   width: 300px;
 }
-.container-text h3 {
+.container03 .text-mobile h3 {
   font-size: 25px;
   color: #4E9AB4;
 }
-.container-text .box  {
+.container03 .text-mobile .box  {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-left: 0px;
   list-style: none;
 }
-.container-text p {
+.container03 .text-mobile p {
   color: #808080;
   margin: 5px;
-  font-size: 15.5px;
+  font-size: 18px;
 }
-.container-text span {
+.container03 .text-mobile span {
   font-size: 15.5;
   display: flex;
   justify-content: center;
@@ -688,9 +519,8 @@
   height: 115px;
   width: 115px;
   border-radius: 150px;
-  margin-top: 30px;
 }
-.container-text a {
+.container03 .text-mobile a {
   font-size: 15.5px;
   color: #f09102;
   text-decoration: none;
