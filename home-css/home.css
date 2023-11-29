@@ -115,26 +115,26 @@ header {
     color: #4E9AB4;
 }
 .container1-mobile {
-    height: 600px;
+    height: 500px;
     background-position: center;
     background-size: cover;
     background-image: url('../imagens/containers-img/01caminhao.jpg');
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    text-align: center;
+    text-align: left;
     position: relative;
     isolation: isolate;
 }
 .container2-mobile {
-    height: 600px;
+    height: 500px;
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     justify-content: right;
     align-items: center;
-    text-align: right;
+    text-align: left;
     position: relative;
     isolation: isolate;
     background-image: url('../imagens/containers-img/img-cbb01.jpg'); 
@@ -148,11 +148,15 @@ header {
     background-color: #303030;
     opacity: 0.7;
 }
+.container1-mobile .text-mobile {
+    margin-left: 100px;
+}
 .container1-mobile .text-mobile,
 .container2-mobile .text-mobile {
     color: #fff;
     text-shadow: 1px 1px 1px #24252a;
-    width: 65vw;
+    width: 680px;
+    margin-right: 0px;
 }
 .container1-mobile h2,
 .container2-mobile h2 {
@@ -160,12 +164,9 @@ header {
     text-shadow: 1px 1px 1px #24252a;
     color: #f09102;
 }
-.container2-mobile .text-mobile p,
-.container2-mobile .text-mobile h2 {
-    margin-right: 75px;
-}
+
 .text-mobile p {
-    line-height: 35px;
+    line-height: 30px;
     font-size: 24.5px;
 }
 .container03 {
@@ -244,7 +245,7 @@ header {
 
 /*CAROSEL */
 .wrapper {
-    max-width: 1150px;
+    max-width: 1000px;
     width: 100%;
     position: relative;
   }
@@ -313,14 +314,14 @@ header {
   .carousel .card .img {
     cursor: pointer;
     background: #fff;
-    height: 140px;
-    width: 140px;
+    height: 105px;
+    width: 105px;
     border-radius: 50%;
   }
   .card .img img {
     cursor: pointer;
-    width: 140px;
-    height: 140px;
+    width: 105px;
+    height: 105px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #fff;
@@ -418,8 +419,8 @@ footer h1 {
 }
 .whats img {
     padding: 15px;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
 }
 .whats span {
     position: relative;
@@ -437,3 +438,4 @@ footer h1 {
 .logo-site-mobile {
     display: none;
 }
+

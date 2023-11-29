@@ -91,10 +91,7 @@ header {
     text-align: right;
     margin-right: 150px;
 }
-.container00 h2,
-.container00  p {
-    margin-right: 100px;
-}
+
 .container01 {
     background-color: #ECECEE;
 }
@@ -113,7 +110,9 @@ header {
     justify-content: center;
     align-items: center;
 }
-
+.container-sobre-nos .container-text {
+    width: 1000px;
+}
 .sobre h3 {
     font-size: 30px;
     color: #4E9AB4;
@@ -139,8 +138,8 @@ header {
 }
 .container-sobre-nos .container-text p {
     color: #808080; 
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 24.5px;
+    line-height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,6 +159,7 @@ header {
 .container01 .container-text h2,
 .container02 .container-text h2,
 .container03 .container-text h2 {
+    font-size: 50px;
     color: #4E9AB4;
     
 }
@@ -178,7 +178,6 @@ header {
 .container02 .container-text,
 .container03 .container-text {
     color: #808080;
-    font-size: 2.5em;
     text-align: center;
     margin-right: 0px;
     display: flex;
@@ -189,12 +188,16 @@ header {
 
 .container01 .container-text p,
 .container02 .container-text p,
-.container02 .container-text p {
-    line-height: 35px;
-    font-size: 32px;
-    text-align: right;
+.container03 .container-text p {
+    line-height: 30px;
+    font-size: 24.5px;
+    text-align: left;
+    width: 650px;
+
     display: flex;
-    width: 700px;
+    justify-content: center;
+    align-items: center;
+    
 }
 .container01 .container-text .risca,
 .container02 .container-text .risca,
@@ -219,7 +222,7 @@ header {
 
 /*CAROSEL */
 .wrapper {
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
     position: relative;
   }
@@ -288,14 +291,14 @@ header {
   .carousel .card .img {
     cursor: pointer;
     background: #fff;
-    height: 155px;
-    width: 155px;
+    height: 105px;
+    width: 105px;
     border-radius: 50%;
   }
   .card .img img {
     cursor: pointer;
-    width: 155px;
-    height: 155px;
+    width: 105px;
+    height: 105px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #fff;
