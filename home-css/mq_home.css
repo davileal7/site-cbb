@@ -279,77 +279,77 @@
 @media (max-width: 730px) {
   
 #btn-mobile {
-    display: flex;
-    padding: .5rem 1rem;
-    font-size: 1rem;
-    border: none;
-    background: none;
-    cursor: pointer;
-    gap:  .5rem;
+  display: flex;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  gap:  .5rem;
 }
 #hamburguer {
-    display: block;
-    border-top: 3px solid;
-    width: 20px;
+  display: block;
+  border-top: 3px solid;
+  width: 20px;
 }
 #hamburguer::after, #hamburguer::before {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 2px;
-    background-color: currentColor;
-    margin-top: 5px;
-    transition: .3s;
-    position: relative;
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: currentColor;
+  margin-top: 5px;
+  transition: .3s;
+  position: relative;
 }
 .nav.active #hamburguer {
-    border-top-color: transparent;
+  border-top-color: transparent;
 }
 .nav.active #hamburguer::before {
-    transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 .nav.active #hamburguer::after {
-    transform: rotate(-135deg);
-    top: -7px;
+  transform: rotate(-135deg);
+  top: -7px;
 }
 .menu {
-    display: block;
-    position: absolute;
-    background-color: #ECECEE;
-    box-shadow: 0px 3px 10px #464646;
-    width: 100%;
-    top: 100px;
-    right: 0px;
-    height: 0px;
-    transition: .2s;
-    visibility: hidden;
-    overflow-y: hidden;
+  display: block;
+  position: absolute;
+  background-color: #ECECEE;
+  box-shadow: 0px 3px 10px #464646;
+  width: 100%;
+  top: 100px;
+  right: 0px;
+  height: 0px;
+  transition: .2s;
+  visibility: hidden;
+  overflow-y: hidden;
 }
 .nav.active .menu {
-    height: 290px;
-    visibility: visible;
-    overflow-y: auto;
+  height: 290px;
+  visibility: visible;
+  overflow-y: auto;
 }
 .menu li {
-    padding: 1rem 0;
-    margin: 0 1rem;
-    text-align: center;
+  padding: 1rem 0;
+  margin: 0 1rem;
+  text-align: center;
 }
 .menu span {
   font-size: 19px;
 }
 .logo-cbb {
-  height: 25px;
-  width: 250px;
+  height: 17px;
+  width: 215px;
 }
 .nav-link {
-    text-decoration: none;
-    font-size: 1.15rem;
-    color: #303030;
-    font-weight: 400;
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #303030;
+  font-weight: 400;
 
-    position: relative;
-    transition: all 0.4s;
+  position: relative;
+  transition: all 0.4s;
 }
 .nav-link:hover {
     color: #fff;
@@ -388,7 +388,6 @@
 .container-img01-mobile  {
   margin-top: 1px;
   display: flex;
-
   justify-content: center;
   align-items: center;
   height: 100px;
@@ -435,7 +434,6 @@
   justify-content: center;
   align-items: center;
   background-image: url('../imagens/containers-img/img-cbb01.jpg');
-  
   background-size: cover;
 }
 .container1-mobile .text-mobile,
@@ -462,8 +460,6 @@
 .container2-mobile .text-mobile p {
   line-height: 25px;
   font-size: 17.5px;
-
- 
 }
 .container03 {
   margin-top: 0px;

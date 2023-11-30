@@ -28,8 +28,8 @@ header {
     color: #24252a;
 }
 .logo-cbb {
-    height: 40px;
-    width: 300px;
+    height: 20px;
+    width: 250px;
 }
 .menu {
     display: flex;
@@ -164,7 +164,6 @@ header {
     text-shadow: 1px 1px 1px #24252a;
     color: #f09102;
 }
-
 .text-mobile p {
     line-height: 30px;
     font-size: 24.5px;

@@ -24,8 +24,8 @@ header {
     color: #24252a;
 }
 .logo-cbb {
-    height: 40px;
-    width: 300px;
+    height: 20px;
+    width: 250px;
 }
 .menu {
     display: flex;
@@ -102,8 +102,6 @@ header {
     background-size: cover;
     background-image: url('../imagens/containers-img/01fale-conosco.jpg');
 }
-
-
 .container01 .container-text {
     color: #ECECEE;
     text-shadow: 1px 1px 2px #24252a;
@@ -179,10 +177,6 @@ header {
 .text .canais {
     color: #f09102;
 }
-
-
-
-
 .container-title {
     margin-top: 150px;
     background-color: #f2b04d;
