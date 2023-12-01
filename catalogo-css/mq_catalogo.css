@@ -5,51 +5,49 @@
 /* MEU - CELULAR DEITADO */
 @media(max-width: 1000px) {
 
-    .menu {
-        display: flex;
-        list-style: none;
-        gap: .1rem;
-    }
-    .menu li {
-        display: block;
-        padding: .0rem;
-    }
-    .menu span {
-      font-size: 13.5px;
-    }
-    .logo-cbb {
-      height: 20px;
-      width: 150px;
-    }
-    .container00 {
-      display: none;
-    }
-    .container-img01-mobile  {
+  .menu {
       display: flex;
-      margin-top: 0px;
-      justify-content: center;
-      align-items: center;
-      height: 30vh;
-      width: 100vw;
-      background-color: #ECECEE;
-    }
-    .img-topo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 150px;
-      width: 100vw;
-    }
-    .img-catalogo-mobile {
-      display: none;
+      list-style: none;
+      gap: .1rem;
+  }
+  .menu li {
+      display: block;
+      padding: .0rem;
+  }
+  .menu span {
+    font-size: 13.5px;
+  }
+  .logo-cbb {
+    height: 20px;
+    width: 150px;
+  }
+  .container00 {
+    display: none;
+  }
+  .container-img01-mobile  {
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+    background-color: #ECECEE;
+  }
+  .img-topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100vw;
+  }
+  .img-catalogo-mobile {
+    display: none;
   }
 
   .container01 {
     height: 50vh;
     width: 100vw;
-    margin-top: 80px;
-    background-color: #5b8999;
-
+    margin-top: 0px;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -98,7 +96,7 @@
   .fundo03 {
     height: 250px;
     width: 100vw;
-    margin-top: 80px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     background-color: #ECECEE;
@@ -199,10 +197,9 @@
   }
     
   .roda_pe {
-    margin-top: 80px;
+    margin-top: 0px;
     height: 160vh;
     width: 100vw;
-    background-color: #ECECEE;
     display: block;
     justify-content: center;
     text-align: center;
@@ -383,6 +380,21 @@
   align-items: center;
   height: 100px;
 }
+.logo-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+}
+.logo-big img {
+  height: 200px;
+  border-radius: 150px;
+}
+.frase h3 {
+  font-size: 15.3px;
+  padding: 20px;
+  color: #4E9AB4;
+}
 .catalogo-mobile {
   display: block;
   margin-top: 0px;  
@@ -400,6 +412,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+
+  background-image: url('../imagens/containers-img/00catalogo-mobile.jpg');
 }
 .container01 .text01 {
   color: #fff;
@@ -423,7 +438,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #b8cfe5;
   }
   .container-catalogos-mobile {
     display: flex;
@@ -440,7 +454,7 @@
   .fundo03 {
       height: 200px;
       width: 100vw;
-      margin-top: 100px;
+      margin-top: 0px;
       display: flex;
       justify-content: center;
   }
@@ -503,10 +517,9 @@
     }
 
   .roda_pe {
-      margin-top: 100px;
+      margin-top: 0px;
       height: 780px;
       width: 100vw;
-      background-color: #ECECEE;
       display: block;
       justify-content: center;
       text-align: center;

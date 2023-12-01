@@ -6,6 +6,7 @@
 body {
     font-family: 'Lato', sans-serif;
     background-color: #FFFFFF;
+    overflow-x: hidden;
 }
 
 header {
@@ -91,6 +92,24 @@ header {
 .catalogo-mobile {
     display: none;
 }
+.logo-big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.logo-big img {
+    height: 250px;
+    border-radius: 150px;
+}
+.frase {
+    text-align: center;
+}
+.frase h3 {
+    font-size: 23px;
+    padding: 10px;
+    color: #4E9AB4;
+}
 .container01 {
     height: 500px;
     background-position: center;
@@ -127,11 +146,11 @@ header {
     font-size: 24.5px;
 }
 .container02 {
-    background-color: #b8cfe5;
     height: 2930px;
     width: 100vw;
     margin-top: 0px;
-    border: 1px solid black;
+    
+    background-color: #fff;
 }
 .container-catalogos {
     display: flex;
