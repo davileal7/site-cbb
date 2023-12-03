@@ -5,6 +5,7 @@
 body {
     font-family: 'Lato', sans-serif;
     background-color: #FFFFFF;
+    overflow-x: hidden;
 }
 header {
     background-color: #ECECEE;
@@ -82,41 +83,49 @@ header {
 .container-mobile {
     display: none;
 }
-.container01 .container-img {
-    color: #ffff;
-    text-shadow: 1px 1px 2px #24252a;
-    font-size: 2.5em;
-    text-align: right;
-    margin-right: 150px;
-}
+
 .fale_conosco-mobile {
     display: none;
 }
 .container01 {
-    height: 600px;
-    width: 100vw;
-    margin-top: 150px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../imagens/containers-img/01fale-conosco.jpg');
     display: flex;
     justify-content: left;
     align-items: center;
-    background-size: cover;
-    background-image: url('../imagens/containers-img/01fale-conosco.jpg');
+    text-align: left;
+    position: relative;
+    isolation: isolate;
+}
+.container01::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: #303030;
+    opacity: 0.7;
 }
 .container01 .container-text {
-    color: #ECECEE;
-    text-shadow: 1px 1px 2px #24252a;
-    font-size: 3em;
-    text-align: left;
-    margin-left: 50px;
-    backdrop-filter: blur(10px);
+    margin-left: 100px;
 }
-.container-text p {
-    line-height: 40px;
-    font-size: 32px;
+.container01 .container-text {
+    color: #fff;
+    text-shadow: 1px 1px 1px #24252a;
+    width: 680px;
+    margin-right: 0px;
 }
-
-
-.container3 {
+.container01 .container-text h2 {
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #24252a;
+    color: #f09102;
+}
+.container01 .container-text p {
+    line-height: 30px;
+    font-size: 24.5px;
+}
+.container02 {
     margin-top: 0px;
     display: flex;
     text-align: center;
@@ -124,7 +133,7 @@ header {
     height: 400px;
     background-color: #ECECEE;
 }
-.container3 .text {
+.container02 .text {
     display: flex;
     text-align: center;
     justify-content: space-around;
@@ -133,7 +142,7 @@ header {
     font-size: 20px;
     width: 100vw;
     color: #24252a;
-    
+
     background-color: #ECECEE;
     font-weight: 600;
 }
@@ -177,24 +186,10 @@ header {
 .text .canais {
     color: #f09102;
 }
-.container-title {
-    margin-top: 150px;
-    background-color: #f2b04d;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.container-title h2 {
-    color: #fff;
-    font-size: 2em;
-    text-shadow: 1px 3px 3px #24252a;
-}
+
 .container-canal {
     display: flex;
     width: 500px;
-    background-color: #ECECEE;
     flex-direction: column;
 }
 .container-atendimento {
@@ -210,6 +205,11 @@ header {
     margin: 5px;
     font-size: 23px;
 } 
+.title {
+    color: #464646;
+    background-color: #ECECEE;
+    text-align: center;
+}
 .ped {
     background-color: #FF9700;
     border-radius: 150px;
@@ -225,52 +225,35 @@ header {
     padding: 0px;
     border-radius: 150px;
 }
-.container02 {
-    background-color: #6A6D78;
-    height: 550px;
+.container03 {
+    background-color: #fff;
+    height: 500px;
     width: 100vw;
-    margin-top: 150px;
-    border: 1px solid black;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .container-text span {
-    color: #fff;
-    text-shadow: 1px 1px 2px #24252a;
-    font-size: 20px;
+    color: #808080;
+    font-size: 17.5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-}
-.container03 {
-    height: 50vh;
-    width: 100vw;
-    margin-top: 150px;
-    background-color: #24252a;
-}
-.title {
-    color: #464646;
-    background-color: #ECECEE;
-    text-align: center;
+    margin: 15px;
 }
 .mapa {
-    height: 50vh;
+    height: 300px;
     width: 100vw;
 }
-.container00 .container-imagem h2,
-.container01 .container-text h2,
-.container02 .container-text h2 {
-    color: #FF9700;
-}
+
 .container01-mobile,
 .container02-mobile,
 .container03-mobile {
     display: none;
 }
 .fundo03 {
-    margin-top: 150px;
+    margin-top: 0px;
     height: 400px;
     width: 100vw;
     background-color: #ECECEE;
@@ -280,7 +263,7 @@ header {
 
 /*CAROSEL */
 .wrapper {
-    max-width: 1300px;
+    max-width: 1000px;
     width: 100%;
     position: relative;
   }
@@ -349,14 +332,14 @@ header {
   .carousel .card .img {
     cursor: pointer;
     background: #fff;
-    height: 155px;
-    width: 155px;
+    height: 105px;
+    width: 105px;
     border-radius: 50%;
   }
   .card .img img {
     cursor: pointer;
-    width: 155px;
-    height: 155px;
+    width: 105px;
+    height: 105px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #fff;
@@ -365,10 +348,9 @@ header {
 /* FIM - CAROSEL */
 
 .roda_pe {
-    margin-top: 150px;
+    margin-top: 0px;
     height: 450px;
     width: 100vw;
-    background-color: #ECECEE;
     display: flex;
     justify-content: space-between;
     color: #24252a;
@@ -445,8 +427,6 @@ footer h1 {
     text-align: center;
 }
 
-
-
 .whats {
     background-color:rgb(0, 231, 119) ;
     position: fixed;
@@ -456,9 +436,9 @@ footer h1 {
     border-radius: 100px;
 }
 .whats img {
-    padding: 15px;
-    height: 70px;
-    width: 70px;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
 }
 .whats span{
     position: relative;
