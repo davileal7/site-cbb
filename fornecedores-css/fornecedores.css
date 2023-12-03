@@ -6,6 +6,7 @@
 body {
     font-family: 'Lato', sans-serif;
     background-color: #FFFFFF;
+    overflow-x: hidden;
 }
 
 header {
@@ -50,7 +51,6 @@ header {
     font-size: 20px;
     color: #303030;
     font-weight: 400;
-
     position: relative;
     transition: all 0.4s;
 }
@@ -79,7 +79,7 @@ header {
     display: none;
 }
 .container00 {
-    margin-top: 4px;
+    margin-top: 1px;
     height: 35vh;
     width: 100vw;
 }
@@ -90,44 +90,67 @@ header {
 .container01-mobile {
     display: none;
 }
+.logo-big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.logo-big img {
+    height: 250px;
+    border-radius: 150px;
+}
+.frase {
+    text-align: center;
+}
+.frase h3 {
+    font-size: 23px;
+    padding: 10px;
+    color: #4E9AB4;
+}
 .container01 {
-    height: 600px;
-    width: 100vw;
-    margin-top: 150px;
-    background-color: #5b8999;
-    background-image: url('../imagens/containers-img/03fornecedor.jpeg');
+    height: 500px;
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('../imagens/containers-img/03fornecedor.jpeg');
     display: flex;
     justify-content: left;
     align-items: center;
+    text-align: left;
+    position: relative;
+    isolation: isolate;
+}
+.container01::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: #303030;
+    opacity: 0.7;
 }
 .container01 .text01 {
-    color: #ECECEE;
-    text-shadow: 1px 2px 2px #24252a;
-    font-size: 3em;
-    text-align: left;
-    margin-left: 50px;
-    backdrop-filter: blur(15px);
-    border-radius: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #24252a;
+    width: 680px;
+    margin-left: 100px;
 }
 .text01 h2 {
-    color: #FF9700;
-    text-shadow: 1px 2px 2px #24252a;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #24252a;
+    color: #f09102;
 }
 .text01 p {
-    line-height: 40px;
-    font-size: 32px;
+    line-height: 30px;
+    font-size: 24.5px;
 }
 .fornecedor-mobile {
     display: none;
 }
 .container02 {
-    background-color: #b8cfe5;
+    background-color: #fff;
     height: 2125px;
     width: 100vw;
-    margin-top: 150px;
-    border: 1px solid black;
+    margin-top: 0px
 }
 .container-catalogos {
     display: flex;
@@ -151,7 +174,7 @@ header {
     display: none;
 }
 .fundo03 {
-    margin-top: 150px;
+    margin-top: 0px;
     height: 400px;
     width: 100vw;
     background-color: #ECECEE;
@@ -161,7 +184,7 @@ header {
 
 /*CAROSEL */
 .wrapper {
-    max-width: 1300px;
+    max-width: 1000px;
     width: 100%;
     position: relative;
   }
@@ -230,14 +253,14 @@ header {
   .carousel .card .img {
     cursor: pointer;
     background: #fff;
-    height: 155px;
-    width: 155px;
+    height: 105px;
+    width: 105px;
     border-radius: 50%;
   }
   .card .img img {
     cursor: pointer;
-    width: 155px;
-    height: 155px;
+    width: 105px;
+    height: 105px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #fff;
@@ -246,10 +269,10 @@ header {
 /* FIM - CAROSEL */
 
 .roda_pe {
-    margin-top: 150px;
+    margin-top: 0px;
     height: 450px;
     width: 100vw;
-    background-color: #ECECEE;
+    
     display: flex;
     justify-content: space-between;
     color: #24252a;
@@ -337,8 +360,8 @@ footer h1 {
 
 .whats img {
     padding: 15px;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
 }
 .whats span {
     position: relative;

@@ -232,7 +232,6 @@ header {
     height: 0px;
     width: 400px;
 }
-
 .fundo03 {
     margin-top: 0px;
     height: 400px;
@@ -241,7 +240,6 @@ header {
     display: flex;
     justify-content: center;  
 }
-
 /*CAROSEL */
 .wrapper {
     max-width: 1000px;
@@ -327,7 +325,6 @@ header {
   }
   
 /* FIM - CAROSEL */
-
 .roda_pe {
     margin-top: 0px;
     height: 450px;

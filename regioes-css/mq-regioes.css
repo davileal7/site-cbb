@@ -338,7 +338,6 @@
     height: 15px;
     width: 215px;
   }
-
   .nav-link {
       text-decoration: none;
       font-size: 1.15rem;
@@ -398,6 +397,21 @@
     align-items: center;
     height: 100px;
   }
+  .logo-big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+  }
+  .logo-big img {
+    height: 200px;
+    border-radius: 150px;
+  }
+  .frase h3 {
+    font-size: 15px;
+    padding: 20px;
+    color: #4E9AB4;
+  }
   .img-mobile {
     height: 250px;
     background-position: center;
@@ -406,21 +420,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    position: relative;
-    isolation: isolate;
-
+   
     background-image: url('../imagens/containers-img/mapa-regiao.jpg'); 
-    
   }
-  .img-mobile::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    inset: 0;
-    background-color: #303030;
-    opacity: 0.3;
-}
+ 
   .container01 {
     height: 400px;
     width: 100vw;
@@ -442,8 +445,6 @@
   .img-mapa-deitado  {
     display: none;    
   }
-    
- 
   .regioes-mobile {
     display: block; 
     margin-top: 100px;

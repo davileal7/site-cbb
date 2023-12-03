@@ -102,6 +102,24 @@ header {
 .regioes-mobile {
     display: none;
 }
+.logo-big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.logo-big img {
+    height: 250px;
+    border-radius: 150px;
+}
+.frase {
+    text-align: center;
+}
+.frase h3 {
+    font-size: 23px;
+    padding: 10px;
+    color: #4E9AB4;
+}
 .container01 {
     height: 500px;
     background-position: center;
