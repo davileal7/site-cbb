@@ -182,20 +182,18 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 400px;
-    font-size: 20px;
+    font-size: 24.5px;
     width: 100vw;
-    color: #24252a;
- 
     background-color: #ECECEE;
     font-weight: 600;
 }
 .container03 .text-mobile p {
     line-height: 30px;
-    font-size: 22px;
+    font-size: 24.5px;
     color: #808080;
 }
 .container03 .text-mobile h3 {
-    font-size: 35px;
+    font-size: 50px;
     color: #4E9AB4;
 }
 .container03 .text-mobile .box {
@@ -203,12 +201,6 @@ header {
     flex-direction: column;
     text-align: left;
     margin-left: 0px;
-    
-}
-.container03 .text-mobile li {
-    color: #f09102;
-    margin: 5px;
-    font-size: 23px;
 }
 .container03 .text-mobile span {
     display: flex;
