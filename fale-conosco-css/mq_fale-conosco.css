@@ -30,10 +30,10 @@
 }
 .container-img01-mobile  {
   display: flex;
-  margin-top: 0px;
+  margin-top: 1px;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 100px;
   width: 100vw;
   background-color: #ECECEE;
 }
@@ -58,10 +58,10 @@
 .container01 .container-text {
   color: #ECECEE;
   text-shadow: 1px 1px 2px #24252a;
-  font-size: 3.5em;
+  
   text-align: right;
   margin-right: 5px;
-  backdrop-filter: blur(0px);
+ 
 }
 .container01 .container-text h2 {
   color: #FF9700;
@@ -118,21 +118,7 @@
   padding: 0px;
   border-radius: 150px;
 }
-.container-text span {
-  color: #fff;
-  text-shadow: 1px 1px 2px #24252a;
-  font-size: 12.5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-.container03 {
-  height: 50vh;
-  width: 100vw;
-  margin-top: 0px;
-  background-color: #24252a;
-}
+
 .title {
   color: #464646;
   background-color: #ECECEE;
@@ -245,10 +231,9 @@
   font-size: 1.31rem;
 }
 .roda_pe {
-  margin-top: 80px;
+  margin-top: 0px;
   height: 160vh;
   width: 100vw;
-  background-color: #ECECEE;
   display: block;
   justify-content: center;
   text-align: center;
@@ -421,9 +406,22 @@
   align-items: center;
   height: 100px;
 }
-.container-img01-mobile {
-  
+.logo-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
 }
+.logo-big img {
+  height: 200px;
+  border-radius: 150px;
+}
+.frase h3 {
+  font-size: 15px;
+  padding: 20px;
+  color: #4E9AB4;
+}
+
 .container01  {
   height: 400px;
   width: 100vw;
@@ -433,7 +431,6 @@
   align-items: center;
   background-size: cover;
   background-image: url('../imagens/containers-img/fale-conosco-mobile.jpg');
-  
 }
 .container01 .container-text {
   color: #ffff;
@@ -442,52 +439,56 @@
   width: 100vw;
   margin-left: 0;
 }
+.container01 .container-text h2 {
+  color: #FF9700;
+  font-size: 30px;
+}
+.container01 .container-text p {
+  line-height: 25px;
+  font-size: 17.5px;
+}
 .container02 {
-  
   margin-top: 0px;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  height: 800px;
-  
-
-
-  background-color: #1212cb;
+  justify-content: center;
+  height: 300px;
 }
 .container02 .text {
   display: flex;
   text-align: center;
   flex-direction: column;
   align-items: center;
-  height: 400px;
-  font-size: 20px;
   width: 100vw;
-  color: #24252a;
   box-shadow: none;
   background-color: #ECECEE;
 }
 
 .risca {
-  border: 2px solid #4E9AB4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4E9AB4;
   border-radius: 50px;
-  width: 400px;
+  width: 100px;
 }
 .text h3 {
-  font-size: 35px;
+  font-size: 25px;
   color: #4E9AB4;
 }
 .text ul  {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
   margin-left: 0px;
   list-style: none;
 }
 .text li {
   color: #808080;
   margin: 5px;
-  font-size: 23px;
+  font-size: 17.5px;
 }
 .text span {
   display: flex;
@@ -508,12 +509,6 @@
 .text .canais {
   color: #f09102;
 }
-
-.container-canal {
-  display: flex;
-  width: 500px;
-  flex-direction: column;
-}
 .container-atendimento {
   display: flex;
   flex-direction: column;
@@ -522,51 +517,65 @@
   height: 200px;
   border-radius: 10px;
 }
-.container-atendimento h3 {
-  color: #808080;
-  margin: 5px;
-  font-size: 5px;
-} 
-
-
-
-
-
-
-
-
-
 .container-canal {
+  height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-direction: column;
-  background-color: chartreuse;
+  flex-direction: row;
+
+  width: 100vw;
 }
-
-
 .ped {
   background-color: #FF9700;
   border-radius: 150px;
-  height: 65px;
-  width: 65px;
+  height: 85px;
+  width: 85px;
 }
 .ped img,
 .cadastro img {
-  height: 65px;
-  width: 65px;
+  height: 85px;
+  width: 85px;
   margin: 0px;
   padding: 0px;
   border-radius: 150px;
 }
-
-
-
-
 .container03 {
-  height: 900px;
-  background-color: red;
+  display: none;
+}
+.container03-mobile {
+  height: 700px;
+  background-color: #fff;
+  width: 100vw;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   flex-direction: column;
+}
+.container03-mobile .container-text {
+  background-color: #fff;
+  width: 100vw;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container03-mobile .risca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 75px;
+}
+.container03-mobile .container-text span {
+  color: #808080;
+  font-size: 13.8px;
+  text-shadow: none;
+  margin: 8px;
 }
 .container02-mobile {
  display: none;
@@ -580,33 +589,12 @@
   height: 50vh;
   width: 100vw;
 }
-.container-text-mobile span {
-  font-size: 14.5px;
-}
 
-.container-title {
-  margin-top: 200px;
-  background-color: #f2b04d;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.container-title h2 {
-  color: #fff;
-  font-size: 20px;
-  text-shadow: 1px 2px 2px #24252a;
-}
-.container-atendimento h2 {
-  color: #24252a;
-  margin: 15px;
-  font-size: 20px;
-} 
+
 .fundo03 {
   height: 200px;
   width: 100vw;
-  margin-top: 100px;
+  margin-top: 0px;
   display: flex;
   justify-content: center;
   background-color: #ECECEE;
@@ -660,10 +648,9 @@
   grid-auto-columns: 100%;
 }
 .roda_pe {
-  margin-top: 80px;
+  margin-top: 0px;
   height: 780px;
   width: 100vw;
-  background-color: #ECECEE;
   display: block;
   justify-content: center;
   text-align: center;
@@ -707,8 +694,6 @@
 .sobre_nos-mobile p {
     margin-top: 10px;
 }
-
-  
 .whats {
   background-color:rgb(0, 231, 119) ;
   position: fixed;
@@ -725,5 +710,4 @@
 .logo-site-mobile {
     display: none;
 }
-
 }
