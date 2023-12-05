@@ -8,133 +8,142 @@
 /* MEU - CELULAR DEITADO */
 @media(max-width: 1000px) {
 
-    .menu {
-        display: flex;
-        list-style: none;
-        gap: .1rem;
-    }
-    .menu li {
-        display: block;
-        padding: .0rem;
-    }
-    .menu span {
-      font-size: 13.5px;
-    }
-    .logo-cbb {
-      height: 20px;
-      width: 150px;
-    }
-    .container00 {
-      display: none;
-    }
-    .container-img01-mobile  {
+  .menu {
       display: flex;
-      margin-top: 0px;
-      justify-content: center;
-      align-items: center;
-      height: 30vh;
-      width: 100vw;
-      background-color: #ECECEE;
-    }
-    .img-topo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 150px;
-      width: 100vw;
-    }
-
-    .container01 {
-      height: 50vh;
-      width: 100vw;
-      margin-top: 80px;
-      background-color: #5b8999;
-      background-image: url('../imagens/containers-img/fale-conosco02.jpg');
-      background-size: contain;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: right;
-      
-    }
-    .container01 .text01 {
-        color: #ECECEE;
-        text-shadow: 1px 1px 2px #24252a;
-        text-align: right;
-        margin-right: 5px;
-    }
-    .text01 h2 {
-      font-size: 35px;
-    }
-    .text01 p {
-        line-height: 25px;
-        font-size: 15.5px;
-    }
-    .container02 {
-        background-color: #fff;
-        height: 1480px;
-        width: 100vw;
-        margin-top: 80px;
-        border: none;
-    }
-    .container-catalogos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-        
-    }
-    .container-catalogos img {
-        height: 100px;
-        width: 100px;
-        box-shadow: 1px 2px 2px black;
-        margin: 20px;
-    }
-    .container-catalogos-mobile img:hover {
-      scale: 1.1;
-      transition: 1s;
+      list-style: none;
+      gap: .1rem;
   }
-    .container02-mobile {
-        display: none;
-    }
-    
-    .fundo03 {
-        height: 250px;
-        width: 100vw;
-        margin-top: 0px;
-        display: flex;
-        justify-content: center;
-        background-color: #ECECEE;
-    }
+  .menu li {
+      display: block;
+      padding: .0rem;
+  }
+  .menu span {
+    font-size: 13.5px;
+  }
+  .logo-cbb {
+    height: 15px;
+    width: 150px;
+  }
+  .container00 {
+    display: none;
+  }
+  .logo-big img {
+    height: 150px;
+    border-radius: 150px;
+  }
+  .frase {
+      text-align: center;
+  }
+  .frase h3 {
+      font-size: 15.5px;
+      padding: 10px;
+      color: #4E9AB4;
+  }
+  .container-img01-mobile  {
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+    background-color: #ECECEE;
+  }
+  .img-topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100vw;
+  }
+  .container01 {
+    height: 450px;
+    width: 100vw;
+    margin-top: 0px;
+    background-color: #5b8999;
+    background-image: url('../imagens/containers-img/fale-conosco02.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+  }
+  .container01 .text01 {
+    color: #ECECEE;
+    text-shadow: 1px 1px 2px #24252a;
+    text-align: right;
+    margin-right: 50px;
+  }
+  .text01 h2 {
+    font-size: 24px;
+  }
+  .text01 p {
+      line-height: 25px;
+      font-size: 15.5px;
+  }
+  .container02 {
+    background-color: #fff;
+    height: 1270px;
+    width: 100vw;
+    margin-top: 0px;
+    border: none;
+  }
+  .container-catalogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .container-catalogos img {
+    height: 80px;
+    width: 80px;
+    box-shadow: 1px 2px 2px black;
+    margin: 20px;
+  }
+  .container-catalogos-mobile img:hover {
+    scale: 1.1;
+    transition: 1s;
+  }
+  .container02-mobile {
+    display: none;
+  }
   
-  /*CAROSEL */
-  .wrapper {
-    max-width: 615px;
-    width: 100%;
-    position: relative;
-    }
-  .wrapper i {
-    top: 50%;
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-    font-size: 2.25rem;
-    position: absolute;
-    text-align: center;
-    line-height: 50px;
-    background: #fff;
-    border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-    transform: translateY(-50%);
-    transition: transform 0.1s linear;
-    }
+.fundo03 {
+  height: 250px;
+  width: 100vw;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #ECECEE;
+  }
+
+/*CAROSEL */
+.wrapper {
+  max-width: 515px;
+  width: 100%;
+  position: relative;
+  }
+.wrapper i {
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+  }
   .wrapper i:active{
     transform: translateY(-50%) scale(0.85);
   }
   .wrapper i:first-child{
-    left: -50px;
+    left: -55px;
   }
   .wrapper i:last-child{
-    right: -50px;
+    right: -55px;
   }
   .wrapper .carousel{
     display: grid;
@@ -168,7 +177,7 @@
   }
   .carousel .card {
     scroll-snap-align: start;
-    height: 240px;
+    height: 255px;
     list-style: none;
     padding-bottom: 15px;
     flex-direction: column;
@@ -177,14 +186,14 @@
   .carousel .card .img {
     cursor: pointer;
     background: #fff;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
   }
   .card .img img {
     cursor: pointer;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #fff;
@@ -199,11 +208,9 @@
     color: #6A6D78;
     font-size: 1.31rem;
   }
-
-  
   .roda_pe {
     margin-top: 0px;
-    height: 160vh;
+    height: 700px;
     width: 100vw;
     display: block;
     justify-content: center;
@@ -234,7 +241,6 @@
       list-style: none;
       margin-top: 10px;
   }
-
   .sobre_nos  {
       display: none;
   }
@@ -255,8 +261,8 @@
   }
   .whats img {
     padding: 10px;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
   }
 }
 

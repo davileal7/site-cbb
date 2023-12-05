@@ -48,11 +48,11 @@
   margin-top: 20px;
 }
 .logo-big img {
-  height: 200px;
+  height: 150px;
   border-radius: 150px;
 }
 .frase h3 {
-  font-size: 17.5px;
+  font-size: 14.5px;
   padding: 20px;
 }
 .container1-mobile {
@@ -90,24 +90,27 @@
   opacity: 0.7;
 }
 .container1-mobile .text-mobile {
-  margin-left: 100px;
+  margin-left: 50px;
+}
+.container2-mobile .text-mobile {
+  margin-right: 50px;
 }
 .container1-mobile .text-mobile,
 .container2-mobile .text-mobile {
   color: #fff;
   text-shadow: 1px 1px 1px #24252a;
-  width: 500px;
-  margin-right: 0px;
+  width: 350px;
+ 
 }
 .container1-mobile h2,
 .container2-mobile h2 {
-  font-size: 35px;
+  font-size: 24px;
   text-shadow: 1px 1px 1px #24252a;
   color: #f09102;
 }
 .text-mobile p {
-  line-height: 30px;
-  font-size: 20px;
+  line-height: 25px;
+  font-size: 15.5px;
 }
 .container03 {
   margin-top: 0px;
@@ -130,11 +133,11 @@
 }
 .container03 .text-mobile p {
   line-height: 30px;
-  font-size: 20px;
+  font-size: 14.5px;
   color: #808080;
 }
 .container03 .text-mobile h3 {
-  font-size: 35px;
+  font-size: 20px;
   color: #4E9AB4;
 }
 .container03 .text-mobile .box {
@@ -149,7 +152,7 @@
   align-items: center;
   text-align: center;
   background-color: #ECECEE;
-  border: 2px solid #f09102;
+  border: 1px solid #f09102;
   height: 150px;
   width: 150px;
   border-radius: 150px;
@@ -163,7 +166,7 @@
   border: 1px solid #4E9AB4;
   border-radius: 50px;
   height: 0px;
-  width: 200px;
+  width: 110px;
 }
 
 .fundo03 {
@@ -176,7 +179,7 @@
 }
 /*CAROSEL */
 .wrapper {
-  max-width: 615px;
+  max-width: 515px;
   width: 100%;
   position: relative;
 }
@@ -185,7 +188,7 @@
   height: 40px;
   width: 40px;
   cursor: pointer;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   position: absolute;
   text-align: center;
   line-height: 50px;
@@ -236,7 +239,7 @@
 }
 .carousel .card {
   scroll-snap-align: start;
-  height: 240px;
+  height: 255px;
   list-style: none;
   padding-bottom: 15px;
   flex-direction: column;
@@ -296,7 +299,7 @@
 }
 .redes_sociais a li {
   position: relative;
-  left: 450px;
+  left: 320px;
   list-style: none;
   margin-top: 10px;
 }

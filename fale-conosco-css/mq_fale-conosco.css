@@ -21,12 +21,29 @@
   font-size: 13.5px;
 }
 .logo-cbb {
-  height: 20px;
+  height: 15px;
   width: 150px;
 }
-
 .container00 {
   display: none;
+}
+.logo-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.logo-big img {
+  height: 150px;
+  border-radius: 150px;
+}
+.frase {
+  text-align: center;
+}
+.frase h3 {
+  font-size: 15.5px;
+  padding: 10px;
+  color: #4E9AB4;
 }
 .container-img01-mobile  {
   display: flex;
@@ -45,7 +62,7 @@
   width: 100vw;
 }
 .container01 {
-  height: 50vh;
+  height: 335px;
   width: 100vw;
   margin-top: 0px;
   background-color: #5b8999;
@@ -58,67 +75,139 @@
 .container01 .container-text {
   color: #ECECEE;
   text-shadow: 1px 1px 2px #24252a;
-  
   text-align: right;
-  margin-right: 5px;
- 
+  margin-right: 50px;
+  width: 450px;
 }
 .container01 .container-text h2 {
   color: #FF9700;
-  font-size: 35px;
+  font-size: 24px;
 }
 .container01  .container-text p {
   line-height: 25px;
   font-size: 15.5px;
 }
-.container-title {
+.container02 {
   margin-top: 0px;
-  background-color: #f2b04d;
-  height: 25vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: 300px;
+  background-color: #ECECEE;
+}
+.container02 .text {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 100vw;
+  background-color: #ECECEE;
+  font-weight: 600;
+}
+.risca {
+  border: 1px solid #4E9AB4;
+  border-radius: 50px;
+  width: 100px;
+}
+.text h3 {
+  font-size: 24px;
+  color: #4E9AB4;
+}
+.text ul  {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 0px;
+  list-style: none;
+}
+.text li {
+  color: #808080;
+  margin: 5px;
+  font-size: 15.5px;
+}
+.text span {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #ECECEE;
+  border: 2px solid #f09102;
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+  margin-right: 0px;
 }
-.container-title h2 {
-  color: #fff;
-  font-size: 25px;
-  text-shadow: 1px 3px 3px #24252a;
+.container-text a {
+  color: #f09102;
+  text-decoration: none;
+}
+.text .canais {
+  color: #f09102;
 }
 .container-canal {
   display: flex;
-  justify-content: space-around;
+  height: 300px;
   background-color: #ECECEE;
+  width: 500px;
+  flex-direction: column;
 }
 .container-atendimento {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 320px;
+  height: 150px;
   border-radius: 10px;
 }
-.container-atendimento h2 {
-  color: #24252a;
-  margin: 15px;
-  font-size: 20px;
+.container-atendimento h3 {
+  color: #808080;
+  margin: 5px;
+  font-size: 23px;
 } 
+.title {
+  color: #464646;
+  background-color: #ECECEE;
+  text-align: center;
+}
 .ped {
   background-color: #FF9700;
   border-radius: 150px;
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   box-shadow: 1px 1px 1px 1px #24252a;
 }
 .ped img,
 .cadastro img {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   margin: 0px;
   padding: 0px;
   border-radius: 150px;
 }
-
+.container03 {
+  background-color: #fff;
+  height: 350px;
+  width: 100vw;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container03 .container-text .risca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container-text span {
+  color: #808080;
+  font-size: 13.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
 .title {
   color: #464646;
   background-color: #ECECEE;
@@ -139,7 +228,7 @@
 
 /*CAROSEL */
 .wrapper {
-  max-width: 615px;
+  max-width: 515px;
   width: 100%;
   position: relative;
 }
@@ -148,7 +237,7 @@
   height: 40px;
   width: 40px;
   cursor: pointer;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   position: absolute;
   text-align: center;
   line-height: 50px;
@@ -162,10 +251,10 @@
   transform: translateY(-50%) scale(0.85);
 }
 .wrapper i:first-child{
-  left: -50px;
+  left: -55px;
 }
 .wrapper i:last-child{
-  right: -50px;
+  right: -55px;
 }
 .wrapper .carousel{
   display: grid;
@@ -199,7 +288,7 @@
 }
 .carousel .card {
   scroll-snap-align: start;
-  height: 240px;
+  height: 255px;
   list-style: none;
   padding-bottom: 15px;
   flex-direction: column;
@@ -208,14 +297,14 @@
 .carousel .card .img {
   cursor: pointer;
   background: #fff;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
 }
 .card .img img {
   cursor: pointer;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #fff;
@@ -232,49 +321,49 @@
 }
 .roda_pe {
   margin-top: 0px;
-  height: 160vh;
+  height: 700px;
   width: 100vw;
   display: block;
   justify-content: center;
   text-align: center;
 }
 .roda_pe .contatos  {
-    padding:  30px;
+  padding:  30px;
 }
 .roda_pe h3 {
-    font-size: 18px;
-    color: goldenrod;
+  font-size: 18px;
+  color: goldenrod;
 }
 .siga_nos {
-    font-size: 18px;
-    color: goldenrod;
+  font-size: 18px;
+  color: goldenrod;
 }
 .roda_pe .contatos {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 .roda_pe .contatos li {
-    list-style: none;
-    margin-top:10px;
-    margin-left: 10px;
+  list-style: none;
+  margin-top:10px;
+  margin-left: 10px;
 }
 .redes_sociais a li {
-    position: relative;
-    left: 320px;
-    list-style: none;
-    margin-top: 10px;
+  position: relative;
+  left: 320px;
+  list-style: none;
+  margin-top: 10px;
 }
 
 .sobre_nos  {
-    display: none;
+  display: none;
 }
 .roda_pe .sobre_nos-mobile {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .sobre_nos-mobile {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 .sobre_nos-mobile p {
   font-weight: 400;
@@ -284,8 +373,8 @@
 }
 .whats img {
   padding: 10px;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 
 }
@@ -518,7 +607,7 @@
   border-radius: 10px;
 }
 .container-canal {
-  height: 100px;
+  height: 130px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -569,7 +658,7 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  width: 75px;
+  width: 300px;
 }
 .container03-mobile .container-text span {
   color: #808080;
@@ -589,7 +678,6 @@
   height: 50vh;
   width: 100vw;
 }
-
 
 .fundo03 {
   height: 200px;
