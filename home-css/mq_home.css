@@ -93,18 +93,18 @@
   margin-left: 50px;
 }
 .container2-mobile .text-mobile {
-  margin-right: 50px;
+  margin-right: 0px;
 }
 .container1-mobile .text-mobile,
 .container2-mobile .text-mobile {
   color: #fff;
   text-shadow: 1px 1px 1px #24252a;
   width: 350px;
- 
+  
 }
 .container1-mobile h2,
 .container2-mobile h2 {
-  font-size: 24px;
+  font-size: 30px;
   text-shadow: 1px 1px 1px #24252a;
   color: #f09102;
 }
@@ -514,7 +514,7 @@
 .container1-mobile .text-mobile p,
 .container2-mobile .text-mobile p {
   line-height: 25px;
-  font-size: 17.5px;
+  font-size: 15.5px;
 }
 .container03 {
   margin-top: 0px;

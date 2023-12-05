@@ -77,11 +77,11 @@
   color: #fff;
   text-shadow: 1px 1px 2px #24252a;
   text-align: right;
-  margin-right: 50px;
+  margin-left: 0px;
   width: 500px;
 }
 .container01 .text01 h2 {
-  font-size: 24px;
+  font-size: 30px;
 }
 .container01 .text01 p {
   line-height: 25px;
@@ -446,26 +446,9 @@
   .img-mapa-deitado  {
     display: none;    
   }
-  .regioes-mobile {
-    display: block; 
-    margin-top: 100px;
-  }
-  .regioes-mobile img {
-    height: 450px;
-    width: 100vw;
-    display: block;  
-  }
-  .regioes-mobile .text01 {
-    height: 450px;
-    width: 100vw;
-    display: block;
-    text-align: center; 
-    background-color: #5b8999;
-  }
   .container01 .text01 p {
     line-height: 25px;
-    font-size: 17.5px;
-    
+    font-size: 15.5px;
   }
   .container01 .text01 h2 {
     font-size: 30px;
@@ -558,7 +541,6 @@
       margin-top: 0px;
       height: 780px;
       width: 100vw;
-      
       display: block;
       justify-content: center;
       text-align: center;

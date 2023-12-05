@@ -70,10 +70,10 @@
     color: #ECECEE;
     text-shadow: 1px 1px 2px #24252a;
     text-align: right;
-    margin-right: 50px;
+    margin-right: 0px;
   }
   .text01 h2 {
-    font-size: 24px;
+    font-size: 30px;
   }
   .text01 p {
       line-height: 25px;
