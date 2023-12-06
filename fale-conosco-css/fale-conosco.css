@@ -84,7 +84,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 .logo-big img {
     height: 250px;
@@ -270,8 +270,6 @@ header {
     height: 300px;
     width: 100vw;
 }
-
-
 .fundo03 {
     margin-top: 0px;
     height: 400px;
@@ -283,7 +281,7 @@ header {
 
 /*CAROSEL */
 .wrapper {
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
     position: relative;
   }

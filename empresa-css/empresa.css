@@ -160,7 +160,6 @@ header {
 .container03 .container-text h2 {
     font-size: 50px;
     color: #4E9AB4;
-    
 }
 .container-text span {
     height: 250px;
@@ -192,7 +191,6 @@ header {
     font-size: 24.5px;
     text-align: left;
     width: 650px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,7 +227,7 @@ header {
 
 /*CAROSEL */
 .wrapper {
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
     position: relative;
   }

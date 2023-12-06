@@ -96,7 +96,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 .logo-big img {
     height: 250px;
@@ -135,6 +135,7 @@ header {
     text-shadow: 1px 1px 2px #24252a;
     text-align: left;
     margin-left: 50px;
+    width: 680px;
 }
 .text01 h2 {
     font-size: 50px;
@@ -162,7 +163,7 @@ header {
     cursor: pointer;
     height: 300px;
     width: 200px;
-    box-shadow: 1px 2px 2px black;
+    box-shadow: 1px 1px 1px black;
     margin: 20px;
 }
 .container-catalogos img:hover {
@@ -183,7 +184,7 @@ header {
 
 /*CAROSEL */
 .wrapper {
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
     position: relative;
   }

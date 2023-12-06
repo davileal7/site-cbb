@@ -399,16 +399,16 @@
   transition: all 0.4s;
 }
 .nav-link:hover {
-    color: #fff;
+  color: #fff;
 }
 .nav-link::after {
-    bottom: 0px;
+  bottom: 0px;
 }
 .nav-item:hover {
-    background-color: rgb(7, 139, 139);
+  background-color: rgb(7, 139, 139);
 }
 .nav-bar {
-    padding: 1.5rem 4rem;
+  padding: 1.5rem 4rem;
 }
 .mobile-menu-icon button {
   background-color: transparent;
@@ -485,7 +485,7 @@
 }
 .container-sobre-nos .container-text p {
   color: #808080; 
-  font-size: 15.5px;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -556,19 +556,19 @@
 .container02 .container-text p, 
 .container03 .container-text p {
   color: #808080;
-  font-size: 15.5px;
+  font-size: 14.4px;
   text-shadow: none;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 400px;
+  width: 350px;
 }
 .container04 {
   display: flex;
 }
 .container04 img {
-  height: 400px;
+  height: 345px;
 }
 .fundo03 {
   height: 200px;
@@ -635,56 +635,56 @@
   text-align: center;
 }
 .roda_pe .contatos  {
-    padding:  30px;
+  padding:  30px;
 }
 .roda_pe h3 {
-    font-size: 20px;
-    color: goldenrod;
+  font-size: 20px;
+  color: goldenrod;
 }
 .siga_nos {
-    color: goldenrod;
+  color: goldenrod;
 }
 .roda_pe .contatos {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 .roda_pe .contatos li {
-    list-style: none;
-    margin-top:10px;
-    margin-left: 10px;
+  list-style: none;
+  margin-top:10px;
+  margin-left: 10px;
 }
 .redes_sociais a li {
-    position: relative;
-    left: 140px;
-    list-style: none;
-    margin-top: 10px;
+  position: relative;
+  left: 140px;
+  list-style: none;
+  margin-top: 10px;
 }
 .sobre_nos  {
-    display: none;
+  display: none;
 }
 .roda_pe .sobre_nos-mobile {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .sobre_nos-mobile {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 .sobre_nos-mobile p {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .whats {
-    background-color:rgb(0, 231, 119) ;
-    position: fixed;
-    bottom: 20px;
-    right: 15px;
-    z-index: 9999;
-    border-radius: 100px;
+  background-color:rgb(0, 231, 119) ;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 9999;
+  border-radius: 100px;
 }
 .whats img {
-    padding: 10px;
-    height: 45px;
-    width: 45px;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
 }
 }

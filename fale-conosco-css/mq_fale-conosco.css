@@ -488,7 +488,6 @@
 .container00 {
   display: none;
 }
-
 .img-topo {
   display: flex;
   justify-content: center;
@@ -506,11 +505,10 @@
   border-radius: 150px;
 }
 .frase h3 {
-  font-size: 15px;
+  font-size: 13.3px;
   padding: 20px;
   color: #4E9AB4;
 }
-
 .container01  {
   height: 400px;
   width: 100vw;
@@ -534,7 +532,7 @@
 }
 .container01 .container-text p {
   line-height: 25px;
-  font-size: 15.5px;
+  font-size: 14.4px;
 }
 .container02 {
   margin-top: 0px;
@@ -554,17 +552,17 @@
   box-shadow: none;
   background-color: #ECECEE;
 }
-
-.risca {
+.container02 .risca {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid #4E9AB4;
   border-radius: 50px;
-  width: 100px;
+  width: 150px;
+  margin-bottom: 130px;
 }
 .text h3 {
-  font-size: 25px;
+  font-size: 24px;
   color: #4E9AB4;
 }
 .text ul  {
@@ -577,25 +575,10 @@
 .text li {
   color: #808080;
   margin: 5px;
-  font-size: 17.5px;
-}
-.text span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #ECECEE;
-  border: 2px solid #f09102;
-  height: 200px;
-  width: 200px;
-  border-radius: 150px;
-  margin-right: 0px;
-}
-.container-text a {
-  color: #f09102;
-  text-decoration: none;
+  font-size: 16px;
 }
 .text .canais {
+  font-size: 15px;
   color: #f09102;
 }
 .container-atendimento {
@@ -603,38 +586,36 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 200px;
   border-radius: 10px;
 }
 .container-canal {
-  height: 130px;
+  height: 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-
   width: 100vw;
+}
+.ped ,
+.cadastro {
+  margin-bottom: 150px;
 }
 .ped {
   background-color: #FF9700;
-  border-radius: 150px;
-  height: 85px;
-  width: 85px;
+  height: 75px;
+  width: 75px;
 }
 .ped img,
 .cadastro img {
-  height: 85px;
-  width: 85px;
-  margin: 0px;
+  height: 75px;
+  width: 75px;
   padding: 0px;
-  border-radius: 150px;
 }
 .container03 {
   display: none;
 }
 .container03-mobile {
-  height: 700px;
-  background-color: #fff;
+  height: 620px;
   width: 100vw;
   margin-top: 0px;
   display: flex;
@@ -644,8 +625,9 @@
   flex-direction: column;
 }
 .container03-mobile .container-text {
-  background-color: #fff;
+  height: 620px;
   width: 100vw;
+  background-color: #fff;
   margin-top: 0px;
   display: flex;
   justify-content: center;
@@ -662,23 +644,23 @@
 }
 .container03-mobile .container-text span {
   color: #808080;
-  font-size: 13.8px;
+  font-size: 14.4px;
   text-shadow: none;
-  margin: 8px;
+  margin: 6px;
 }
 .container02-mobile {
  display: none;
 } 
 .title {
-  color: #464646;
+  color: #24252a;
   background-color: #ECECEE;
   text-align: center;
+  margin-top: 0;
 }
 .mapa {
   height: 50vh;
   width: 100vw;
 }
-
 .fundo03 {
   height: 200px;
   width: 100vw;
@@ -744,43 +726,43 @@
   text-align: center;
 }
 .roda_pe .contatos  {
-    padding:  30px;
+  padding:  30px;
 }
 .roda_pe h3 {
-    font-size: 20px;
-    color: goldenrod;
+  font-size: 20px;
+  color: goldenrod;
 }
 .siga_nos {
-    color: goldenrod;
+  color: goldenrod;
 }
 .roda_pe .contatos {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 .roda_pe .contatos li {
-    list-style: none;
-    margin-top:10px;
-    margin-left: 10px;
+  list-style: none;
+  margin-top:10px;
+  margin-left: 10px;
 }
 .redes_sociais a li {
-    position: relative;
-    left: 140px;
-    list-style: none;
-    margin-top: 10px;
+  position: relative;
+  left: 140px;
+  list-style: none;
+  margin-top: 10px;
 }
 .sobre_nos  {
-    display: none;
+  display: none;
 }
 .roda_pe .sobre_nos-mobile {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .sobre_nos-mobile {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 .sobre_nos-mobile p {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .whats {
   background-color:rgb(0, 231, 119) ;
@@ -792,10 +774,10 @@
 }
 .whats img {
   padding: 10px;
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
 }
 .logo-site-mobile {
-    display: none;
+  display: none;
 }
 }
