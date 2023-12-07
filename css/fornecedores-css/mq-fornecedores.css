@@ -60,7 +60,7 @@
     width: 100vw;
     margin-top: 0px;
     background-color: #5b8999;
-    background-image: url('/imagens/containers-img/fale-conosco02.jpg');
+    background-image: url('fale-conosco02.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -341,7 +341,6 @@
   font-size: 1.15rem;
   color: #303030;
   font-weight: 400;
-
   position: relative;
   transition: all 0.4s;
 }
@@ -380,7 +379,7 @@
   display: none;
 }
 .container-img01-mobile  {
-  margin-top: 0px;
+  margin-top: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -443,7 +442,7 @@
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url('/imagens/containers-img/fornecedores-mobile.jpeg');
+  background-image: url('fornecedores-mobile.jpeg');
 }
 .container01 .text01 {
   color: #ffff;

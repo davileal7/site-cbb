@@ -488,6 +488,14 @@
 .container00 {
   display: none;
 }
+.container-img01-mobile  {
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100vw;
+}
 .img-topo {
   display: flex;
   justify-content: center;
@@ -517,7 +525,7 @@
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url('/imagens/containers-img/fale-conosco-mobile.jpg');
+  background-image: url('fale-conosco-mobile.jpg');
 }
 .container01 .container-text {
   color: #ffff;

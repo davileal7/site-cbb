@@ -112,7 +112,7 @@ header {
     height: 500px;
     background-position: center;
     background-size: cover;
-    background-image: url('/imagens/containers-img/03fornecedor.jpeg');
+    background-image: url('03fornecedor.jpeg');
     display: flex;
     justify-content: left;
     align-items: center;
@@ -148,7 +148,7 @@ header {
 }
 .container02 {
     background-color: #fff;
-    height: 2125px;
+    height: 1910px;
     width: 100vw;
     margin-top: 0px
 }
@@ -159,12 +159,11 @@ header {
     margin: 20px;
 }
 .container-catalogos img {
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
     box-shadow: 1px 2px 2px black;
     margin: 20px;
     border-radius: 100px;
-    background-color: #fff;
 }
 .container-catalogos img:hover {
     scale: 1.1;

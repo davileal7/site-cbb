@@ -124,7 +124,7 @@ header {
     height: 500px;
     background-position: center;
     background-size: cover;
-    background-image: url('../imagens/containers-img/mapa-fundo.jpg');
+    background-image: url('mapa-fundo.jpg');
     display: flex;
     justify-content: left;
     align-items: center;

@@ -388,7 +388,6 @@
   height: 15px;
   width: 215px;
 }
-
 .nav-link {
   text-decoration: none;
   font-size: 1.15rem;
@@ -434,13 +433,12 @@
   display: none;
 }
 .container-img01-mobile  {
-  margin-top: 0px;
+  margin-top: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
   width: 100vw;
-  background-color: #ECECEE;
 }
 .img-topo {
   display: flex;

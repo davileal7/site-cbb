@@ -105,7 +105,7 @@ header {
     height: 500px;
     background-position: center;
     background-size: cover;
-    background-image: url('/imagens/containers-img/01fale-conosco.jpg');
+    background-image: url('01fale-conosco.jpg');
     display: flex;
     justify-content: left;
     align-items: center;
@@ -197,10 +197,12 @@ header {
     color: #f09102;
     text-decoration: none;
 }
-.text .canais {
+.text .canais-ped {
     color: #f09102;
 }
-
+.text .canais-cadastro {
+    color: #24252a;
+}
 .container-canal {
     display: flex;
     width: 500px;

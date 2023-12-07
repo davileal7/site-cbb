@@ -65,7 +65,7 @@
   height: 400px;
   background-position: center;
   background-size: cover;
-  background-image: url('/imagens/containers-img/02catalogo-fundo.jpeg');
+  background-image: url('02catalogo-fundo.jpeg');
   display: flex;
   justify-content: left;
   align-items: center;
@@ -394,13 +394,12 @@
   display: none;
 }
 .container-img01-mobile  {
-  margin-top: 0px;
+  margin-top: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
   width: 100vw;
-  background-color: #020217;
 }
 .img-topo {
   display: flex;
@@ -440,7 +439,7 @@
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url('/imagens/containers-img/00catalogo-mobile.jpg');
+  background-image: url('00catalogo-mobile.jpg');
 }
 .container01 .text01 {
   color: #fff;
