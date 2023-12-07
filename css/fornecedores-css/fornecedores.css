@@ -71,7 +71,8 @@ header {
 .nav-link:hover::after {
     opacity: 1;
 }
-.container02 {
+
+.container-mobile {
     display: none;
 }
 .container-img01-mobile {
@@ -86,15 +87,8 @@ header {
     height: 35vh;
     width: 100vw;
 }
-.container-mobile {
+.container01-mobile {
     display: none;
-}
-.container01 .container-img {
-    color: #ffff;
-    text-shadow: 1px 1px 2px #24252a;
-    font-size: 2.5em;
-    text-align: right;
-    margin-right: 150px;
 }
 .logo-big {
     display: flex;
@@ -114,11 +108,11 @@ header {
     padding: 10px;
     color: #4E9AB4;
 }
-.container1-mobile {
+.container01 {
     height: 500px;
     background-position: center;
     background-size: cover;
-    background-image: url('../imagens/containers-img/01caminhao.jpg');
+    background-image: url('/imagens/containers-img/03fornecedor.jpeg');
     display: flex;
     justify-content: left;
     align-items: center;
@@ -126,21 +120,7 @@ header {
     position: relative;
     isolation: isolate;
 }
-.container2-mobile {
-    height: 500px;
-    background-position: left;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    text-align: left;
-    position: relative;
-    isolation: isolate;
-    background-image: url('../imagens/containers-img/img-cbb01.jpg'); 
-}
-.container1-mobile::after,
-.container2-mobile::after {
+.container01::after {
     content: '';
     position: absolute;
     z-index: -1;
@@ -148,81 +128,50 @@ header {
     background-color: #303030;
     opacity: 0.7;
 }
-.container1-mobile .text-mobile {
-    margin-left: 100px;
-}
-.container1-mobile .text-mobile,
-.container2-mobile .text-mobile {
+.container01 .text01 {
     color: #fff;
     text-shadow: 1px 1px 1px #24252a;
     width: 680px;
-    margin-right: 0px;
+    margin-left: 100px;
 }
-.container1-mobile h2,
-.container2-mobile h2 {
+.text01 h2 {
     font-size: 50px;
     text-shadow: 1px 1px 1px #24252a;
     color: #f09102;
 }
-.text-mobile p {
+.text01 p {
     line-height: 30px;
     font-size: 24.5px;
 }
-.container03 {
-    margin-top: 0px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    height: 400px;
-    background-color: #ECECEE;
+.fornecedor-mobile {
+    display: none;
 }
-.container03 .text-mobile {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    align-items: center;
-    height: 400px;
-    font-size: 24.5px;
+.container02 {
+    background-color: #fff;
+    height: 2125px;
     width: 100vw;
-    background-color: #ECECEE;
-    font-weight: 600;
+    margin-top: 0px
 }
-.container03 .text-mobile p {
-    line-height: 30px;
-    font-size: 24.5px;
-    color: #808080;
-}
-.container03 .text-mobile h3 {
-    font-size: 50px;
-    color: #4E9AB4;
-}
-.container03 .text-mobile .box {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 0px;
-}
-.container03 .text-mobile span {
+.container-catalogos {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    background-color: #ECECEE;
-    border: 2px solid #f09102;
-    height: 200px;
-    width: 200px;
-    border-radius: 150px;
-    margin-right: 0px;
+    margin: 20px;
 }
-.container03 .text-mobile a {
-    color: #f09102;
-    text-decoration: none;
+.container-catalogos img {
+    height: 170px;
+    width: 170px;
+    box-shadow: 1px 2px 2px black;
+    margin: 20px;
+    border-radius: 100px;
+    background-color: #fff;
 }
-.risca {
-    border: 1px solid #4E9AB4;
-    border-radius: 50px;
-    height: 0px;
-    width: 400px;
+.container-catalogos img:hover {
+    scale: 1.1;
+    transition: 2s;
+}
+.container02-mobile {
+    display: none;
 }
 .fundo03 {
     margin-top: 0px;
@@ -232,9 +181,10 @@ header {
     display: flex;
     justify-content: center;  
 }
+
 /*CAROSEL */
 .wrapper {
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
     position: relative;
   }
@@ -317,10 +267,12 @@ header {
   }
   
 /* FIM - CAROSEL */
+
 .roda_pe {
     margin-top: 0px;
     height: 450px;
     width: 100vw;
+    
     display: flex;
     justify-content: space-between;
     color: #24252a;
@@ -381,7 +333,7 @@ header {
     text-decoration: none;    
 }
 .redes_sociais h3,
-.sobre_nos h3 {
+ .sobre_nos h3 {
     margin-top: 20px;
 }
 .sobre_nos-mobile {
@@ -395,8 +347,8 @@ header {
 }
 footer h1 {
     text-align: center;
-    
 }
+
 .whats {
     background-color:rgb(0, 231, 119) ;
     position: fixed;
@@ -405,6 +357,7 @@ footer h1 {
     z-index: 9999;
     border-radius: 100px;
 }
+
 .whats img {
     padding: 10px;
     height: 50px;
@@ -419,11 +372,11 @@ footer h1 {
     color: #fff;
     text-shadow: 1px 1px 1px #24252a;
 }
-.whats:hover { 
+
+.whats:hover{ 
     scale: 1.2;
     transition: 1s
 }
 .logo-site-mobile {
     display: none;
 }
-

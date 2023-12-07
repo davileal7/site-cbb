@@ -419,7 +419,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../imagens/containers-img/mapa-regiao.jpg'); 
+  background-image: url('/imagens/containers-img/mapa-regiao.jpg'); 
 }
 .container01 {
   height: 400px;
@@ -429,7 +429,7 @@
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url('../imagens/containers-img/mapa-mobile.jpg');    
+  background-image: url('/imagens/containers-img/mapa-mobile.jpg');    
 }
 .container01 .text01 {
   color: #ffff;

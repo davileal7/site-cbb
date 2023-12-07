@@ -1,156 +1,140 @@
 /* RESPONSIVE DESIGN */
 
+/*NOTEBOOK */
+
+
 /* I-FONE - CELULAR DEITADO */
 
 /* MEU - CELULAR DEITADO */
 @media(max-width: 1000px) {
 
-.menu {
-  display: flex;
-  list-style: none;
-  gap: .1rem;
-}
-.menu li {
-  display: block;
-  padding: .0rem;
-}
-.menu span {
-  font-size: 13.5px;
-}
-.logo-cbb {
-  height: 15px;
-  width: 150px;
-}
-.container00 {
-  display: none;
-}
-.container-img01-mobile  {
-  display: flex;
-  margin-top: 1px;
-  justify-content: center;
-  align-items: center;
-  height: 30vh;
-  width: 100vw;
-  background-color: #ECECEE;
-}
-.img-topo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 150px;
-  width: 100vw;
-}
-.img-catalogo-mobile {
-  display: none;
-}
-.logo-big {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-.logo-big img {
-  height: 150px;
-  border-radius: 150px;
-}
-.frase {
-  text-align: center;
-}
-.frase h3 {
-  font-size: 14.5px;
-  padding: 10px;
-  color: #4E9AB4;
-}
-.container01 {
-  height: 400px;
-  background-position: center;
-  background-size: cover;
-  background-image: url('../imagens/containers-img/02catalogo-fundo.jpeg');
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  text-align: left;
-  position: relative;
-  isolation: isolate;
-}
-.container01::after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  background-color: #303030;
-  opacity: 0.7;
-}
-.container01 .text01 {
-  color: #fff;
-  text-shadow: 1px 1px 2px #24252a;
-  text-align: left;
-  margin-left: 00px;
-}
-.text01 h2 {
-  font-size: 30px;
-  text-shadow: 1px 1px 1px #24252a;
-  color: #f09102;
-}
-.text01 p {
-  line-height: 25px;
-  font-size: 15.5px;
-}
-.container02 {
-  height: 2290px;
-  width: 100vw;
-  margin-top: 0px;
-  background-color: #fff;
-}
-.container-catalogos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px;
-}
-.container-catalogos img {
-  cursor: pointer;
-  height: 210px;
-  width: 130px;
-  box-shadow: 1px 2px 2px black;
-  margin: 20px;
-}
-.container-catalogos img:hover {
-    scale: 1.1;
-    transition: 2s;
-}
-.container02-mobile {
+  .menu {
+      display: flex;
+      list-style: none;
+      gap: .1rem;
+  }
+  .menu li {
+      display: block;
+      padding: .0rem;
+  }
+  .menu span {
+    font-size: 13.5px;
+  }
+  .logo-cbb {
+    height: 15px;
+    width: 150px;
+  }
+  .container00 {
     display: none;
-}
-  .fundo03 {
-    height: 250px;
-    width: 100vw;
-    margin-top: 0px;
+  }
+  .logo-big img {
+    height: 150px;
+    border-radius: 150px;
+  }
+  .frase {
+      text-align: center;
+  }
+  .frase h3 {
+      font-size: 15.5px;
+      padding: 10px;
+      color: #4E9AB4;
+  }
+  .container-img01-mobile  {
     display: flex;
+    margin-top: 0px;
     justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
     background-color: #ECECEE;
   }
-  
-  /*CAROSEL */
-  .wrapper {
-    max-width: 515px;
-    width: 100%;
-    position: relative;
+  .img-topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100vw;
   }
-  .wrapper i {
-    top: 50%;
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-    font-size: 1.5rem;
-    position: absolute;
-    text-align: center;
-    line-height: 50px;
-    background: #fff;
-    border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-    transform: translateY(-50%);
-    transition: transform 0.1s linear;
+  .container01 {
+    height: 450px;
+    width: 100vw;
+    margin-top: 0px;
+    background-color: #5b8999;
+    background-image: url('/imagens/containers-img/fale-conosco02.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+  }
+  .container01 .text01 {
+    color: #ECECEE;
+    text-shadow: 1px 1px 2px #24252a;
+    text-align: right;
+    margin-right: 0px;
+  }
+  .text01 h2 {
+    font-size: 30px;
+  }
+  .text01 p {
+      line-height: 25px;
+      font-size: 15.5px;
+  }
+  .container02 {
+    background-color: #fff;
+    height: 1270px;
+    width: 100vw;
+    margin-top: 0px;
+    border: none;
+  }
+  .container-catalogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .container-catalogos img {
+    height: 80px;
+    width: 80px;
+    box-shadow: 1px 2px 2px black;
+    margin: 20px;
+  }
+  .container-catalogos-mobile img:hover {
+    scale: 1.1;
+    transition: 1s;
+  }
+  .container02-mobile {
+    display: none;
+  }
+  
+.fundo03 {
+  height: 250px;
+  width: 100vw;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #ECECEE;
+  }
+
+/*CAROSEL */
+.wrapper {
+  max-width: 515px;
+  width: 100%;
+  position: relative;
+  }
+.wrapper i {
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
   }
   .wrapper i:active{
     transform: translateY(-50%) scale(0.85);
@@ -224,7 +208,6 @@
     color: #6A6D78;
     font-size: 1.31rem;
   }
-    
   .roda_pe {
     margin-top: 0px;
     height: 700px;
@@ -234,35 +217,35 @@
     text-align: center;
   }
   .roda_pe .contatos  {
-    padding:  30px;
+      padding:  30px;
   }
   .roda_pe h3 {
-    font-size: 18px;
-    color: goldenrod;
+      font-size: 18px;
+      color: goldenrod;
   }
   .siga_nos {
-    font-size: 18px;
-    color: goldenrod;
+      font-size: 18px;
+      color: goldenrod;
   }
   .roda_pe .contatos {
-    margin-left: 0px;
+      margin-left: 0px;
   }
   .roda_pe .contatos li {
-    list-style: none;
-    margin-top:10px;
-    margin-left: 10px;
+      list-style: none;
+      margin-top:10px;
+      margin-left: 10px;
   }
   .redes_sociais a li {
-    position: relative;
-    left: 320px;
-    list-style: none;
-    margin-top: 10px;
+      position: relative;
+      left: 320px;
+      list-style: none;
+      margin-top: 10px;
   }
   .sobre_nos  {
-    display: none;
+      display: none;
   }
   .roda_pe .sobre_nos-mobile {
-    margin-top: 30px;
+      margin-top: 30px;
   }
   .sobre_nos-mobile {
     display: flex;
@@ -287,6 +270,7 @@
 
 /* CELULAR RETO--------------------------------------------------------------------------------------------- */
 @media (max-width: 730px) {
+
 #btn-mobile {
   display: flex;
   padding: .5rem 1rem;
@@ -321,6 +305,7 @@
   transform: rotate(-135deg);
   top: -7px;
 }
+
 .menu {
   display: block;
   position: absolute;
@@ -356,6 +341,7 @@
   font-size: 1.15rem;
   color: #303030;
   font-weight: 400;
+
   position: relative;
   transition: all 0.4s;
 }
@@ -388,7 +374,7 @@
   padding-top: 1.2rem;
 }
 .open {
-  display: block;
+    display: block;
 }
 .container00 {
   display: none;
@@ -400,7 +386,7 @@
   align-items: center;
   height: 100px;
   width: 100vw;
-  background-color: #020217;
+  background-color: #ECECEE;
 }
 .img-topo {
   display: flex;
@@ -423,16 +409,33 @@
   padding: 20px;
   color: #4E9AB4;
 }
-.catalogo-mobile {
+.fornecedor-mobile {
   display: block;
-  margin-top: 0px;  
+  margin-top: 100px;  
 }
-.catalogo-mobile img {
-  height: 400px;
+.fornecedor-mobile img {
+  height: 450px;
   width: 100vw;
   display: block;  
 }
-.container01 {
+.fornecedor-mobile .text01 {
+  height: 450px;
+  width: 100vw;
+  display: block;
+  text-align: center; 
+  background-color: #5b8999;
+}
+.fornecedor-mobile .text01 p {
+  line-height: 25px;
+  font-size: 14.4px;
+  color: #fff;
+  text-shadow: 1px 1px 2px #24252a;
+}
+.fornecedor-mobile .text01 h2 {
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #24252a;
+}
+.container01  {
   height: 400px;
   width: 100vw;
   margin-top: 0px;
@@ -440,30 +443,23 @@
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url('../imagens/containers-img/00catalogo-mobile.jpg');
+  background-image: url('/imagens/containers-img/fornecedores-mobile.jpeg');
 }
 .container01 .text01 {
-  color: #fff;
+  color: #ffff;
   text-shadow: 1px 1px 2px #24252a;
   text-align: center;
+  width: 100vw;
   margin-left: 0;
-}
-.container01 .text01 h2 {
-  color: #FF9700;
-  font-size: 30px;
-}
-.container01 .text01 p {
-  line-height: 25px;
-  font-size: 14.4px;
 }
 .container02 {
   margin-top: 0px;
-  height: 1660px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: none;
   background-color: #fff;
+  border: none;
 }
 .container-catalogos {
   display: flex;
@@ -472,11 +468,14 @@
   margin: 5px;
 }
 .container-catalogos img {
-  height: 160px;
-  width: 80px;
-  box-shadow: 1px 1px 1px black;
-  margin: 5px;
+  height: 75px;
+  width: 70px;
+  box-shadow: 1px 2px 2px black;
+  margin: 10px;
+  border-radius: 100px;
+  background-color: #fff;
 }
+
 .fundo03 {
   height: 200px;
   width: 100vw;
@@ -484,6 +483,7 @@
   display: flex;
   justify-content: center;
 }
+
 /*CAROSEL */
 .wrapper i {
   top: 50%;
@@ -529,16 +529,16 @@
   color: #fff;
 }
 .wrapper i:first-child{
-  left: 20px;
+left: 20px;
 }
 .wrapper i:last-child{
-  right: 30px;
+right: 30px;
 }
 .wrapper .carousel {
-  grid-auto-columns: calc((100% / 2) - 9px);
+grid-auto-columns: calc((100% / 2) - 9px);
 }
 .wrapper .carousel {
-  grid-auto-columns: 100%;
+grid-auto-columns: 100%;
 }
 .roda_pe {
   margin-top: 0px;
