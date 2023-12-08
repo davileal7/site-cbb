@@ -27,6 +27,12 @@
   .container00 {
     display: none;
   }
+  .logo-big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+  }
   .logo-big img {
     height: 150px;
     border-radius: 150px;
@@ -41,10 +47,10 @@
   }
   .container-img01-mobile  {
     display: flex;
-    margin-top: 0px;
+    margin-top: 26px;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 100px;
     width: 100vw;
     background-color: #ECECEE;
   }
@@ -56,28 +62,28 @@
     width: 100vw;
   }
   .container01 {
-    height: 450px;
+    height: 350px;
     width: 100vw;
     margin-top: 0px;
-    background-color: #5b8999;
-    background-image: url('fale-conosco02.jpg');
-    background-size: contain;
+    
+    background-image: url('01fornecedor.jpeg');
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: right;
+    justify-content: left;
   }
   .container01 .text01 {
     color: #ECECEE;
     text-shadow: 1px 1px 2px #24252a;
-    text-align: right;
-    margin-right: 0px;
+    text-align: left;
+    margin-left: 100px;
   }
   .text01 h2 {
     font-size: 30px;
   }
   .text01 p {
       line-height: 25px;
-      font-size: 15.5px;
+      font-size: 17px;
   }
   .container02 {
     background-color: #fff;
@@ -385,7 +391,7 @@
   align-items: center;
   height: 100px;
   width: 100vw;
-  background-color: #ECECEE;
+  
 }
 .img-topo {
   display: flex;
@@ -408,32 +414,7 @@
   padding: 20px;
   color: #4E9AB4;
 }
-.fornecedor-mobile {
-  display: block;
-  margin-top: 100px;  
-}
-.fornecedor-mobile img {
-  height: 450px;
-  width: 100vw;
-  display: block;  
-}
-.fornecedor-mobile .text01 {
-  height: 450px;
-  width: 100vw;
-  display: block;
-  text-align: center; 
-  background-color: #5b8999;
-}
-.fornecedor-mobile .text01 p {
-  line-height: 25px;
-  font-size: 14.4px;
-  color: #fff;
-  text-shadow: 1px 1px 2px #24252a;
-}
-.fornecedor-mobile .text01 h2 {
-  font-size: 30px;
-  text-shadow: 1px 1px 2px #24252a;
-}
+
 .container01  {
   height: 400px;
   width: 100vw;
@@ -450,6 +431,15 @@
   text-align: center;
   width: 100vw;
   margin-left: 0;
+}
+.text01 h2 {
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #24252a;
+  color: #f09102;
+}
+.text01 p {
+  line-height: 25px;
+  font-size: 16px;
 }
 .container02 {
   margin-top: 0px;

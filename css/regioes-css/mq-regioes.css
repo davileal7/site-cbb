@@ -26,10 +26,15 @@
 .container00 {
   display: none;
 }
+.logo-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26px;
+}
 .logo-big img {
   height: 150px;
   border-radius: 150px;
-  margin-top: 1px;
 }
 .frase {
   text-align: center;
@@ -41,10 +46,10 @@
 }
 .container-img01-mobile  {
   display: flex;
-  margin-top: 0px;
+  margin-top: 26px;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 100px;
   width: 100vw;
   background-color: #ECECEE;
 }
@@ -60,32 +65,29 @@
   height: 50vh;    
 }
 .container01 {
-  height: 410px;
+  height: 350px;
   width: 100vw;
   margin-top: 0px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: right;
   width: 100vw;
   margin-top: 0px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
 }
 .container01 .text01 {
   color: #fff;
   text-shadow: 1px 1px 2px #24252a;
-  text-align: right;
-  margin-left: 0px;
-  width: 500px;
+  text-align: left;
+  margin-left: 100px;
+  width: 450px;
 }
 .container01 .text01 h2 {
   font-size: 30px;
 }
 .container01 .text01 p {
   line-height: 25px;
-  font-size: 15.5px;
+  font-size: 17px;
 }
 .container03 {
   margin-top: 0px;
@@ -425,33 +427,41 @@
   height: 400px;
   width: 100vw;
   margin-top: 0px;
+  background-image: url('mapa-mobile.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-size: cover;
-  background-image: url('mapa-mobile.jpg');    
+  flex-direction: column;    
 }
+
 .container01 .text01 {
   color: #ffff;
   text-shadow: 1px 1px 2px #24252a;
   text-align: center;
   width: 100vw;
   margin-left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
 }
 .img-mapa-deitado  {
   display: none;    
-}
-.container01 .text01 p {
-  line-height: 25px;
-  font-size: 14.4px;
 }
 .container01 .text01 h2 {
   font-size: 30px;
   text-shadow: 1px 1px 2px #24252a;
 }
-.container01-mobile .container-text-01-mobile h2{
-    color: #FF9700;
+.container01 .text01 p {
+  line-height: 25px;
+  font-size: 16px;
+  width: 300px;
 }
+
 .container03 {
   margin-top: 0px;
   height: 350px;
@@ -540,43 +550,43 @@
     text-align: center;
   }
   .roda_pe .contatos  {
-      padding:  30px;
+    padding:  30px;
   }
   .roda_pe h3 {
-      font-size: 20px;
-      color: goldenrod;
+    font-size: 20px;
+    color: goldenrod;
   }
   .siga_nos {
-      color: goldenrod;
+    color: goldenrod;
   }
   .roda_pe .contatos {
-      margin-left: 0px;
+    margin-left: 0px;
   }
   .roda_pe .contatos li {
-      list-style: none;
-      margin-top:10px;
-      margin-left: 10px;
+    list-style: none;
+    margin-top:10px;
+    margin-left: 10px;
   }
   .redes_sociais a li {
-      position: relative;
-      left: 140px;
-      list-style: none;
-      margin-top: 10px;
+    position: relative;
+    left: 140px;
+    list-style: none;
+    margin-top: 10px;
   }
   .sobre_nos  {
-      display: none;
+    display: none;
   }
   .roda_pe .sobre_nos-mobile {
-      margin-top: 30px;
+    margin-top: 30px;
   }
   .sobre_nos-mobile {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
   }
   .sobre_nos-mobile p {
-      margin-top: 10px;
+    margin-top: 10px;
   }
   
   .whats {

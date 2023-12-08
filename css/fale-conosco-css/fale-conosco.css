@@ -145,7 +145,7 @@ header {
     text-align: center;
     align-items: center;
     height: 400px;
-    background-color: #ECECEE;
+    background-color: #fff;
 }
 .container02 .text {
     display: flex;
@@ -157,7 +157,7 @@ header {
     width: 100vw;
     color: #24252a;
 
-    background-color: #ECECEE;
+    background-color: #fff;
     font-weight: 600;
 }
 .risca {
@@ -253,21 +253,75 @@ header {
     justify-content: center;
     align-items: center;
 }
-
 .container03 .container-text .risca {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: row;
+    width: 500px;
   }
 .container-text span {
     color: #808080;
-    font-size: 17.5px;
+    font-size: 17px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px;
 }
+.container-whats {
+    height: 150px;
+    background-color: #ECECEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-whats a {
+    text-decoration: none;
+}
+.container-whats a:hover {
+    scale: 1.1;
+    transition: all 2s;
+}
+.whats-app {
+    background-color:rgb(0, 231, 119) ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #24252a;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whats-app img {
+    padding: 10px;
+    height: 75px;
+    width: 75px;
+}
+.whats-app span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.whats-contato {
+    color: #fff;
+    text-shadow: 1px 1px 1px #24252a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .mapa {
     height: 300px;
     width: 100vw;
@@ -446,7 +500,6 @@ header {
 footer h1 {
     text-align: center;
 }
-
 .whats {
     background-color:rgb(0, 231, 119) ;
     position: fixed;

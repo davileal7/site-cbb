@@ -26,10 +26,10 @@
 }
 .container-img01-mobile  {
   display: flex;
-  margin-top: 1px;
+  margin-top: 26px;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 100px;
   width: 100vw;
   background-color: #ECECEE;
 }
@@ -47,7 +47,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 26px;
 }
 .logo-big img {
   height: 150px;
@@ -62,7 +62,7 @@
   color: #4E9AB4;
 }
 .container01 {
-  height: 400px;
+  height: 350px;
   background-position: center;
   background-size: cover;
   background-image: url('02catalogo-fundo.jpeg');
@@ -85,7 +85,8 @@
   color: #fff;
   text-shadow: 1px 1px 2px #24252a;
   text-align: left;
-  margin-left: 00px;
+  margin-left: 100px;
+  width: 450px;
 }
 .text01 h2 {
   font-size: 30px;
@@ -94,7 +95,7 @@
 }
 .text01 p {
   line-height: 25px;
-  font-size: 15.5px;
+  font-size: 18px;
 }
 .container02 {
   height: 2290px;
@@ -438,6 +439,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-size: cover;
   background-image: url('00catalogo-mobile.jpg');
 }
@@ -446,6 +448,10 @@
   text-shadow: 1px 1px 2px #24252a;
   text-align: center;
   margin-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .container01 .text01 h2 {
   color: #FF9700;
@@ -453,11 +459,12 @@
 }
 .container01 .text01 p {
   line-height: 25px;
-  font-size: 14.4px;
+  font-size: 16px;
+  width: 300px;
 }
 .container02 {
   margin-top: 0px;
-  height: 1660px;
+  height: 1520px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -471,10 +478,10 @@
   margin: 5px;
 }
 .container-catalogos img {
-  height: 160px;
-  width: 80px;
+  height: 150px;
+  width: 85px;
   box-shadow: 1px 1px 1px black;
-  margin: 5px;
+  margin: 2px;
 }
 .fundo03 {
   height: 200px;

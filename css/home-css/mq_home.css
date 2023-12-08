@@ -27,10 +27,10 @@
 }
 .container-img01-mobile  {
   display: flex;
-  margin-top: 1px;
+  margin-top: 26px;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 100px;
   width: 100vw;
   background-color: #ECECEE;
 }
@@ -45,7 +45,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1px;
+  margin-top: 26px;
 }
 .logo-big img {
   height: 150px;
@@ -56,7 +56,7 @@
   padding: 20px;
 }
 .container1-mobile {
-  height: 400px;
+  height: 350px;
   background-position: center;
   background-size: cover;
   background-image: url('imagens/01caminhao.jpg');
@@ -68,7 +68,7 @@
   isolation: isolate;
 }
 .container2-mobile {
-  height: 400px;
+  height: 350px;
   background-position: left;
   background-size: contain;
   background-repeat: no-repeat;
@@ -90,16 +90,16 @@
   opacity: 0.7;
 }
 .container1-mobile .text-mobile {
-  margin-left: 0px;
+  margin-left: 100px;
 }
 .container2-mobile .text-mobile {
-  margin-right: 0px;
+  margin-right: 100px;
 }
 .container1-mobile .text-mobile,
 .container2-mobile .text-mobile {
   color: #fff;
   text-shadow: 1px 1px 1px #24252a;
-  width: 350px;
+  width: 380px;
 }
 .container1-mobile h2,
 .container2-mobile h2 {
@@ -109,7 +109,7 @@
 }
 .text-mobile p {
   line-height: 25px;
-  font-size: 15.5px;
+  font-size: 17px;
 }
 .container03 {
   margin-top: 0px;
@@ -473,19 +473,19 @@
   height: 400px;
   width: 100vw;
   margin-top: 0px;
+  background-image: url('imagens/01caminhao.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('imagens/01caminhao.jpg');
 }
 .container2-mobile {
   height: 400px;
   width: 100vw;
   margin-top: 0px;
+  background-image: url('imagens/img-cbb01.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('imagens/img-cbb01.jpg');
   background-size: cover;
 }
 .container1-mobile .text-mobile,
@@ -495,6 +495,7 @@
   text-align: center;
   width: 100vw;
   margin-left: 0;
+  margin-right: 0;
 }
 .container2-mobile .text-mobile p,
 .container2-mobile .text-mobile h2 {
@@ -511,7 +512,7 @@
 .container1-mobile .text-mobile p,
 .container2-mobile .text-mobile p {
   line-height: 25px;
-  font-size: 14.4px;
+  font-size: 16px;
 }
 .container03 {
   margin-top: 0px;
