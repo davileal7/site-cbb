@@ -73,14 +73,6 @@
   position: relative;
   isolation: isolate;
 }
-.container01::after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  background-color: #303030;
-  opacity: 0.7;
-}
 .container01 .text01 {
   color: #fff;
   text-shadow: 1px 1px 2px #24252a;
@@ -439,7 +431,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   background-size: cover;
   background-image: url('00catalogo-mobile.jpg');
 }
@@ -453,8 +444,7 @@
   align-items: center;
   flex-direction: column;
 }
-.container01 .text01 h2 {
-  color: #FF9700;
+ .h2 {
   font-size: 30px;
 }
 .container01 .text01 p {
