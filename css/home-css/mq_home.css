@@ -101,6 +101,11 @@
   text-shadow: 1px 1px 1px #24252a;
   width: 380px;
 }
+.container1-mobile h1 {
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #24252a;
+  color: #f09102;
+}
 .container1-mobile h2,
 .container2-mobile h2 {
   font-size: 30px;
@@ -497,6 +502,11 @@
   margin-left: 0;
   margin-right: 0;
 }
+.container1-mobile h1 {
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #24252a;
+  color: #f09102;
+}
 .container2-mobile .text-mobile p,
 .container2-mobile .text-mobile h2 {
     margin-right: 0px;
@@ -540,8 +550,8 @@
   height: 0px;
   width: 300px;
 }
-.container03 .text-mobile h3 {
-  font-size: 25px;
+.container03 .text-mobile h2 {
+  font-size: 30px;
   color: #4E9AB4;
 }
 .container03 .text-mobile .box  {
