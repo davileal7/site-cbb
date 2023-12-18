@@ -91,15 +91,14 @@ header {
     margin-right: 150px;
 }
 
-.container01 {
-    background-color: #ECECEE;
-}
-.container02 {
+.container01, 
+.container03 {
     background-color: #fff;
 }
-.container03 {
+.container02 {
     background-color: #ECECEE;
 }
+
 .container-sobre-nos {
     height: 400px;
     width: 100vw;
@@ -206,6 +205,7 @@ header {
 }
 .container04 {
     height: 400px;
+    background-color: #ECECEE;
     display: flex;
     justify-content: center;
     align-items: center;
