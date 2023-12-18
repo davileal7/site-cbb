@@ -115,29 +115,30 @@ header {
     color: #4E9AB4;
 }
 .container1-mobile {
-    height: 500px;
+    height: 700px;
     background-position: center;
     background-size: cover;
-    background-image: url('imagens/01caminhao.jpg'); 
+    background-repeat: no-repeat;
+    background-image: url('imagens/index-fundo.jpg'); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    isolation: isolate;
+}
+.container2-mobile {
+    height: 500px;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: left;
     align-items: center;
     text-align: left;
     position: relative;
     isolation: isolate;
-}
-.container2-mobile {
-    height: 500px;
-    background-position: left;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    text-align: left;
-    position: relative;
-    isolation: isolate;
-    background-image: url('imagens/img-cbb01.jpg'); 
+    background-image: url('imagens/02index-fundo.jpg'); 
 }
 .container1-mobile::after,
 .container2-mobile::after {
@@ -146,28 +147,26 @@ header {
     z-index: -1;
     inset: 0;
     background-color: #303030;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 .container1-mobile .text-mobile {
-    margin-left: 100px;
+    width: 1000px;
+    margin-left: 0px;
+    color: #fff;
+    margin-right: 0px;
 }
-.container1-mobile .text-mobile,
 .container2-mobile .text-mobile {
     color: #fff;
-    text-shadow: 1px 1px 1px #24252a;
-    width: 680px;
-    margin-right: 0px;
+    width: 545px;
+    margin-left: 50px;
 }
 .container1-mobile h1 {
     font-size: 50px;
-    text-shadow: 1px 1px 1px #24252a;
-    color: #f09102;
+    color: #4BC9F3;
 }
-.container1-mobile h2,
 .container2-mobile h2 {
     font-size: 50px;
-    text-shadow: 1px 1px 1px #24252a;
-    color: #f09102;
+    color: #4BC9F3;
 }
 .text-mobile p {
     line-height: 30px;
@@ -224,7 +223,7 @@ header {
     text-decoration: none;
 }
 .risca {
-    border: 1px solid #4E9AB4;
+    border: 1px solid #4BC9F3;
     border-radius: 50px;
     height: 0px;
     width: 400px;

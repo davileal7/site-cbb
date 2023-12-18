@@ -59,11 +59,11 @@
   height: 350px;
   background-position: center;
   background-size: cover;
-  background-image: url('imagens/01caminhao.jpg');
+  background-image: url('imagens/01index-fundo.jpg');
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: center;
   position: relative;
   isolation: isolate;
 }
@@ -78,7 +78,7 @@
   text-align: left;
   position: relative;
   isolation: isolate;
-  background-image: url('imagens/img-cbb01.jpg'); 
+  background-image: url('imagens/02index-fundo.jpg'); 
 }
 .container1-mobile::after,
 .container2-mobile::after {
@@ -90,27 +90,17 @@
   opacity: 0.7;
 }
 .container1-mobile .text-mobile {
-  margin-left: 100px;
+  color: #fff;
+  width: 700px;
+  margin-left: 0px;
 }
-.container2-mobile .text-mobile {
-  margin-right: 100px;
-}
-.container1-mobile .text-mobile,
 .container2-mobile .text-mobile {
   color: #fff;
-  text-shadow: 1px 1px 1px #24252a;
-  width: 380px;
+  width: 350px;
+  margin-right: 0px;
 }
-.container1-mobile h1 {
-  font-size: 30px;
-  text-shadow: 1px 1px 1px #24252a;
-  color: #f09102;
-}
-.container1-mobile h2,
 .container2-mobile h2 {
   font-size: 30px;
-  text-shadow: 1px 1px 1px #24252a;
-  color: #f09102;
 }
 .text-mobile p {
   line-height: 25px;
@@ -167,10 +157,9 @@
   text-decoration: none;
 }
 .risca {
-  border: 1px solid #4E9AB4;
   border-radius: 50px;
   height: 0px;
-  width: 110px;
+  width: 130px;
 }
 
 .fundo03 {
@@ -475,37 +464,36 @@
   color: #4E9AB4;
 }
 .container1-mobile  {
-  height: 400px;
+  height: 276px;
   width: 100vw;
   margin-top: 0px;
-  background-image: url('imagens/01caminhao.jpg');
+  background-image: url('imagens/01index-fundo.jpg'); 
+  background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .container2-mobile {
-  height: 400px;
+  height: 276px;
   width: 100vw;
   margin-top: 0px;
-  background-image: url('imagens/img-cbb01.jpg');
+  background-image: url('imagens/02index-fundo.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: cover;
+  background-size: contain;
 }
 .container1-mobile .text-mobile,
 .container2-mobile .text-mobile {
   color: #ffff;
-  text-shadow: 1px 1px 2px #24252a;
   text-align: center;
-  width: 100vw;
+  width: 350px;
   margin-left: 0;
   margin-right: 0;
 }
 .container1-mobile h1 {
   font-size: 30px;
-  text-shadow: 1px 1px 1px #24252a;
-  color: #f09102;
+  color: #4BC9F3;
 }
 .container2-mobile .text-mobile p,
 .container2-mobile .text-mobile h2 {
@@ -513,16 +501,17 @@
 }
 .container1-mobile .text-mobile h2,
 .container2-mobile .text-mobile h2 {
-  color: #FF9700;
+  color: #4BC9F3;
   font-size: 30px;
 }
+.text-mobile h1,
 .text-mobile h2 {
-  line-height: 30px;
+  line-height: 40px;
 }
 .container1-mobile .text-mobile p,
 .container2-mobile .text-mobile p {
   line-height: 25px;
-  font-size: 16px;
+  font-size: 17px;
 }
 .container03 {
   margin-top: 0px;
@@ -546,7 +535,7 @@
   background-color: #ECECEE;
 }
 .risca {
-  border: 1px solid #4E9AB4;
+  border: 1px solid #4BC9F3;
   height: 0px;
   width: 300px;
 }

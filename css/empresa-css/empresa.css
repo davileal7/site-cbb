@@ -110,7 +110,7 @@ header {
     align-items: center;
 }
 .container-sobre-nos .container-text {
-    width: 1000px;
+    width: 1050px;
 }
 .sobre h3 {
     font-size: 30px;
@@ -206,14 +206,13 @@ header {
     width: 150px;
 }
 .container04 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.container04 img {
+    background-position: center;
     height: 400px;
-    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('empresa-fundo.jpg');
 }
+
 
 .fundo03 {
   margin-top: 0px; 

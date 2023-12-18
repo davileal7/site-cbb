@@ -1,12 +1,13 @@
 body {
-    background-color: rgb(212, 208, 208);
+    background-color: #ECECEE;
 }
 .mapa {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-    .mapa button {
+.mapa button {
     cursor: pointer;
     margin-top: 10px;
     font-size: 18px;
@@ -17,14 +18,15 @@ body {
     border-radius: 20px;
  }
 .mapa {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .mapa img {
-    height: 700px;
-    width: 900px;
+    height: 500px;
+    width: 600px;
+    margin-top: 0px;
 }
 
 @media(max-width: 1000px) {
@@ -37,5 +39,6 @@ body {
     .mapa img {
         height: 300px;
         width: 400px;
+        margin-top: 100px;
     }
 }
