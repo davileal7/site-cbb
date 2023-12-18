@@ -61,7 +61,7 @@ header {
     content: ' ';
     height: 2px;
     width: 100%;
-    background-color: rgb(7, 139, 139);
+    background-color: #4BC9F3;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -198,7 +198,7 @@ header {
 }
 .container03 .text-mobile h2 {
     font-size: 40px;
-    color: #4E9AB4;
+    color: #4BC9F3;
 }
 .container03 .text-mobile .box {
     display: flex;

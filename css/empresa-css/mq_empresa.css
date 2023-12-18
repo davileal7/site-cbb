@@ -142,7 +142,7 @@
 .container03 .container-text .risca {
   display: flex;
   margin: 50px;
-  border: 1px solid #4E9AB4;
+  
   border-radius: 50px;
   height: 0px;
   width: 100px;
@@ -459,7 +459,7 @@
 }
 .sobre h3 {
   font-size: 23px;
-  color: #4E9AB4;
+  color: #4BC9F3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -474,7 +474,7 @@
   flex-direction: column;
 }
 .risca {
-  border: 2px solid #4E9AB4;
+  border: 1px solid #4BC9F3;
   border-radius: 50px;
   height: 0px;
   width: 150px;
@@ -521,16 +521,17 @@
 .container01 .container-text h2,
 .container02 .container-text h2,
 .container03 .container-text h2 {
+  color: #4BC9F3;
   font-size: 30px;
-  color: #4E9AB4;
   text-shadow: none;
   margin-bottom: 0px;
 }
 .container-text span {
   height: 150px;
   width: 150px;
+  color: #4BC9F3;
+  border: 2px solid  #4BC9F3;
   border-radius: 120px;
-  border: 1px solid #4E9AB4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -542,8 +543,8 @@
 .container03 .container-text .risca {
   display: flex;
   margin: 50px;
-  border: 2px solid #4E9AB4;
   border-radius: 50px;
+  border: 1px solid  #4BC9F3;
   height: 0px;
   width: 150px;
   margin-top: 0px;
@@ -562,10 +563,17 @@
   width: 360px;
 }
 .container04 {
+  height: 1000px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .container04 img {
-  height: 345px;
+  height: 350px;
+  width: 300px;
+  margin:20px;
+  border-radius: 150px;
 }
 .fundo03 {
   height: 200px;

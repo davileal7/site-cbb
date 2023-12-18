@@ -58,7 +58,7 @@ header {
     content: ' ';
     height: 2px;
     width: 100%;
-    background-color: rgb(7, 139, 139);
+    background-color: #4BC9F3;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -105,7 +105,7 @@ header {
     height: 500px;
     background-position: center;
     background-size: cover;
-    background-image: url('01fale-conosco.jpg');
+    background-image: url('img-fale-conosco.jpg');
     display: flex;
     justify-content: left;
     align-items: center;
@@ -132,8 +132,7 @@ header {
 }
 .container01 .container-text h2 {
     font-size: 50px;
-    text-shadow: 1px 1px 1px #24252a;
-    color: #f09102;
+    color: #4BC9F3;
 }
 .container01 .container-text p {
     line-height: 30px;
@@ -156,18 +155,17 @@ header {
     font-size: 20px;
     width: 100vw;
     color: #24252a;
-
     background-color: #fff;
     font-weight: 600;
 }
 .risca {
-    border: 2px solid #4E9AB4;
+    border: 1px solid #4BC9F3;
     border-radius: 50px;
     width: 400px;
 }
 .text h3 {
-    font-size: 35px;
-    color: #4E9AB4;
+    font-size: 30px;
+    color: #4BC9F3;
 }
 .text ul  {
     display: flex;

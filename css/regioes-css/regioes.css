@@ -62,7 +62,7 @@ header {
     content: ' ';
     height: 2px;
     width: 100%;
-    background-color: rgb(7, 139, 139);
+    background-color: #4BC9F3;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -142,8 +142,7 @@ header {
 }
 .container01 .text01 h2 {
     font-size: 50px;
-    text-shadow: 1px 1px 1px #24252a;
-    color: #f09102;
+    color: #4BC9F3;
 }
 .container01 .text01 {
     color: #fff;
@@ -178,7 +177,6 @@ header {
 .text03 li {
     list-style: none;
     margin: 15px;
-    
 }
 .text03 button {
     cursor: pointer;
@@ -187,8 +185,7 @@ header {
     width: 200px;
     border-radius: 50px;
     background-color: #fff;
-  
-    border: 1px solid #4E9AB4;
+    border: 1px solid #4BC9F3;
 }
 .text03 button:hover {
     background-color: #4E9AB4;

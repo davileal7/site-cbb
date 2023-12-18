@@ -59,7 +59,7 @@ header {
     content: ' ';
     height: 2px;
     width: 100%;
-    background-color: rgb(7, 139, 139);
+    background-color: #4BC9F3;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -114,7 +114,7 @@ header {
 }
 .sobre h3 {
     font-size: 30px;
-    color: #4E9AB4;
+    color:  #4BC9F3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +129,7 @@ header {
     flex-direction: column;
 }
 .risca {
-    border: 2px solid #4E9AB4;
+    border: 2px solid  #4BC9F3;
     border-radius: 50px;
     height: 0px;
     width: 200px;
@@ -157,14 +157,14 @@ header {
 .container01 .container-text h2,
 .container02 .container-text h2,
 .container03 .container-text h2 {
-    font-size: 50px;
-    color: #4E9AB4;
+    font-size: 35px;
+    color:  #4BC9F3;
 }
 .container-text span {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 150px;
-    border: 2px solid #4E9AB4;
+    border: 2px solid  #4BC9F3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,27 +193,29 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .container01 .container-text .risca,
 .container02 .container-text .risca,
 .container03 .container-text .risca {
     display: flex;
     margin: 50px;
-    border: 2px solid #4E9AB4;
+    border: 2px solid  #4BC9F3;
     border-radius: 50px;
     height: 0px;
     width: 150px;
 }
 .container04 {
-    background-position: center;
     height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url('empresa-fundo.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
+.container04 img {
+    height: 350px;
+    width: 350px;
+    margin:20px;
+    border-radius: 150px;
+}
 .fundo03 {
   margin-top: 0px; 
   height: 400px;

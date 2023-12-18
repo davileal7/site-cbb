@@ -79,7 +79,6 @@
   width: 450px;
 }
 .container01 .container-text h2 {
-  color: #FF9700;
   font-size: 30px;
 }
 .container01  .container-text p {
@@ -92,7 +91,6 @@
   text-align: center;
   align-items: center;
   height: 300px;
-  background-color: #ECECEE;
 }
 .container02 .text {
   display: flex;
@@ -101,17 +99,15 @@
   align-items: center;
   height: 300px;
   width: 100vw;
-  background-color: #ECECEE;
   font-weight: 600;
 }
 .risca {
-  border: 1px solid #4E9AB4;
+  border: 1px solid  #4BC9F3;
   border-radius: 50px;
   width: 100px;
 }
 .text h3 {
   font-size: 24px;
-  color: #4E9AB4;
 }
 .text ul  {
   display: flex;
@@ -147,7 +143,6 @@
 .container-canal {
   display: flex;
   height: 300px;
-  background-color: #ECECEE;
   width: 500px;
   flex-direction: column;
 }
@@ -564,12 +559,11 @@
   flex-direction: column;
 }
 .container01 .container-text h2 {
-  color: #FF9700;
   font-size: 30px;
 }
 .container01 .container-text p {
   line-height: 25px;
-  font-size: 16px;
+  font-size: 17px;
   width: 300px;
 }
 .container02 {
@@ -580,6 +574,7 @@
   align-items: center;
   justify-content: center;
   height: 300px;
+  background-color: #fff;
 }
 .container02 .text {
   display: flex;
@@ -588,20 +583,18 @@
   align-items: center;
   width: 100vw;
   box-shadow: none;
-  background-color: #ECECEE;
 }
 .container02 .risca {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #4E9AB4;
+  border: 1px solid  #4BC9F3;
   border-radius: 50px;
   width: 150px;
   margin-bottom: 130px;
 }
 .text h3 {
   font-size: 24px;
-  color: #4E9AB4;
 }
 .text ul  {
   display: flex;

@@ -61,7 +61,7 @@ header {
     content: ' ';
     height: 2px;
     width: 100%;
-    background-color: rgb(7, 139, 139);
+    background-color: #4BC9F3;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -139,8 +139,7 @@ header {
 }
 .text01 h2 {
     font-size: 50px;
-    text-shadow: 1px 1px 1px #24252a;
-    color: #f09102;
+    color: #4BC9F3;
 }
 .text01 p {
     line-height: 30px;
