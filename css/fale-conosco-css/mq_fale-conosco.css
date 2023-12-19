@@ -65,7 +65,7 @@
   height: 350px;
   width: 100vw;
   margin-top: 0px;
-  background-image: url('01fale-conosco.jpg');
+  background-image: url('img-fale-conosco.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -544,7 +544,7 @@
   align-items: center;
   flex-direction: column;
   background-size: cover;
-  background-image: url('fale-conosco-mobile.jpg');
+  background-image: url('img-mobile.jpg');
 }
 .container01 .container-text {
   color: #ffff;

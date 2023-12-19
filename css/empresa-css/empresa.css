@@ -128,7 +128,7 @@ header {
     flex-direction: column;
 }
 .risca {
-    border: 2px solid  #4BC9F3;
+    border: 1px solid  #4BC9F3;
     border-radius: 50px;
     height: 0px;
     width: 200px;
@@ -163,7 +163,7 @@ header {
     height: 200px;
     width: 200px;
     border-radius: 150px;
-    border: 2px solid  #4BC9F3;
+    border: 1px solid  #4BC9F3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,7 +198,7 @@ header {
 .container03 .container-text .risca {
     display: flex;
     margin: 50px;
-    border: 2px solid  #4BC9F3;
+    border: 1px solid  #4BC9F3;
     border-radius: 50px;
     height: 0px;
     width: 150px;

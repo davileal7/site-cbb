@@ -59,7 +59,7 @@
   height: 350px;
   background-position: center;
   background-size: cover;
-  background-image: url('imagens/01index-fundo.jpg');
+  background-image: url('imagens/index-fundo.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -467,7 +467,7 @@
   height: 276px;
   width: 100vw;
   margin-top: 0px;
-  background-image: url('imagens/01index-fundo.jpg'); 
+  background-image: url('imagens/index-fundo.jpg'); 
   background-size: contain;
   display: flex;
   justify-content: center;
