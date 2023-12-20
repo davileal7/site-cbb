@@ -646,7 +646,7 @@
   display: none;
 }
 .container03-mobile {
-  height: 620px;
+  height: 700px;
   width: 100vw;
   margin-top: 0px;
   display: flex;
@@ -656,7 +656,7 @@
   flex-direction: column;
 }
 .container03-mobile .container-text {
-  height: 620px;
+  height: 700px;
   width: 100vw;
   background-color: #fff;
   margin-top: 0px;
