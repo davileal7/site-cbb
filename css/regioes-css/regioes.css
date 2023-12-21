@@ -188,11 +188,10 @@ header {
     border: 1px solid #4BC9F3;
 }
 .text03 button:hover {
-    background-color: #4E9AB4;
+    background-color: #4BC9F3;
     scale: 1.1;
     transition: 0.5s;
 }
-
 .fundo03 {
     margin-top: 0px;
     height: 400px;

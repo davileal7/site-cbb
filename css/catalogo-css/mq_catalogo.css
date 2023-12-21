@@ -413,12 +413,6 @@
   padding: 20px;
   color: #4E9AB4;
 }
-
-.top-video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .risca {
   border: 1px solid #4BC9F3;
   border-radius: 50px;
