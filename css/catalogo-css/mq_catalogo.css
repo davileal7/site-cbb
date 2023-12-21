@@ -402,16 +402,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1px;
+  margin-top: 15px;
 }
 .logo-big img {
-  height: 200px;
+  height: 160px;
   border-radius: 150px;
 }
 .frase h3 {
   font-size: 13.3px;
   padding: 20px;
   color: #4E9AB4;
+}
+
+.top-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.risca {
+  border: 1px solid #4BC9F3;
+  border-radius: 50px;
+  height: 0px;
+  width: 400px;
 }
 .catalogo-mobile {
   display: block;
@@ -425,7 +437,7 @@
 .container01 {
   height: 400px;
   width: 100vw;
-  margin-top: 0px;
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;

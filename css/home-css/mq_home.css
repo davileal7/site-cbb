@@ -25,22 +25,6 @@
 .container00 {
   display: none;
 }
-.container-img01-mobile  {
-  display: flex;
-  margin-top: 26px;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 100vw;
-  background-color: #ECECEE;
-}
-.img-topo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 150px;
-  width: 100vw;
-}
 .logo-big {
   display: flex;
   justify-content: center;
@@ -54,6 +38,15 @@
 .frase h3 {
   font-size: 14.5px;
   padding: 20px;
+}
+.fundo-video {  
+  z-index: -1; /*imagem por tras */
+  width: 100vw;
+  height: 300px;
+  overflow: hidden; /* escoder a rolagem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container1-mobile {
   height: 350px;
@@ -96,7 +89,7 @@
 }
 .container2-mobile .text-mobile {
   color: #fff;
-  width: 350px;
+  width: 330px;
   margin-right: 0px;
 }
 .container2-mobile h2 {
@@ -406,7 +399,7 @@
     bottom: 0px;
 }
 .nav-item:hover {
-    background-color: rgb(7, 139, 139);
+    background-color: #4BC9F3;
 }
 .nav-bar {
     padding: 1.5rem 4rem;
@@ -433,29 +426,15 @@
 .container00 {
   display: none;
 }
-.container-img01-mobile  {
-  margin-top: 1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 100vw;
-  background-color: #ECECEE;
-}
-.img-topo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height:  100px;
-}
+
 .logo-big {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1px;
+  margin-top: 15px;
 }
 .logo-big img {
-  height: 200px;
+  height: 160px;
   border-radius: 150px;
 }
 .frase h3 {
@@ -463,6 +442,32 @@
   padding: 20px;
   color: #4E9AB4;
 }
+.container-espaco {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-espaco .risca {
+  width: 300px;
+}
+.fundo-video {  
+  z-index: -1; /*imagem por tras */
+  height: 300px;
+  overflow: hidden; /* escoder a rolagem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+.fundo-video .video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
 .container1-mobile  {
   height: 276px;
   width: 100vw;

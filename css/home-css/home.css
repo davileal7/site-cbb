@@ -100,7 +100,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 12px;
 }
 .logo-big img {
     height: 250px;
@@ -113,6 +113,23 @@ header {
     font-size: 23px;
     padding: 10px;
     color: #4E9AB4;
+}
+.fundo-video { 
+    width: 100vw;
+    height: 500px;
+    overflow: hidden; /* escoder a rolagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-espaco {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-espaco .risca {
+    width: 1000px;
 }
 .container1-mobile {
     height: 700px;
@@ -140,6 +157,7 @@ header {
     isolation: isolate;
     background-image: url('imagens/02index-fundo.jpg'); 
 }
+
 .container1-mobile::after,
 .container2-mobile::after {
     content: '';
