@@ -365,6 +365,8 @@
   transition: .2s;
   visibility: hidden;
   overflow-y: hidden;
+
+  z-index: 1; /*imagem por tras */
 }
 .nav.active .menu {
   height: 290px;
@@ -452,7 +454,7 @@
   width: 300px;
 }
 .fundo-video {  
-  z-index: -1; /*imagem por tras */
+  z-index: 0; /*imagem por tras */
   height: 300px;
   overflow: hidden; /* escoder a rolagem */
   display: flex;
