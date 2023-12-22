@@ -365,7 +365,6 @@
   transition: .2s;
   visibility: hidden;
   overflow-y: hidden;
-
   z-index: 1; /*imagem por tras */
 }
 .nav.active .menu {

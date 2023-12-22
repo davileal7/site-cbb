@@ -82,20 +82,11 @@ header {
     height: 35vh;
     width: 100vw;
 }
-.container-imagem img {
-    height: 35vh;
-    width: 100vw;
-}
+
 .container-mobile {
     display: none;
 }
-.container01 .container-img {
-    color: #ffff;
-    text-shadow: 1px 1px 2px #24252a;
-    font-size: 2.5em;
-    text-align: right;
-    margin-right: 150px;
-}
+
 .logo-big {
     display: flex;
     justify-content: center;
