@@ -102,7 +102,7 @@ header {
     display: none;
 }
 .container01 {
-    height: 500px;
+    height: 400px;
     background-position: center;
     background-size: cover;
     background-image: url('img-fale-conosco.jpg');
@@ -315,7 +315,7 @@ header {
     margin-top: 0px;
     height: 400px;
     width: 100vw;
-    background-color: #ECECEE;
+    background-color: #fff;
     display: flex;
     justify-content: center;  
 }
@@ -399,9 +399,8 @@ header {
     cursor: pointer;
     width: 105px;
     height: 105px;
-    border-radius: 50%;
+    border-radius: 25px;
     object-fit: cover;
-    border: 4px solid #fff;
   }
   
 /* FIM - CAROSEL */
@@ -414,6 +413,7 @@ header {
     justify-content: space-between;
     color: #24252a;
     font-size: 16px;
+    background-color: #ECECEE;
 }
 .roda_pe .contatos,
 .roda_pe .redes_sociais,
@@ -484,6 +484,7 @@ header {
 }
 footer h1 {
     text-align: center;
+    background-color: #ECECEE;
 }
 .whats {
     background-color:rgb(0, 231, 119) ;

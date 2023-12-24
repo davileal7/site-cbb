@@ -241,7 +241,6 @@
   margin-top: 0px;
   display: flex;
   justify-content: center;
-  background-color: #ECECEE;
 }
 
 /*CAROSEL */
@@ -323,9 +322,8 @@
   cursor: pointer;
   width: 60px;
   height: 60px;
-  border-radius: 50%;
+  border-radius: 25px;
   object-fit: cover;
-  border: 4px solid #fff;
 }
 .carousel .card h2 {
   font-weight: 500;
@@ -401,61 +399,61 @@
 @media (max-width: 730px) {
 
 #btn-mobile {
-    display: flex;
-    padding: .5rem 1rem;
-    font-size: 1rem;
-    border: none;
-    background: none;
-    cursor: pointer;
-    gap:  .5rem;
+  display: flex;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  gap:  .5rem;
 }
 #hamburguer {
-    display: block;
-    border-top: 3px solid;
-    width: 20px;
+  display: block;
+  border-top: 3px solid;
+  width: 20px;
 }
 #hamburguer::after, #hamburguer::before {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 2px;
-    background-color: currentColor;
-    margin-top: 5px;
-    transition: .3s;
-    position: relative;
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: currentColor;
+  margin-top: 5px;
+  transition: .3s;
+  position: relative;
 }
 .nav.active #hamburguer {
-    border-top-color: transparent;
+  border-top-color: transparent;
 }
 .nav.active #hamburguer::before {
-    transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 .nav.active #hamburguer::after {
-    transform: rotate(-135deg);
-    top: -7px;
+  transform: rotate(-135deg);
+  top: -7px;
 }
 .menu {
-    display: block;
-    position: absolute;
-    background-color: #ECECEE;
-    box-shadow: 0px 3px 10px #464646;
-    width: 100%;
-    top: 100px;
-    right: 0px;
-    height: 0px;
-    transition: .2s;
-    visibility: hidden;
-    overflow-y: hidden;
+  display: block;
+  position: absolute;
+  background-color: #ECECEE;
+  box-shadow: 0px 3px 10px #464646;
+  width: 100%;
+  top: 100px;
+  right: 0px;
+  height: 0px;
+  transition: .2s;
+  visibility: hidden;
+  overflow-y: hidden;
 }
 .nav.active .menu {
-    height: 290px;
-    visibility: visible;
-    overflow-y: auto;
+  height: 290px;
+  visibility: visible;
+  overflow-y: auto;
 }
 .menu li {
-    padding: 1rem 0;
-    margin: 0 1rem;
-    text-align: center;
+  padding: 1rem 0;
+  margin: 0 1rem;
+  text-align: center;
 }
 .menu span {
   font-size: 18px;
@@ -465,43 +463,43 @@
   width: 215px;
 }
 .nav-link {
-    text-decoration: none;
-    font-size: 1.15rem;
-    color: #303030;
-    font-weight: 400;
-    position: relative;
-    transition: all 0.4s;
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #303030;
+  font-weight: 400;
+  position: relative;
+  transition: all 0.4s;
 }
 .nav-link:hover {
-    color: #fff;
+  color: #fff;
 }
 .nav-link::after {
-    bottom: 0px;
+  bottom: 0px;
 }
 .nav-item:hover {
-    background-color: #4BC9F3;
+  background-color: #4BC9F3;
 }
 .nav-bar {
-    padding: 1.5rem 4rem;
+  padding: 1.5rem 4rem;
 }
 .mobile-menu-icon button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    color: black;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: black;
 }
 .mobile-menu ul {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 .mobile-menu .nav-item {
-    display: block;
-    padding-top: 1.2rem;
+  display: block;
+  padding-top: 1.2rem;
 }
 .open {
-    display: block;
+  display: block;
 }
 .container00 {
   display: none;
@@ -731,7 +729,6 @@
   margin-top: 0px;
   display: flex;
   justify-content: center;
-  background-color: #ECECEE;
 }
   /*CAROSEL */
 .wrapper i {
@@ -765,9 +762,8 @@
 .card .img img {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 25px;
   object-fit: cover;
-  border: 4px solid #fff;
 }
 .wrapper i:first-child{
   left: 20px;

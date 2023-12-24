@@ -161,7 +161,6 @@
   margin-top: 0px;
   display: flex;
   justify-content: center;
-  background-color: #ECECEE;
 }
 /*CAROSEL */
 .wrapper {
@@ -242,9 +241,8 @@
   cursor: pointer;
   width: 80px;
   height: 80px;
-  border-radius: 50%;
+  border-radius: 25px;
   object-fit: cover;
-  border: 4px solid #fff;
 }
 .carousel .card h2 {
   font-weight: 500;
@@ -577,14 +575,12 @@
   color: #f09102;
   text-decoration: none;
 }
-
 .fundo03 {
   height: 200px;
   width: 100vw;
   margin-top: 0px;
   display: flex;
   justify-content: center;
-  background-color: #ECECEE;
 }
 /*CAROSEL */
 .wrapper i {
@@ -618,9 +614,8 @@
 .card .img img {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 25px;
   object-fit: cover;
-  border: 4px solid #fff;
 }
 .wrapper i:first-child{
   left: 20px;

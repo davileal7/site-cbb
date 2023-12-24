@@ -119,7 +119,7 @@
   margin-top: 0px;
   display: flex;
   justify-content: center;
-  background-color: #ECECEE;
+
 }
 /*CAROSEL */
 .wrapper {
@@ -200,9 +200,8 @@
   cursor: pointer;
   width: 60px;
   height: 60px;
-  border-radius: 50%;
+  border-radius: 25px;
   object-fit: cover;
-  border: 4px solid #fff;
 }
 .carousel .card h2 {
   font-weight: 500;
@@ -523,9 +522,8 @@
   .card .img img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 25px;
     object-fit: cover;
-    border: 4px solid #fff;
   }
   .wrapper i:first-child{
     left: 20px;
