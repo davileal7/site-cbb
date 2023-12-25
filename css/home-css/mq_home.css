@@ -52,7 +52,6 @@
   height: 350px;
   background-position: center;
   background-size: cover;
-  background-image: url('imagens/index-fundo.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,8 +69,7 @@
   align-items: center;
   text-align: left;
   position: relative;
-  isolation: isolate;
-  background-image: url('imagens/02index-fundo.jpg'); 
+  isolation: isolate; 
 }
 .container1-mobile::after,
 .container2-mobile::after {
@@ -468,10 +466,10 @@
 }
 
 .container1-mobile  {
-  height: 276px;
+  height: 280px;
   width: 100vw;
   margin-top: 0px;
-  background-image: url('imagens/index-fundo.jpg'); 
+  background-image: url('imagens/img-mobile01.jpg'); 
   background-size: contain;
   display: flex;
   justify-content: center;
@@ -481,7 +479,7 @@
   height: 276px;
   width: 100vw;
   margin-top: 0px;
-  background-image: url('imagens/02index-fundo.jpg');
+  background-image: url('imagens/img-container02.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
