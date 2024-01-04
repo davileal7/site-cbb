@@ -493,6 +493,11 @@
   margin-left: 0;
   margin-right: 0;
 }
+
+.container1-mobile .text-mobile .risca,
+.container2-mobile .text-mobile .risca {
+  display: none;
+}
 .container1-mobile h1 {
   font-size: 30px;
   color: #4BC9F3;

@@ -556,6 +556,9 @@
   align-items: center;
   flex-direction: column;
 }
+.risca-1 {
+  display: none;
+}
 .container01 .container-text h2 {
   font-size: 30px;
 }

@@ -148,11 +148,9 @@ header {
     color: #fff;
     text-shadow: 1px 1px 1px #24252a;
     width: 680px;
-    margin-right: 0px;
+    margin-left: 70px;
 }
-.container01 .text01 {
-    margin-left: 100px;
-}
+
 .text01 p {
     line-height: 30px;
     font-size: 24.5px;
