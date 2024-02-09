@@ -444,6 +444,7 @@
   transition: .2s;
   visibility: hidden;
   overflow-y: hidden;
+  z-index: 1; /*imagem por tras */
 }
 .nav.active .menu {
   height: 330px; 
@@ -469,6 +470,13 @@
   font-weight: 400;
   position: relative;
   transition: all 0.4s;
+}
+.menu .fale {
+  color: #4BC9F3;
+  border: 1px solid #4BC9F3;
+  border-radius: 100px;
+  font-weight: 0;
+  padding: 10px;
 }
 .nav-link:hover {
   color: #fff;
