@@ -564,8 +564,13 @@
   align-items: center;
   flex-direction: column;
 }
-.risca-1 {
-  display: none;
+.ped-peq {
+ margin: 30px;
+}
+.risca {
+  display: flex;
+  width: 300px;
+  margin: 20px;
 }
 .container01 .container-text h2 {
   font-size: 30px;
@@ -575,19 +580,21 @@
   font-size: 17px;
   width: 300px;
 }
-
 .container02-ped {
+  background-color: #ECECEE;
+}
+
+.container02-ped,
+.container02-cadastro {
   margin-top: 0px;
-  
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
-
-  height: 300px;
-  background-color: #ECECEE;
+  height: 250px;
 }
+
 .container02-ped .text,
 .container02-cadastro .text {
   display: flex;
@@ -595,13 +602,15 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 0px;
   width: 100vw;
   color: #24252a;
+  background-color: #f09102;
   
 }
-.text .canais-ped .ped {
-  margin-bottom: 100px;
+ .ped,
+ .cadastro {
+  margin: 25px;
 }
 
 
@@ -662,7 +671,7 @@
 }
 .ped,
 .cadastro {
-  margin-bottom: 150px;
+  margin-bottom: 0px;
 }
 .ped {
   background-color: #FF9700;

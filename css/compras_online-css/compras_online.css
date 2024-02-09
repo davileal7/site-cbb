@@ -136,16 +136,12 @@ header {
     background-color: #303030;
     opacity: 0.7;
 }
-
 .container01 .container-text {
     color: #fff;
     text-shadow: 1px 1px 1px #24252a;
     width: 500px;
     margin-left: 70px;
-
-    
 }
-
 .container01 .container-text h2 {
     font-size: 50px;
     color: #4BC9F3;
@@ -154,15 +150,15 @@ header {
     line-height: 30px;
     font-size: 24.5px;
 }
-
 .ped-peq {
     background-color: #FF9700;
     border-radius: 150px;
     height: 100px;
     width: 100px;
     box-shadow: 1px 1px 1px 1px #24252a;
-
-   
+}
+.risca {
+    display: none;
 }
 .ped-peq img {
     height: 100px;
@@ -170,14 +166,10 @@ header {
     margin: 0px;
     padding: 0px;
 }
-
-
 .ped-peq:hover { 
     scale: 1.2;
     transition: 1s
 }
-
-
 .container02-ped {
     margin-top: 0px;
     display: flex;
@@ -207,7 +199,7 @@ header {
 .risca {
     border: 1px solid #4BC9F3;
     border-radius: 50px;
-    width: 400px;
+    width: 300px;
 }
 
 .text ul  {
@@ -218,22 +210,11 @@ header {
     list-style: none;
 }
 .text li {
-    color: #808080;
-    margin: 5px;
+    margin: 0px;
     font-size: 26px;
+    font-weight: 400;
 }
-.text span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #ECECEE;
-    border: 2px solid #f09102;
-    height: 200px;
-    width: 200px;
-    border-radius: 150px;
-    margin-right: 0px;
-}
+
 .container-text a {
     color: #f09102;
     text-decoration: none;
@@ -244,37 +225,13 @@ header {
 .text .canais-cadastro {
     color: #24252a;
 }
-.container-canal {
-    display: flex;
-    width: 500px;
-    flex-direction: column;
-}
-.container-atendimento {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    border-radius: 10px;
-}
-.container-atendimento h3 {
-    color: #808080;
-    margin: 5px;
-    font-size: 23px;
-} 
-.title {
-    color: #464646;
-    background-color: #ECECEE;
-    text-align: center;
-}
-
 
 
 .ped {
     background-color: #FF9700;
-    border-radius: 10px;
+    border-radius: 150px;
     height: 130px;
-    width: 250px;
+    width: 130px;
     box-shadow: 1px 1px 1px 1px #24252a;
 }
 .ped img,
