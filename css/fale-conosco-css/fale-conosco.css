@@ -51,6 +51,20 @@ header {
     position: relative;
     transition: all 0.4s;
 }
+.nav-link-fale_conosco {
+    text-decoration: none;
+    font-size: 20px;
+    color: #303030;
+    font-weight: 400;
+   
+    transition: all 0.4s;
+}
+.menu .fale_conosco {
+    color: #4BC9F3;
+    border: 1px solid #4BC9F3;
+    border-radius: 100px;
+    padding: 12px;
+}
 .nav-link:hover {
     color: black;
 }
