@@ -405,6 +405,10 @@
 .nav-item:hover {
     background-color: #4BC9F3;
 }
+.nav-item-fale:hover {
+  scale: 1.1;
+  transition: 1s;
+}
 .nav-bar {
     padding: 1.5rem 4rem;
 }

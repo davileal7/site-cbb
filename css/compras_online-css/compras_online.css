@@ -120,7 +120,7 @@ header {
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('');
+    background-image: url('comercial.jpeg');
     display: flex;
     justify-content: left;
     align-items: center;
@@ -156,6 +156,10 @@ header {
     height: 100px;
     width: 100px;
     box-shadow: 1px 1px 1px 1px #24252a;
+    position: absolute;
+    left: 200px;
+    margin-top: 225px;
+
 }
 .risca {
     display: none;

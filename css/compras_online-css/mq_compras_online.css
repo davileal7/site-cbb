@@ -487,6 +487,10 @@
 .nav-item:hover {
   background-color: #4BC9F3;
 }
+.nav-item-fale:hover {
+  scale: 1.1;
+  transition: 1s;
+}
 .nav-bar {
   padding: 1.5rem 4rem;
 }
@@ -549,14 +553,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-size: cover;
-  background-image: url('');
+  background-size: contain;
+  background-image: url('comercial.jpeg');
 }
 .container01 .container-text {
   color: #ffff;
   text-shadow: 1px 1px 2px #24252a;
   text-align: center;
   width: 100vw;
+  margin-bottom: 250px;
   margin-right: 0;
   margin-left: 0;
   display: flex;
@@ -564,8 +569,21 @@
   align-items: center;
   flex-direction: column;
 }
+
 .ped-peq {
- margin: 30px;
+  border-radius: 150px;
+  height: 75px;
+  width: 75px;
+
+  
+  left: 160px;
+  top: 65px;
+}
+.ped-peq img {
+  height: 75px;
+  width: 75px;
+  margin: 0px;
+  padding: 0px;
 }
 .risca {
   display: flex;
