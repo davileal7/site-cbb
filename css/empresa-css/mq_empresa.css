@@ -364,7 +364,7 @@
   overflow-y: hidden;
 }
 .nav.active .menu {
-    height: 330px; 
+    height: 390px; 
     visibility: visible;
     overflow-y: auto;
 }

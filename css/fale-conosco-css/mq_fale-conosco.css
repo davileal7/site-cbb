@@ -101,10 +101,11 @@
   width: 100vw;
   font-weight: 600;
 }
-.risca {
-  border: 1px solid  #4BC9F3;
-  border-radius: 50px;
-  width: 100px;
+.container02 .risca {
+  width: 200px;
+}
+.risca-1 {
+  display: none;
 }
 .text h3 {
   font-size: 24px;
@@ -113,12 +114,12 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 0px;
+  margin-left: 40px;
   list-style: none;
 }
 .text li {
   color: #808080;
-  margin: 5px;
+  margin: 15px;
   font-size: 15.5px;
 }
 .text span {
@@ -447,7 +448,7 @@
   z-index: 1; /*imagem por tras */
 }
 .nav.active .menu {
-  height: 330px; 
+  height: 390px; 
   visibility: visible;
   overflow-y: auto;
 }

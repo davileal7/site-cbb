@@ -62,44 +62,39 @@
   width: 100vw;
 }
 .container01 {
-  height: 350px;
+  height: 300px;
   width: 100vw;
   margin-top: 0px;
-  background-image: url('img-fale-conosco.jpg');
+  background-image: url('comercial.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
-.container01 .container-text {
-  color: #ECECEE;
-  text-shadow: 1px 1px 2px #24252a;
-  text-align: left;
-  margin-left: 100px;
-  width: 450px;
+.ped-peq {
+  display: none;
 }
-.container01 .container-text h2 {
-  font-size: 30px;
-}
-.container01  .container-text p {
-  line-height: 25px;
-  font-size: 18px;
-}
-.container02 {
+.container02-ped,
+.container02-cadastro {
   margin-top: 0px;
   display: flex;
   text-align: center;
   align-items: center;
-  height: 300px;
+  height: 150px;
 }
-.container02 .text {
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-  align-items: center;
-  height: 300px;
-  width: 100vw;
-  font-weight: 600;
+.container02-ped .text {
+  background-color: #ECECEE;
+}
+.container02-ped .text,
+.container02-cadastro .text {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 100vw;
+    color: #24252a;
+    font-weight: 500;
 }
 .risca {
   border: 1px solid  #4BC9F3;
@@ -447,7 +442,7 @@
   z-index: 1; /*imagem por tras */
 }
 .nav.active .menu {
-  height: 330px; 
+  height: 390px; 
   visibility: visible;
   overflow-y: auto;
 }
@@ -546,7 +541,7 @@
   color: #4E9AB4;
 }
 .container01  {
-  height: 400px;
+  height: 300px;
   width: 100vw;
   margin-top: 0px;
   display: flex;
@@ -561,7 +556,7 @@
   text-shadow: 1px 1px 2px #24252a;
   text-align: center;
   width: 100vw;
-  margin-bottom: 250px;
+  margin-bottom: 0px;
   margin-right: 0;
   margin-left: 0;
   display: flex;

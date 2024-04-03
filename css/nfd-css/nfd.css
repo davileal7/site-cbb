@@ -159,21 +159,23 @@ header {
     display: flex;
     text-align: center;
     align-items: center;
+    
     height: 400px;
     background-color: #fff;
 }
-.container02 .text {
+.container02 .text-1,
+.container02 .text-2 {
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 400px;
     font-size: 20px;
     width: 100vw;
     color: #24252a;
-    background-color: #fff;
     font-weight: 600;
 }
+
 .risca-1 {
     border: 1px solid #4BC9F3;
     border-radius: 50px;
@@ -185,18 +187,21 @@ header {
     border-radius: 50px;
     width: 400px;
 }
-.text h3 {
+.text-1 h3,
+.text-2 h3 {
     font-size: 30px;
     color: #4BC9F3;
 }
-.text ul  {
+.text-1 ul,
+.text-2 ul  {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 0px;
-    list-style: none;
+    margin-left: 70px;
+    list-style: inside;
 }
-.text li {
+.text-1 li,
+.text-2 li {
     color: #808080;
     margin: 5px;
     font-size: 23px;

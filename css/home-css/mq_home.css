@@ -59,6 +59,9 @@
   position: relative;
   isolation: isolate;
 }
+.risca {
+  display: none;
+}
 .container2-mobile {
   height: 350px;
   background-position: left;
@@ -364,7 +367,7 @@
   z-index: 1; /*imagem por tras */
 }
 .nav.active .menu {
-  height: 330px; /* ---------!!!!!!! */
+  height: 390px; /* ---------!!!!!!! */
   visibility: visible;
   overflow-y: auto;
 }

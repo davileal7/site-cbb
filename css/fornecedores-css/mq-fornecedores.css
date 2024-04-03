@@ -323,7 +323,7 @@
   z-index: 1; /*imagem por tras */
 }
 .nav.active .menu {
-  height: 330px; 
+  height: 390px; 
   visibility: visible;
   overflow-y: auto;
 }

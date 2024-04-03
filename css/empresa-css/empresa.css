@@ -41,7 +41,7 @@ header {
     display: none;
 }
 .nav-item {
-    margin: 0 15px;
+    margin: 0 5px;
 }
 .nav-link {
     text-decoration: none;
@@ -51,6 +51,9 @@ header {
 
     position: relative;
     transition: all 0.4s;
+}
+.menu .nfd {
+    color: #f09102;
 }
 .nav-link-fale_conosco {
     text-decoration: none;
