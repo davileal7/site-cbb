@@ -602,19 +602,19 @@ footer h1 {
     position: relative;
 }
 
-.container form .formulario-detalhes {
+#form .formulario-detalhes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0 12px 0;
 }
 
-form .formulario-detalhes .input-box {
+#form .formulario-detalhes .input-box {
     margin-bottom: 15px;
     width: calc(100% / 2 - 20px);
 }
 
-form .formulario-detalhes .input-pdf {
+#form .formulario-detalhes .input-pdf {
     margin-bottom: 15px;
     width: calc(100% / 2 - 20px);
 }
@@ -664,8 +664,8 @@ form .formulario-detalhes .input-pdf {
     cursor: pointer;
 }
 
-.formulario-detalhes .input-box input::focus,
-.formulario-detalhes .input-box input::valid {
+.formulario-detalhes .input-box input:focus,
+.formulario-detalhes .input-box input:valid {
     border-color: #4bc9f3;
 }
 

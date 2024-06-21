@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="css/nfd-css/02nfd.css">
     <link rel="stylesheet" href="css/nfd-css/mq_nfd.css">
-    <script src="nfd.js"></script>
+    
     <title>CBB Distribuidora</title>
 </head>
 <body>
@@ -89,19 +89,19 @@
                 <!-- Formulário    tirei required inputPDF---->
                 <div class="container">
                   <div class="title">Formulário de emissão NFD</div>
-                  <form id="form" action="processar-dados.php" method="post">
+                <form id="form">
                       <div class="formulario-detalhes">
                           <div class="input-box">
                               <span class="detalhes">Número da NFe da CBB Distribuidora:</span>
-                              <input type="text" placeholder="Digite apenas números" id="NFeCBB" inputmode="numeric" maxlength="10" required>
+                              <input type="text" placeholder="Digite apenas números" id="NFeCBB" required>
                           </div>
                           <div class="input-box">
                               <span class="detalhes">Número da NFe Devolução emitida:</span>
-                              <input type="text" placeholder="Digite apenas números" id="NFeDevolucao" inputmode="numeric" required>
+                              <input type="text" placeholder="Digite apenas números" id="NFeDevolucao" required>
                           </div>
                           <div class="input-box">
                               <span class="detalhes">CNPJ emitente:</span>
-                              <input type="text" placeholder="00.000.000/0000-00" id="cnpj" name="cnpj" inputmode="numeric" maxlength="18" required>
+                              <input type="number"  id="cnpj" value="0000000000000">
                           </div>
                           <div class="input-box">
                               <span class="detalhes">E-mail emitente:</span>
@@ -109,13 +109,15 @@
                           </div>
                           <div class="input-box">
                             <span class="detalhes">Valor da NFD:</span>
-                            <input type="text" placeholder="R$ 0,00" id="Valor" inputmode="numeric" required>
+                            <input type="text" placeholder="R$ 0,00" id="Valor" required >
                           </div>
                           <div class="input-box">
                             <span class="detalhes">Número de telefone:</span>
-                            <input type="text" placeholder="(00) 00000-0000" id="Telefone" inputmode="numeric" maxlength="15" required>
+                            <input type="text" placeholder="(00) 00000-0000" id="Telefone"  >
                           </div>
-                          <div class="input-pdf">
+
+
+                       <!--    <div class="input-pdf">
                             <span class="detalhes"></span>
                             <input type="file" accept=".pdf" id="NFeDev" multiple  onchange="updateFileNames(this, 'NFeDev')" />
                             <label for="NFeDev">NFe Devolução</label>
@@ -135,11 +137,13 @@
                             <label for="Boleto">Boleto</label>
                             <button id="BoletoDeleteButton" class="delete-button" style="display: none;" onclick="clearFiles('Boleto')" type="button">X</button>
                             <div id="BoletoFileNames" class="file-names">Nenhum arquivo anexado</div>
-                         </div>
+                         </div> -->
+                         <!-- <button id="Insbtn">Enviar</button> -->
                       </div>
-                      <div class="button">
-                          <input type="submit" value="Emitir NFD">
-                      </div>
+                     <div class="button">
+                          
+                          <input type="submit" value="Emitir NFD" id="Insbtn">
+                     </div>
                   </form>
               </div>
             </div>
@@ -317,7 +321,9 @@
     </a>
 </div>
 
+<script type="module" src="firebase.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script src="script.js"></script>
 <script src="nfd.js"></script>
 </body>
 </html>

@@ -20,7 +20,7 @@ function showReviewForm() {
     document.getElementById("reviewModal").style.display = "block";
 }
 
-// Lógica para fechar o modal
+ //Lógica para fechar o modal
 function closeModal() {
     document.getElementById("modalOverlay").style.display = "none";
     document.getElementById("reviewModal").style.display = "none";
@@ -28,19 +28,19 @@ function closeModal() {
 
 // Lógica para enviar o formulário
 function submitReview() {
-    // Adicione aqui a lógica para processar e exibir o formulário(por exemplo, armazenar em um banco de dados)
+    //Adicione aqui a lógica para processar e exibir o formulário(por exemplo, armazenar em um banco de dados)
     closeModal(); // Fecha o modal após o envio
 }
 
 // Função para formatar o CNPJ enquanto o usuário digita
-function formatarCNPJ(cnpj) {
-  cnpj = cnpj.replace(/\D/g, ''); // Remove caracteres não numéricos
-  cnpj = cnpj.replace(/^(\d{2})(\d)/, '$1.$2');
-  cnpj = cnpj.replace(/^(\d{2})\.(\d{3})(\d)/, '$1.$2.$3');
-  cnpj = cnpj.replace(/\.(\d{3})(\d)/, '.$1/$2');
-  cnpj = cnpj.replace(/(\d{4})(\d)/, '$1-$2');
-  return cnpj;
-}
+// function formatarCNPJ(cnpj) {
+//  cnpj = cnpj.replace(/\D/g, ''); // Remove caracteres não numéricos
+//  cnpj = cnpj.replace(/^(\d{2})(\d)/, '$1.$2');
+//  cnpj = cnpj.replace(/^(\d{2})\.(\d{3})(\d)/, '$1.$2.$3');
+//  cnpj = cnpj.replace(/\.(\d{3})(\d)/, '.$1/$2');
+//  cnpj = cnpj.replace(/(\d{4})(\d)/, '$1-$2');
+//  return cnpj;  
+// }
 
 // Adiciona um listener de evento para o input do CNPJ
 document.getElementById('cnpj').addEventListener('input', function() {
@@ -49,27 +49,27 @@ document.getElementById('cnpj').addEventListener('input', function() {
 });
 
 // Impede a entrada de caracteres não numéricos
-document.getElementById('cnpj').addEventListener('keypress', function(e) {
-  var keyCode = e.which || e.keyCode;
-  var keyValue = String.fromCharCode(keyCode);
-  var pattern = /[0-9]/;
-  if (!pattern.test(keyValue)) {
-      e.preventDefault();
-  }
-});
+// document.getElementById('cnpj').addEventListener('keypress', function(e) {
+ // var keyCode = e.which || e.keyCode;
+ // var keyValue = String.fromCharCode(keyCode);
+ // var pattern = /[0-9]/;
+//  if (!pattern.test(keyValue)) {
+//      e.preventDefault();
+//  }
+//});
 
-function permitirApenasNumeros(input) {
-  input.value = input.value.replace(/\D/g, '');
-}
+//function permitirApenasNumeros(input) {
+//  input.value = input.value.replace(/\D/g, '');
+//}
 
 // Adiciona um listener de evento para os inputs das NFes
 document.getElementById('NFeCBB').addEventListener('input', function() {
   permitirApenasNumeros(this);
 });
 
-document.getElementById('NFeDevolucao').addEventListener('input', function() {
-  permitirApenasNumeros(this);
-});
+//document.getElementById('NFeDevolucao').addEventListener('input', function() {
+ // permitirApenasNumeros(this);
+//});
 
 // Função para formatar o número de telefone enquanto o usuário digita
 function formatarTelefone(telefone) {
@@ -87,14 +87,14 @@ document.getElementById('Telefone').addEventListener('input', function() {
 });
 
 // Impede a entrada de caracteres não numéricos
-document.getElementById('Telefone').addEventListener('keypress', function(e) {
-  var keyCode = e.which || e.keyCode;
-  var keyValue = String.fromCharCode(keyCode);
-  var pattern = /[0-9]/;
-  if (!pattern.test(keyValue)) {
-      e.preventDefault();
-  }
-});
+//document.getElementById('Telefone').addEventListener('keypress', function(e) {
+//  var keyCode = e.which || e.keyCode;
+//  var keyValue = String.fromCharCode(keyCode);
+//  var pattern = /[0-9]/;
+//  if (!pattern.test(keyValue)) {
+//      e.preventDefault();
+//  }
+//});
 
 // Função para formatar o valor da NFD enquanto o usuário digita
 function formatarValor(valor) {
@@ -134,14 +134,15 @@ document.getElementById('Valor').addEventListener('keypress', function(e) {
     // Obtém os valores dos campos e a quantidade de arquivos selecionados
     var NFeCBB = document.getElementById('NFeCBB').value;
     var NFeDevolucao = document.getElementById('NFeDevolucao').value;
-    var CNPJ = document.getElementById('CNPJ').value;
+    var CNPJ = document.getElementById('cnpj').value;
     var Email = document.getElementById('Email').value;
+    
     var NFeDev = document.getElementById('NFeDev').files.length;
     var Canhoto = document.getElementById('Canhoto').files.length;
     var Boleto = document.getElementById('Boleto').files.length;
   
     // Verifica se todos os campos estão preenchidos e se os arquivos foram selecionados ---  !!! até email
-    if (!NFeCBB || !NFeDevolucao || !CNPJ || !Email || NFeDev === 0 || Canhoto === 0 || Boleto === 0) {
+    if (!NFeCBB || !NFeDevolucao || !CNPJ || !Email ) {
       alert('Todos os campos e arquivos PDF são obrigatórios.');
       return false;
     }
@@ -184,3 +185,8 @@ function clearFiles(id) {
   // Oculta o botão de exclusão de arquivo
   deleteButton.style.display = 'none';
 }
+
+
+
+
+
