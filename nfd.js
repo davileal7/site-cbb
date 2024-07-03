@@ -32,15 +32,33 @@ function submitReview() {
     closeModal(); // Fecha o modal após o envio
 }
 
+function formatInput(value) {
+  let result = '';
+  let count = 0;
+  for (let i = 0; i < value.length; i++) {
+    if (!isNaN(value[i])) {
+      result += value[i];
+      count++;
+      if (count % 2 === 0 && count < value.length) result += ',';
+      if (count % 3 === 0 && count < value.length) result += '/';
+      if (count % 4 === 0 && count < value.length) result += '-';
+    } else {
+      result += value[i];
+    }
+  }
+  document.getElementById('input').value = result;
+}
+
+
 // Função para formatar o CNPJ enquanto o usuário digita
-// function formatarCNPJ(cnpj) {
-//  cnpj = cnpj.replace(/\D/g, ''); // Remove caracteres não numéricos
-//  cnpj = cnpj.replace(/^(\d{2})(\d)/, '$1.$2');
-//  cnpj = cnpj.replace(/^(\d{2})\.(\d{3})(\d)/, '$1.$2.$3');
-//  cnpj = cnpj.replace(/\.(\d{3})(\d)/, '.$1/$2');
-//  cnpj = cnpj.replace(/(\d{4})(\d)/, '$1-$2');
-//  return cnpj;  
-// }
+ function formatarCNPJ(cnpj) {
+  cnpj = cnpj.replace(/\D/g, ''); // Remove caracteres não numéricos
+  cnpj = cnpj.replace(/^(\d{2})(\d)/, '$1.$2');
+  cnpj = cnpj.replace(/^(\d{2})\.(\d{3})(\d)/, '$1.$2.$3');
+  cnpj = cnpj.replace(/\.(\d{3})(\d)/, '.$1/$2');
+  cnpj = cnpj.replace(/(\d{4})(\d)/, '$1-$2');
+  return cnpj;  
+}
 
 // Adiciona um listener de evento para o input do CNPJ
 document.getElementById('cnpj').addEventListener('input', function() {
@@ -49,27 +67,27 @@ document.getElementById('cnpj').addEventListener('input', function() {
 });
 
 // Impede a entrada de caracteres não numéricos
-// document.getElementById('cnpj').addEventListener('keypress', function(e) {
- // var keyCode = e.which || e.keyCode;
- // var keyValue = String.fromCharCode(keyCode);
- // var pattern = /[0-9]/;
-//  if (!pattern.test(keyValue)) {
-//      e.preventDefault();
-//  }
-//});
+ document.getElementById('cnpj').addEventListener('keypress', function(e) {
+  var keyCode = e.which || e.keyCode;
+  var keyValue = String.fromCharCode(keyCode);
+  var pattern = /[0-9]/;
+  if (!pattern.test(keyValue)) {
+      e.preventDefault();
+  }
+});
 
-//function permitirApenasNumeros(input) {
-//  input.value = input.value.replace(/\D/g, '');
-//}
+function permitirApenasNumeros(input) {
+  input.value = input.value.replace(/\D/g, '');
+}
 
 // Adiciona um listener de evento para os inputs das NFes
 document.getElementById('NFeCBB').addEventListener('input', function() {
   permitirApenasNumeros(this);
 });
 
-//document.getElementById('NFeDevolucao').addEventListener('input', function() {
- // permitirApenasNumeros(this);
-//});
+document.getElementById('NFeDevolucao').addEventListener('input', function() {
+  permitirApenasNumeros(this);
+});
 
 // Função para formatar o número de telefone enquanto o usuário digita
 function formatarTelefone(telefone) {

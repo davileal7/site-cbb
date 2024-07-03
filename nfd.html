@@ -65,20 +65,67 @@
   </div>
   <div class="text-2">
     <ul>
-      <h3>Favor enviar o PDF:</h3>
+      <h3>Favor enviar PDF para o e-mail abaixo:</h3>
+      <li class="email">vissol2024@gmail.com</li>
       <li>NFe Devolução.</li>
       <li>Canhoto assinado.</li> 
       <li>Boleto com o mesmo prazo emitido pela CBB.</li>
+      
     </ul> 
 </div>
 </section>
-<section class="container-whats">
-  <a href="https://wa.me/551291489477?text=" target="_blank">
-      <div class="whats-app">
-      <img src="imagens/whats.png" width="250" alt="Fale Conosco pelo WhatsApp" title="Fale conosco pelo WhatsApp">
-      <span>Envie os dados informados aqui</span>
+
+<section class="formularioNFD">
+  <div id="FormulárioNFDCompleto">
+    <button class="main-button" onclick="showReviewForm()">Enviar os dados</button>
+  
+    <!-- Formulário de NFD (inicialmente oculto) -->
+    <div id="reviewForm" style="display:none;">
+        <!-- Conteúdo do modal do formulário -->
+        <div id="modalOverlay" class="modal-overlay" onclick="closeModal()"></div>
+        <div id="reviewModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+  
+                <!-- Formulário    tirei required inputPDF---->
+                <div class="container">
+                  <div class="title">Formulário de emissão NFD</div>
+                <form id="form">
+                      <div class="formulario-detalhes">
+                          <div class="input-box">
+                              <span class="detalhes">Número da NFe da CBB Distribuidora:</span>
+                              <input type="text" placeholder="Digite apenas números" id="NFeCBB" required>
+                          </div>
+                          <div class="input-box">
+                              <span class="detalhes">Número da NFe Devolução emitida:</span>
+                              <input type="text" placeholder="Digite apenas números" id="NFeDevolucao" required>
+                          </div>
+                          <div class="input-box">
+                              <span class="detalhes">CNPJ emitente:</span>
+                              <input type="text" id="cnpj" placeholder="Digite apenas números" maxlength="18" >
+                          </div>
+                          <div class="input-box">
+                              <span class="detalhes">E-mail emitente:</span>
+                              <input type="email" placeholder="Digite o e-mail emitente" id="Email" required>
+                          </div>
+                          <div class="input-box">
+                            <span class="detalhes">Valor da NFD:</span>
+                            <input type="text" placeholder="R$ 0,00" id="Valor" required >
+                          </div>
+                          <div class="input-box">
+                            <span class="detalhes">Telefone para contato:</span>
+                            <input type="text" placeholder="(00) 00000-0000" id="Telefone" required>
+                          </div>
+                      </div>
+                     <div class="button">
+                          <input type="submit" value="Emitir NFD" id="Insbtn">
+                     </div>
+                  </form>
+              </div>
+            </div>
+        </div>
     </div>
-  </a>
+  </div>
 </section>
 <!--------------------------->
 
@@ -250,6 +297,8 @@
 </div>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script src="nfd.js"></script>
+<script type="module" src="firebase.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

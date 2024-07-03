@@ -101,7 +101,7 @@
                           </div>
                           <div class="input-box">
                               <span class="detalhes">CNPJ emitente:</span>
-                              <input type="number"  id="cnpj" value="0000000000000">
+                              <input type="text" id="cnpj" placeholder="Digite apenas números" maxlength="18" >
                           </div>
                           <div class="input-box">
                               <span class="detalhes">E-mail emitente:</span>
@@ -113,35 +113,10 @@
                           </div>
                           <div class="input-box">
                             <span class="detalhes">Número de telefone:</span>
-                            <input type="text" placeholder="(00) 00000-0000" id="Telefone"  >
+                            <input type="text" placeholder="(00) 00000-0000" id="Telefone" required>
                           </div>
-
-
-                       <!--    <div class="input-pdf">
-                            <span class="detalhes"></span>
-                            <input type="file" accept=".pdf" id="NFeDev" multiple  onchange="updateFileNames(this, 'NFeDev')" />
-                            <label for="NFeDev">NFe Devolução</label>
-                            <button id="NFeDevDeleteButton" class="delete-button" style="display: none;" onclick="clearFiles('NFeDev')" type="button">X</button>
-                            <div id="NFeDevFileNames" class="file-names">Nenhum arquivo anexado</div>
-                         </div>
-                         <div class="input-pdf">
-                            <span class="detalhes"></span>
-                            <input type="file" accept=".pdf" id="Canhoto" multiple  onchange="updateFileNames(this, 'Canhoto')" />
-                            <label for="Canhoto">Canhoto assinado</label>
-                            <button id="CanhotoDeleteButton" class="delete-button" style="display: none;" onclick="clearFiles('Canhoto')" type="button">X</button>
-                            <div id="CanhotoFileNames" class="file-names">Nenhum arquivo anexado</div>
-                          </div>
-                          <div class="input-pdf">
-                            <span class="detalhes"></span>
-                            <input type="file" accept=".pdf" id="Boleto" multiple onchange="updateFileNames(this, 'Boleto')" />
-                            <label for="Boleto">Boleto</label>
-                            <button id="BoletoDeleteButton" class="delete-button" style="display: none;" onclick="clearFiles('Boleto')" type="button">X</button>
-                            <div id="BoletoFileNames" class="file-names">Nenhum arquivo anexado</div>
-                         </div> -->
-                         <!-- <button id="Insbtn">Enviar</button> -->
                       </div>
                      <div class="button">
-                          
                           <input type="submit" value="Emitir NFD" id="Insbtn">
                      </div>
                   </form>

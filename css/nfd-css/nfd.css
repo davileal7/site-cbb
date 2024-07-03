@@ -161,7 +161,7 @@ header {
     align-items: center;
     
     height: 400px;
-    background-color: #fff;
+    background-color: #ECECEE;
 }
 .container02 .text-1,
 .container02 .text-2 {
@@ -217,6 +217,11 @@ header {
     width: 200px;
     border-radius: 150px;
     margin-right: 0px;
+}
+
+.text-2 li.email {
+    list-style: none;
+    color: #f09102;
 }
 .container-text a {
     color: #f09102;
@@ -545,3 +550,226 @@ footer h1 {
     display: none;
 }
 
+
+
+/*FORMULÁRIO DE AVALIAÇÃO DO CLIENTE:*/
+
+#FormulárioNFDCompleto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-button {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #fff;
+    background-color: #33addd;
+    padding: 16px 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.delete-button {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #fff;
+    background-color: #33addd;
+    font-size: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.container {
+    max-width: 80%;
+    width: 700px; /* ou outro tamanho desejado */
+    height: 400px; /* ou altura desejada */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 30px;
+    border-radius: 5px;
+    background: #ECECEE;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500 ;
+    position: relative;
+}
+
+#form .formulario-detalhes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+#form .formulario-detalhes .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+#form .formulario-detalhes .input-pdf {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.formulario-detalhes.input-box .detalhes {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.formulario-detalhes.input-pdf .detalhes {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.formulario-detalhes .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+}
+
+.formulario-detalhes .input-pdf {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+
+.formulario-detalhes .input-pdf input[type="file"] {
+    display: none;
+}
+
+.formulario-detalhes .input-pdf label {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4dacbd;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario-detalhes .input-box input:focus,
+.formulario-detalhes .input-box input:valid {
+    border-color: #4bc9f3;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background-color: #33addd;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Estilo para a sobreposição escura */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b3;
+    z-index: 1;
+}
+
+/* Estilo para o modal */
+.modal {
+    position: relative;   
+    background-color: #fefefe;
+    padding: 100px 20px;
+    border-radius: 10px;
+    z-index: 3;
+    align-items: center;
+}
+
+/* Estilo para anexar os documentos */
+.file-names {
+    font-size: 0.8em; /* Tamanho de fonte menor */
+    color: #808080; /* Cor cinza claro */
+    margin-bottom: 20px;
+    margin-top: -2px;
+}
+
+
+/* Estilo para o conteúdo do modal */
+.modal-content {
+    position: relative;
+}
+
+.modal-content .container {
+    margin-top: -40px; /* Ajuste o valor conforme necessário */
+}
+
+#reviewModal {
+    max-width: 80%;
+    max-block-size: 600px;
+    width: 500px; /* ou outro tamanho desejado */
+    height: 700px; /* ajusta a altura conforme o conteúdo */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fefefe;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #33addd;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.form-section h3 {
+    color: #4bc9f3;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

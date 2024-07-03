@@ -25,6 +25,8 @@ from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js"
 const db = getDatabase();
 
 
+
+
 var numNFCBB = document.getElementById("NFeCBB")
 var numNFDevolucao = document.getElementById("NFeDevolucao")
 var cnpj = document.getElementById("cnpj")
@@ -36,32 +38,21 @@ var Insbtn = document.getElementById("Insbtn")
 
 
 
-
-
-
 function EnviarNFD(){
-    // Verifica se todos campos foram preenchidos!
-    if (cnpj.value === '' || numNFCBB.value === '' || numNFDevolucao.value === '' || email_Cliente.value === '' || valor.value === '' || telefone.value === '') {
-        alert("Preencha todos os campos!");
-        return;
-    }
-    set(ref(db, "NFD/"+ telefone.value), {
-        CNPJ: cnpj.value,
+    set(ref(db, "NFD/"+ cnpj.value), {
         Numero_NF_CBB: numNFCBB.value,
         Numero_NF_Devolucao: numNFDevolucao.value,
         Email_CLiente: email_Cliente.value,
         Valor: valor.value,
+        Telefone: telefone.value,
     }).then(() => {
        alert("NFD enviada com sucesso") 
-        cnpj.value = "",
-        numNFCBB.value = "",
-        numNFDevolucao.value = "",
-        email_Cliente.value = "",
-        valor.value = ""
-        telefone.value = ""
     }).catch((error)=> {
         alert("falha, error"+error)
     })
 }
+
+
+
 
 Insbtn.addEventListener('click', EnviarNFD)
