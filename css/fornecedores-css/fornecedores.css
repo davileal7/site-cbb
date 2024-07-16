@@ -178,7 +178,7 @@ header {
     height: 150px;
     width: 150px;
     margin: 20px;
-    border-radius: 60px;
+    border-radius: 5px;
 }
 .container-catalogos img:hover {
     scale: 1.1;
@@ -271,12 +271,27 @@ header {
     width: 105px;
     border-radius: 50%;
   }
+  
   .card .img img {
     cursor: pointer;
     width: 105px;
     height: 105px;
+    border-radius: 5px;
+    
+  }
+  .carousel .card .img-2 {
+    cursor: pointer;
+    background: #fff;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+  }
+  .card .img-2 img {
+    cursor: pointer;
+    width: 105px;
+    height: 105px;
     border-radius: 25px;
-    object-fit: cover;
+   
   }
   
 /* FIM - CAROSEL */

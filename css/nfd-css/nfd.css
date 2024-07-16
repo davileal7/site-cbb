@@ -118,18 +118,17 @@ header {
 .fale_conosco-mobile {
     display: none;
 }
+
 .container01 {
     height: 400px;
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('img-fale-conosco.jpg');
     display: flex;
     justify-content: left;
     align-items: center;
     text-align: left;
     position: relative;
-    isolation: isolate;
 }
 .container01::after {
     content: '';
@@ -140,19 +139,24 @@ header {
     opacity: 0.7;
 }
 
-.container01 .container-text {
+.informacao {
+    padding: 20px;
+    flex: 1; /* Permite que a div cresça para ocupar o espaço disponível */
+}
+
+.container01 .informacao {
     color: #fff;
     text-shadow: 1px 1px 1px #24252a;
-    width: 650px;
     margin-left: 70px;
 }
-.container01 .container-text h2 {
+.container01 .informacao h2 {
     font-size: 50px;
     color: #4BC9F3;
 }
-.container01 .container-text p {
+.container01 .informacao p {
     line-height: 30px;
     font-size: 24.5px;
+    width: 650px;
 }
 .container02 {
     margin-top: 0px;
@@ -222,6 +226,10 @@ header {
 .text-2 li.email {
     list-style: none;
     color: #f09102;
+}
+.text-2 li.email:hover {
+    scale: 1.1;
+    transition: 1s;
 }
 .container-text a {
     color: #f09102;
@@ -431,8 +439,8 @@ header {
     cursor: pointer;
     width: 105px;
     height: 105px;
-    border-radius: 25px;
-    object-fit: cover;
+    border-radius: 5px;
+    
   }
   
 /* FIM - CAROSEL */
@@ -563,7 +571,6 @@ footer h1 {
 .main-button {
     justify-content: center;
     align-items: center;
-    position: absolute;
     color: #fff;
     background-color: #33addd;
     padding: 16px 50px;
@@ -571,6 +578,12 @@ footer h1 {
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    margin-right: 150px;
+}
+
+.main-button:hover {
+    scale: 1.1;
+    transition: 1s;
 }
 
 .delete-button {

@@ -341,10 +341,7 @@ header {
     cursor: pointer;
     width: 105px;
     height: 105px;
-    border-radius: 25px;
-    object-fit: cover;
-   
-   
+    border-radius: 5px;
   }
   
 /* FIM - CAROSEL */

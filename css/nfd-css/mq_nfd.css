@@ -2,7 +2,6 @@
 
 /*NOTEBOOK */
 
-
 /* I-FONE - CELULAR DEITADO */
 
 /* MEU - CELULAR DEITADO */
@@ -71,17 +70,17 @@
   display: flex;
   justify-content: left;
 }
-.container01 .container-text {
+.container01 .informacao {
   color: #ECECEE;
   text-shadow: 1px 1px 2px #24252a;
   text-align: left;
   margin-left: 100px;
   width: 450px;
 }
-.container01 .container-text h2 {
+.container01 .informacao h2 {
   font-size: 30px;
 }
-.container01  .container-text p {
+.container01  .informacao p {
   line-height: 25px;
   font-size: 18px;
 }
@@ -550,8 +549,9 @@
   flex-direction: column;
   background-size: cover;
   background-image: url('img_mobile.jpg');
+  
 }
-.container01 .container-text {
+.container01 .informacao {
   color: #ffff;
   text-shadow: 1px 1px 2px #24252a;
   text-align: center;
@@ -563,16 +563,20 @@
   align-items: center;
   flex-direction: column;
 }
+.informacao {
+  padding: 0px;
+}
 .risca-1 {
   display: none;
 }
-.container01 .container-text h2 {
+.container01 .informacao h2 {
   font-size: 30px;
 }
-.container01 .container-text p {
+.container01 .informacao p {
   line-height: 25px;
-  font-size: 17px;
+  font-size: 17.5px;
   width: 300px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .container02 {
   margin-top: 0px;
@@ -596,7 +600,6 @@
 .container02 .text-1 {
   background-color: #ECECEE;
 }
-
 .container02 .risca {
   display: flex;
   justify-content: center;
@@ -781,8 +784,7 @@
 .card .img img {
   width: 150px;
   height: 150px;
-  border-radius: 25px;
-  object-fit: cover;
+  border-radius: 0px;
 }
 .wrapper i:first-child{
   left: 20px;
@@ -859,4 +861,10 @@
 .logo-site-mobile {
   display: none;
 }
+.main-button {
+  position: absolute;
+  margin-right: 0px;
+  margin-bottom: 150px;
+}
+
 }
