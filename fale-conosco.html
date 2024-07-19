@@ -47,37 +47,62 @@
       <div class="risca-1"></div>
         <h2>Fale Conosco</h2>
         <p>Entre em contato conosco para maiores informações,
-        tirar alguma dúvida e conheçer mais sobre a CBB Distribuidora, conheça nossos canais de atendimento Ped + e Cadastro.</p>
+        tirar alguma dúvida e conheçer mais sobre a CBB Distribuidora, conheça nossos canais de atendimento Ped +, Cadastro e Solicitação de Alteração de Prazo para pagamentos.</p>
         <div class="risca-1"></div>
     </div>
 </section>
-<section class="container02">
-  <div class="text">
-      <ul>
-        <h3>Conecte-se conosco</h3>
-        <li>Nossos canais de atendimento:</li>
-        <li class="canais-ped">Faça seu pedido pelo Ped +</li> 
-        <li class="canais-cadastro">Faça seu cadastro conosco</li>
-      </ul> 
-      <div class="risca"></div>
+<div class="container">
+  <div class="risca-1"></div>
+  <div class="list-item">
+    <p>Clique no icone ao lado para fazer seu pedido pelo Ped +</p>
+    <div class="ped">
+      <a  href="https://wa.me/551149508273?text=Olá, quero falar com o atendimento da CBB Distribuidora!" target="_blank">
+        <img src="imagens/ped+.png" width="0" alt="Fale Conosco pelo WhatsApp" title="Acesse o ped +">
+      </a>
+    </div>
   </div>
-  <section class="container-canal">
-    <div class="container-atendimento">
-      <div class="ped">
-        <a  href="https://wa.me/551149508273?text=Olá, quero falar com o atendimento da CBB Distribuidora!" target="_blank">
-          <img src="imagens/ped+.png" width="0" alt="Fale Conosco pelo WhatsApp" title="Acesse o ped +">
-        </a>
+  <div class="risca-1"></div>
+  <div class="list-item">
+    <p>Clique no icone ao lado para fazer seu cadastro conosco</p>
+    <div class="cadastro">
+      <a href="https://wa.me/5511972406343?text=Olá, quero falar com o atendimento da CBB Distribuidora!" target="_blank">
+        <img src="imagens/cadastro-icon.jpg" width="50" alt="Fale Conosco pelo WhatsApp" title="Faça seu cadastro!">
+      </a>
+    </div>
+  </div>
+  <div class="risca-1"></div>
+  <div class="list-item">
+    <p>Clique no botão ao lado para alteração de prazo</p>
+    
+    <button id="openModalButton">Alteração de Prazo:</button>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Alteração de Prazo para pagamento:</h2>
+        <form id="modalForm">
+
+          <span>Nome do Supervisor:</span>
+          <input type="text" id="name_sup">
+
+          <span>Nome do Vendedor:</span>
+          <input type="text" id="name_vend">
+
+          <span>Código do Vendedor:</span>
+          <input type="number" id="cod_vend">
+
+          <span>Código do Cliente:</span>
+          <input type="number" id="cod_cliente"> 
+
+          <span>Prazo Desejado:</span>
+          <input type="text" id="prazo">
+
+          <input value="Enviar Solicitação" id="soli" class="btn">
+        </form>
       </div>
     </div>
-    <div class="container-atendimento">
-      <div class="cadastro">
-        <a href="https://wa.me/5511972406343?text=Olá, quero falar com o atendimento da CBB Distribuidora!" target="_blank">
-          <img src="imagens/cadastro-icon.jpg" width="50" alt="Fale Conosco pelo WhatsApp" title="Faça seu cadastro!">
-        </a>
-      </div>
-    </div>
-  </section>
-</section>
+  </div>
+  <div class="risca-1"></div>
+</div>
 <section class="container-whats">
   <a href="https://wa.me/551291489477?text=Olá, quero falar com o atendimento da CBB Distribuidora!" target="_blank">
       <div class="whats-app">
@@ -364,6 +389,9 @@
 </div>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script type="module" src="base.js"></script>
+<script src="fale_conosco.js"></script>
+
 <script src="script.js"></script>
 </body>
 </html>

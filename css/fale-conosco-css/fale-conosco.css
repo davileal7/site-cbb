@@ -154,26 +154,123 @@ header {
     line-height: 30px;
     font-size: 24.5px;
 }
-.container02 {
-    margin-top: 0px;
-    display: flex;
+
+/*---------------------*/
+.container {
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Align items to the left */
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .list-item {
+    display: flex; /* Enable flexbox layout for each list item */
+    margin-bottom: 0px; /* Add spacing between list items */
     text-align: center;
-    align-items: center;
-    height: 400px;
-    background-color: #fff;
-}
-.container02 .text {
-    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    width: 750px;
+  }
+  
+  .list-item p {
+    flex-grow: 1; /* Allow text to expand */
+    margin: 0; /* Remove default paragraph margin */
+    margin-top: 30px;
+    color: #808080;
+    font-size: 23px;
+  }
+  .list-item .Insbtn {
+    margin-left: auto; /* Move button to the right */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff; /* Blue background */
+    color: white;
+  }
+  
+  .list-item .Insbtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Button Styles */
+  #openModalButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  /* Modal Styles */
+  .modal {
+    display: none; /* Initially hidden */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+
+  .modal h2  {
+    margin: 20px;
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%; /* Could be more or less, depending on design */
+  }
+ 
+  /* Close Button Styles */
+  .close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Form Styles (same as before) */
+  #modalForm input[type="text"],
+  #modalForm input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+.btn {
+    height: 30px;
+    width: 120px;
     text-align: center;
-    justify-content: space-around;
-    align-items: center;
-    height: 400px;
-    font-size: 20px;
-    width: 100vw;
-    color: #24252a;
-    background-color: #fff;
-    font-weight: 600;
-}
+    background-color: #007bff;
+    color: #ECECEE;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ .btn:hover {
+    scale: 1.1;
+    transition: 1s;
+ } 
+  
+  /*---------------------*/
+
 .risca-1 {
     border: 1px solid #4BC9F3;
     border-radius: 50px;
@@ -249,14 +346,14 @@ header {
 .ped {
     background-color: #FF9700;
     border-radius: 150px;
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     box-shadow: 1px 1px 1px 1px #24252a;
 }
 .ped img,
 .cadastro img {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     margin: 0px;
     padding: 0px;
     border-radius: 150px;
@@ -539,4 +636,6 @@ footer h1 {
 .logo-site-mobile {
     display: none;
 }
+
+
 

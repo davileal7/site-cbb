@@ -37,8 +37,6 @@ var Insbtn = document.getElementById("Insbtn")
 
 
 
-
-
 function EnviarNFD(){
     // Verifica se todos campos foram preenchidos!
     if (cnpj.value === '' || numNFCBB.value === '' || numNFDevolucao.value === '' || email_Cliente.value === '' || valor.value === '' || telefone.value === '') {
