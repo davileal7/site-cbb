@@ -39,13 +39,13 @@ function Solicitar(){
         alert("Preencha o código do Cliente");
         return;
     }
-    set(ref(db, "Solicitacao/"+ Cod_cliente.value), {
+    set(ref(db, "Solicitacao/" + "Cód Cliente: " + Cod_cliente.value), {
         Nome_Superior: Superior.value,
         Nome_Vendedor: Vendedor.value,
         Codigo_Vendedor: Cod_vend.value,
         Prazo: Prazo.value,
     }).then(() => {
-       alert("Solicitação envioada com sucesso") 
+       alert("Solicitação enviada com sucesso") 
         Superior.value = "",
         Vendedor.value = "",
         Cod_vend.value = "",
