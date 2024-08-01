@@ -73,36 +73,42 @@
   <div class="risca-1"></div>
   <div class="list-item">
     <p>Clique no botão ao lado para alteração de prazo</p>
-    
     <button id="openModalButton">Alteração de Prazo:</button>
     <div id="modal" class="modal">
       <div class="modal-content">
         <span class="close-button">&times;</span>
         <h2>Alteração de Prazo para pagamento:</h2>
         <form id="modalForm">
-
-          <span>Nome do Supervisor:</span>
+          <label for="name_sup">Nome do Supervisor:</label>
           <input type="text" id="name_sup">
-
-          <span>Nome do Vendedor:</span>
+          <label for="name_vend">Nome do Vendedor:</label>
           <input type="text" id="name_vend">
-
-          <span>Código do Vendedor:</span>
+          <label for="cod_vend">Código do Vendedor:</label>
           <input type="number" id="cod_vend">
-
-          <span>Código do Cliente:</span>
+          <label for="cod_cliente">Código do Cliente:</label>
           <input type="text" id="cod_cliente" name="cod_cliente"> 
-
-          <span>Prazo Desejado:</span>
+          <label for="prazo">Prazo Desejado:</label>
           <input type="text" id="prazo">
-
           <input value="Enviar Solicitação" id="soli" class="btn">
         </form>
       </div>
     </div>
-  </div>
+  </div>  
   <div class="risca-1"></div>
+
+  <div class="list-item">
+    <div class="search">
+      <a href="" target="_blank" hidden></a>
+      <input type="text" id="Namebox" placeholder="Consulta Código do Cliente">
+      <div class="list">
+      </div>
+      <div class="icon"><ion-icon name="search-outline"></ion-icon></div>
+    </div>
+  </div> 
+  <div class="risca-1"></div>
+
 </div>
+
 <section class="container-whats">
   <a href="https://wa.me/551291489477?text=Olá, quero falar com o atendimento da CBB Distribuidora!" target="_blank">
       <div class="whats-app">
@@ -393,5 +399,8 @@
 <script src="fale_conosco.js"></script>
 
 <script src="script.js"></script>
+
+<script src="consulta_dados.js"></script>
+<script src="script_dados.js"></script>
 </body>
 </html>

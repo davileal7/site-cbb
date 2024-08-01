@@ -23,37 +23,37 @@ from "https://www.gstatic.com/firebasejs/10.12.3/firebase-database.js"
 
 const db = getDatabase();
 
-
-var Superior = document.getElementById("name_sup")
-var Vendedor = document.getElementById("name_vend")
-var Cod_vend = document.getElementById("cod_vend")
-var Cod_cliente = document.getElementById("cod_cliente")
-var Prazo = document.getElementById("prazo")
-
-var Insbtn = document.getElementById("soli")
-
+var form = document.getElementById("modalForm")
+var Superior = document.getElementById("name_sup");
+var Vendedor = document.getElementById("name_vend");
+var Cod_vend = document.getElementById("cod_vend");
+var Cod_cliente = document.getElementById("cod_cliente");
+var Prazo = document.getElementById("prazo");
+var Insbtn = document.getElementById("soli");
 
 function Solicitar(){
-    // Verifica se todos campos foram preenchidos!
-    if (Cod_cliente.value === '') {
-        alert("Preencha o código do Cliente");
-        return;
-    }
-    set(ref(db, "Solicitacao/" + "Cód Cliente: " + Cod_cliente.value), {
-        Nome_Superior: Superior.value,
-        Nome_Vendedor: Vendedor.value,
-        Codigo_Vendedor: Cod_vend.value,
-        Prazo: Prazo.value,
-    }).then(() => {
-       alert("Solicitação enviada com sucesso") 
-        Superior.value = "",
-        Vendedor.value = "",
-        Cod_vend.value = "",
-        Cod_cliente.value = "",
-        Prazo.value = ""
-    }).catch((error)=> {
-        alert("falha, error"+error)
-    })
+    const dataHora = new Date();
+    const horaFormatada = dataHora.toLocaleString();
+
+if (Cod_cliente.value === '') {
+  alert("Preencha o código do Cliente");
+  return;
 }
 
-Insbtn.addEventListener('click', Solicitar)
+set(ref(db, "Solicitacao/" + " Cód Cliente: " + Cod_cliente.value + 
+  " Nome Superior: " + Superior.value +
+  " Nome Vendedor: " + Vendedor.value + " Cód Vendedor: " + 
+  Cod_vend.value + " Prazo: " + Prazo.value),
+  {
+      Hora_da_Solicitacao: horaFormatada,
+  })
+  .then(() => {
+    alert("Solicitação enviada com sucesso");
+    form.reset();
+  })
+  .catch((error) => {
+    alert("falha, error" + error);
+  });
+}
+
+Insbtn.addEventListener('click', Solicitar);
