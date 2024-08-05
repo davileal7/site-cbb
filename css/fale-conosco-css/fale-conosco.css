@@ -154,31 +154,34 @@ header {
     line-height: 30px;
     font-size: 24.5px;
 }
+.container01 .risca-1 {
+    display: none;
+}
 
 /*---------------------*/
 .container {
     display: flex; /* Enable flexbox layout */
     flex-direction: column; /* Arrange items vertically */
     align-items: center; /* Align items to the left */
-    margin: 20px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
   
   .list-item {
     display: flex; /* Enable flexbox layout for each list item */
-    margin-bottom: 0px; /* Add spacing between list items */
-    text-align: center;
-    padding: 10px;
+    margin: 20px; /* Add spacing between list items */
+    text-align: center;;
     border-radius: 5px;
-    width: 750px;
+    width: 850px;
   }
   
-  .list-item p {
+  .list-item p,
+  .list-item-consulta p {
     flex-grow: 1; /* Allow text to expand */
     margin: 0; /* Remove default paragraph margin */
-    margin-top: 30px;
+    margin-top: 10px;
     color: #808080;
     font-size: 23px;
   }
@@ -268,80 +271,35 @@ header {
     scale: 1.1;
     transition: 1s;
  } 
-  
-  /*---------------------*/
 
-
-  .container .search{
-    background: #fff;
-    width: 1000px;
+ #numero {
+    font-size: 16px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #303030;
+ }
+ #buscar {
+    height: 30px;
+    width: 70px;
     border-radius: 5px;
-    position: relative;
-    box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
-  }
-
-  .container #Namebox {
-    height: 50px;
-  }
-  
-  .search input{
-    height: 50px;
-    width: 800px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    padding: 0 60px 0 20px;
-    font-size: 18px;
-    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+    background-color: #007bff;
+    color: #ECECEE;
+    margin: 5px;
+ }
+ .list-item-consulta #resultado {
+    margin-top: 10px;
+    height: 40px;
+    width: 290px;
     text-align: center;
-  }
-  
-  .search.active input{
-    border-radius: 5px 5px 0 0;
-  }
-  
-  .search .list{
-    padding: 0;
-    opacity: 0;
-    pointer-events: none;
-    max-height: 500px;
-    overflow-y: auto;
-  }
-  
-  .search.active .list{
-    padding: 10px 8px;
-    opacity: 1;
-    pointer-events: auto;
-  }
-  
-  .list li{
-    list-style: none;
-    padding: 8px 12px;
-    display: none;
-    width: 100%;
-    cursor: default;
-    border-radius: 3px;
-  }
-  
-  .search.active .list li{
-    display: block;
-  }
-  .list li:hover{
-    background: #efefef;
-  }
-
-
-
-
-
-
-  /*---------------------*/
-
+    color: #f09102;
+    font-size: 19px;
+}
+/*---------------------*/
 
 .risca-1 {
     border: 1px solid #4BC9F3;
     border-radius: 50px;
-    width: 600px;
+    width: 900px;
     margin: 15px;
 }
 .risca {
@@ -574,19 +532,20 @@ header {
     flex-direction: column;
     border-radius: 8px;
   }
-  .carousel .card .img {
+  .carousel .card .img,
+  .carousel .card .img2 {
     cursor: pointer;
     background: #fff;
     height: 105px;
     width: 105px;
     border-radius: 50%;
   }
-  .card .img img {
+  .card .img img,
+  .card .img2 img {
     cursor: pointer;
     width: 105px;
     height: 105px;
     border-radius: 5px;
-    
   }
   
 /* FIM - CAROSEL */

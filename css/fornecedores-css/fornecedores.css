@@ -164,7 +164,7 @@ header {
 }
 .container02 {
     background-color: #ECECEE;
-    height: 2150px;
+    height: 1750px;
     width: 100vw;
     margin-top: 0px
 }
@@ -264,36 +264,21 @@ header {
     flex-direction: column;
     border-radius: 8px;
   }
-  .carousel .card .img {
+  .carousel .card .img,
+  .carousel .card .img2 {
     cursor: pointer;
     background: #fff;
     height: 105px;
     width: 105px;
     border-radius: 50%;
   }
-  
-  .card .img img {
+  .card .img img,
+  .card .img2 img {
     cursor: pointer;
     width: 105px;
     height: 105px;
     border-radius: 5px;
-    
   }
-  .carousel .card .img-2 {
-    cursor: pointer;
-    background: #fff;
-    height: 105px;
-    width: 105px;
-    border-radius: 50%;
-  }
-  .card .img-2 img {
-    cursor: pointer;
-    width: 105px;
-    height: 105px;
-    border-radius: 25px;
-   
-  }
-  
 /* FIM - CAROSEL */
 
 .roda_pe {

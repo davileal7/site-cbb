@@ -398,19 +398,20 @@ header {
     flex-direction: column;
     border-radius: 8px;
   }
-  .carousel .card .img {
+  .carousel .card .img,
+  .carousel .card .img2 {
     cursor: pointer;
     background: #fff;
     height: 105px;
     width: 105px;
     border-radius: 50%;
   }
-  .card .img img {
+  .card .img img,
+  .card .img2 img {
     cursor: pointer;
     width: 105px;
     height: 105px;
     border-radius: 5px;
-    
   }
   
 /* FIM - CAROSEL */
