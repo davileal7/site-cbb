@@ -289,11 +289,20 @@ header {
  .list-item-consulta #resultado {
     margin-top: 10px;
     height: 40px;
-    width: 290px;
+    width: 210px;
     text-align: center;
     color: #f09102;
     font-size: 19px;
 }
+#resultado ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+#resultado li {
+    margin-bottom: 0px;
+  }
+ 
 /*---------------------*/
 
 .risca-1 {
