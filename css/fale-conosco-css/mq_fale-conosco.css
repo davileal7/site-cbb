@@ -595,12 +595,13 @@
   height: 100px;
 }
 .list-item p,
-.list-item-consulta p {
+.list-item-consulta p,
+.list-item-consulta_cnpj p  {
   flex-grow: 1; 
   margin: 0; 
   margin-top: 15px;
   color: #808080;
-  font-size: 17px;
+  font-size: 18px;
 }
 .list-item .Insbtn {
   margin-left: auto; 
@@ -678,19 +679,16 @@
   scale: 1.1;
   transition: 1s;
 } 
-.list-item #numero {
-  font-size: 16px;
-  height: 30px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 1px 1px #303030;
-}
-.list-item-consulta #resultado {
+
+.list-item-consulta #resultado,
+.list-item-consulta_cnpj #resultado_cnpj {
   margin-top: 10px;
   height: 65px;
   width: 200px;
   text-align: center;
   color: #f09102;
   font-size: 16px;
+  font-weight: 600;
 }
 /*---------------------*/
 .text h3 {

@@ -294,14 +294,13 @@ header {
  .list-item-consulta_cnpj #resultado_cnpj {
     margin-top: 10px;
     height: 40px;
-    width: 210px;
+    width: 350px;
     text-align: center;
     color: #f09102;
     font-size: 19px;
+    font-weight: 600;
 }
-
 /*---------------------*/
-
 .risca-1 {
     border: 1px solid #4BC9F3;
     border-radius: 50px;

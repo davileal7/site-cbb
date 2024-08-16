@@ -158,12 +158,21 @@ header {
     font-size: 24.5px;
     width: 650px;
 }
+.container01 .informacao p a,
+.text-2 p a {
+    color: #4BC9F3;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+ion-icon {
+    color: #4BC9F3;
+}
 .container02 {
     margin-top: 0px;
     display: flex;
     text-align: center;
     align-items: center;
-    
     height: 400px;
     background-color: #ECECEE;
 }
@@ -194,7 +203,8 @@ header {
 .text-1 h3,
 .text-2 h3 {
     font-size: 30px;
-    color: #4BC9F3;
+    color:  #f09102;
+    margin: 15px;
 }
 .text-1 ul,
 .text-2 ul  {
@@ -223,10 +233,7 @@ header {
     margin-right: 0px;
 }
 
-.text-2 li.email {
-    list-style: none;
-    color: #f09102;
-}
+ 
 .text-2 li.email:hover {
     scale: 1.1;
     transition: 1s;
@@ -559,14 +566,23 @@ footer h1 {
     display: none;
 }
 
-
-
 /*FORMULÁRIO DE AVALIAÇÃO DO CLIENTE:*/
-
 #FormulárioNFDCompleto {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.formularioNFD {
+    margin-right: 50px;
+}
+.formularioNFD p {
+    font-size: 24.5px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #24252a;
+    text-align: center;
+    line-height: 30px;
+    width: 565px;
+    margin: 15px;
 }
 
 .main-button {
@@ -579,7 +595,7 @@ footer h1 {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    margin-right: 150px;
+    
 }
 
 .main-button:hover {
@@ -640,7 +656,7 @@ footer h1 {
     width: calc(100% / 2 - 20px);
 }
 
-.formulario-detalhes.input-box .detalhes {
+.formulario-detalhes .input-box .detalhes {
     display: block;
     font-weight: 500;
     margin-bottom: 5px;
