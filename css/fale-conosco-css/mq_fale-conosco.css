@@ -563,9 +563,9 @@
   flex-direction: column;
 }
 .risca-1 {
-  display: none;
+  display: flex;
   width: 250px;
-  margin: 10px;
+  margin: 5px;
 }
 .container01 .container-text h2 {
   font-size: 30px;
@@ -584,7 +584,8 @@
   margin: 0px;
   padding: 0px;
 }
-.list-item {
+.list-item,
+.list-item-icones {
   display: flex; 
   margin-bottom: 0px; 
   text-align: center;
@@ -595,6 +596,7 @@
   height: 100px;
 }
 .list-item p,
+.list-item-icones p, 
 .list-item-consulta p,
 .list-item-consulta_cnpj p  {
   flex-grow: 1; 
@@ -623,6 +625,7 @@
   background-color: #007bff;
   color: white;
   height: 40px;
+  margin-top: 15px;
 }
 .modal {
   display: none; 
@@ -679,17 +682,21 @@
   scale: 1.1;
   transition: 1s;
 } 
-
 .list-item-consulta #resultado,
 .list-item-consulta_cnpj #resultado_cnpj {
   margin-top: 10px;
+  margin-left: 30px;
   height: 65px;
-  width: 200px;
+  width: 220px;
   text-align: center;
   color: #f09102;
   font-size: 16px;
   font-weight: 600;
 }
+#numero,
+#numero_cnpj {
+    margin-left: 0px;
+ }
 /*---------------------*/
 .text h3 {
   font-size: 24px;
