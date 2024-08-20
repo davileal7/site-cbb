@@ -585,7 +585,8 @@
   padding: 0px;
 }
 .list-item,
-.list-item-icones {
+.list-item-icones,
+.list-item-cadastro {
   display: flex; 
   margin-bottom: 0px; 
   text-align: center;
@@ -598,12 +599,18 @@
 .list-item p,
 .list-item-icones p, 
 .list-item-consulta p,
+.list-item-cadastro p,
 .list-item-consulta_cnpj p  {
   flex-grow: 1; 
   margin: 0; 
   margin-top: 15px;
   color: #808080;
   font-size: 18px;
+}
+.list-item-cadastro img {
+  height: 55px;
+  width: 55px;
+  border-radius: 10px;
 }
 .list-item .Insbtn {
   margin-left: auto; 
@@ -642,12 +649,14 @@
   font-size: 18px;
   margin: 20px;
 }
-.modal-content {
+
+.modal-content,
+.modal-content_cadastro {
   background-color: #fefefe;
-  margin: 15% auto; 
+  margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width:90%; 
+  width: 75%; /* Could be more or less, depending on design */
 }
 .close-button {
   color: #aaa;
@@ -662,7 +671,12 @@
   cursor: pointer;
 }
 #modalForm input[type="text"],
-#modalForm input[type="number"] {
+#modalForm input[type="number"],
+#modalForm_cadastro input[type="text"],
+#modalForm_cadastro input[type="number"],
+#modalForm_cadastro input[type="email"],
+#modalForm_cadastro input[type="date"],
+#modalForm_cadastro input[type="tel"] {
   width: 90%;
   padding: 10px;
   margin-bottom: 15px;

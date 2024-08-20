@@ -169,27 +169,28 @@ header {
     border-radius: 5px;
   }
   
-  .list-item {
+  .list-item,
+  .list-item-icones,
+  .list-item-cadastro {
     display: flex; /* Enable flexbox layout for each list item */
     margin: 20px; /* Add spacing between list items */
     text-align: center;;
     border-radius: 5px;
     width: 850px;
   }
-  .list-item-icones {
-    display: flex; 
-    margin: 20px; 
-    text-align: center;;
-    border-radius: 5px;
-    width: 850px;
-  }
-  .list-item-icones p {
+  .list-item-icones p,
+  .list-item-cadastro p {
     flex-grow: 1;  
     margin-top: 10px;
     color: #808080;
     font-size: 23px;
     text-align: center;
     margin: 30px;
+  }
+  .list-item-cadastro img {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
   }
   .list-item p,
   .list-item-consulta p,
@@ -224,8 +225,16 @@ header {
     background-color: #007bff;
     color: white;
   }
+  #openModalButton_cadastro {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
   /* Modal Styles */
-  .modal {
+  .modal,
+  .modal_cadastro {
     display: none; /* Initially hidden */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -236,21 +245,25 @@ header {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   }
+ 
 
-  .modal h2  {
+  .modal h2,
+  .modal_cadastro h2  {
     margin: 20px;
   }
 
-  .modal-content {
+  .modal-content,
+  .modal-content_cadastro {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 25%; /* Could be more or less, depending on design */
+    width: 20%; /* Could be more or less, depending on design */
   }
  
   /* Close Button Styles */
-  .close-button {
+  .close-button,
+  .close-button_cadastro {
     color: #aaa;
     float: right;
     font-size: 28px;
@@ -258,7 +271,9 @@ header {
   }
   
   .close-button:hover,
-  .close-button:focus {
+  .close-button:focus,
+  .close-button_cadastro:hover,
+  .close-button_cadastro:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -266,13 +281,19 @@ header {
   
   /* Form Styles (same as before) */
   #modalForm input[type="text"],
-  #modalForm input[type="number"] {
+  #modalForm input[type="number"],
+  #modalForm_cadastro input[type="text"],
+  #modalForm_cadastro input[type="number"],
+  #modalForm_cadastro input[type="email"],
+  #modalForm_cadastro input[type="date"],
+  #modalForm_cadastro input[type="tel"] {
     width: 90%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
+    text-align: center;
+}
 
 .btn {
     height: 30px;
