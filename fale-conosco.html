@@ -91,7 +91,7 @@
           <label for="nome_fantasia">Nome Fantasia</label>
           <input type="text" id="nome_fantasia">
           <label for="tel_whats">Tel WhatsApp</label>
-          <input type="tel" id="tel_whats"> 
+          <input type="tel" id="tel_whats" placeholder="(00)0000-0000"> 
           <label for="e_mail">E-mail</label>
           <input type="email" id="e_mail">
           <label for="vendedor">Vendedor</label>
@@ -108,30 +108,29 @@
   <div class="risca-1"></div>
   <div class="list-item">
     <p>Clique no botão ao lado para alteração de prazo</p>
-    <button id="openModalButton">Alteração de Prazo:</button>
+    <button id="openModalButton">Alteração de Prazo</button>
     <div id="modal" class="modal">
       <div class="modal-content">
         <span class="close-button">&times;</span>
-        <h2>Alteração de Prazo para pagamento:</h2>
+        <h2>Alteração de Prazo para pagamento</h2>
         <form id="modalForm">
-          <label for="name_sup">Nome do Supervisor:</label>
-          <input type="text" id="name_sup">
-          <label for="name_vend">Nome do Vendedor:</label>
-          <input type="text" id="name_vend">
-          <label for="cod_vend">Código do Vendedor:</label>
-          <input type="number" id="cod_vend">
-          <label for="cod_cliente">Código do Cliente:</label>
+          <label for="cod_cliente">Código do Cliente</label>
           <input type="text" id="cod_cliente" name="cod_cliente"> 
-          <label for="prazo">Prazo Desejado:</label>
+          <label for="name_sup">Nome do Supervisor</label>
+          <input type="text" id="name_sup">
+          <label for="name_vend">Nome do Vendedor</label>
+          <input type="text" id="name_vend">
+          <label for="cod_vend">Código do Vendedor</label>
+          <input type="number" id="cod_vend">
+          <label for="tel_solicitante">Telefone do Solicitante</label>
+          <input type="text" id="tel_solicitante" placeholder="(00)0000-0000">
+          <label for="prazo">Prazo Desejado</label>
           <input type="text" id="prazo">
           <input value="Enviar Solicitação" id="soli" class="btn">
         </form>
       </div>
     </div>
   </div> 
-  
-  
-
   <div class="risca-1"></div>
   <div class="list-item-consulta_cnpj">
     <p>Consulta Comercial</p>
@@ -156,75 +155,78 @@
     </div>
   </a>
 </section>
+
+<!-- <ion-icon name="mail-outline"></ion-icon><a href="mailto:devolucao@cbblogistica.com.br?subject=CNPJ: &body=ANEXAR: - NFe Devolução - Canhoto assinado - Boleto com o mesmo prazo emitido pela CBB.">devolucao@cbblogistica.com.br</a>  -->
+
 <section class="container03">
     <div class="container-text">
       <div class="risca"></div>
       <span>Distribuição</span>
-      <span>(12) 99137-7781 - gerencia01@cbblogistica.com.br</span>
+      <span><ion-icon name="call-outline"></ion-icon><a href="tel:+5512991377781">(12) 99137-7781</a> - gerencia01@cbblogistica.com.br</span>
       <div class="risca"></div>
       <span>Comercial</span>
-      <span>(11) 97240-6343 - felipe.moreno@brkbrokers.com.br</span>
+      <span><ion-icon name="call-outline"></ion-icon><a href="tel:+5511972406343">(11) 97240-6343</a> - felipe.moreno@brkbrokers.com.br</span>
       <div class="risca"></div>
       <span>Compras</span>
-      <span>(12) 99644-2417 - compras@gborba.com.br</span>
+      <span><ion-icon name="call-outline"></ion-icon><a href="tel:+5512996442417">(12) 99644-2417</a>  - compras@gborba.com.br</span>
       <div class="risca"></div>
       <span>Contas a Pagar</span>
-      <span>(12) 99231-9313 - contasapagar@gborba.com.br</span>
+      <span><ion-icon name="call-outline"></ion-icon><a href="tel:+5512992319313">(12) 99231-9313</a> - contasapagar@gborba.com.br</span>
       <div class="risca"></div>
       <span>Cobrança</span>
-      <span>(12) 99168-2761 - credito@skvissol.com.br</span>
+      <span><ion-icon name="call-outline"></ion-icon><a href="tel:+5512991682761">(12) 99168-2761</a> - credito@skvissol.com.br</span>
       <div class="risca"></div>
     </div>
     <div class="container-text">
       <div class="risca"></div>
       <span>Contas a Receber Grandes Redes</span>
-      <span>(12) 99169-1679 - margarete.bueno@skvissol.com.br</span>
+      <span><ion-icon name="call-outline"></ion-icon><a href="tel:+5512991691679">(12) 99169-1679</a> - margarete.bueno@skvissol.com.br</span>
       <div class="risca"></div>
       <span>Fiscal</span>
-      <span>(12) 99644-2734 - financeiro@gborba.com.br</span>
+      <span><ion-icon name="call-outline"></ion-icon><a href="tel:+5512996442734">(12) 99644-2734</a> - financeiro@gborba.com.br</span>
       <div class="risca"></div>
       <span>RH</span>
-      <span>(12) 99136-1055 - recursoshumanos@gborba.com.br</span>
+      <span><ion-icon name="call-outline"></ion-icon><a href="tel:+5512991361055">(12) 99136-1055</a> - recursoshumanos@gborba.com.br</span>
       <div class="risca"></div>
       <span>Logística</span>
-      <span>(12) 99136-1055 - gerencia01@cbblogistica.com.br</span>
+      <span><ion-icon name="call-outline"></ion-icon><a href="tel:+5512991361055">(12) 99136-1055</a> - gerencia01@cbblogistica.com.br</span>
       <div class="risca"></div>
       <span>TI</span>
-      <span>(11) 99260-3267 - processos@gborba.com.br</span>
+      <span><ion-icon name="call-outline"></ion-icon><a href="tel:+5511992603267">(11) 99260-3267</a> - processos@gborba.com.br</span>
       <div class="risca"></div>
     </div>
 </section>
 <section class="container03-mobile">
     <div class="container-text">
       <div class="risca"></div>
-      <span>Distribuição - (12) 99137-7781</span>
+      <span>Distribuição </span> <a href="tel:+5512991377781"><ion-icon name="call-outline"></ion-icon>(12) 99137-7781</a>
       <span>gerencia01@cbblogistica.com.br</span>
       <div class="risca"></div>
-      <span>Comercial - (11) 97240-6343</span>
+      <span>Comercial</span> <a href="tel:+5511972406343"><ion-icon name="call-outline"></ion-icon>(11) 97240-6343</a>
       <span>felipe.moreno@brkbrokers.com.br</span>
       <div class="risca"></div>
-      <span>Compras - (12) 99644-2417</span>
+      <span>Compras</span> <a href="tel:+5512996442417"><ion-icon name="call-outline"></ion-icon>(12) 99644-2417</a>
       <span>compras@gborba.com.br</span>
       <div class="risca"></div>
-      <span>Contas a Pagar - (12) 99231-9313</span>
+      <span>Contas a Pagar</span> <a href="tel:+5512992319313"><ion-icon name="call-outline"></ion-icon>(12) 99231-9313</a>
       <span>contasapagar@gborba.com.br</span>
       <div class="risca"></div>
-      <span>Cobrança - (12) 99168-2761</span>
-      <span>thais.soares@skvisol.com.br</span>
+      <span>Cobrança</span> <a href="tel:+5512991682761"><ion-icon name="call-outline"></ion-icon>(12) 99168-2761</a>
+      <span>credito@skvissol.com.br</span>
       <div class="risca"></div>
-      <span>Contas a Receber Grandes Redes - (12) 99169-1679</span>
-      <span>margarete.bueno@skvisol.com.br</span>
+      <span>Contas a Receber Grandes Redes</span> <a href="tel:+5512991691679"><ion-icon name="call-outline"></ion-icon>(12) 99169-1679</a>
+      <span>margarete.bueno@skvissol.com.br</span>
       <div class="risca"></div>
-      <span>Fiscal - (12) 99644-2734</span>
+      <span>Fiscal</span> <a href="tel:+5512996442734"><ion-icon name="call-outline"></ion-icon>(12) 99644-2734</a>
       <span>financeiro@gborba.com.br</span>
       <div class="risca"></div>
-      <span>RH - (12) 99136-1055</span>
+      <span>RH</span> <a href="tel:+5512991361055"><ion-icon name="call-outline"></ion-icon>(12) 99136-1055</a>
       <span>recursoshumanos@gborba.com.br</span>
       <div class="risca"></div>
-      <span>Logística - (12) 99136-1055</span>
-      <span>recursoshumanos@gborba.com.br</span>
+      <span>Logística</span> <a href="tel:+5512991361055"><ion-icon name="call-outline"></ion-icon>(12) 99136-1055</a>
+      <span>gerencia01@cbblogistica.com.br</span>
       <div class="risca"></div>
-      <span>TI - (11) 99260-3267</span>
+      <span>TI</span> <a href="tel:+5511992603267"><ion-icon name="call-outline"></ion-icon>(11) 99260-3267</a>
       <span>processos@gborba.com.br</span>
       <div class="risca"></div>
     </div>

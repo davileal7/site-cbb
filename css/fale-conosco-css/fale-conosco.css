@@ -174,7 +174,7 @@ header {
   .list-item-cadastro {
     display: flex; /* Enable flexbox layout for each list item */
     margin: 20px; /* Add spacing between list items */
-    text-align: center;;
+    text-align: center;
     border-radius: 5px;
     width: 850px;
   }
@@ -184,7 +184,7 @@ header {
     margin-top: 10px;
     color: #808080;
     font-size: 23px;
-    text-align: center;
+    
     margin: 30px;
   }
   .list-item-cadastro img {
@@ -199,7 +199,6 @@ header {
     margin-top: 10px;
     color: #808080;
     font-size: 23px;
-    text-align: center;
     margin: 7px;
   }
   .list-item .Insbtn {
@@ -245,13 +244,10 @@ header {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   }
- 
-
   .modal h2,
   .modal_cadastro h2  {
     margin: 20px;
   }
-
   .modal-content,
   .modal-content_cadastro {
     background-color: #fefefe;
@@ -260,7 +256,11 @@ header {
     border: 1px solid #888;
     width: 20%; /* Could be more or less, depending on design */
   }
- 
+  #modalForm label,
+  #modalForm_cadastro label{
+    color: #808080;
+    font-size: 18px;
+  }
   /* Close Button Styles */
   .close-button,
   .close-button_cadastro {
@@ -292,7 +292,6 @@ header {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    text-align: center;
 }
 
 .btn {

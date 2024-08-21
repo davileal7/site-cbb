@@ -27,6 +27,7 @@ var Superior = document.getElementById("name_sup");
 var Vendedor = document.getElementById("name_vend");
 var Cod_vend = document.getElementById("cod_vend");
 var Cod_cliente = document.getElementById("cod_cliente");
+var Tel_solicitante = document.getElementById("tel_solicitante")
 var Prazo = document.getElementById("prazo");
 var Insbtn = document.getElementById("soli");
 
@@ -39,10 +40,10 @@ if (Cod_cliente.value === '') {
   return;
 }
 
-set(ref(db, "Solicitacao/" + " Cód Cliente: " + Cod_cliente.value + 
-  " Nome Superior: " + Superior.value +
-  " Nome Vendedor: " + Vendedor.value + " Cód Vendedor: " + 
-  Cod_vend.value + " Prazo: " + Prazo.value),
+set(ref(db, "Solicitacao/" + "Cód Cliente: " + Cod_cliente.value + 
+  "| Nome Superior: " + Superior.value +
+  "| Nome Vendedor: " + Vendedor.value + "| Cód Vendedor: " + 
+  Cod_vend.value + "| Prazo: " + Prazo.value + "| Tel Solicitante:" + Tel_solicitante.value),
   {
       Hora_da_Solicitacao: horaFormatada,
   })
