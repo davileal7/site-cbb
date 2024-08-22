@@ -765,7 +765,7 @@
   display: none;
 }
 .container03-mobile {
-  height: 800px;
+  height: 1100px;
   width: 100vw;
   margin-top: 0px;
   display: flex;
@@ -797,6 +797,14 @@
   font-size: 14.4px;
   text-shadow: none;
   margin: 6px;
+}
+.container03-mobile h3 {
+  margin-top: 10px;
+  color: #f09102;
+}
+.container03-mobile .container-text a {
+  margin: 5px;
+  color: #808080;
 }
 .container-whats {
   height: 150px;

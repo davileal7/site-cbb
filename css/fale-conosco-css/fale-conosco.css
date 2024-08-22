@@ -429,12 +429,31 @@ header {
 }
 .container03 {
     background-color: #fff;
-    height: 500px;
+    height: 750px;
     width: 100vw;
     margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.container03 h3 {
+    margin-top:15px;
+    color: #f09102;
+}
+.container-text span {
+    color: #808080;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.container03 .container-text a {
+    color: #808080;
+}
+.container03 .container-text ion-icon {
+    margin: 5px;
 }
 .container03 .container-text .risca {
     display: flex;
@@ -443,15 +462,8 @@ header {
     text-align: center;
     flex-direction: row;
     width: 500px;
-  }
-.container-text span {
-    color: #808080;
-    font-size: 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
 }
+
 .container-whats {
     height: 150px;
     background-color: #ECECEE;
