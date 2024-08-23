@@ -31,6 +31,7 @@ var Tel_solicitante = document.getElementById("tel_solicitante")
 var Prazo = document.getElementById("prazo");
 var Insbtn = document.getElementById("soli");
 
+
 function Solicitar(){
     const dataHora = new Date();
     const horaFormatada = dataHora.toLocaleString();
@@ -40,15 +41,18 @@ if (Cod_cliente.value === '') {
   return;
 }
 
+const funcaoSelecionada = document.querySelector('input[name="funcao"]:checked').value;
+
 set(ref(db, "Solicitacao/" + "Cód Cliente: " + Cod_cliente.value + 
   "| Nome Superior: " + Superior.value +
   "| Nome Vendedor: " + Vendedor.value + "| Cód Vendedor: " + 
-  Cod_vend.value + "| Prazo: " + Prazo.value + "| Tel Solicitante:" + Tel_solicitante.value),
+  Cod_vend.value + "| Prazo: " + Prazo.value + "| Tel Solicitante:" + Tel_solicitante.value +
+"| Solicitante: " + funcaoSelecionada),
   {
       Hora_da_Solicitacao: horaFormatada,
   })
   .then(() => {
-    alert("Solicitação enviada com sucesso");
+    alert("Solicitação enviada com sucesso\n Prazo de atendimento 48h");
     form.reset();
   })
   .catch((error) => {

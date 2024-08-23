@@ -87,7 +87,7 @@
           <label for="razao_social">Razão Social/Nome Completo</label>
           <input type="text" id="razao_social">
           <label for="cnpj_cpf">CNPJ/CPF</label>
-          <input type="text" id="cnpj_cpf">
+          <input type="text" id="cnpj_cpf" maxlength="18">
           <label for="nome_fantasia">Nome Fantasia</label>
           <input type="text" id="nome_fantasia">
           <label for="tel_whats">Tel WhatsApp</label>
@@ -99,7 +99,7 @@
           <label for="supervisor">Supervisor</label>
           <input type="text" id="supervisor">
           <label for="dia_visita">Dia de Visita</label>
-          <input type="date" id="dia_visita">
+          <input type="text" id="dia_visita"> 
           <input value="Enviar Cadastro" id="cadastro" class="btn">
         </form>
       </div>
@@ -126,6 +126,12 @@
           <input type="text" id="tel_solicitante" placeholder="(00)0000-0000">
           <label for="prazo">Prazo Desejado</label>
           <input type="text" id="prazo">
+          <label><input id="op_Vendedor" type="radio" name="funcao" value="Vendedor">Vendedor</label>
+          <br>
+          <label><input id="op_Supervisor" type="radio" name="funcao" value="Supervisor">Supervisor</label>
+          <br>
+          <label><input id="op_Cliente" type="radio" name="funcao" value="Cliente">Cliente</label>
+          <br>
           <input value="Enviar Solicitação" id="soli" class="btn">
         </form>
       </div>
