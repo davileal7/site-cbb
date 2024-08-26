@@ -594,16 +594,6 @@
   margin-top:70px;
 }
 
-.container02 {
-  margin-top: 0px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  height: 400px;
-  background-color: #fff;
-}
 .container02 .text-1,
 .container02 .text-2 {
   display: flex;
@@ -612,10 +602,9 @@
   align-items: center;
   width: 100vw;
   box-shadow: none;
-}
-.container02 .text-1 {
   background-color: #ECECEE;
 }
+
 .container02 .risca {
   display: flex;
   justify-content: center;

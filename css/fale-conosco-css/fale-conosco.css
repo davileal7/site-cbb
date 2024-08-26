@@ -297,8 +297,10 @@ header {
 
 #modalForm #op_Vendedor,
 #modalForm #op_Supervisor,
-#modalForm #op_Cliente { /**/
-    margin: 10px;
+#modalForm #op_Cliente {
+    display: inline-block;
+    margin-right: 10px; 
+    margin: 3px;
 }
 
 .btn {

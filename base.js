@@ -31,6 +31,24 @@ var Tel_solicitante = document.getElementById("tel_solicitante")
 var Prazo = document.getElementById("prazo");
 var Insbtn = document.getElementById("soli");
 
+function formatarCodigo(input) {
+  // Remove todos os caracteres que não sejam números
+  let valor = input.value.replace(/\D/g, '');
+
+  // Insere um hífen após os quatro primeiros dígitos
+  valor = valor.replace(/(\d{4})(\d)/, '$1-$2');
+
+  // Limita o número de dígitos para 8
+  valor = valor.slice(0, 9);
+
+  // Atualiza o valor do campo
+  input.value = valor;
+
+}
+// Adiciona um ouvinte de evento "input" ao elemento
+Cod_cliente.addEventListener("input", function() {
+  formatarCodigo(Cod_cliente);
+});
 
 function Solicitar(){
     const dataHora = new Date();
@@ -52,7 +70,7 @@ set(ref(db, "Solicitacao/" + "Cód Cliente: " + Cod_cliente.value +
       Hora_da_Solicitacao: horaFormatada,
   })
   .then(() => {
-    alert("Solicitação enviada com sucesso\n Prazo de atendimento 48h");
+    alert("Solicitacao enviada com sucesso\n Prazo de atendimento 48h");
     form.reset();
   })
   .catch((error) => {
