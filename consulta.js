@@ -20,19 +20,36 @@ const app = initializeApp(firebaseConfig);
 // Referência para o banco de dados
 const database = firebase.database();
 
+import {getDatabase, ref, get, set, child, update, remove}
+from "https://www.gstatic.com/firebasejs/10.13.0/firebase-database.js";
 
-function consulta_cnpj() {
-    const numeroDigitado_cnpj = inputNumero_cnpj.value;
-  
-    // Referência para o nó do CNPJ específico
-    const cnpjRef = database.ref('cnpj/' + numeroDigitado_cnpj);
-  
-    cnpjRef.once('value', (snapshot) => {
-      if (snapshot.exists()) {
-        const dados = snapshot.val();
-        resultado_cnpj.textContent = `COD CLI: ${dados.cod_cli} V1: ${dados.v1} V2: ${dados.v2} FICHA: ${dados.ficha}`;
-      } else {
-        resultado_cnpj.textContent = "Número não encontrado.";
+const db = getDatabase();
+
+var Buscar = document.getElementById("buscar_cnpj")
+var Numero_cnpj = document.getElementById("numero_cnpj")
+
+function SelectData(){
+  const dbref = ref(db);
+
+  get(child(dbref,Numero_cnpj.value)).then((snapshot) => {
+      if(snapshot.exists()){
+        
       }
-    });
-  }
+      else {
+          alert("Não")
+      }
+  }).catch((error) => {
+      alert("falha, error"+error);
+  })
+
+}
+
+Buscar.addEventListener('click', SelectData)
+
+
+
+
+
+
+
+

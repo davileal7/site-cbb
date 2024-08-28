@@ -25,7 +25,7 @@ const db = getDatabase();
 
 var form_cadastro = document.getElementById("modalForm_cadastro")
 var RazaoSocial = document.getElementById("razao_social");
-var CnpjCpf = document.getElementById("cnpj_cpf");  ///------------
+var CnpjCpf = document.getElementById("cnpj_cpf"); 
 var NomeFantasia = document.getElementById("nome_fantasia");
 var TelWhats = document.getElementById("tel_whats");
 var Email = document.getElementById("e_mail");
@@ -110,9 +110,4 @@ set(ref(db, "Cadastro/" + RazaoSocial.value),
 }
 
 btnEnviar.addEventListener('click', Solicitar_cadastro);
-
-
-
-
-
 

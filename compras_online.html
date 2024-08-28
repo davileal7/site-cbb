@@ -165,33 +165,49 @@
       </a>
     </div>
 </section>
-<section class="container02-ped">
-  <div class="text">
-    <ul>
-      <li class="canais-ped">Faça seu pedido pelo Ped +</li> 
-    </ul> 
-    <div class="risca"></div>
-  <div class="ped">  
-    <a  href="https://wa.me/551149508273?text=Olá, quero falar com o atendimento da CBB Distribuidora!" target="_blank">
-      <img src="imagens/ped+.png" width="0" alt="Ped+" title="Acesse o ped +">
-    </a>
+<section class="container02">
+  <div class="risca-1"></div>
+  <div class="list-item-icones">
+    <p>Clique no icone ao lado para fazer seu pedido pelo Ped +</p>
+    <div class="ped">
+      <a  href="https://wa.me/551149508273?text=Olá, quero falar com o atendimento da CBB Distribuidora!" target="_blank">
+        <img src="imagens/ped+.png" width="0" alt="Fale Conosco pelo WhatsApp" title="Acesse o ped +">
+      </a>
+    </div>
   </div>
-  </div>
-</section>
-<section class="container02-cadastro">
-  <div class="text">
-      <ul>
-        <li class="canais-cadastro">Caso não tenha cadastro conosco,</li>
-        <li class="canais-cadastro">Aproveite a plantaforma "Cadastro SK Vissol".</li> 
-      </ul> 
-      <div class="risca"></div>
-      <div class="cadastro">
-        <a href="https://wa.me/5511972406343?text=Olá, quero falar com o atendimento da CBB Distribuidora!" target="_blank">
-          <img src="imagens/cadastro-icon.jpg" width="50" alt="Fale Conosco pelo WhatsApp" title="Faça seu cadastro!">
-        </a>
+  <div class="risca-1"></div>
+  <div class="list-item-cadastro">
+    <p>Clique no icone ao lado para fazer seu cadastro conosco</p>
+    <button id="openModalButton_cadastro"><img src="imagens/cadastro-icon.jpg" width="50" title="Faça seu cadastro!"></button>
+    <div id="modal_cadastro" class="modal_cadastro">
+      <div class="modal-content_cadastro">
+        <span class="close-button_cadastro">&times;</span>
+        <h2>Solicitação de Cadastro</h2>
+        <form id="modalForm_cadastro">
+          <label for="razao_social">Razão Social/Nome Completo</label>
+          <input type="text" id="razao_social">
+          <label for="cnpj_cpf">CNPJ/CPF</label>
+          <input type="text" id="cnpj_cpf" maxlength="18">
+          <label for="nome_fantasia">Nome Fantasia</label>
+          <input type="text" id="nome_fantasia">
+          <label for="tel_whats">Tel WhatsApp</label>
+          <input type="tel" id="tel_whats" placeholder="(00)0000-0000"> 
+          <label for="e_mail">E-mail</label>
+          <input type="email" id="e_mail">
+          <label for="vendedor">Vendedor</label>
+          <input type="text" id="vendedor">
+          <label for="supervisor">Supervisor</label>
+          <input type="text" id="supervisor">
+          <label for="dia_visita">Dia de Visita</label>
+          <input type="text" id="dia_visita">
+          <input type="button" value="Enviar Cadastro" id="cadastro" class="btn">
+        </form>
       </div>
+    </div>
   </div>
+  <div class="risca-1"></div>
 </section>
+
 <section class="container-whats">
   <a href="https://wa.me/551291489477?text=Olá, quero falar com o atendimento da CBB Distribuidora!" target="_blank">
       <div class="whats-app">
@@ -374,5 +390,7 @@
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script src="script.js"></script>
+<script src="fale_conosco.js"></script>
+<script type="module" src="cadastro.js"></script>
 </body>
 </html>

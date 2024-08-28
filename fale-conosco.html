@@ -212,8 +212,9 @@
           <label for="supervisor">Supervisor</label>
           <input type="text" id="supervisor">
           <label for="dia_visita">Dia de Visita</label>
-          <input type="text" id="dia_visita"> 
-          <input value="Enviar Cadastro" id="cadastro" class="btn">
+          <input type="text" id="dia_visita">
+           
+          <input type="button" value="Enviar Cadastro" id="cadastro" class="btn">
         </form>
       </div>
     </div>
@@ -244,7 +245,8 @@
           <label><input id="op_Vendedor" type="radio" name="funcao" value="Vendedor">Vendedor</label>
           <label><input id="op_Supervisor" type="radio" name="funcao" value="Supervisor">Supervisor</label>
           <label><input id="op_Cliente" type="radio" name="funcao" value="Cliente">Cliente</label>
-          <input value="Enviar Solicitação" id="soli" class="btn">
+          <br>
+          <input type="button" value="Enviar Solicitação" id="soli" class="btn">
         </form>
       </div>
     </div>
@@ -253,7 +255,8 @@
   <div class="list-item-consulta_cnpj">
     <p>Consulta Comercial</p>
     <input type="text" id="numero_cnpj" placeholder="Digite CNPJ ou CPF">
-    <button id="buscar_cnpj" onclick="consulta_cnpj()">Buscar</button>
+    <!-- <button id="buscar_cnpj" onclick="consulta_cnpj()">Buscar</button> -->
+    <button id="buscar_cnpj">Buscar</button>
     <div id="resultado_cnpj"></div>
   </div> 
   <div class="risca-1"></div>

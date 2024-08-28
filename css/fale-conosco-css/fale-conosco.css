@@ -313,10 +313,7 @@ header {
     border-radius: 5px;
     cursor: pointer;
   }
- .btn:hover {
-    scale: 1.1;
-    transition: 1s;
- } 
+
 
  #numero,
  #numero_cnpj {
