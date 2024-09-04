@@ -43,7 +43,6 @@ function formatarCodigo(input) {
 
   // Atualiza o valor do campo
   input.value = valor;
-
 }
 // Adiciona um ouvinte de evento "input" ao elemento
 Cod_cliente.addEventListener("input", function() {
