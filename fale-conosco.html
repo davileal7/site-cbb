@@ -252,19 +252,43 @@
     </div>
   </div> 
   <div class="risca-1"></div>
+
   <div class="list-item-consulta_cnpj">
-    <p>Consulta Comercial</p>
-    <input type="text" id="numero_cnpj" placeholder="Digite CNPJ ou CPF">
-    <button id="buscar_cnpj" onclick="consulta_cnpj()">Buscar</button>
-    <div id="resultado_cnpj"></div>
-  </div> 
-  <div class="risca-1"></div>
-  <div class="list-item-consulta">
-    <p>Consulta Código</p>
-    <input type="text" id="numero" placeholder="Digite seu código.">
-    <button id="buscar" onclick="buscarResposta()">Buscar</button>
-    <div id="resultado"></div>
-  </div> 
+
+  <div class="container-consulta">
+    <button id="btnCNPJ">Consulta Comercial</button>
+    <button id="btnCliente">Consulta Código</button>
+  </div>
+
+  <div id="cnpjContent" class="container-consulta" style="display: none;">
+    <h2>Consulta Comercial</h2> 
+    <ion-icon id="close" size="large" name="close-outline"></ion-icon>
+    <div class="search">
+      <input type="text" id="consulta-cnpj_cpf" placeholder="Digite seu cnpj ou cpf" maxlength="19">
+    </div>
+    <p id="cod" style="display: none; pointer-events: none;"></p>
+    <p id="ficha" style="display: none; pointer-events: none;"></p>
+    <p id="v1" style="display: none; pointer-events: none;"></p>
+    <p id="v2" style="display: none; pointer-events: none;"></p>
+    <br>
+    <button id="Selbtn">Visualizar</button>
+  </div>
+
+  <div id="clienteContent" class="container-consulta" style="display: none;">
+    <h2>Consulta Código</h2>  
+    <ion-icon id="close2" size="large" name="close-outline"></ion-icon>
+    <div class="search">
+      <input type="text" id="consulta-cod_cli" placeholder="Digite seu código">
+    </div>
+    <p id="ficha_cli" style="display: none; pointer-events: none;"></p>
+    <p id="v1_cli" style="display: none; pointer-events: none;"></p>
+    <p id="v2_cli" style="display: none; pointer-events: none;"></p>
+    <br>
+    <button id="btnCli">Visualizar</button>
+  </div>
+
+  </div>
+
   <div class="risca-1"></div>
 </div>
 <section class="container-whats">
@@ -548,9 +572,11 @@
 <script src="fale_conosco.js"></script>
 <script src="script.js"></script>
 
-<script src="consulta_01.js"></script>
-<script src="consulta_02.js"></script>
-<script type="module" src="consulta.js"></script>
+<script type="module" src="consulta_01.js"></script>
+<script type="module" src="consulta_02.js"></script>
+<script src="consulta.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 <script src="script_dados.js"></script>
 </body>

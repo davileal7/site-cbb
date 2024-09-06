@@ -577,6 +577,79 @@
 }
 
 /*---------------------*/
+.container-consulta{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 340px;
+  background: #e4e2e2;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.container-consulta h2 {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  justify-content: space-between;
+}
+.container-consulta h2 ion-icon {
+  background-color: #e4e2e2;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  cursor: pointer;
+}
+.container-consulta h2 ion-icon:hover {
+  background-color: black;
+  color: #e4e2e2;
+  transition: 1s;
+}
+h2 {
+  text-align: center;
+  color: #4BC9F3;
+}
+.container-consulta #consulta-cnpj_cpf,
+.container-consulta #consulta-cod_cli {
+    width: 330px;
+    margin-bottom: 20px;
+}
+
+#cod,
+#ficha,
+#v1,
+#v2,
+#ficha_cli,
+#v1_cli,
+#v2_cli {
+  color: #F09102;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 18px;
+  margin: auto 55px;
+  height: 25px;
+  width: 230px;
+}
+#cnpjContent #Selbtn,
+#clienteContent #btnCli {
+  margin: auto 125px;
+  background-color: #007bff;
+  color: #ECECEE;
+  
+}
+.container-consulta #btnCNPJ,
+.container-consulta #btnCliente {
+  padding: 2px;
+  margin: 15px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #007bff;
+}
+
+
 .container {
   display: flex; 
   flex-direction: column; 
@@ -696,21 +769,8 @@
   scale: 1.1;
   transition: 1s;
 } 
-.list-item-consulta #resultado,
-.list-item-consulta_cnpj #resultado_cnpj {
-  margin-top: 10px;
-  margin-left: 30px;
-  height: 65px;
-  width: 220px;
-  text-align: center;
-  color: #f09102;
-  font-size: 16px;
-  font-weight: 600;
-}
-#numero,
-#numero_cnpj {
-    margin-left: 0px;
- }
+
+
 /*---------------------*/
 .text h3 {
   font-size: 24px;

@@ -725,3 +725,92 @@ footer h1 {
 
 
 
+
+.container-consulta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 450px;
+    background: #e4e2e2;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.container-consulta h2 {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: space-between;
+}
+.container-consulta h2 ion-icon {
+    background-color: #e4e2e2;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.container-consulta h2 ion-icon:hover {
+    background-color: black;
+    color: #e4e2e2;
+    transition: 1s;
+}
+h2 {
+    text-align: center;
+    color: #4BC9F3;
+}
+.container-consulta #consulta-cnpj_cpf,
+.container-consulta #consulta-cod_cli {
+    width: 380px;
+    margin-bottom: 20px;
+}
+
+#cod,
+#ficha,
+#v1,
+#v2,
+#ficha_cli,
+#v1_cli,
+#v2_cli {
+  color: #F09102;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 19px;
+  margin: auto 65px;
+  height: 30px;
+  width: 250px;
+}
+
+#cnpjContent #Selbtn,
+#clienteContent #btnCli {
+  margin: auto 150px;
+  background-color: #007bff;
+  color: #ECECEE;
+  
+}
+.search input{
+  height: 35px;
+  width: 100%;
+  color: #808080;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+.search input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.container-consulta button {
+  padding: 5px;
+  margin: 5px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #ECECEE;
+}
