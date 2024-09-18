@@ -156,7 +156,8 @@
   width: 130px;
 }
 
-.fundo03 {
+.fundo03,
+.fundo03-B {
   height: 250px;
   width: 100vw;
   margin-top: 0px;
@@ -164,12 +165,14 @@
   justify-content: center;
 }
 /*CAROSEL */
-.wrapper {
+.wrapper,
+.wrapper-B {
   max-width: 515px;
   width: 100%;
   position: relative;
 }
-.wrapper i {
+.wrapper i,
+.wrapper-B i  {
   top: 50%;
   height: 40px;
   width: 40px;
@@ -184,16 +187,20 @@
   transform: translateY(-50%);
   transition: transform 0.1s linear;
 }
-.wrapper i:active{
+.wrapper i:active,
+.wrapper-B i:active{
   transform: translateY(-50%) scale(0.85);
 }
-.wrapper i:first-child{
+.wrapper i:first-child,
+.wrapper-B i:first-child{
   left: -50px;
 }
-.wrapper i:last-child{
+.wrapper i:last-child,
+.wrapper-B i:last-child{
   right: -50px;
 }
-.wrapper .carousel{
+.wrapper .carousel,
+.wrapper-B .carousel-B{
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: calc((100% / 5) - 20px);
@@ -204,26 +211,32 @@
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
-.carousel::-webkit-scrollbar {
+.carousel::-webkit-scrollbar,
+.carousel-B::-webkit-scrollbar {
   display: none;
 }
-.carousel.no-transition {
+.carousel.no-transition,
+.carousel-B.no-transition {
   scroll-behavior: auto;
 }
-.carousel.dragging {
+.carousel.dragging,
+.carousel-B.dragging {
   scroll-snap-type: none;
   scroll-behavior: auto;
 }
-.carousel.dragging .card {
+.carousel.dragging .card,
+.carousel-B.dragging .card {
   cursor: grab;
   user-select: none;
 }
-.carousel :where(.card, .img) {
+.carousel :where(.card, .img),
+.carousel-B :where(.card, .img) {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.carousel .card {
+.carousel .card,
+.carousel-B .card {
   scroll-snap-align: start;
   height: 255px;
   list-style: none;
@@ -231,7 +244,8 @@
   flex-direction: column;
   border-radius: 8px;
 }
-.carousel .card .img {
+.carousel .card .img,
+.carousel-B .card .img {
   cursor: pointer;
   background: #fff;
   height: 80px;
@@ -592,60 +606,13 @@
   color: #f09102;
   text-decoration: none;
 }
-.fundo03 {
+.fundo03,
+.fundo03-B {
   height: 200px;
   width: 100vw;
   margin-top: 0px;
   display: flex;
   justify-content: center;
-}
-/*CAROSEL */
-.wrapper i {
-  top: 50%;
-  height: 35px;
-  width: 35px;
-  cursor: pointer;
-  font-size: 2rem;
-  position: absolute;
-  text-align: center;
-  line-height: 35px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-  transform: translateY(-50%);
-  transition: transform 0.1s linear;
-}
-.carousel .card {
-  scroll-snap-align: start;
-  height: 200px;
-  list-style: none;
-  padding-bottom: 15px;
-  flex-direction: column;
-  border-radius: 8px;
-}
-.carousel .card .img,
-.carousel .card .img2 {
-  height: 100px;
-  width: 100px;
-  border-radius: 0px;
-}
-.card .img img,
-.card .img2 img {
-  width: 100px;
-  height: 100px;
-  border-radius: 0px;
-}
-.wrapper i:first-child{
-  left: 20px;
-}
-.wrapper i:last-child{
-  right: 30px;
-}
-.wrapper .carousel {
-  grid-auto-columns: calc((100% / 2) - 9px);
-}
-.wrapper .carousel {
-  grid-auto-columns: 100%;
 }
 .roda_pe {
   height: 780px;

@@ -30,9 +30,9 @@ function formatarDocumento(input) {
   if (documento.length <= 12) {
     // Formatação para CPF
     documento = documento.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, '$1.$2.$3-$4');
-  } else if (documento.length <= 19) {
+  } else if (documento.length <= 15) {
     // Formatação para CNPJ
-    documento = documento.replace(/^(\d{3})(\d{3})(\d{3})(\d{4})(\d{2})/, '$1.$2.$3/$4-$5');
+    documento = documento.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/, '$1.$2.$3/$4-$5');
   }
   input.value = documento; //024.622.864/0001-03  037.745.621/0001-04 
 }
