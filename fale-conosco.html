@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/fale-conosco-css/mq_fale-conosco.css">
     <link rel="stylesheet" href="css/global-carousel/style.css">
     <link rel="stylesheet" href="css/global-carousel/mq-style.css">
+    
+    <link rel="stylesheet" href="CSS-LOGIN/login_page_css.css"> <!---->
+    
+   
     <title>CBB Distribuidora</title>
 </head>
 <body>
@@ -288,11 +292,34 @@
     <br>
     <button id="btnCli">Visualizar</button>
   </div>
-
   </div>
-
   <div class="risca-1"></div>
 </div>
+
+<!---->
+<div class="centralize">
+  <form class="login">
+    <h1>LOGIN - COMERCIAL</h1>
+    <div class="form-field">
+        <label for="email">E-mail:
+        <input type="email" name="email" placeholder="digite seu email"
+        onchange="onChangeEmail()" id="email" />
+       </label>
+        <div class="error" id="email-required-error">Email é obrigatório</div>
+        <div class="error" id="email-invalid-error">Email é inválido</div>
+    </div>
+    <div class="form-field">
+        <label for="password">Senha:
+        <input type="password" name="password" onchange="onChangePassword()" placeholder="senha" id="password"/></label>
+        <div class="error" id="password-required-error">senha é obrigatória</div>
+    </div>
+    <button type="button" class="solid" id="login-button"  onclick="login()">
+      Entrar
+  </button>
+  </form>
+</div>
+
+
 <section class="container-whats">
   <a href="https://wa.me/551291489477?text=Olá, quero falar com o atendimento da CBB Distribuidora!" target="_blank">
       <div class="whats-app">
@@ -578,8 +605,19 @@
 <script type="module" src="consulta_02.js"></script>
 <script src="consulta.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <script src="script_dados.js"></script>
+
+
+<!----> <!---->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="JS-login/auth-guard.js"></script>
+<script src="JS-login/loading.js"></script>
+<script src="JS-login/login_firebase.js"></script>
+<script src="JS-login/login_page_script.js"></script>
+<script src="JS-login/logout.js"></script>
+<script src="JS-login/validation.js"></script>
+<script src="JS-login/register.js"></script>
 </body>
 </html>
