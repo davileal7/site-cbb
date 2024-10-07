@@ -72,7 +72,7 @@ function SelectData() {
         const tableBody = document.createElement('tbody');
     
         // Create table headers (you can customize the names = 45)
-        const headers = ['STATUS','NF/NFD', 'Emissão', 'Vencimento', 'Valor Original', 'Valor Desconto', 'Valor Abatimento', 'Valor Líquido', 'Valor Atualizado', 'Autorização NFD', 'Produto', 'Protesto-2', 'Código Boleto', 'Código Barras', 'Código Vendedor', 'Supervisor', 'Obs Pagamento'];
+        const headers = ['STATUS','Lançamento','NF/NFD', 'Emissão', 'Vencimento', 'Valor Original', 'Valor Desconto', 'Valor Abatimento', 'Valor Líquido', 'Valor Atualizado', 'Aut.NFD', 'Produto', 'Protesto-2', 'Código Boleto', 'Código Barras', 'Vend', 'Supervisor', 'Obs Pagamento'];
         headers.forEach(header => {
           const th = document.createElement('th');
           th.textContent = header;
@@ -88,7 +88,7 @@ function SelectData() {
             // Add data to the row in the desired order
             // Adapt the key names to match your data
             let rowContent = '';
-            for (const key of ['V','D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S' ]) {
+            for (const key of ['V','B', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S' ]) {
               rowContent += `<td>${levelData[key] || ''}</td>`; // Add empty string for missing values
             }
             row.innerHTML = rowContent;
